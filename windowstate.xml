@@ -1,3 +1,11 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <windowstate version="3.1">
+	<window data="charsheet.id-00001" class="charsheet" pos="487,185,1012,785" />
+	<window data="charsheet.id-00002" class="charsheet" pos="487,185,1012,785" />
+	<window data="charsheet.id-00003" class="charsheet" pos="487,185,1012,785" />
+	<window data="charsheet.id-00004" class="charsheet" pos="487,185,1012,785" />
+	<window data="charsheet.id-00005" class="charsheet" pos="487,185,1012,785" />
+	<window data="charsheet.id-00006" class="charsheet" pos="487,185,1012,785" />
+	<window data="combattracker" class="combattracker_host" pos="425,235,1075,735" />
+	<window data="partysheet" class="partysheet_host" pos="350,235,1150,735" />
 </windowstate>

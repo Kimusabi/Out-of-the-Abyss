@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<root version="3.1" release="7|CoreRPG:3" integrity="287d633221fb8428aa2526883b91cf844984a897">
+	<image>
+		<category name="Monster Manual - Portraits" mergeid="" baseicon="2" decalicon="1">
+		</category>
+		<category name="Out of the Abyss - DM Maps" mergeid="" baseicon="2" decalicon="1">
+			<id-00086>
+				<image type="image">
+					<bitmap>Velkynvelve.jpg</bitmap>
+					<shortcuts>
+						<shortcut>
+							<x>368</x>
+							<y>1364</y>
+							<class>encounter</class>
+							<recordname>encounter.id-00020@D&#38;D Out of the Abyss</recordname>
+						</shortcut>
+						<shortcut>
+							<x>634</x>
+							<y>1439</y>
+							<class>encounter</class>
+							<recordname>encounter.id-00019@D&#38;D Out of the Abyss</recordname>
+						</shortcut>
+						<shortcut>
+							<x>845</x>
+							<y>1147</y>
+							<class>encounter</class>
+							<recordname>encounter.id-00018@D&#38;D Out of the Abyss</recordname>
+						</shortcut>
+						<shortcut>
+							<x>498</x>
+							<y>1189</y>
+							<class>encounter</class>
+							<recordname>encounter.id-00017@D&#38;D Out of the Abyss</recordname>
+						</shortcut>
+						<shortcut>
+							<x>632</x>
+							<y>1095</y>
+							<class>encounter</class>
+							<recordname>encounter.id-00017@D&#38;D Out of the Abyss</recordname>
+						</shortcut>
+						<shortcut>
+							<x>545</x>
+							<y>1080</y>
+							<class>encounter</class>
+							<recordname>encounter.id-00016@D&#38;D Out of the Abyss</recordname>
+						</shortcut>
+						<shortcut>
+							<x>767</x>
+							<y>922</y>
+							<class>encounter</class>
+							<recordname>encounter.id-00015@D&#38;D Out of the Abyss</recordname>
+						</shortcut>
+						<shortcut>
+							<x>698</x>
+							<y>868</y>
+							<class>encounter</class>
+							<recordname>encounter.id-00014@D&#38;D Out of the Abyss</recordname>
+						</shortcut>
+						<shortcut>
+							<x>783</x>
+							<y>855</y>
+							<class>encounter</class>
+							<recordname>encounter.id-00013@D&#38;D Out of the Abyss</recordname>
+						</shortcut>
+						<shortcut>
+							<x>953</x>
+							<y>977</y>
+							<class>encounter</class>
+							<recordname>encounter.id-00012@D&#38;D Out of the Abyss</recordname>
+						</shortcut>
+						<shortcut>
+							<x>989</x>
+							<y>734</y>
+							<class>encounter</class>
+							<recordname>encounter.id-00011@D&#38;D Out of the Abyss</recordname>
+						</shortcut>
+						<shortcut>
+							<x>1321</x>
+							<y>830</y>
+							<class>encounter</class>
+							<recordname>encounter.id-00009@D&#38;D Out of the Abyss</recordname>
+						</shortcut>
+						<shortcut>
+							<x>1397</x>
+							<y>540</y>
+							<class>encounter</class>
+							<recordname>encounter.id-00010@D&#38;D Out of the Abyss</recordname>
+						</shortcut>
+						<shortcut>
+							<x>1288</x>
+							<y>446</y>
+							<class>encounter</class>
+							<recordname>encounter.id-00008@D&#38;D Out of the Abyss</recordname>
+						</shortcut>
+						<shortcut>
+							<x>1085</x>
+							<y>547</y>
+							<class>encounter</class>
+							<recordname>encounter.id-00007@D&#38;D Out of the Abyss</recordname>
+						</shortcut>
+						<shortcut>
+							<x>722</x>
+							<y>311</y>
+							<class>encounter</class>
+							<recordname>encounter.id-00022@D&#38;D Out of the Abyss</recordname>
+						</shortcut>
+						<shortcut>
+							<x>1567</x>
+							<y>2044</y>
+							<class>encounter</class>
+							<recordname>encounter.id-00020@D&#38;D Out of the Abyss</recordname>
+						</shortcut>
+						<shortcut>
+							<x>1321</x>
+							<y>1801</y>
+							<class>encounter</class>
+							<recordname>encounter.id-00019@D&#38;D Out of the Abyss</recordname>
+						</shortcut>
+						<shortcut>
+							<x>1180</x>
+							<y>1937</y>
+							<class>encounter</class>
+							<recordname>encounter.id-00017@D&#38;D Out of the Abyss</recordname>
+						</shortcut>
+						<shortcut>
+							<x>1435</x>
+							<y>1954</y>
+							<class>encounter</class>
+							<recordname>encounter.id-00017@D&#38;D Out of the Abyss</recordname>
+						</shortcut>
+						<shortcut>
+							<x>1255</x>
+							<y>2140</y>
+							<class>encounter</class>
+							<recordname>encounter.id-00016@D&#38;D Out of the Abyss</recordname>
+						</shortcut>
+						<shortcut>
+							<x>901</x>
+							<y>1793</y>
+							<class>encounter</class>
+							<recordname>encounter.id-00015@D&#38;D Out of the Abyss</recordname>
+						</shortcut>
+						<shortcut>
+							<x>887</x>
+							<y>1897</y>
+							<class>encounter</class>
+							<recordname>encounter.id-00014@D&#38;D Out of the Abyss</recordname>
+						</shortcut>
+						<shortcut>
+							<x>901</x>
+							<y>2018</y>
+							<class>encounter</class>
+							<recordname>encounter.id-00013@D&#38;D Out of the Abyss</recordname>
+						</shortcut>
+						<shortcut>
+							<x>741</x>
+							<y>1999</y>
+							<class>encounter</class>
+							<recordname>encounter.id-00012@D&#38;D Out of the Abyss</recordname>
+						</shortcut>
+						<shortcut>
+							<x>436</x>
+							<y>1876</y>
+							<class>encounter</class>
+							<recordname>encounter.id-00011@D&#38;D Out of the Abyss</recordname>
+						</shortcut>
+						<shortcut>
+							<x>306</x>
+							<y>1878</y>
+							<class>encounter</class>
+							<recordname>encounter.id-00009@D&#38;D Out of the Abyss</recordname>
+						</shortcut>
+						<shortcut>
+							<x>101</x>
+							<y>1959</y>
+							<class>encounter</class>
+							<recordname>encounter.id-00010@D&#38;D Out of the Abyss</recordname>
+						</shortcut>
+						<shortcut>
+							<x>101</x>
+							<y>2164</y>
+							<class>encounter</class>
+							<recordname>encounter.id-00008@D&#38;D Out of the Abyss</recordname>
+						</shortcut>
+					</shortcuts>
+				</image>
+			</id-00086>
+		</category>
+		<category name="Out of the Abyss - Maps" mergeid="" baseicon="2" decalicon="1">
+		</category>
+		<category name="Out of the Abyss - Portraits (Character)" mergeid="" baseicon="2" decalicon="1">
+		</category>
+		<category name="Out of the Abyss - Portraits (Other)" mergeid="" baseicon="2" decalicon="1">
+			<id-00085>
+				<image type="image">
+					<bitmap>Velkynvelve Portrait.jpg</bitmap>
+				</image>
+			</id-00085>
+		</category>
+	</image>
+</root>

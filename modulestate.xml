@@ -1,3 +1,27 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <modulestate version="3.1">
+	<module name="Calendars">
+		<loaded />
+	</module>
+	<module name="D&#38;D Out of the Abyss">
+		<loaded />
+	</module>
+	<module name="D&#38;D Sword Coast Adventurer's Guide - Campaign Guide">
+		<loaded />
+	</module>
+	<module name="D&#38;D Sword Coast Adventurer's Guide - Player's Guide">
+		<loaded />
+		<allow />
+	</module>
+	<module name="DD Dungeon Masters Guide">
+		<loaded />
+	</module>
+	<module name="DD MM Monster Manual">
+		<loaded />
+		<disallow />
+	</module>
+	<module name="DD PHB Deluxe">
+		<loaded />
+		<allow />
+	</module>
 </modulestate>

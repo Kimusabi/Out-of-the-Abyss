@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <root version="3.1" release="7|CoreRPG:3">
+	<battle>
+		<category name="" mergeid="" baseicon="0" decalicon="0">
+		</category>
+		<category name="Out of the Abyss - Story Encounters" mergeid="" baseicon="2" decalicon="1">
+		</category>
+		<category name="Out of the Abyss - Table Encounters" mergeid="" baseicon="2" decalicon="1">
+		</category>
+		<category name="DMG - Sylvan Forest Encounters" mergeid="" baseicon="2" decalicon="1">
+		</category>
+	</battle>
 	<calendar>
 		<public />
 	</calendar>
@@ -490,8 +500,74 @@
 	<effects>
 		<public />
 	</effects>
+	<encounter>
+		<category name="" mergeid="" baseicon="0" decalicon="0">
+		</category>
+		<category name="00. Out of the Abyss" mergeid="" baseicon="2" decalicon="1">
+		</category>
+		<category name="01. Chapter 1: Prisoners of the Drow" mergeid="" baseicon="2" decalicon="1">
+		</category>
+		<category name="02. Chapter 2: Into Darkness" mergeid="" baseicon="2" decalicon="1">
+		</category>
+		<category name="03. Chapter 3: The Darklake" mergeid="" baseicon="2" decalicon="1">
+		</category>
+		<category name="04. Chapter 4: Gracklstugh" mergeid="" baseicon="2" decalicon="1">
+		</category>
+		<category name="05. Chapter 5: Neverlight Grove" mergeid="" baseicon="2" decalicon="1">
+		</category>
+		<category name="06. Chapter 6: Blingdenstone" mergeid="" baseicon="2" decalicon="1">
+		</category>
+		<category name="07. Chapter 7: Escape from the Underdark" mergeid="" baseicon="2" decalicon="1">
+		</category>
+		<category name="08. Chapter 8: Audience in Gauntlgrym" mergeid="" baseicon="2" decalicon="1">
+		</category>
+		<category name="09. Chapter 9: Mantol-Derith" mergeid="" baseicon="2" decalicon="1">
+		</category>
+		<category name="10. Chapter 10: Descent into the Depths" mergeid="" baseicon="2" decalicon="1">
+		</category>
+		<category name="11. Chapter 11: Gravenhollow" mergeid="" baseicon="2" decalicon="1">
+		</category>
+		<category name="12. Chapter 12: The Tower of Vengeance" mergeid="" baseicon="2" decalicon="1">
+		</category>
+		<category name="13. Chapter 13: The Wormwrithings" mergeid="" baseicon="2" decalicon="1">
+		</category>
+		<category name="14. Chapter 14: The Labyrinth" mergeid="" baseicon="2" decalicon="1">
+		</category>
+		<category name="15. Chapter 15: The City of Spiders" mergeid="" baseicon="2" decalicon="1">
+		</category>
+		<category name="16. Chapter 16: The Fetid Wedding" mergeid="" baseicon="2" decalicon="1">
+		</category>
+		<category name="17. Chapter 17: Against the Demon Lords" mergeid="" baseicon="2" decalicon="1">
+		</category>
+		<category name="Appendix" mergeid="" baseicon="2" decalicon="1">
+		</category>
+	</encounter>
 	<image>
+		<category name="" mergeid="" baseicon="0" decalicon="0">
+		</category>
+		<category name="Monster Manual - Portraits" mergeid="" baseicon="2" decalicon="1">
+		</category>
+		<category name="Out of the Abyss - DM Maps" mergeid="" baseicon="2" decalicon="1">
+		</category>
+		<category name="Out of the Abyss - Maps" mergeid="" baseicon="2" decalicon="1">
+		</category>
+		<category name="Out of the Abyss - Portraits (Character)" mergeid="" baseicon="2" decalicon="1">
+		</category>
+		<category name="Out of the Abyss - Portraits (Other)" mergeid="" baseicon="2" decalicon="1">
+		</category>
+		<category name="D&#38;D Sword Coast Adventurer's Guide - Campaign Guide" mergeid="" baseicon="2" decalicon="1">
+		</category>
+		<category name="DD Dungeon Masters Guide" mergeid="" baseicon="2" decalicon="1">
+		</category>
 	</image>
+	<item>
+		<category name="" mergeid="" baseicon="0" decalicon="0">
+		</category>
+		<category name="Out of the Abyss - Magic Items" mergeid="" baseicon="2" decalicon="1">
+		</category>
+		<category name="Out of the Abyss - Mundane Items" mergeid="" baseicon="2" decalicon="1">
+		</category>
+	</item>
 	<languages>
 		<public />
 		<id-00001>
@@ -572,12 +648,32 @@
 			<name type="string">Goblin</name>
 		</id-00016>
 	</languages>
+	<library>
+	</library>
 	<modifiers>
 		<public />
 	</modifiers>
+	<npc>
+		<category name="" mergeid="" baseicon="0" decalicon="0">
+		</category>
+		<category name="Monster Manual - Creatures" mergeid="" baseicon="2" decalicon="1">
+		</category>
+		<category name="Out of the Abyss - Creatures" mergeid="" baseicon="2" decalicon="1">
+		</category>
+		<category name="Out of the Abyss - NPCs" mergeid="" baseicon="2" decalicon="1">
+		</category>
+		<category name="Out of the Abyss - Traps" mergeid="" baseicon="2" decalicon="1">
+		</category>
+	</npc>
 	<options>
 		<public />
 		<DDCL type="string">desktopdecal_ROD1</DDCL>
+		<HRNH type="string">max</HRNH>
+		<HRST type="string">off</HRST>
+		<SHPW type="string">on</SHPW>
+		<TBOX type="string">off</TBOX>
+		<TFAC type="string">on</TFAC>
+		<TPCH type="string">dot</TPCH>
 	</options>
 	<partysheet>
 		<public />
@@ -592,4 +688,46 @@
 		<saveselected type="string">Strength</saveselected>
 		<skilldc type="number">0</skilldc>
 	</partysheet>
+	<tables>
+		<category name="" mergeid="" baseicon="0" decalicon="0">
+		</category>
+		<category name="Dice Rollers" mergeid="" baseicon="2" decalicon="1">
+		</category>
+		<category name="Out of the Abyss - Tables" mergeid="" baseicon="2" decalicon="1">
+		</category>
+		<category name="D&#38;D Sword Coast Adventurer's Guide - Player's Guide" mergeid="" baseicon="2" decalicon="1">
+		</category>
+		<category name="DD DMG Chptr 1: A World of Your Own" mergeid="" baseicon="2" decalicon="1">
+		</category>
+		<category name="DD DMG Chptr 2: Creating a Multiverse" mergeid="" baseicon="2" decalicon="1">
+		</category>
+		<category name="DD DMG Chptr 3: Creating Adventures" mergeid="" baseicon="2" decalicon="1">
+		</category>
+		<category name="DD DMG Chptr 4: Creating Nonplayer Characters" mergeid="" baseicon="2" decalicon="1">
+		</category>
+		<category name="DD DMG Chptr 5: Adventure Environments" mergeid="" baseicon="2" decalicon="1">
+		</category>
+		<category name="DD DMG Chptr 6: Between Adventures" mergeid="" baseicon="2" decalicon="1">
+		</category>
+		<category name="DD DMG Chptr 7: Treasure" mergeid="" baseicon="2" decalicon="1">
+		</category>
+		<category name="DD DMG Chptr 8: Running the Game" mergeid="" baseicon="2" decalicon="1">
+		</category>
+		<category name="DD DMG Chptr 9: Dungeon Master's Workshop" mergeid="" baseicon="2" decalicon="1">
+		</category>
+		<category name="DD DMG Chptr A: Random Dungeon" mergeid="" baseicon="2" decalicon="1">
+		</category>
+		<category name="Monster Manual" mergeid="" baseicon="2" decalicon="1">
+		</category>
+		<category name="DD PHB Deluxe" mergeid="" baseicon="2" decalicon="1">
+		</category>
+		<category name="DD Players Handbook" mergeid="" baseicon="2" decalicon="1">
+		</category>
+	</tables>
+	<treasureparcels>
+		<category name="" mergeid="" baseicon="0" decalicon="0">
+		</category>
+		<category name="Out of the Abyss - Parcels" mergeid="" baseicon="2" decalicon="1">
+		</category>
+	</treasureparcels>
 </root>

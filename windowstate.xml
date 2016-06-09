@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <windowstate version="3.1">
+	<window data="" class="library" pos="400,210,1100,760" />
+	<window data="" class="moduleselection" pos="407,221,1107,751" />
 	<window data="charsheet.id-00001" class="charsheet" pos="487,185,1012,785" />
 	<window data="charsheet.id-00002" class="charsheet" pos="487,185,1012,785" />
 	<window data="charsheet.id-00003" class="charsheet" pos="487,185,1012,785" />
@@ -7,5 +9,18 @@
 	<window data="charsheet.id-00005" class="charsheet" pos="487,185,1012,785" />
 	<window data="charsheet.id-00006" class="charsheet" pos="487,185,1012,785" />
 	<window data="combattracker" class="combattracker_host" pos="425,235,1075,735" />
+	<window data="encounter" class="encounterlist" pos="600,285,900,685" />
+	<window data="encounter.id-00001@D&#38;D Out of the Abyss" class="encounter" pos="550,160,950,810" />
+	<window data="encounter.id-00002@D&#38;D Out of the Abyss" class="encounter" pos="550,160,950,810" />
+	<window data="encounter.id-00022@D&#38;D Out of the Abyss" class="encounter" pos="550,160,950,810" />
+	<window data="encounter.id-00050@D&#38;D Out of the Abyss" class="encounter" pos="550,160,950,810" />
+	<window data="encounter.id-00121@D&#38;D Out of the Abyss" class="encounter" pos="550,160,950,810" />
+	<window data="encounter.id-00654@D&#38;D Out of the Abyss" class="encounter" pos="550,160,950,810" />
+	<window data="encounter.id-00664@D&#38;D Out of the Abyss" class="encounter" pos="550,160,950,810" />
+	<window data="image.id-00085@D&#38;D Out of the Abyss" class="imagewindow" pos="231,43,1268,926" />
+	<window data="image.id-00086@D&#38;D Out of the Abyss" class="imagewindow" pos="-85,126,1415,1096" />
+	<window data="lists.encounter@D&#38;D Out of the Abyss" class="referenceindexsorted" pos="575,260,925,710" />
 	<window data="partysheet" class="partysheet_host" pos="350,235,1150,735" />
+	<window data="tables.id-00002@D&#38;D Out of the Abyss" class="table" pos="550,285,950,685" />
+
 </windowstate>

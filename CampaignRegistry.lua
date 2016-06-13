@@ -1,8 +1,8 @@
 {
 	["OptDDCL"] = "desktopdecal_ROD1",
 	["OptTPCH"] = "dot",
-	["OptSHPW"] = "on",
 	["OptHRNH"] = "max",
+	["OptSHPW"] = "on",
 	["OptTBOX"] = "off",
 	["OptTFAC"] = "on",
 	["OptHRST"] = "off",

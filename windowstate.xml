@@ -20,6 +20,8 @@
 	<window data="image.id-00085@D&#38;D Out of the Abyss" class="imagewindow" pos="231,43,1268,926" />
 	<window data="image.id-00086@D&#38;D Out of the Abyss" class="imagewindow" pos="-85,126,1415,1096" />
 	<window data="lists.encounter@D&#38;D Out of the Abyss" class="referenceindexsorted" pos="575,260,925,710" />
+	<window data="notes" class="notelist" pos="600,285,900,685" />
+	<window data="notes.id-00001" class="note" pos="575,310,925,660" />
 	<window data="partysheet" class="partysheet_host" pos="350,235,1150,735" />
 	<window data="tables.id-00002@D&#38;D Out of the Abyss" class="table" pos="550,285,950,685" />
 </windowstate>

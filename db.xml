@@ -653,6 +653,15 @@
 	<modifiers>
 		<public />
 	</modifiers>
+	<notes>
+		<id-00001>
+			<locked type="number">0</locked>
+			<name type="string">Session 1 (18/06/2016)</name>
+			<text type="formattedtext">
+				<p></p>
+			</text>
+		</id-00001>
+	</notes>
 	<npc>
 		<category name="" mergeid="" baseicon="0" decalicon="0">
 		</category>

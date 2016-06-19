@@ -1,27 +1,151 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <windowstate version="3.1">
-	<window data="" class="library" pos="400,210,1100,760" />
+	<window data="" class="library" pos="695,374,1395,924" />
 	<window data="" class="moduleselection" pos="407,221,1107,751" />
-	<window data="charsheet.id-00001" class="charsheet" pos="487,185,1012,785" />
-	<window data="charsheet.id-00002" class="charsheet" pos="487,185,1012,785" />
+	<window data="" class="pointerselection" pos="625,357,875,612" />
+	<window data="" class="portraitselection" pos="520,335,980,635" />
+	<window data="" class="select_dialog" pos="575,285,925,685" />
+	<window data="battle" class="battlelist" pos="600,285,900,685" />
+	<window data="battle.id-00001" class="battle" pos="575,285,925,685" />
+	<window data="battle.id-00075@D&#38;D Out of the Abyss" class="battle" pos="991,272,1341,672" />
+	<window data="battle.id-00399@D&#38;D Out of the Abyss" class="battle" pos="575,285,925,685" />
+	<window data="calendar" class="calendar" pos="475,235,1055,735" />
+	<window data="charsheet.id-00001" class="charsheet" pos="392,30,917,630" />
+	<window data="charsheet.id-00001" class="charsheet_classes" pos="515,335,985,635" />
+	<window data="charsheet.id-00001.featurelist.id-00001" class="ref_ability" pos="575,310,925,660" />
+	<window data="charsheet.id-00001.featurelist.id-00006" class="ref_ability" pos="575,310,925,660" />
+	<window data="charsheet.id-00002" class="charsheet" pos="391,9,916,609" />
+	<window data="charsheet.id-00002" class="charsheet_classes" pos="515,335,985,635" />
+	<window data="charsheet.id-00002.featurelist.id-00001" class="ref_ability" pos="575,310,925,660" />
+	<window data="charsheet.id-00002.traitlist.id-00001" class="ref_ability" pos="575,310,925,660" />
+	<window data="charsheet.id-00002.traitlist.id-00002" class="ref_ability" pos="575,310,925,660" />
 	<window data="charsheet.id-00003" class="charsheet" pos="487,185,1012,785" />
 	<window data="charsheet.id-00004" class="charsheet" pos="487,185,1012,785" />
 	<window data="charsheet.id-00005" class="charsheet" pos="487,185,1012,785" />
-	<window data="charsheet.id-00006" class="charsheet" pos="487,185,1012,785" />
-	<window data="combattracker" class="combattracker_host" pos="425,235,1075,735" />
-	<window data="encounter" class="encounterlist" pos="600,285,900,685" />
+	<window data="charsheet.id-00005" class="charsheet_combatcalc" pos="500,352,1000,617" />
+	<window data="charsheet.id-00005.featurelist.id-00001" class="ref_ability" pos="575,310,925,660" />
+	<window data="charsheet.id-00006" class="charsheet" pos="396,12,921,612" />
+	<window data="charsheet.id-00006.featurelist.id-00001" class="ref_ability" pos="575,310,925,660" />
+	<window data="charsheet.id-00006.featurelist.id-00005" class="ref_ability" pos="575,310,925,660" />
+	<window data="charsheet.id-00006.powergroup.id-00001" class="power_groupdetail" pos="535,320,965,650" />
+	<window data="charsheet.id-00007" class="charsheet" pos="43,27,568,627" />
+	<window data="charsheet.id-00008" class="charsheet" pos="397,23,922,623" />
+	<window data="charsheet.id-00008" class="charsheet_combatcalc" pos="500,352,1000,617" />
+	<window data="charsheet.id-00008.featurelist.id-00001" class="ref_ability" pos="575,310,925,660" />
+	<window data="charsheet.id-00008.inventorylist.id-00001" class="item" pos="575,310,925,660" />
+	<window data="charsheet.id-00008.traitlist.id-00001" class="ref_ability" pos="575,310,925,660" />
+	<window data="charsheet.id-00008.traitlist.id-00002" class="ref_ability" pos="575,310,925,660" />
+	<window data="combattracker" class="combattracker_host" pos="28,35,678,535" />
+	<window data="effects" class="effectlist" pos="490,265,1010,705" />
+	<window data="encounter" class="encounterlist" pos="600,285,1358,685" />
 	<window data="encounter.id-00001@D&#38;D Out of the Abyss" class="encounter" pos="550,160,950,810" />
 	<window data="encounter.id-00002@D&#38;D Out of the Abyss" class="encounter" pos="550,160,950,810" />
+	<window data="encounter.id-00005@D&#38;D Out of the Abyss" class="encounter" pos="888,165,1288,815" />
+	<window data="encounter.id-00006@D&#38;D Out of the Abyss" class="encounter" pos="550,160,950,810" />
+	<window data="encounter.id-00011@D&#38;D Out of the Abyss" class="encounter" pos="550,160,950,810" />
 	<window data="encounter.id-00022@D&#38;D Out of the Abyss" class="encounter" pos="550,160,950,810" />
+	<window data="encounter.id-00046@D&#38;D Out of the Abyss" class="encounter" pos="550,160,950,810" />
 	<window data="encounter.id-00050@D&#38;D Out of the Abyss" class="encounter" pos="550,160,950,810" />
 	<window data="encounter.id-00121@D&#38;D Out of the Abyss" class="encounter" pos="550,160,950,810" />
+	<window data="encounter.id-00650@D&#38;D Out of the Abyss" class="encounter" pos="964,39,1364,689" />
+	<window data="encounter.id-00651@D&#38;D Out of the Abyss" class="encounter" pos="550,160,950,810" />
 	<window data="encounter.id-00654@D&#38;D Out of the Abyss" class="encounter" pos="550,160,950,810" />
 	<window data="encounter.id-00664@D&#38;D Out of the Abyss" class="encounter" pos="550,160,950,810" />
+	<window data="image.id-00012@D&#38;D Out of the Abyss" class="imagewindow" pos="538,243,962,726" />
 	<window data="image.id-00085@D&#38;D Out of the Abyss" class="imagewindow" pos="231,43,1268,926" />
 	<window data="image.id-00086@D&#38;D Out of the Abyss" class="imagewindow" pos="-85,126,1415,1096" />
+	<window data="item" class="itemlist" pos="575,285,925,685" />
+	<window data="item.id-00069@D&#38;D Out of the Abyss" class="item" pos="575,310,925,660" />
+	<window data="item.id-00071@D&#38;D Out of the Abyss" class="item" pos="575,310,925,660" />
+	<window data="lists.battle@D&#38;D Out of the Abyss" class="referenceindexsorted" pos="575,260,925,710" />
 	<window data="lists.encounter@D&#38;D Out of the Abyss" class="referenceindexsorted" pos="575,260,925,710" />
+	<window data="lists.item@D&#38;D Out of the Abyss" class="referenceindexsorted" pos="575,260,925,710" />
+	<window data="lists.npc@D&#38;D Out of the Abyss" class="referenceindexsorted" pos="575,260,925,710" />
+	<window data="lists.treasureparcel@D&#38;D Out of the Abyss" class="referenceindexsorted" pos="575,260,925,710" />
 	<window data="notes" class="notelist" pos="600,285,900,685" />
 	<window data="notes.id-00001" class="note" pos="575,310,925,660" />
-	<window data="partysheet" class="partysheet_host" pos="350,235,1150,735" />
-	<window data="tables.id-00002@D&#38;D Out of the Abyss" class="table" pos="550,285,950,685" />
+	<window data="notes.id-00002" class="note" pos="575,310,925,660" />
+	<window data="npc" class="npclist" pos="897,279,1197,679" />
+	<window data="npc.id-00084@D&#38;D Out of the Abyss" class="npc" pos="520,210,980,760" />
+	<window data="npc.id-00183@D&#38;D Out of the Abyss" class="npc" pos="520,210,980,760" />
+	<window data="npc.id-00217@D&#38;D Out of the Abyss" class="npc" pos="520,210,980,760" />
+	<window data="partysheet" class="partysheet_host" pos="393,51,1193,854" />
+	<window data="partysheet.encounters.id-00002" class="battle" pos="575,285,925,685" />
+	<window data="quest" class="questlist" pos="338,284,638,684" />
+	<window data="quest.id-00001" class="quest" pos="575,310,925,660" />
+	<window data="reference.backgrounddata.criminal@DD PHB Deluxe" class="reference_background" pos="575,310,925,660" />
+	<window data="reference.backgrounddata.folkhero@DD PHB Deluxe" class="reference_background" pos="575,310,925,660" />
+	<window data="reference.backgrounddata.guildmerchant@DD PHB Deluxe" class="reference_background" pos="575,310,925,660" />
+	<window data="reference.backgrounddata.noble.features.retainers@DD PHB Deluxe" class="reference_backgroundfeature" pos="575,310,925,660" />
+	<window data="reference.backgrounddata.noble@DD PHB Deluxe" class="reference_background" pos="575,310,925,660" />
+	<window data="reference.backgrounddata.sage@DD PHB Deluxe" class="reference_background" pos="575,310,925,660" />
+	<window data="reference.backgrounddata.sailor@DD PHB Deluxe" class="reference_background" pos="575,310,925,660" />
+	<window data="reference.backgrounddata.soldier.features.militaryrank@DD PHB Deluxe" class="reference_backgroundfeature" pos="575,310,925,660" />
+	<window data="reference.backgrounddata.soldier@DD PHB Deluxe" class="reference_background" pos="575,310,925,660" />
+	<window data="reference.backgrounddata.urchin@DD PHB Deluxe" class="reference_background" pos="575,310,925,660" />
+	<window data="reference.backgroundlists.byletter@DD PHB Deluxe" class="reference_colindex" pos="525,260,975,710" />
+	<window data="reference.classdata.cleric.abilities.wardomain@DD PHB Deluxe" class="reference_classability" pos="575,385,925,685" />
+	<window data="reference.classdata.cleric.features.bonusproficiencies_war_1@DD PHB Deluxe" class="reference_classfeature" pos="575,385,925,685" />
+	<window data="reference.classdata.cleric@DD PHB Deluxe" class="reference_class" pos="470,240,1023,631" />
+	<window data="reference.classdata.sorcerer.features.dragonancestor1@DD PHB Deluxe" class="reference_classfeature" pos="575,385,925,685" />
+	<window data="reference.classdata.sorcerer.features.sorcerousorigin1@DD PHB Deluxe" class="reference_classfeature" pos="575,385,925,685" />
+	<window data="reference.classdata.sorcerer@DD PHB Deluxe" class="reference_class" pos="575,285,925,685" />
+	<window data="reference.classdata.warlock@DD PHB Deluxe" class="reference_class" pos="575,285,925,685" />
+	<window data="reference.classdata.wizard@DD PHB Deluxe" class="reference_class" pos="575,285,925,685" />
+	<window data="reference.classlists.byletter@DD PHB Deluxe" class="reference_colindex" pos="525,260,975,710" />
+	<window data="reference.equipmentlists.adventuringgeartable@DD PHB Deluxe" class="reference_adventuringgeartable" pos="536,166,986,816" />
+	<window data="reference.equipmentlists.armortable@DD PHB Deluxe" class="reference_armortable" pos="649,267,1399,917" />
+	<window data="reference.equipmentlists.equipment@DD PHB Deluxe" class="referenceindex" pos="575,260,925,710" />
+	<window data="reference.equipmentlists.mountsandotheranimalstable@DD PHB Deluxe" class="reference_mountsandotheranimalstable" pos="525,160,975,810" />
+	<window data="reference.equipmentlists.toolstable@DD PHB Deluxe" class="reference_adventuringgeartable" pos="525,160,975,810" />
+	<window data="reference.equipmentlists.weapontable@DD PHB Deluxe" class="reference_weapontable" pos="375,160,1125,810" />
+	<window data="reference.racedata.dwarf.subraces.mountaindwarf@DD PHB Deluxe" class="reference_subrace" pos="575,310,925,660" />
+	<window data="reference.racedata.dwarf.traits.darkvision@DD PHB Deluxe" class="reference_racialtrait" pos="575,310,925,660" />
+	<window data="reference.racedata.dwarf.traits.subrace@DD PHB Deluxe" class="reference_racialtrait" pos="575,310,925,660" />
+	<window data="reference.racedata.dwarf@DD PHB Deluxe" class="reference_race" pos="575,310,925,660" />
+	<window data="reference.racedata.elf.subraces.darkelf_drow_.traits.drowmagic@DD PHB Deluxe" class="reference_subracialtrait" pos="575,310,925,660" />
+	<window data="reference.racedata.elf.subraces.darkelf_drow_.traits.superiordarkvision@DD PHB Deluxe" class="reference_subracialtrait" pos="575,310,925,660" />
+	<window data="reference.racedata.elf.subraces.darkelf_drow_@DD PHB Deluxe" class="reference_subrace" pos="575,310,925,660" />
+	<window data="reference.racedata.elf.traits.subrace@DD PHB Deluxe" class="reference_racialtrait" pos="575,310,925,660" />
+	<window data="reference.racedata.elf@DD PHB Deluxe" class="reference_race" pos="575,310,925,660" />
+	<window data="reference.racedata.half_elf.traits.abilityscoreincrease@DD PHB Deluxe" class="reference_racialtrait" pos="575,310,925,660" />
+	<window data="reference.racedata.half_elf.traits.feyancestry@DD PHB Deluxe" class="reference_racialtrait" pos="575,310,925,660" />
+	<window data="reference.racedata.half_elf.traits.skillversatility@DD PHB Deluxe" class="reference_racialtrait" pos="575,310,925,660" />
+	<window data="reference.racedata.half_elf@DD PHB Deluxe" class="reference_race" pos="575,310,925,660" />
+	<window data="reference.racedata.human@DD PHB Deluxe" class="reference_race" pos="575,310,925,660" />
+	<window data="reference.racedata.human_variant.traits.skills@DD PHB Deluxe" class="reference_racialtrait" pos="575,310,925,660" />
+	<window data="reference.racedata.human_variant@DD PHB Deluxe" class="reference_race" pos="575,310,925,660" />
+	<window data="reference.racelists.byletter@DD PHB Deluxe" class="reference_colindex" pos="922,253,1372,703" />
+	<window data="reference.refmanualindex@DD PHB Deluxe" class="reference_manual" pos="447,274,1397,924" />
+	<window data="reference.spelldata.prestidigitation@DD PHB Deluxe" class="reference_spell" pos="575,310,925,660" />
+	<window data="reference.spelllists._index_@DD PHB Deluxe" class="reference_colindex" pos="525,260,975,710" />
+	<window data="reference.spelllists.cleric@DD PHB Deluxe" class="reference_colindex" pos="525,260,975,710" />
+	<window data="reference.spelllists.clericwardomain@DD PHB Deluxe" class="reference_colindex" pos="525,260,975,710" />
+	<window data="reference.spelllists.sorcerer@DD PHB Deluxe" class="reference_colindex" pos="525,260,975,710" />
+	<window data="reference.spelllists.spells@DD PHB Deluxe" class="referenceindex" pos="575,260,925,710" />
+	<window data="tables" class="tablelist" pos="575,260,925,710" />
+	<window data="tables.id-00002@D&#38;D Out of the Abyss" class="table" pos="129,293,529,693" />
+	<window data="tables.id-00123@D&#38;D Out of the Abyss" class="table" pos="550,285,950,685" />
+	<window data="tables.tab_noblebond@DD PHB Deluxe" class="table" pos="550,285,950,685" />
+	<window data="tables.tab_nobleflaw@DD PHB Deluxe" class="table" pos="550,285,950,685" />
+	<window data="tables.tab_nobleideal@DD PHB Deluxe" class="table" pos="550,285,950,685" />
+	<window data="tables.tab_sagepersonalitytrait@DD PHB Deluxe" class="table" pos="550,285,950,685" />
+	<window data="tables.tab_soldierbond@DD PHB Deluxe" class="table" pos="550,285,950,685" />
+	<window data="tables.tab_soldierflaw@DD PHB Deluxe" class="table" pos="550,285,950,685" />
+	<window data="tables.tab_soldierideal@DD PHB Deluxe" class="table" pos="550,285,950,685" />
+	<window data="tables.tab_soldierpersonalitytrait@DD PHB Deluxe" class="table" pos="550,285,950,685" />
+	<window data="tables.tab_soldierspecialty@DD PHB Deluxe" class="table" pos="550,285,950,685" />
+	<window data="tables.tab_urchinbond@DD PHB Deluxe" class="table" pos="550,285,950,685" />
+	<window data="tables.tab_urchinflaw@DD PHB Deluxe" class="table" pos="550,285,950,685" />
+	<window data="tables.tab_urchinideal@DD PHB Deluxe" class="table" pos="550,285,950,685" />
+	<window data="tables.tab_urchinpersonalitytrait@DD PHB Deluxe" class="table" pos="550,285,950,685" />
+	<window data="treasureparcels" class="parcellist" pos="600,285,900,685" />
+	<window data="treasureparcels.id-00002" class="treasureparcel" pos="3,2,503,352" />
+	<window data="treasureparcels.id-00003" class="treasureparcel" pos="5,4,505,354" />
+	<window data="treasureparcels.id-00003.itemlist.id-00011" class="item" pos="575,310,925,660" />
+	<window data="treasureparcels.id-00004" class="treasureparcel" pos="17,18,517,368" />
+	<window data="treasureparcels.id-00005" class="treasureparcel" pos="5,4,505,354" />
+	<window data="treasureparcels.id-00006" class="treasureparcel" pos="10,8,510,358" />
+	<window data="treasureparcels.id-00046@D&#38;D Out of the Abyss" class="treasureparcel" pos="500,310,1000,660" />
+	<window data="treasureparcels.id-00056@D&#38;D Out of the Abyss" class="treasureparcel" pos="7,7,507,357" />
 </windowstate>

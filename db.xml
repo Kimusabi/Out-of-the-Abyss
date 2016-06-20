@@ -2435,12 +2435,13 @@
 			</coins>
 			<defenses>
 				<ac>
-					<armor type="number">0</armor>
+					<armor type="number">3</armor>
+					<disstealth type="number">0</disstealth>
 					<misc type="number">0</misc>
 					<prof type="number">1</prof>
-					<shield type="number">0</shield>
+					<shield type="number">2</shield>
 					<temporary type="number">0</temporary>
-					<total type="number">10</total>
+					<total type="number">15</total>
 				</ac>
 			</defenses>
 			<deity type="string">Torm</deity>
@@ -2603,6 +2604,7 @@
 				</id-00002>
 				<id-00003>
 					<ac type="number">13</ac>
+					<bonus type="number">0</bonus>
 					<carried type="number">1</carried>
 					<cost type="string">50 gp</cost>
 					<count type="number">1</count>
@@ -2612,6 +2614,7 @@
 					</description>
 					<dexbonus type="string">Yes (max 2)</dexbonus>
 					<isidentified type="number">1</isidentified>
+					<istemplate type="number">0</istemplate>
 					<locked type="number">1</locked>
 					<name type="string">Chain Shirt</name>
 					<stealth type="string">-</stealth>
@@ -3993,7 +3996,7 @@
 						<score type="number">15</score>
 					</wisdom>
 				</abilities>
-				<ac type="number">10</ac>
+				<ac type="number">15</ac>
 				<actions>
 					<public />
 				</actions>
@@ -4586,75 +4589,85 @@
 			<gridsize>50</gridsize>
 			<gridoffset>0,0</gridoffset>
 			<gridsnap>on</gridsnap>
+			<tokens>
+				<idcounter>5</idcounter>
+				<scalelock>2.5</scalelock>
+			</tokens>
 		</image>
 		<inventorylist>
 			<public />
-			<id-00001>
+			<id-00013>
 				<public />
 				<carriedby type="string">Ra'knar Berylforge [1], Glenys Weaton [1]</carriedby>
 				<count type="number">2</count>
 				<name type="string">Chain Shirt</name>
-			</id-00001>
-			<id-00002>
-				<public />
-				<carriedby type="string">Seraphina Vellar [1]</carriedby>
-				<count type="number">1</count>
-				<name type="string">Studded Leather</name>
-			</id-00002>
-			<id-00003>
-				<public />
-				<carriedby type="string">Seraphina Vellar [1], Glenys Weaton [1], Bazin del'Armgo [1]</carriedby>
-				<count type="number">3</count>
-				<name type="string">Crossbow Bolts (20)</name>
-			</id-00003>
-			<id-00004>
-				<public />
-				<carriedby type="string">Seraphina Vellar [1], Ra'knar Berylforge [1]</carriedby>
-				<count type="number">2</count>
-				<name type="string">Rope, Silk (100 Feet)</name>
-			</id-00004>
-			<id-00005>
-				<public />
-				<carriedby type="string">Ra'knar Berylforge [1]</carriedby>
-				<count type="number">1</count>
-				<name type="string">Spike, Iron (10)</name>
-			</id-00005>
-			<id-00006>
+			</id-00013>
+			<id-00014>
 				<public />
 				<carriedby type="string">Ra'knar Berylforge [1], Glenys Weaton [1]</carriedby>
 				<count type="number">2</count>
 				<name type="string">Shield</name>
-			</id-00006>
-			<id-00007>
+			</id-00014>
+			<id-00015>
+				<public />
+				<carriedby type="string">Seraphina Vellar [1]</carriedby>
+				<count type="number">1</count>
+				<name type="string">Studded Leather</name>
+			</id-00015>
+			<id-00016>
+				<public />
+				<carriedby type="string">Seraphina Vellar [1], Glenys Weaton [1], Bazin del'Armgo [1]</carriedby>
+				<count type="number">3</count>
+				<name type="string">Crossbow Bolts (20)</name>
+			</id-00016>
+			<id-00017>
+				<public />
+				<carriedby type="string">Ra'knar Berylforge [1], Seraphina Vellar [1]</carriedby>
+				<count type="number">2</count>
+				<name type="string">Rope, Silk (100 Feet)</name>
+			</id-00017>
+			<id-00018>
+				<public />
+				<carriedby type="string">Ra'knar Berylforge [1]</carriedby>
+				<count type="number">1</count>
+				<name type="string">Spike, Iron (10)</name>
+			</id-00018>
+			<id-00019>
+				<public />
+				<carriedby type="string">Thaddeus D'arth [1], Ra'knar Berylforge [1]</carriedby>
+				<count type="number">2</count>
+				<name type="string">Flint Shard</name>
+			</id-00019>
+			<id-00020>
 				<public />
 				<carriedby type="string">Seraphina Vellar [1], Glenys Weaton [1]</carriedby>
 				<count type="number">2</count>
 				<name type="string">Caltrops (20)</name>
-			</id-00007>
-			<id-00008>
+			</id-00020>
+			<id-00021>
 				<public />
-				<carriedby type="string">Seraphina Vellar [1], Ra'knar Berylforge [1]</carriedby>
+				<carriedby type="string">Ra'knar Berylforge [1], Seraphina Vellar [1]</carriedby>
 				<count type="number">2</count>
 				<name type="string">Shortsword</name>
-			</id-00008>
-			<id-00009>
-				<public />
-				<carriedby type="string">Glenys Weaton [1]</carriedby>
-				<count type="number">1</count>
-				<name type="string">5 Feet of Silk Rope</name>
-			</id-00009>
-			<id-00010>
+			</id-00021>
+			<id-00022>
 				<public />
 				<carriedby type="string">Seraphina Vellar [1], Glenys Weaton [1], Bazin del'Armgo [1]</carriedby>
 				<count type="number">3</count>
 				<name type="string">Crossbow, Hand</name>
-			</id-00010>
-			<id-00011>
+			</id-00022>
+			<id-00023>
 				<public />
-				<carriedby type="string">Seraphina Vellar [2], Glenys Weaton [1], Ra'knar Berylforge [2], Bazin del'Armgo [1]</carriedby>
-				<count type="number">6</count>
+				<carriedby type="string">Glenys Weaton [1]</carriedby>
+				<count type="number">1</count>
+				<name type="string">5 Feet of Silk Rope</name>
+			</id-00023>
+			<id-00024>
+				<public />
+				<carriedby type="string">Thaddeus D'arth [1], Glenys Weaton [1], Ra'knar Berylforge [2], Seraphina Vellar [2], Bazin del'Armgo [1]</carriedby>
+				<count type="number">7</count>
 				<name type="string">Dagger</name>
-			</id-00011>
+			</id-00024>
 		</inventorylist>
 		<partyinformation>
 			<public />
@@ -4729,7 +4742,7 @@
 			</id-00002>
 			<id-00003>
 				<public />
-				<ac type="number">10</ac>
+				<ac type="number">15</ac>
 				<chabonus type="number">1</chabonus>
 				<charisma type="number">13</charisma>
 				<classlevel type="string">Cleric 1</classlevel>

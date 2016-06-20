@@ -294,10 +294,108 @@
 					</shortcuts>
 				</image>
 			</id-00086>
+			<id-00101>
+				<image type="image">
+					<bitmap>DM - Hook Horror Map.jpg</bitmap>
+					<shortcuts>
+						<shortcut>
+							<x>846</x>
+							<y>318</y>
+							<class>encounter</class>
+							<recordname>encounter.id-00069@D&#38;D Out of the Abyss</recordname>
+						</shortcut>
+						<shortcut>
+							<x>783</x>
+							<y>246</y>
+							<class>encounter</class>
+							<recordname>encounter.id-00068@D&#38;D Out of the Abyss</recordname>
+						</shortcut>
+						<shortcut>
+							<x>436</x>
+							<y>314</y>
+							<class>encounter</class>
+							<recordname>encounter.id-00067@D&#38;D Out of the Abyss</recordname>
+						</shortcut>
+						<shortcut>
+							<x>816</x>
+							<y>657</y>
+							<class>encounter</class>
+							<recordname>encounter.id-00066@D&#38;D Out of the Abyss</recordname>
+						</shortcut>
+						<shortcut>
+							<x>875</x>
+							<y>725</y>
+							<class>encounter</class>
+							<recordname>encounter.id-00065@D&#38;D Out of the Abyss</recordname>
+						</shortcut>
+						<shortcut>
+							<x>400</x>
+							<y>566</y>
+							<class>encounter</class>
+							<recordname>encounter.id-00064@D&#38;D Out of the Abyss</recordname>
+						</shortcut>
+					</shortcuts>
+				</image>
+			</id-00101>
 		</category>
 		<category name="Out of the Abyss - Maps" mergeid="" baseicon="2" decalicon="1">
+			<id-00109>
+				<image type="image">
+					<bitmap>Hook Horror Map.jpg</bitmap>
+					<gridsize>30</gridsize>
+					<gridoffset>18,26</gridoffset>
+					<gridsnap>on</gridsnap>
+					<shortcuts>
+						<shortcut>
+							<x>824</x>
+							<y>610</y>
+							<class>encounter</class>
+							<recordname>encounter.id-00067@D&#38;D Out of the Abyss</recordname>
+						</shortcut>
+						<shortcut>
+							<x>1610</x>
+							<y>584</y>
+							<class>encounter</class>
+							<recordname>encounter.id-00069@D&#38;D Out of the Abyss</recordname>
+						</shortcut>
+						<shortcut>
+							<x>1504</x>
+							<y>457</y>
+							<class>encounter</class>
+							<recordname>encounter.id-00068@D&#38;D Out of the Abyss</recordname>
+						</shortcut>
+						<shortcut>
+							<x>772</x>
+							<y>1070</y>
+							<class>encounter</class>
+							<recordname>encounter.id-00064@D&#38;D Out of the Abyss</recordname>
+						</shortcut>
+						<shortcut>
+							<x>1504</x>
+							<y>1269</y>
+							<class>encounter</class>
+							<recordname>encounter.id-00066@D&#38;D Out of the Abyss</recordname>
+						</shortcut>
+						<shortcut>
+							<x>1668</x>
+							<y>1374</y>
+							<class>encounter</class>
+							<recordname>encounter.id-00065@D&#38;D Out of the Abyss</recordname>
+						</shortcut>
+					</shortcuts>
+					<tokens>
+						<idcounter>0</idcounter>
+						<scalelock>4.16667</scalelock>
+					</tokens>
+				</image>
+			</id-00109>
 		</category>
 		<category name="Out of the Abyss - Portraits (Character)" mergeid="" baseicon="2" decalicon="1">
+			<id-00003>
+				<image type="image">
+					<bitmap>Aljanor.jpg</bitmap>
+				</image>
+			</id-00003>
 			<id-00012>
 				<image type="image">
 					<bitmap>Buppido.jpg</bitmap>
@@ -305,11 +403,30 @@
 			</id-00012>
 		</category>
 		<category name="Out of the Abyss - Portraits (Other)" mergeid="" baseicon="2" decalicon="1">
+			<id-00001>
+				<image type="image">
+					<bitmap>A Gallery Of Angels.jpg</bitmap>
+				</image>
+			</id-00001>
 			<id-00085>
 				<image type="image">
 					<bitmap>Velkynvelve Portrait.jpg</bitmap>
 				</image>
 			</id-00085>
+			<id-00089>
+				<image type="image">
+					<bitmap>Wormwrithings.jpg</bitmap>
+				</image>
+			</id-00089>
 		</category>
 	</image>
+	<tables>
+		<category name="Dice Rollers" mergeid="" baseicon="2" decalicon="1">
+		</category>
+		<category name="Out of the Abyss - Tables" mergeid="" baseicon="2" decalicon="1">
+			<id-00003>
+				<locked type="number">1</locked>
+			</id-00003>
+		</category>
+	</tables>
 </root>

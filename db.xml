@@ -586,7 +586,7 @@
 			</languagelist>
 			<level type="number">1</level>
 			<name type="string">Bazin del'Armgo</name>
-			<perception type="number">11</perception>
+			<perception type="number">13</perception>
 			<perceptionmodifier type="number">0</perceptionmodifier>
 			<powergroup>
 				<id-00001>
@@ -950,9 +950,9 @@
 				<id-00001>
 					<misc type="number">0</misc>
 					<name type="string">Perception</name>
-					<prof type="number">0</prof>
+					<prof type="number">1</prof>
 					<stat type="string">wisdom</stat>
-					<total type="number">1</total>
+					<total type="number">3</total>
 				</id-00001>
 				<id-00002>
 					<misc type="number">0</misc>
@@ -2349,9 +2349,9 @@
 			<abilities>
 				<charisma>
 					<bonus type="number">1</bonus>
-					<save type="number">1</save>
+					<save type="number">3</save>
 					<savemodifier type="number">0</savemodifier>
-					<saveprof type="number">0</saveprof>
+					<saveprof type="number">1</saveprof>
 					<score type="number">13</score>
 				</charisma>
 				<constitution>
@@ -2403,6 +2403,7 @@
 			<classes>
 				<id-00001>
 					<casterlevelinvmult type="number">1</casterlevelinvmult>
+					<casterpactmagic type="number">0</casterpactmagic>
 					<hddie type="dice">d8</hddie>
 					<hdused type="number">0</hdused>
 					<level type="number">1</level>
@@ -2649,6 +2650,7 @@
 						<p></p>
 					</description>
 					<isidentified type="number">1</isidentified>
+					<istemplate type="number">0</istemplate>
 					<locked type="number">1</locked>
 					<name type="string">Spike, Iron (10)</name>
 					<subtype type="string">Standard</subtype>
@@ -3188,11 +3190,11 @@
 					<score type="number">15</score>
 				</charisma>
 				<constitution>
-					<bonus type="number">1</bonus>
-					<save type="number">1</save>
+					<bonus type="number">2</bonus>
+					<save type="number">2</save>
 					<savemodifier type="number">0</savemodifier>
 					<saveprof type="number">0</saveprof>
-					<score type="number">13</score>
+					<score type="number">14</score>
 				</constitution>
 				<dexterity>
 					<bonus type="number">3</bonus>
@@ -4054,7 +4056,7 @@
 					</charisma>
 					<constitution>
 						<public />
-						<score type="number">13</score>
+						<score type="number">14</score>
 					</constitution>
 					<dexterity>
 						<public />
@@ -4596,78 +4598,78 @@
 		</image>
 		<inventorylist>
 			<public />
-			<id-00013>
+			<id-00001>
 				<public />
 				<carriedby type="string">Ra'knar Berylforge [1], Glenys Weaton [1]</carriedby>
 				<count type="number">2</count>
 				<name type="string">Chain Shirt</name>
-			</id-00013>
-			<id-00014>
+			</id-00001>
+			<id-00002>
 				<public />
 				<carriedby type="string">Ra'knar Berylforge [1], Glenys Weaton [1]</carriedby>
 				<count type="number">2</count>
 				<name type="string">Shield</name>
-			</id-00014>
-			<id-00015>
+			</id-00002>
+			<id-00003>
 				<public />
 				<carriedby type="string">Seraphina Vellar [1]</carriedby>
 				<count type="number">1</count>
 				<name type="string">Studded Leather</name>
-			</id-00015>
-			<id-00016>
+			</id-00003>
+			<id-00004>
 				<public />
 				<carriedby type="string">Seraphina Vellar [1], Glenys Weaton [1], Bazin del'Armgo [1]</carriedby>
 				<count type="number">3</count>
 				<name type="string">Crossbow Bolts (20)</name>
-			</id-00016>
-			<id-00017>
+			</id-00004>
+			<id-00005>
 				<public />
 				<carriedby type="string">Ra'knar Berylforge [1], Seraphina Vellar [1]</carriedby>
 				<count type="number">2</count>
 				<name type="string">Rope, Silk (100 Feet)</name>
-			</id-00017>
-			<id-00018>
+			</id-00005>
+			<id-00006>
 				<public />
 				<carriedby type="string">Ra'knar Berylforge [1]</carriedby>
 				<count type="number">1</count>
 				<name type="string">Spike, Iron (10)</name>
-			</id-00018>
-			<id-00019>
+			</id-00006>
+			<id-00007>
 				<public />
 				<carriedby type="string">Thaddeus D'arth [1], Ra'knar Berylforge [1]</carriedby>
 				<count type="number">2</count>
 				<name type="string">Flint Shard</name>
-			</id-00019>
-			<id-00020>
+			</id-00007>
+			<id-00008>
 				<public />
 				<carriedby type="string">Seraphina Vellar [1], Glenys Weaton [1]</carriedby>
 				<count type="number">2</count>
 				<name type="string">Caltrops (20)</name>
-			</id-00020>
-			<id-00021>
+			</id-00008>
+			<id-00009>
 				<public />
 				<carriedby type="string">Ra'knar Berylforge [1], Seraphina Vellar [1]</carriedby>
 				<count type="number">2</count>
 				<name type="string">Shortsword</name>
-			</id-00021>
-			<id-00022>
+			</id-00009>
+			<id-00010>
 				<public />
 				<carriedby type="string">Seraphina Vellar [1], Glenys Weaton [1], Bazin del'Armgo [1]</carriedby>
 				<count type="number">3</count>
 				<name type="string">Crossbow, Hand</name>
-			</id-00022>
-			<id-00023>
+			</id-00010>
+			<id-00011>
 				<public />
 				<carriedby type="string">Glenys Weaton [1]</carriedby>
 				<count type="number">1</count>
 				<name type="string">5 Feet of Silk Rope</name>
-			</id-00023>
-			<id-00024>
+			</id-00011>
+			<id-00012>
 				<public />
 				<carriedby type="string">Thaddeus D'arth [1], Glenys Weaton [1], Ra'knar Berylforge [2], Seraphina Vellar [2], Bazin del'Armgo [1]</carriedby>
 				<count type="number">7</count>
 				<name type="string">Dagger</name>
-			</id-00024>
+			</id-00012>
 		</inventorylist>
 		<partyinformation>
 			<public />
@@ -4694,7 +4696,7 @@
 					<recordname>charsheet.id-00001</recordname>
 				</link>
 				<name type="string">Bazin del'Armgo</name>
-				<perception type="number">11</perception>
+				<perception type="number">13</perception>
 				<race type="string">Dark Elf (Drow)</race>
 				<senses type="string">Darkvision 120</senses>
 				<strbonus type="number">-2</strbonus>
@@ -4781,8 +4783,8 @@
 				<chabonus type="number">2</chabonus>
 				<charisma type="number">15</charisma>
 				<classlevel type="string">Rogue 1</classlevel>
-				<conbonus type="number">1</conbonus>
-				<constitution type="number">13</constitution>
+				<conbonus type="number">2</conbonus>
+				<constitution type="number">14</constitution>
 				<dexbonus type="number">3</dexbonus>
 				<dexterity type="number">16</dexterity>
 				<exp type="number">0</exp>

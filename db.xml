@@ -326,7 +326,7 @@
 					<casterlevelinvmult type="number">1</casterlevelinvmult>
 					<hddie type="dice">d6</hddie>
 					<hdused type="number">0</hdused>
-					<level type="number">1</level>
+					<level type="number">2</level>
 					<name type="string">Sorcerer</name>
 					<shortcut type="windowreference">
 						<class>reference_class</class>
@@ -372,7 +372,7 @@
 				<load type="number">4.5</load>
 				<max type="number">90</max>
 			</encumbrance>
-			<exp type="number">0</exp>
+			<exp type="number">300</exp>
 			<expneeded type="number">0</expneeded>
 			<featlist>
 			</featlist>
@@ -507,6 +507,48 @@
 						</linklist>
 					</text>
 				</id-00006>
+				<id-00007>
+					<level type="number">2</level>
+					<locked type="number">1</locked>
+					<name type="string">Font of Magic</name>
+					<source type="string">Sorcerer</source>
+					<text type="formattedtext">
+						<p>At 2nd level, you tap into a deep wellspring of magic within yourself. This wellspring is represented by sorcery points, which allow you to create a variety of magical effects.</p>
+						<p><b>Sorcery Points</b></p>
+						<p>You have 2 sorcery points, and you gain more as you reach higher levels, as shown in the Sorcery Points column of the Sorcerer table. You can never have more sorcery points than shown on the table for your level. You regain all spent sorcery points when you finish a long rest.</p>
+						<p><b>Flexible Casting</b></p>
+						<p>You can use your sorcery points to gain additional spell slots, or sacrifice spell slots to gain additional sorcery points. You learn other ways to use your sorcery points as you reach higher levels. The created spell slots vanish at the end of a long rest.</p>
+						<p><b>Creating Spell Slots. </b>You can transform unexpended sorcery points into one spell slot as a bonus action on your turn. The Creating Spell Slots table shows the cost of creating a spell slot of a given level. You can create spell slots no higher in level than 5th.</p>
+						<p><b>Creating Spell Slots</b></p>
+						<table>
+							<tr>
+								<td><b>Spell Slot Sorcery Level</b></td>
+								<td><b>Point Cost</b></td>
+							</tr>
+							<tr>
+								<td>1st</td>
+								<td>2</td>
+							</tr>
+							<tr>
+								<td>2nd</td>
+								<td>3</td>
+							</tr>
+							<tr>
+								<td>3rd</td>
+								<td>5</td>
+							</tr>
+							<tr>
+								<td>4th</td>
+								<td>6</td>
+							</tr>
+							<tr>
+								<td>5th</td>
+								<td>7</td>
+							</tr>
+						</table>
+						<p>Converting a Spell Slot to Sorcery Points. As a bonus action on your turn, you can expend one spell slot and gain a number of sorcery points equal to the slot's level.</p>
+					</text>
+				</id-00007>
 			</featurelist>
 			<gender type="string">Male</gender>
 			<height type="string">5' 4&#34;</height>
@@ -514,7 +556,7 @@
 				<deathsavefail type="number">0</deathsavefail>
 				<deathsavesuccess type="number">0</deathsavesuccess>
 				<temporary type="number">0</temporary>
-				<total type="number">9</total>
+				<total type="number">16</total>
 				<wounds type="number">0</wounds>
 			</hp>
 			<initiative>
@@ -584,7 +626,7 @@
 					<name type="string">Elvish</name>
 				</id-00002>
 			</languagelist>
-			<level type="number">1</level>
+			<level type="number">2</level>
 			<name type="string">Bazin del'Armgo</name>
 			<perception type="number">13</perception>
 			<perceptionmodifier type="number">0</perceptionmodifier>
@@ -627,7 +669,7 @@
 					<max type="number">0</max>
 				</pactmagicslots9>
 				<spellslots1>
-					<max type="number">2</max>
+					<max type="number">3</max>
 				</spellslots1>
 				<spellslots2>
 					<max type="number">0</max>
@@ -1269,9 +1311,10 @@
 			<classes>
 				<id-00001>
 					<casterlevelinvmult type="number">1</casterlevelinvmult>
+					<casterpactmagic type="number">0</casterpactmagic>
 					<hddie type="dice">d6</hddie>
 					<hdused type="number">0</hdused>
-					<level type="number">1</level>
+					<level type="number">2</level>
 					<name type="string">Wizard</name>
 					<shortcut type="windowreference">
 						<class>reference_class</class>
@@ -1302,6 +1345,7 @@
 			<defenses>
 				<ac>
 					<armor type="number">0</armor>
+					<disstealth type="number">0</disstealth>
 					<misc type="number">0</misc>
 					<prof type="number">1</prof>
 					<shield type="number">0</shield>
@@ -1317,7 +1361,7 @@
 				<load type="number">2</load>
 				<max type="number">180</max>
 			</encumbrance>
-			<exp type="number">0</exp>
+			<exp type="number">300</exp>
 			<expneeded type="number">0</expneeded>
 			<featlist>
 			</featlist>
@@ -1382,13 +1426,51 @@
 						<p>For example, if you're a 4th-level wizard, you can recover up to two levels worth of spell slots. You can recover either a 2nd-level spell slot or two 1st-level spell slots.</p>
 					</text>
 				</id-00003>
+				<id-00004>
+					<level type="number">1</level>
+					<locked type="number">1</locked>
+					<name type="string">School of Evocation</name>
+					<source type="string">Wizard</source>
+					<text type="formattedtext">
+						<p>You focus your study on magic that creates powerful elemental effects such as bitter cold, searing flame, rolling thunder, crackling lightning, and burning acid. Some evokers find employment in military forces, serving as artillery to blast enemy armies from afar. Others use their spectacular power to protect the weak, while some seek their own gain as bandits, adventurers, or aspiring tyrants.</p>
+						<h>Features</h>
+						<linklist>
+							<link class="reference_classfeature" recordname="reference.classdata.wizard.features.evocationsavant2@DD PHB Deluxe">Evocation Savant</link>
+							<link class="reference_classfeature" recordname="reference.classdata.wizard.features.sculptspells2@DD PHB Deluxe">Sculpt Spells</link>
+							<link class="reference_classfeature" recordname="reference.classdata.wizard.features.potentcantrip6@DD PHB Deluxe">Potent Cantrip</link>
+							<link class="reference_classfeature" recordname="reference.classdata.wizard.features.empoweredevocation10@DD PHB Deluxe">Empowered Evocation</link>
+							<link class="reference_classfeature" recordname="reference.classdata.wizard.features.overchannel14@DD PHB Deluxe">Overchannel</link>
+						</linklist>
+					</text>
+				</id-00004>
+				<id-00005>
+					<level type="number">2</level>
+					<locked type="number">1</locked>
+					<name type="string">Sculpt Spells</name>
+					<source type="string">Wizard</source>
+					<specialization type="string">School of Evocation</specialization>
+					<text type="formattedtext">
+						<p>Beginning at 2nd level, you can create pockets of relative safety within the effects of your evocation spells. When you cast an evocation spell that affects other creatures that you can see, you can choose a number of them equal to 1 + the spell's level. The chosen creatures automatically succeed on their saving throws against the spell, and they take no damage if they would normally take half damage on a successful save.</p>
+					</text>
+				</id-00005>
+				<id-00006>
+					<level type="number">2</level>
+					<locked type="number">1</locked>
+					<name type="string">Evocation Savant</name>
+					<source type="string">Wizard</source>
+					<specialization type="string">School of Evocation</specialization>
+					<text type="formattedtext">
+						<p>Beginning when you select this school at 2nd level, the gold and time you must spend to copy an evocation spell into your spellbook is halved.</p>
+					</text>
+				</id-00006>
 			</featurelist>
 			<gender type="string">Male</gender>
 			<height type="string">6' 0&#34;</height>
 			<hp>
+				<hdmod type="number">0</hdmod>
 				<temporary type="number">0</temporary>
-				<total type="number">9</total>
-				<wounds type="number">3</wounds>
+				<total type="number">17</total>
+				<wounds type="number">0</wounds>
 			</hp>
 			<initiative>
 				<misc type="number">0</misc>
@@ -1449,7 +1531,7 @@
 					<name type="string">Elvish (Drow)</name>
 				</id-00005>
 			</languagelist>
-			<level type="number">1</level>
+			<level type="number">2</level>
 			<name type="string">Thaddeus D'arth</name>
 			<perception type="number">15</perception>
 			<perceptionmodifier type="number">0</perceptionmodifier>
@@ -1489,7 +1571,7 @@
 					<max type="number">0</max>
 				</pactmagicslots9>
 				<spellslots1>
-					<max type="number">2</max>
+					<max type="number">3</max>
 				</spellslots1>
 				<spellslots2>
 					<max type="number">0</max>
@@ -1831,9 +1913,10 @@
 			</backgroundlink>
 			<classes>
 				<id-00001>
+					<casterlevelinvmult type="number">2</casterlevelinvmult>
 					<hddie type="dice">d10</hddie>
 					<hdused type="number">0</hdused>
-					<level type="number">1</level>
+					<level type="number">2</level>
 					<name type="string">Paladin</name>
 					<shortcut type="windowreference">
 						<class>reference_class</class>
@@ -1880,7 +1963,7 @@
 				<load type="number">33.5</load>
 				<max type="number">210</max>
 			</encumbrance>
-			<exp type="number">0</exp>
+			<exp type="number">300</exp>
 			<expneeded type="number">0</expneeded>
 			<featlist>
 			</featlist>
@@ -1915,6 +1998,53 @@
 						<p>This feature has no effect on undead and constructs.</p>
 					</text>
 				</id-00003>
+				<id-00004>
+					<level type="number">2</level>
+					<locked type="number">1</locked>
+					<name type="string">Fighting Style</name>
+					<source type="string">Paladin</source>
+					<text type="formattedtext">
+						<p>At 2nd level, you adopt a style of fighting as your specialty. Choose one of the following options. You can't take a Fighting Style option more than once, even if you later get to choose again.</p>
+						<p><b>Defense</b></p>
+						<p>While you are wearing armor, you gain a +1 bonus to AC.</p>
+						<p><b>Dueling</b></p>
+						<p>When you are wielding a melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with that weapon.</p>
+						<p><b>Great Weapon Fighting</b></p>
+						<p>When you roll a 1 or 2 on a damage die for an attack you make with a melee weapon that you are wielding with two hands, you can reroll the die and must use the new roll. The weapon must have the two-handed or versatile property for you to gain this benefit.</p>
+						<p><b>Protection</b></p>
+						<p>When a creature you can see attacks a target other than you that is within 5 feet of you, you can use your reaction to impose disadvantage on the attack roll. You must be wielding a shield.</p>
+					</text>
+				</id-00004>
+				<id-00005>
+					<level type="number">2</level>
+					<locked type="number">1</locked>
+					<name type="string">Divine Smite</name>
+					<source type="string">Paladin</source>
+					<text type="formattedtext">
+						<p>Starting at 2nd level, when you hit a creature with a melee weapon attack, you can expend one spell slot to deal radiant damage to the target, in addition to the weapon's damage. The extra damage is 2d8 for a 1st-level spell slot, plus 1d8 for each spell level higher than 1st, to a maximum of 5d8. The damage increases by 1d8 if the target is an undead or a fiend.</p>
+					</text>
+				</id-00005>
+				<id-00006>
+					<level type="number">2</level>
+					<locked type="number">1</locked>
+					<name type="string">Spellcasting</name>
+					<source type="string">Paladin</source>
+					<text type="formattedtext">
+						<p>By 2nd level, you have learned to draw on divine magic through meditation and prayer to cast spells as a cleric does. See chapter 10 for the general rules of spellcasting and chapter 11 for the paladin spell list.</p>
+						<linklist>
+							<link class="reference_colindex" recordname="reference.spelllists.paladin@DD PHB Deluxe">Paladin Spells</link>
+						</linklist>
+						<p><b>Preparing and Casting Spells</b></p>
+						<p>The Paladin table shows how many spell slots you have to cast your spells. To cast one of your paladin spells of 1st level or higher, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.</p>
+						<p>You prepare the list of paladin spells that are available for you to cast, choosing from the paladin spell list. When you do so, choose a number of paladin spells equal to your Charisma modifier + half your paladin level, rounded down (minimum of one spell). The spells must be of a level for which you have spell slots. For example, if you are a 5th-level paladin, you have four 1st-level and two 2nd-level spell slots. With a Charisma of 14, your list of prepared spells can include four spells of 1st or 2nd level, in any combination. If you prepare the 1st-level spell cure wounds, you can cast it using a 1st-level or a 2nd-level slot. Casting the spell doesn't remove it from your list of prepared spells. You can change your list of prepared spells when you finish a long rest. Preparing a new list of paladin spells requires time spent in prayer and meditation: at least 1 minute per spell level for each spell on your list.</p>
+						<p><b>Spellcasting Ability</b></p>
+						<p>Charisma is your spellcasting ability for your paladin spells, since their power derives from the strength of your convictions. You use your Charisma whenever a spell refers to your spellcasting ability. In addition, you use your Charisma modifier when setting the saving throw DC for a paladin spell you cast and when making an attack roll with one.</p>
+						<p><b>Spell save DC </b>= 8 + your proficiency bonus + your Charisma modifier</p>
+						<p><b>Spell attack modifier </b>= your proficiency bonus + your Charisma modifier</p>
+						<p><b>Spellcasting Focus</b></p>
+						<p>You can use a holy symbol (found in chapter 5) as a spellcasting focus for your paladin spells.</p>
+					</text>
+				</id-00006>
 			</featurelist>
 			<gender type="string">Female</gender>
 			<height type="string">5' 6&#34;</height>
@@ -1922,7 +2052,7 @@
 				<deathsavefail type="number">0</deathsavefail>
 				<deathsavesuccess type="number">0</deathsavesuccess>
 				<temporary type="number">0</temporary>
-				<total type="number">11</total>
+				<total type="number">18</total>
 				<wounds type="number">0</wounds>
 			</hp>
 			<initiative>
@@ -2061,64 +2191,94 @@
 					<name type="string">Choice</name>
 				</id-00002>
 			</languagelist>
-			<level type="number">1</level>
+			<level type="number">2</level>
 			<name type="string">Glenys Weaton</name>
 			<perception type="number">11</perception>
 			<perceptionmodifier type="number">0</perceptionmodifier>
+			<powergroup>
+				<id-00001>
+					<atkmod type="number">0</atkmod>
+					<atkprof type="number">1</atkprof>
+					<castertype type="string">memorization</castertype>
+					<name type="string">Spells</name>
+					<prepared type="number">0</prepared>
+					<saveprof type="number">1</saveprof>
+					<stat type="string">charisma</stat>
+					<uses type="number">0</uses>
+				</id-00001>
+			</powergroup>
 			<powermeta>
 				<pactmagicslots1>
 					<max type="number">0</max>
+					<used type="number">0</used>
 				</pactmagicslots1>
 				<pactmagicslots2>
 					<max type="number">0</max>
+					<used type="number">0</used>
 				</pactmagicslots2>
 				<pactmagicslots3>
 					<max type="number">0</max>
+					<used type="number">0</used>
 				</pactmagicslots3>
 				<pactmagicslots4>
 					<max type="number">0</max>
+					<used type="number">0</used>
 				</pactmagicslots4>
 				<pactmagicslots5>
 					<max type="number">0</max>
+					<used type="number">0</used>
 				</pactmagicslots5>
 				<pactmagicslots6>
 					<max type="number">0</max>
+					<used type="number">0</used>
 				</pactmagicslots6>
 				<pactmagicslots7>
 					<max type="number">0</max>
+					<used type="number">0</used>
 				</pactmagicslots7>
 				<pactmagicslots8>
 					<max type="number">0</max>
+					<used type="number">0</used>
 				</pactmagicslots8>
 				<pactmagicslots9>
 					<max type="number">0</max>
+					<used type="number">0</used>
 				</pactmagicslots9>
 				<spellslots1>
-					<max type="number">0</max>
+					<max type="number">2</max>
+					<used type="number">0</used>
 				</spellslots1>
 				<spellslots2>
 					<max type="number">0</max>
+					<used type="number">0</used>
 				</spellslots2>
 				<spellslots3>
 					<max type="number">0</max>
+					<used type="number">0</used>
 				</spellslots3>
 				<spellslots4>
 					<max type="number">0</max>
+					<used type="number">0</used>
 				</spellslots4>
 				<spellslots5>
 					<max type="number">0</max>
+					<used type="number">0</used>
 				</spellslots5>
 				<spellslots6>
 					<max type="number">0</max>
+					<used type="number">0</used>
 				</spellslots6>
 				<spellslots7>
 					<max type="number">0</max>
+					<used type="number">0</used>
 				</spellslots7>
 				<spellslots8>
 					<max type="number">0</max>
+					<used type="number">0</used>
 				</spellslots8>
 				<spellslots9>
 					<max type="number">0</max>
+					<used type="number">0</used>
 				</spellslots9>
 			</powermeta>
 			<powers>
@@ -2406,7 +2566,7 @@
 					<casterpactmagic type="number">0</casterpactmagic>
 					<hddie type="dice">d8</hddie>
 					<hdused type="number">0</hdused>
-					<level type="number">1</level>
+					<level type="number">2</level>
 					<name type="string">Cleric</name>
 					<shortcut type="windowreference">
 						<class>reference_class</class>
@@ -2453,7 +2613,7 @@
 				<load type="number">46</load>
 				<max type="number">255</max>
 			</encumbrance>
-			<exp type="number">0</exp>
+			<exp type="number">300</exp>
 			<expneeded type="number">0</expneeded>
 			<featlist>
 			</featlist>
@@ -2548,6 +2708,31 @@
 						<p>At 1st level, you gain proficiency with martial weapons and heavy armor.</p>
 					</text>
 				</id-00005>
+				<id-00006>
+					<level type="number">2</level>
+					<locked type="number">1</locked>
+					<name type="string">Channel Divinity</name>
+					<source type="string">Cleric</source>
+					<text type="formattedtext">
+						<p>At 2nd level, you gain the ability to channel divine energy directly from your deity, using that energy to fuel magical effects. You start with two such effects - Turn Undead and an effect determined by your domain. Some domains grant you additional effects as you advance in levels, as noted in the domain description.</p>
+						<p>When you use your Channel Divinity, you choose which effect to create. You must then finish a short or long rest to use your Channel Divinity again.</p>
+						<p>Some Channel Divinity effects require saving throws. When you use such an effect from this class, the DC equals your cleric spell save DC.</p>
+						<p>Beginning at 6th level, you can use your Channel Divinity twice between rests, and beginning at 18th level, you can use it three times between rests. When you finish a short or long rest, you regain your expended uses.</p>
+						<p><b>Channel Divinity: </b>Turn Undead</p>
+						<p>As an action, you present your holy symbol and speak a prayer censuring the undead. Each undead that can see or hear you within 30 feet of you must make a Wisdom saving throw. If the creature fails its saving throw, it is turned for 1 minute or until it takes any damage.</p>
+						<p>A turned creature must spend its turns trying to move as far away from you as it can, and it can't willingly move to a space within 30 feet of you. It also can't take reactions. For its action, it can use only the Dash action or try to escape from an effect that prevents it from moving. If there's nowhere to move, the creature can use the Dodge action.</p>
+					</text>
+				</id-00006>
+				<id-00007>
+					<level type="number">2</level>
+					<locked type="number">1</locked>
+					<name type="string">Channel Divinity: Guided Strike</name>
+					<source type="string">Cleric</source>
+					<specialization type="string">War Domain</specialization>
+					<text type="formattedtext">
+						<p>Starting at 2nd level, you can use your Channel Divinity to strike with supernatural accuracy. When you make an attack roll, you can use your Channel Divinity to gain a +10 bonus to the roll. You make this choice after you see the roll, but before the DM says whether the attack hits or misses.</p>
+					</text>
+				</id-00007>
 			</featurelist>
 			<flaws type="string">My hatred of my enemies is blind and unreasoning.</flaws>
 			<gender type="string">Male</gender>
@@ -2556,7 +2741,7 @@
 				<deathsavefail type="number">0</deathsavefail>
 				<deathsavesuccess type="number">0</deathsavesuccess>
 				<temporary type="number">0</temporary>
-				<total type="number">10</total>
+				<total type="number">17</total>
 				<wounds type="number">0</wounds>
 			</hp>
 			<ideals type="string">Responsibility. I do what I must and obey just authority. (Lawful)</ideals>
@@ -2701,7 +2886,7 @@
 					<name type="string">Dwarvish</name>
 				</id-00002>
 			</languagelist>
-			<level type="number">1</level>
+			<level type="number">2</level>
 			<name type="string">Ra'knar Berylforge</name>
 			<perception type="number">12</perception>
 			<perceptionmodifier type="number">0</perceptionmodifier>
@@ -2721,57 +2906,75 @@
 			<powermeta>
 				<pactmagicslots1>
 					<max type="number">0</max>
+					<used type="number">0</used>
 				</pactmagicslots1>
 				<pactmagicslots2>
 					<max type="number">0</max>
+					<used type="number">0</used>
 				</pactmagicslots2>
 				<pactmagicslots3>
 					<max type="number">0</max>
+					<used type="number">0</used>
 				</pactmagicslots3>
 				<pactmagicslots4>
 					<max type="number">0</max>
+					<used type="number">0</used>
 				</pactmagicslots4>
 				<pactmagicslots5>
 					<max type="number">0</max>
+					<used type="number">0</used>
 				</pactmagicslots5>
 				<pactmagicslots6>
 					<max type="number">0</max>
+					<used type="number">0</used>
 				</pactmagicslots6>
 				<pactmagicslots7>
 					<max type="number">0</max>
+					<used type="number">0</used>
 				</pactmagicslots7>
 				<pactmagicslots8>
 					<max type="number">0</max>
+					<used type="number">0</used>
 				</pactmagicslots8>
 				<pactmagicslots9>
 					<max type="number">0</max>
+					<used type="number">0</used>
 				</pactmagicslots9>
 				<spellslots1>
-					<max type="number">2</max>
+					<max type="number">3</max>
+					<used type="number">0</used>
 				</spellslots1>
 				<spellslots2>
 					<max type="number">0</max>
+					<used type="number">0</used>
 				</spellslots2>
 				<spellslots3>
 					<max type="number">0</max>
+					<used type="number">0</used>
 				</spellslots3>
 				<spellslots4>
 					<max type="number">0</max>
+					<used type="number">0</used>
 				</spellslots4>
 				<spellslots5>
 					<max type="number">0</max>
+					<used type="number">0</used>
 				</spellslots5>
 				<spellslots6>
 					<max type="number">0</max>
+					<used type="number">0</used>
 				</spellslots6>
 				<spellslots7>
 					<max type="number">0</max>
+					<used type="number">0</used>
 				</spellslots7>
 				<spellslots8>
 					<max type="number">0</max>
+					<used type="number">0</used>
 				</spellslots8>
 				<spellslots9>
 					<max type="number">0</max>
+					<used type="number">0</used>
 				</spellslots9>
 			</powermeta>
 			<powers>
@@ -3239,7 +3442,7 @@
 				<id-00001>
 					<hddie type="dice">d8</hddie>
 					<hdused type="number">0</hdused>
-					<level type="number">1</level>
+					<level type="number">2</level>
 					<name type="string">Rogue</name>
 					<shortcut type="windowreference">
 						<class>reference_class</class>
@@ -3285,7 +3488,7 @@
 				<load type="number">32.5</load>
 				<max type="number">150</max>
 			</encumbrance>
-			<exp type="number">0</exp>
+			<exp type="number">300</exp>
 			<expneeded type="number">0</expneeded>
 			<featlist>
 			</featlist>
@@ -3329,6 +3532,15 @@
 						<p>At 6th level, you can choose two more of your proficiencies (in skills or with thieves' tools) to gain this benefit.</p>
 					</text>
 				</id-00004>
+				<id-00005>
+					<level type="number">2</level>
+					<locked type="number">1</locked>
+					<name type="string">Cunning Action</name>
+					<source type="string">Rogue</source>
+					<text type="formattedtext">
+						<p>Starting at 2nd level, your quick thinking and agility allow you to move and act quickly. You can take a bonus action on each of your turns in combat. This action can be used only to take the Dash, Disengage, or Hide action.</p>
+					</text>
+				</id-00005>
 			</featurelist>
 			<flaws type="string">It's not stealing if I need it more than someone else.</flaws>
 			<gender type="string">Female</gender>
@@ -3337,7 +3549,7 @@
 				<deathsavefail type="number">0</deathsavefail>
 				<deathsavesuccess type="number">0</deathsavesuccess>
 				<temporary type="number">0</temporary>
-				<total type="number">9</total>
+				<total type="number">16</total>
 				<wounds type="number">0</wounds>
 			</hp>
 			<ideals type="string">Change. The low are lifted up, and the high and mighty are brought down. Change is the nature of things. (Chaotic)</ideals>
@@ -3482,7 +3694,7 @@
 					<name type="string">Choice</name>
 				</id-00003>
 			</languagelist>
-			<level type="number">1</level>
+			<level type="number">2</level>
 			<name type="string">Seraphina Vellar</name>
 			<perception type="number">13</perception>
 			<perceptionmodifier type="number">0</perceptionmodifier>
@@ -3490,57 +3702,75 @@
 			<powermeta>
 				<pactmagicslots1>
 					<max type="number">0</max>
+					<used type="number">0</used>
 				</pactmagicslots1>
 				<pactmagicslots2>
 					<max type="number">0</max>
+					<used type="number">0</used>
 				</pactmagicslots2>
 				<pactmagicslots3>
 					<max type="number">0</max>
+					<used type="number">0</used>
 				</pactmagicslots3>
 				<pactmagicslots4>
 					<max type="number">0</max>
+					<used type="number">0</used>
 				</pactmagicslots4>
 				<pactmagicslots5>
 					<max type="number">0</max>
+					<used type="number">0</used>
 				</pactmagicslots5>
 				<pactmagicslots6>
 					<max type="number">0</max>
+					<used type="number">0</used>
 				</pactmagicslots6>
 				<pactmagicslots7>
 					<max type="number">0</max>
+					<used type="number">0</used>
 				</pactmagicslots7>
 				<pactmagicslots8>
 					<max type="number">0</max>
+					<used type="number">0</used>
 				</pactmagicslots8>
 				<pactmagicslots9>
 					<max type="number">0</max>
+					<used type="number">0</used>
 				</pactmagicslots9>
 				<spellslots1>
 					<max type="number">0</max>
+					<used type="number">0</used>
 				</spellslots1>
 				<spellslots2>
 					<max type="number">0</max>
+					<used type="number">0</used>
 				</spellslots2>
 				<spellslots3>
 					<max type="number">0</max>
+					<used type="number">0</used>
 				</spellslots3>
 				<spellslots4>
 					<max type="number">0</max>
+					<used type="number">0</used>
 				</spellslots4>
 				<spellslots5>
 					<max type="number">0</max>
+					<used type="number">0</used>
 				</spellslots5>
 				<spellslots6>
 					<max type="number">0</max>
+					<used type="number">0</used>
 				</spellslots6>
 				<spellslots7>
 					<max type="number">0</max>
+					<used type="number">0</used>
 				</spellslots7>
 				<spellslots8>
 					<max type="number">0</max>
+					<used type="number">0</used>
 				</spellslots8>
 				<spellslots9>
 					<max type="number">0</max>
+					<used type="number">0</used>
 				</spellslots9>
 			</powermeta>
 			<powers>
@@ -3856,7 +4086,7 @@
 				</effects>
 				<friendfoe type="string">friend</friendfoe>
 				<hptemp type="number">0</hptemp>
-				<hptotal type="number">9</hptotal>
+				<hptotal type="number">16</hptotal>
 				<init type="number">2</init>
 				<initresult type="number">0</initresult>
 				<innatespells>
@@ -3933,7 +4163,7 @@
 				</effects>
 				<friendfoe type="string">friend</friendfoe>
 				<hptemp type="number">0</hptemp>
-				<hptotal type="number">11</hptotal>
+				<hptotal type="number">18</hptotal>
 				<init type="number">0</init>
 				<initresult type="number">0</initresult>
 				<innatespells>
@@ -4010,7 +4240,7 @@
 				</effects>
 				<friendfoe type="string">friend</friendfoe>
 				<hptemp type="number">0</hptemp>
-				<hptotal type="number">10</hptotal>
+				<hptotal type="number">17</hptotal>
 				<init type="number">0</init>
 				<initresult type="number">0</initresult>
 				<innatespells>
@@ -4087,7 +4317,7 @@
 				</effects>
 				<friendfoe type="string">friend</friendfoe>
 				<hptemp type="number">0</hptemp>
-				<hptotal type="number">9</hptotal>
+				<hptotal type="number">16</hptotal>
 				<init type="number">3</init>
 				<initresult type="number">0</initresult>
 				<innatespells>
@@ -4528,7 +4758,7 @@
 			<id-00002>
 				<public />
 				<cr type="string">4</cr>
-				<exp type="number">800</exp>
+				<exp type="number">1000</exp>
 				<locked type="number">1</locked>
 				<name type="string">Escaping Velkynvelve by Web</name>
 				<npclist>
@@ -4583,7 +4813,7 @@
 						<token type="token">tokens/campaign/giantspider.png@D&#38;D Out of the Abyss</token>
 					</id-00001>
 				</npclist>
-				<xpawarded type="number">0</xpawarded>
+				<xpawarded type="number">1</xpawarded>
 			</id-00002>
 		</encounters>
 		<hiderollresults type="number">1</hiderollresults>
@@ -4678,17 +4908,17 @@
 				<ac type="number">15</ac>
 				<chabonus type="number">3</chabonus>
 				<charisma type="number">16</charisma>
-				<classlevel type="string">Sorcerer 1</classlevel>
+				<classlevel type="string">Sorcerer 2</classlevel>
 				<conbonus type="number">2</conbonus>
 				<constitution type="number">14</constitution>
 				<dexbonus type="number">2</dexbonus>
 				<dexterity type="number">15</dexterity>
-				<exp type="number">0</exp>
+				<exp type="number">300</exp>
 				<expneeded type="number">0</expneeded>
-				<hd type="number">1</hd>
+				<hd type="number">2</hd>
 				<hdused type="number">0</hdused>
 				<hptemp type="number">0</hptemp>
-				<hptotal type="number">9</hptotal>
+				<hptotal type="number">16</hptotal>
 				<intbonus type="number">0</intbonus>
 				<intelligence type="number">11</intelligence>
 				<link type="windowreference">
@@ -4713,17 +4943,17 @@
 				<ac type="number">15</ac>
 				<chabonus type="number">1</chabonus>
 				<charisma type="number">13</charisma>
-				<classlevel type="string">Paladin 1</classlevel>
+				<classlevel type="string">Paladin 2</classlevel>
 				<conbonus type="number">1</conbonus>
 				<constitution type="number">12</constitution>
 				<dexbonus type="number">0</dexbonus>
 				<dexterity type="number">11</dexterity>
-				<exp type="number">0</exp>
+				<exp type="number">300</exp>
 				<expneeded type="number">0</expneeded>
-				<hd type="number">1</hd>
+				<hd type="number">2</hd>
 				<hdused type="number">0</hdused>
 				<hptemp type="number">0</hptemp>
-				<hptotal type="number">11</hptotal>
+				<hptotal type="number">18</hptotal>
 				<intbonus type="number">0</intbonus>
 				<intelligence type="number">10</intelligence>
 				<link type="windowreference">
@@ -4747,17 +4977,17 @@
 				<ac type="number">15</ac>
 				<chabonus type="number">1</chabonus>
 				<charisma type="number">13</charisma>
-				<classlevel type="string">Cleric 1</classlevel>
+				<classlevel type="string">Cleric 2</classlevel>
 				<conbonus type="number">2</conbonus>
 				<constitution type="number">15</constitution>
 				<dexbonus type="number">0</dexbonus>
 				<dexterity type="number">11</dexterity>
-				<exp type="number">0</exp>
+				<exp type="number">300</exp>
 				<expneeded type="number">0</expneeded>
-				<hd type="number">1</hd>
+				<hd type="number">2</hd>
 				<hdused type="number">0</hdused>
 				<hptemp type="number">0</hptemp>
-				<hptotal type="number">10</hptotal>
+				<hptotal type="number">17</hptotal>
 				<intbonus type="number">-1</intbonus>
 				<intelligence type="number">8</intelligence>
 				<link type="windowreference">
@@ -4782,17 +5012,17 @@
 				<ac type="number">15</ac>
 				<chabonus type="number">2</chabonus>
 				<charisma type="number">15</charisma>
-				<classlevel type="string">Rogue 1</classlevel>
+				<classlevel type="string">Rogue 2</classlevel>
 				<conbonus type="number">2</conbonus>
 				<constitution type="number">14</constitution>
 				<dexbonus type="number">3</dexbonus>
 				<dexterity type="number">16</dexterity>
-				<exp type="number">0</exp>
+				<exp type="number">300</exp>
 				<expneeded type="number">0</expneeded>
-				<hd type="number">1</hd>
+				<hd type="number">2</hd>
 				<hdused type="number">0</hdused>
 				<hptemp type="number">0</hptemp>
-				<hptotal type="number">9</hptotal>
+				<hptotal type="number">16</hptotal>
 				<intbonus type="number">2</intbonus>
 				<intelligence type="number">14</intelligence>
 				<link type="windowreference">
@@ -4817,17 +5047,17 @@
 				<ac type="number">12</ac>
 				<chabonus type="number">3</chabonus>
 				<charisma type="number">16</charisma>
-				<classlevel type="string">Wizard 1</classlevel>
+				<classlevel type="string">Wizard 2</classlevel>
 				<conbonus type="number">3</conbonus>
 				<constitution type="number">16</constitution>
 				<dexbonus type="number">2</dexbonus>
 				<dexterity type="number">15</dexterity>
-				<exp type="number">0</exp>
+				<exp type="number">300</exp>
 				<expneeded type="number">0</expneeded>
-				<hd type="number">1</hd>
+				<hd type="number">2</hd>
 				<hdused type="number">0</hdused>
 				<hptemp type="number">0</hptemp>
-				<hptotal type="number">9</hptotal>
+				<hptotal type="number">17</hptotal>
 				<intbonus type="number">4</intbonus>
 				<intelligence type="number">18</intelligence>
 				<link type="windowreference">
@@ -4845,7 +5075,7 @@
 				<watchid type="number">0</watchid>
 				<wisbonus type="number">3</wisbonus>
 				<wisdom type="number">16</wisdom>
-				<wounds type="number">3</wounds>
+				<wounds type="number">0</wounds>
 			</id-00005>
 		</partyinformation>
 		<quests>
@@ -4860,8 +5090,8 @@
 				</description>
 				<locked type="number">1</locked>
 				<name type="string">01.07 Leaving Velkynvelve</name>
-				<xp type="number">150</xp>
-				<xpawarded type="number">0</xpawarded>
+				<xp type="number">500</xp>
+				<xpawarded type="number">1</xpawarded>
 			</id-00005>
 		</quests>
 		<savedc type="number">0</savedc>

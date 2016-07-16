@@ -946,8 +946,11 @@
 					<source type="string">Eldritch Knight, Sorcerer, Wizard, Arcane Trickster</source>
 				</id-00006>
 				<id-00007>
+					<public />
 					<actions>
+						<public />
 						<id-00001>
+							<public />
 							<durmod type="number">1</durmod>
 							<label type="string">AC: 5</label>
 							<order type="number">1</order>
@@ -968,6 +971,7 @@
 					<name type="string">Shield</name>
 					<prepared type="number">0</prepared>
 					<range type="string">Self</range>
+					<ritual type="number">0</ritual>
 					<school type="string">Abjuration</school>
 					<source type="string">Eldritch Knight, Sorcerer, Wizard, Arcane Trickster</source>
 				</id-00007>
@@ -1358,7 +1362,7 @@
 				<encumbered type="number">60</encumbered>
 				<encumberedheavy type="number">120</encumberedheavy>
 				<liftpushdrag type="number">360</liftpushdrag>
-				<load type="number">2</load>
+				<load type="number">3</load>
 				<max type="number">180</max>
 			</encumbrance>
 			<exp type="number">300</exp>
@@ -1467,6 +1471,8 @@
 			<gender type="string">Male</gender>
 			<height type="string">6' 0&#34;</height>
 			<hp>
+				<deathsavefail type="number">0</deathsavefail>
+				<deathsavesuccess type="number">0</deathsavesuccess>
 				<hdmod type="number">0</hdmod>
 				<temporary type="number">0</temporary>
 				<total type="number">17</total>
@@ -1478,6 +1484,13 @@
 				<total type="number">2</total>
 			</initiative>
 			<inventorylist>
+				<id-00001>
+					<carried type="number">1</carried>
+					<count type="number">1</count>
+					<isidentified type="number">1</isidentified>
+					<name type="string">1 lb of Glenys Dust</name>
+					<weight type="number">1</weight>
+				</id-00001>
 				<id-00003>
 					<ac type="number">0</ac>
 					<bonus type="number">0</bonus>
@@ -2049,11 +2062,11 @@
 			<gender type="string">Female</gender>
 			<height type="string">5' 6&#34;</height>
 			<hp>
-				<deathsavefail type="number">0</deathsavefail>
+				<deathsavefail type="number">3</deathsavefail>
 				<deathsavesuccess type="number">0</deathsavesuccess>
 				<temporary type="number">0</temporary>
 				<total type="number">18</total>
-				<wounds type="number">0</wounds>
+				<wounds type="number">18</wounds>
 			</hp>
 			<initiative>
 				<misc type="number">0</misc>
@@ -4088,7 +4101,7 @@
 				<hptemp type="number">0</hptemp>
 				<hptotal type="number">16</hptotal>
 				<init type="number">2</init>
-				<initresult type="number">0</initresult>
+				<initresult type="number">18</initresult>
 				<innatespells>
 					<public />
 				</innatespells>
@@ -4122,83 +4135,6 @@
 				</traits>
 				<wounds type="number">0</wounds>
 			</id-00001>
-			<id-00002>
-				<public />
-				<abilities>
-					<public />
-					<charisma>
-						<public />
-						<score type="number">13</score>
-					</charisma>
-					<constitution>
-						<public />
-						<score type="number">12</score>
-					</constitution>
-					<dexterity>
-						<public />
-						<score type="number">11</score>
-					</dexterity>
-					<intelligence>
-						<public />
-						<score type="number">10</score>
-					</intelligence>
-					<strength>
-						<public />
-						<score type="number">14</score>
-					</strength>
-					<wisdom>
-						<public />
-						<score type="number">12</score>
-					</wisdom>
-				</abilities>
-				<ac type="number">15</ac>
-				<actions>
-					<public />
-				</actions>
-				<active type="number">0</active>
-				<deathsavefail type="number">0</deathsavefail>
-				<deathsavesuccess type="number">0</deathsavesuccess>
-				<effects>
-					<public />
-				</effects>
-				<friendfoe type="string">friend</friendfoe>
-				<hptemp type="number">0</hptemp>
-				<hptotal type="number">18</hptotal>
-				<init type="number">0</init>
-				<initresult type="number">0</initresult>
-				<innatespells>
-					<public />
-				</innatespells>
-				<legendaryactions>
-					<public />
-				</legendaryactions>
-				<link type="windowreference">
-					<class>charsheet</class>
-					<recordname>charsheet.id-00005</recordname>
-				</link>
-				<name type="string">Glenys Weaton</name>
-				<reach type="number">5</reach>
-				<reaction type="number">0</reaction>
-				<reactions>
-					<public />
-				</reactions>
-				<space type="number">5</space>
-				<speed type="string">30</speed>
-				<spells>
-					<public />
-				</spells>
-				<status type="string">Healthy</status>
-				<targets>
-					<public />
-				</targets>
-				<token type="token">portrait_id-00005_token</token>
-				<tokenscale type="number">1</tokenscale>
-				<tokenvis type="number">0</tokenvis>
-				<traits>
-					<public />
-				</traits>
-				<wounds type="number">0</wounds>
-			</id-00002>
 			<id-00003>
 				<public />
 				<abilities>
@@ -4242,7 +4178,7 @@
 				<hptemp type="number">0</hptemp>
 				<hptotal type="number">17</hptotal>
 				<init type="number">0</init>
-				<initresult type="number">0</initresult>
+				<initresult type="number">17</initresult>
 				<innatespells>
 					<public />
 				</innatespells>
@@ -4309,7 +4245,7 @@
 				<actions>
 					<public />
 				</actions>
-				<active type="number">0</active>
+				<active type="number">1</active>
 				<deathsavefail type="number">0</deathsavefail>
 				<deathsavesuccess type="number">0</deathsavesuccess>
 				<effects>
@@ -4319,7 +4255,7 @@
 				<hptemp type="number">0</hptemp>
 				<hptotal type="number">16</hptotal>
 				<init type="number">3</init>
-				<initresult type="number">0</initresult>
+				<initresult type="number">19</initresult>
 				<innatespells>
 					<public />
 				</innatespells>
@@ -4430,7 +4366,7 @@
 				<hptemp type="number">0</hptemp>
 				<hptotal type="number">48</hptotal>
 				<init type="number">2</init>
-				<initresult type="number">19</initresult>
+				<initresult type="number">20</initresult>
 				<innatespells>
 					<public />
 					<id-00001>
@@ -4481,7 +4417,10 @@
 				<spells>
 					<public />
 				</spells>
-				<status type="string">Healthy</status>
+				<status type="string">Wounded</status>
+				<targets>
+					<public />
+				</targets>
 				<text type="formattedtext">
 					<h>Jimjar</h>
 					<linklist>
@@ -4537,11 +4476,88 @@
 					</id-00005>
 				</traits>
 				<type type="string">humanoid (gnome)</type>
-				<wounds type="number">0</wounds>
+				<wounds type="number">7</wounds>
 				<xp type="number">200</xp>
 			</id-00005>
+			<id-00009>
+				<public />
+				<abilities>
+					<public />
+					<charisma>
+						<public />
+						<score type="number">16</score>
+					</charisma>
+					<constitution>
+						<public />
+						<score type="number">16</score>
+					</constitution>
+					<dexterity>
+						<public />
+						<score type="number">15</score>
+					</dexterity>
+					<intelligence>
+						<public />
+						<score type="number">18</score>
+					</intelligence>
+					<strength>
+						<public />
+						<score type="number">12</score>
+					</strength>
+					<wisdom>
+						<public />
+						<score type="number">16</score>
+					</wisdom>
+				</abilities>
+				<ac type="number">12</ac>
+				<actions>
+					<public />
+				</actions>
+				<active type="number">0</active>
+				<deathsavefail type="number">0</deathsavefail>
+				<deathsavesuccess type="number">0</deathsavesuccess>
+				<effects>
+					<public />
+				</effects>
+				<friendfoe type="string">friend</friendfoe>
+				<hptemp type="number">0</hptemp>
+				<hptotal type="number">17</hptotal>
+				<init type="number">2</init>
+				<initresult type="number">17</initresult>
+				<innatespells>
+					<public />
+				</innatespells>
+				<legendaryactions>
+					<public />
+				</legendaryactions>
+				<link type="windowreference">
+					<class>charsheet</class>
+					<recordname>charsheet.id-00002</recordname>
+				</link>
+				<name type="string">Thaddeus D'arth</name>
+				<reach type="number">5</reach>
+				<reaction type="number">0</reaction>
+				<reactions>
+					<public />
+				</reactions>
+				<space type="number">5</space>
+				<speed type="string">30</speed>
+				<spells>
+					<public />
+				</spells>
+				<status type="string">Healthy</status>
+				<targets>
+					<public />
+				</targets>
+				<token type="token">portrait_id-00002_token</token>
+				<tokenscale type="number">1</tokenscale>
+				<tokenvis type="number">0</tokenvis>
+				<traits>
+					<public />
+				</traits>
+				<wounds type="number">0</wounds>
+			</id-00009>
 		</list>
-		<round type="number">0</round>
+		<round type="number">3</round>
 	</combattracker>
 	<effects>
 		<public />
@@ -4938,40 +4954,6 @@
 				<wisdom type="number">13</wisdom>
 				<wounds type="number">0</wounds>
 			</id-00001>
-			<id-00002>
-				<public />
-				<ac type="number">15</ac>
-				<chabonus type="number">1</chabonus>
-				<charisma type="number">13</charisma>
-				<classlevel type="string">Paladin 2</classlevel>
-				<conbonus type="number">1</conbonus>
-				<constitution type="number">12</constitution>
-				<dexbonus type="number">0</dexbonus>
-				<dexterity type="number">11</dexterity>
-				<exp type="number">300</exp>
-				<expneeded type="number">0</expneeded>
-				<hd type="number">2</hd>
-				<hdused type="number">0</hdused>
-				<hptemp type="number">0</hptemp>
-				<hptotal type="number">18</hptotal>
-				<intbonus type="number">0</intbonus>
-				<intelligence type="number">10</intelligence>
-				<link type="windowreference">
-					<class>charsheet</class>
-					<recordname>charsheet.id-00005</recordname>
-				</link>
-				<name type="string">Glenys Weaton</name>
-				<perception type="number">11</perception>
-				<race type="string">Human</race>
-				<strbonus type="number">2</strbonus>
-				<strength type="number">14</strength>
-				<token type="token">portrait_id-00005_token</token>
-				<tokenscale type="number">1</tokenscale>
-				<watchid type="number">0</watchid>
-				<wisbonus type="number">1</wisbonus>
-				<wisdom type="number">12</wisdom>
-				<wounds type="number">0</wounds>
-			</id-00002>
 			<id-00003>
 				<public />
 				<ac type="number">15</ac>

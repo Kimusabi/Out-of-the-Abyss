@@ -11,6 +11,9 @@
 		<category name="02. Chapter 2: Into Darkness" mergeid="" baseicon="2" decalicon="1">
 		</category>
 		<category name="03. Chapter 3: The Darklake" mergeid="" baseicon="2" decalicon="1">
+			<id-00122>
+				<locked type="number">0</locked>
+			</id-00122>
 			<id-00131>
 				<locked type="number">0</locked>
 			</id-00131>

@@ -53,33 +53,6 @@
 					</id-00001>
 				</npclist>
 			</id-00001>
-			<id-00002>
-				<cr type="string">5</cr>
-				<exp type="number">1800</exp>
-				<locked type="number">1</locked>
-				<name type="string">Darklake Encounter</name>
-				<npclist>
-					<id-00001>
-						<count type="number">1</count>
-						<link type="windowreference">
-							<class>npc</class>
-							<recordname>npc.id-00176@D&#38;D Out of the Abyss</recordname>
-						</link>
-						<maplink>
-							<id-00001>
-								<imageref type="windowreference">
-									<class></class>
-									<recordname></recordname>
-								</imageref>
-								<imagex type="number">0</imagex>
-								<imagey type="number">0</imagey>
-							</id-00001>
-						</maplink>
-						<name type="string">Aquatic Troll</name>
-						<token type="token">tokens/campaign/troll.png@D&#38;D Out of the Abyss</token>
-					</id-00001>
-				</npclist>
-			</id-00002>
 		</category>
 		<category name="Out of the Abyss - Story Encounters" mergeid="" baseicon="2" decalicon="1">
 		</category>
@@ -351,10 +324,9 @@
 			<classes>
 				<id-00001>
 					<casterlevelinvmult type="number">1</casterlevelinvmult>
-					<casterpactmagic type="number">0</casterpactmagic>
 					<hddie type="dice">d6</hddie>
 					<hdused type="number">0</hdused>
-					<level type="number">3</level>
+					<level type="number">2</level>
 					<name type="string">Sorcerer</name>
 					<shortcut type="windowreference">
 						<class>reference_class</class>
@@ -400,7 +372,7 @@
 				<load type="number">4.5</load>
 				<max type="number">90</max>
 			</encumbrance>
-			<exp type="number">1300</exp>
+			<exp type="number">300</exp>
 			<expneeded type="number">0</expneeded>
 			<featlist>
 			</featlist>
@@ -577,34 +549,6 @@
 						<p>Converting a Spell Slot to Sorcery Points. As a bonus action on your turn, you can expend one spell slot and gain a number of sorcery points equal to the slot's level.</p>
 					</text>
 				</id-00007>
-				<id-00008>
-					<level type="number">3</level>
-					<locked type="number">1</locked>
-					<name type="string">Metamagic</name>
-					<source type="string">Sorcerer</source>
-					<text type="formattedtext">
-						<p>At 3rd level, you gain the ability to twist your spells to suit your needs. You gain two of the following Metamagic options of your choice. You gain another one at 10th and 17th level.</p>
-						<p>You can use only one Metamagic option on a spell when you cast it, unless otherwise noted.</p>
-						<p><b>Careful Spell</b></p>
-						<p>When you cast a spell that forces other creatures to make a saving throw, you can protect some of those creatures from the spell's full force. To do so, you spend 1 sorcery point and choose a number of those creatures up to your Charisma modifier (minimum of one creature). A chosen creature automatically succeeds on its saving throw against the spell.</p>
-						<p><b>Distant Spell</b></p>
-						<p>When you cast a spell that has a range of 5 feet or greater, you can spend 1 sorcery point to double the range of the spell.</p>
-						<p>When you cast a spell that has a range of touch, you can spend 1 sorcery point to make the range of the spell 30 feet.</p>
-						<p><b>Empowered Spell</b></p>
-						<p>When you roll damage for a spell, you can spend 1 sorcery point to reroll a number of the damage dice up to your Charisma modifier (minimum of one). You must use the new rolls.</p>
-						<p>You can use Empowered Spell even if you have already used a different Metamagic option during the casting of the spell.</p>
-						<p><b>Extended Spell</b></p>
-						<p>When you cast a spell that has a duration of 1 minute or longer, you can spend 1 sorcery point to double its duration, to a maximum duration of 24 hours.</p>
-						<p><b>Heightened Spell</b></p>
-						<p>When you cast a spell that forces a creature to make a saving throw to resist its effects, you can spend 3 sorcery points to give one target of the spell disadvantage on its first saving throw made against the spell.</p>
-						<p><b>Quickened Spell</b></p>
-						<p>When you cast a spell that has a casting time of 1 action, you can spend 2 sorcery points to change the casting time to 1 bonus action for this casting.</p>
-						<p><b>Subtle Spell</b></p>
-						<p>When you cast a spell, you can spend 1 sorcery point to cast it without any somatic or verbal components.</p>
-						<p><b>Twinned Spell</b></p>
-						<p>When you cast a spell that targets only one creature and doesn't have a range of self, you can spend a number of sorcery points equal to the spell's level to target a second creature in range with the same spell (1 sorcery point if the spell is a cantrip). To be eligible for Twinned Spell, a spell must be incapable of targeting more than one creature at the spell's current level.</p>
-					</text>
-				</id-00008>
 			</featurelist>
 			<gender type="string">Male</gender>
 			<height type="string">5' 4&#34;</height>
@@ -612,7 +556,7 @@
 				<deathsavefail type="number">0</deathsavefail>
 				<deathsavesuccess type="number">0</deathsavesuccess>
 				<temporary type="number">0</temporary>
-				<total type="number">23</total>
+				<total type="number">16</total>
 				<wounds type="number">0</wounds>
 			</hp>
 			<initiative>
@@ -682,7 +626,7 @@
 					<name type="string">Elvish</name>
 				</id-00002>
 			</languagelist>
-			<level type="number">3</level>
+			<level type="number">2</level>
 			<name type="string">Bazin del'Armgo</name>
 			<perception type="number">13</perception>
 			<perceptionmodifier type="number">0</perceptionmodifier>
@@ -725,10 +669,10 @@
 					<max type="number">0</max>
 				</pactmagicslots9>
 				<spellslots1>
-					<max type="number">4</max>
+					<max type="number">3</max>
 				</spellslots1>
 				<spellslots2>
-					<max type="number">2</max>
+					<max type="number">0</max>
 				</spellslots2>
 				<spellslots3>
 					<max type="number">0</max>
@@ -1373,8 +1317,8 @@
 					<casterlevelinvmult type="number">1</casterlevelinvmult>
 					<casterpactmagic type="number">0</casterpactmagic>
 					<hddie type="dice">d6</hddie>
-					<hdused type="number">2</hdused>
-					<level type="number">3</level>
+					<hdused type="number">0</hdused>
+					<level type="number">2</level>
 					<name type="string">Wizard</name>
 					<shortcut type="windowreference">
 						<class>reference_class</class>
@@ -1421,7 +1365,7 @@
 				<load type="number">3</load>
 				<max type="number">180</max>
 			</encumbrance>
-			<exp type="number">1300</exp>
+			<exp type="number">300</exp>
 			<expneeded type="number">0</expneeded>
 			<featlist>
 			</featlist>
@@ -1531,7 +1475,7 @@
 				<deathsavesuccess type="number">0</deathsavesuccess>
 				<hdmod type="number">0</hdmod>
 				<temporary type="number">0</temporary>
-				<total type="number">24</total>
+				<total type="number">17</total>
 				<wounds type="number">0</wounds>
 			</hp>
 			<initiative>
@@ -1600,7 +1544,7 @@
 					<name type="string">Elvish (Drow)</name>
 				</id-00005>
 			</languagelist>
-			<level type="number">3</level>
+			<level type="number">2</level>
 			<name type="string">Thaddeus D'arth</name>
 			<perception type="number">15</perception>
 			<perceptionmodifier type="number">0</perceptionmodifier>
@@ -1640,10 +1584,10 @@
 					<max type="number">0</max>
 				</pactmagicslots9>
 				<spellslots1>
-					<max type="number">4</max>
+					<max type="number">3</max>
 				</spellslots1>
 				<spellslots2>
-					<max type="number">2</max>
+					<max type="number">0</max>
 				</spellslots2>
 				<spellslots3>
 					<max type="number">0</max>
@@ -2634,8 +2578,8 @@
 					<casterlevelinvmult type="number">1</casterlevelinvmult>
 					<casterpactmagic type="number">0</casterpactmagic>
 					<hddie type="dice">d8</hddie>
-					<hdused type="number">2</hdused>
-					<level type="number">3</level>
+					<hdused type="number">0</hdused>
+					<level type="number">2</level>
 					<name type="string">Cleric</name>
 					<shortcut type="windowreference">
 						<class>reference_class</class>
@@ -2682,7 +2626,7 @@
 				<load type="number">46</load>
 				<max type="number">255</max>
 			</encumbrance>
-			<exp type="number">1300</exp>
+			<exp type="number">300</exp>
 			<expneeded type="number">0</expneeded>
 			<featlist>
 			</featlist>
@@ -2810,7 +2754,7 @@
 				<deathsavefail type="number">0</deathsavefail>
 				<deathsavesuccess type="number">0</deathsavesuccess>
 				<temporary type="number">0</temporary>
-				<total type="number">24</total>
+				<total type="number">17</total>
 				<wounds type="number">0</wounds>
 			</hp>
 			<ideals type="string">Responsibility. I do what I must and obey just authority. (Lawful)</ideals>
@@ -2955,7 +2899,7 @@
 					<name type="string">Dwarvish</name>
 				</id-00002>
 			</languagelist>
-			<level type="number">3</level>
+			<level type="number">2</level>
 			<name type="string">Ra'knar Berylforge</name>
 			<perception type="number">12</perception>
 			<perceptionmodifier type="number">0</perceptionmodifier>
@@ -3010,11 +2954,11 @@
 					<used type="number">0</used>
 				</pactmagicslots9>
 				<spellslots1>
-					<max type="number">4</max>
+					<max type="number">3</max>
 					<used type="number">0</used>
 				</spellslots1>
 				<spellslots2>
-					<max type="number">2</max>
+					<max type="number">0</max>
 					<used type="number">0</used>
 				</spellslots2>
 				<spellslots3>
@@ -3098,7 +3042,6 @@
 					<name type="string">Sacred Flame</name>
 					<prepared type="number">0</prepared>
 					<range type="string">60 feet</range>
-					<ritual type="number">0</ritual>
 					<school type="string">Evocation</school>
 					<source type="string">Cleric</source>
 				</id-00002>
@@ -3511,8 +3454,8 @@
 			<classes>
 				<id-00001>
 					<hddie type="dice">d8</hddie>
-					<hdused type="number">1</hdused>
-					<level type="number">3</level>
+					<hdused type="number">0</hdused>
+					<level type="number">2</level>
 					<name type="string">Rogue</name>
 					<shortcut type="windowreference">
 						<class>reference_class</class>
@@ -3558,7 +3501,7 @@
 				<load type="number">32.5</load>
 				<max type="number">150</max>
 			</encumbrance>
-			<exp type="number">1300</exp>
+			<exp type="number">300</exp>
 			<expneeded type="number">0</expneeded>
 			<featlist>
 			</featlist>
@@ -3619,8 +3562,8 @@
 				<deathsavefail type="number">0</deathsavefail>
 				<deathsavesuccess type="number">0</deathsavesuccess>
 				<temporary type="number">0</temporary>
-				<total type="number">23</total>
-				<wounds type="number">7</wounds>
+				<total type="number">16</total>
+				<wounds type="number">0</wounds>
 			</hp>
 			<ideals type="string">Change. The low are lifted up, and the high and mighty are brought down. Change is the nature of things. (Chaotic)</ideals>
 			<initiative>
@@ -3764,7 +3707,7 @@
 					<name type="string">Choice</name>
 				</id-00003>
 			</languagelist>
-			<level type="number">3</level>
+			<level type="number">2</level>
 			<name type="string">Seraphina Vellar</name>
 			<perception type="number">13</perception>
 			<perceptionmodifier type="number">0</perceptionmodifier>
@@ -4025,7 +3968,6 @@
 			</traitlist>
 			<weaponlist>
 				<id-00001>
-					<ammo type="number">1</ammo>
 					<attackbonus type="number">0</attackbonus>
 					<damagelist>
 						<id-00001>
@@ -4157,9 +4099,9 @@
 				</effects>
 				<friendfoe type="string">friend</friendfoe>
 				<hptemp type="number">0</hptemp>
-				<hptotal type="number">23</hptotal>
+				<hptotal type="number">16</hptotal>
 				<init type="number">2</init>
-				<initresult type="number">12</initresult>
+				<initresult type="number">18</initresult>
 				<innatespells>
 					<public />
 				</innatespells>
@@ -4187,7 +4129,7 @@
 				</targets>
 				<token type="token">portrait_id-00001_token</token>
 				<tokenscale type="number">1</tokenscale>
-				<tokenvis type="number">1</tokenvis>
+				<tokenvis type="number">0</tokenvis>
 				<traits>
 					<public />
 				</traits>
@@ -4234,9 +4176,9 @@
 				</effects>
 				<friendfoe type="string">friend</friendfoe>
 				<hptemp type="number">0</hptemp>
-				<hptotal type="number">24</hptotal>
+				<hptotal type="number">17</hptotal>
 				<init type="number">0</init>
-				<initresult type="number">4</initresult>
+				<initresult type="number">17</initresult>
 				<innatespells>
 					<public />
 				</innatespells>
@@ -4264,7 +4206,7 @@
 				</targets>
 				<token type="token">portrait_id-00006_token</token>
 				<tokenscale type="number">1</tokenscale>
-				<tokenvis type="number">1</tokenvis>
+				<tokenvis type="number">0</tokenvis>
 				<traits>
 					<public />
 				</traits>
@@ -4303,7 +4245,7 @@
 				<actions>
 					<public />
 				</actions>
-				<active type="number">0</active>
+				<active type="number">1</active>
 				<deathsavefail type="number">0</deathsavefail>
 				<deathsavesuccess type="number">0</deathsavesuccess>
 				<effects>
@@ -4311,9 +4253,9 @@
 				</effects>
 				<friendfoe type="string">friend</friendfoe>
 				<hptemp type="number">0</hptemp>
-				<hptotal type="number">23</hptotal>
+				<hptotal type="number">16</hptotal>
 				<init type="number">3</init>
-				<initresult type="number">9</initresult>
+				<initresult type="number">19</initresult>
 				<innatespells>
 					<public />
 				</innatespells>
@@ -4335,17 +4277,17 @@
 				<spells>
 					<public />
 				</spells>
-				<status type="string">Wounded</status>
+				<status type="string">Healthy</status>
 				<targets>
 					<public />
 				</targets>
 				<token type="token">portrait_id-00008_token</token>
 				<tokenscale type="number">1</tokenscale>
-				<tokenvis type="number">1</tokenvis>
+				<tokenvis type="number">0</tokenvis>
 				<traits>
 					<public />
 				</traits>
-				<wounds type="number">7</wounds>
+				<wounds type="number">0</wounds>
 			</id-00004>
 			<id-00005>
 				<public />
@@ -4410,7 +4352,7 @@
 						<value type="string">Poisoned bolt [R] [ATK: +4] [DMG: 1d6+2 piercing] [SAVEVS: constitution 12] [EFF: Poisoned (D:1 MIN)]</value>
 					</id-00004>
 				</actions>
-				<active type="number">1</active>
+				<active type="number">0</active>
 				<alignment type="string">any alignment</alignment>
 				<cr type="string">1</cr>
 				<deathsavefail type="number">0</deathsavefail>
@@ -4475,7 +4417,7 @@
 				<spells>
 					<public />
 				</spells>
-				<status type="string">Healthy</status>
+				<status type="string">Wounded</status>
 				<targets>
 					<public />
 				</targets>
@@ -4499,7 +4441,7 @@
 				</text>
 				<token type="token">tokens/campaign/Jimjar.png@D&#38;D Out of the Abyss</token>
 				<tokenscale type="number">1</tokenscale>
-				<tokenvis type="number">1</tokenvis>
+				<tokenvis type="number">0</tokenvis>
 				<traits>
 					<public />
 					<id-00001>
@@ -4534,7 +4476,7 @@
 					</id-00005>
 				</traits>
 				<type type="string">humanoid (gnome)</type>
-				<wounds type="number">0</wounds>
+				<wounds type="number">7</wounds>
 				<xp type="number">200</xp>
 			</id-00005>
 			<id-00009>
@@ -4578,9 +4520,9 @@
 				</effects>
 				<friendfoe type="string">friend</friendfoe>
 				<hptemp type="number">0</hptemp>
-				<hptotal type="number">24</hptotal>
+				<hptotal type="number">17</hptotal>
 				<init type="number">2</init>
-				<initresult type="number">6</initresult>
+				<initresult type="number">17</initresult>
 				<innatespells>
 					<public />
 				</innatespells>
@@ -4608,14 +4550,14 @@
 				</targets>
 				<token type="token">portrait_id-00002_token</token>
 				<tokenscale type="number">1</tokenscale>
-				<tokenvis type="number">1</tokenvis>
+				<tokenvis type="number">0</tokenvis>
 				<traits>
 					<public />
 				</traits>
 				<wounds type="number">0</wounds>
 			</id-00009>
 		</list>
-		<round type="number">0</round>
+		<round type="number">3</round>
 	</combattracker>
 	<effects>
 		<public />
@@ -4829,39 +4771,6 @@
 		</coinlist>
 		<encounters>
 			<public />
-			<id-00001>
-				<public />
-				<cr type="string">5</cr>
-				<exp type="number">1800</exp>
-				<locked type="number">1</locked>
-				<name type="string">02.10.04.05 True Tomb - Brysis of Khaem</name>
-				<npclist>
-					<public />
-					<id-00001>
-						<public />
-						<count type="number">1</count>
-						<link type="windowreference">
-							<class>npc</class>
-							<recordname>npc.id-00103@D&#38;D Out of the Abyss</recordname>
-						</link>
-						<maplink>
-							<public />
-							<id-00001>
-								<public />
-								<imageref type="windowreference">
-									<class>imagewindow</class>
-									<recordname>image.id-00111.image@D&#38;D Out of the Abyss</recordname>
-								</imageref>
-								<imagex type="number">979</imagex>
-								<imagey type="number">654</imagey>
-							</id-00001>
-						</maplink>
-						<name type="string">Brysis of Khaem</name>
-						<token type="token">tokens/campaign/wraith.png@D&#38;D Out of the Abyss</token>
-					</id-00001>
-				</npclist>
-				<xpawarded type="number">1</xpawarded>
-			</id-00001>
 			<id-00002>
 				<public />
 				<cr type="string">4</cr>
@@ -4922,39 +4831,6 @@
 				</npclist>
 				<xpawarded type="number">1</xpawarded>
 			</id-00002>
-			<id-00003>
-				<public />
-				<cr type="string">5</cr>
-				<exp type="number">1800</exp>
-				<locked type="number">1</locked>
-				<name type="string">Darklake Encounter</name>
-				<npclist>
-					<public />
-					<id-00001>
-						<public />
-						<count type="number">1</count>
-						<link type="windowreference">
-							<class>npc</class>
-							<recordname>npc.id-00176@D&#38;D Out of the Abyss</recordname>
-						</link>
-						<maplink>
-							<public />
-							<id-00001>
-								<public />
-								<imageref type="windowreference">
-									<class></class>
-									<recordname></recordname>
-								</imageref>
-								<imagex type="number">0</imagex>
-								<imagey type="number">0</imagey>
-							</id-00001>
-						</maplink>
-						<name type="string">Aquatic Troll</name>
-						<token type="token">tokens/campaign/troll.png@D&#38;D Out of the Abyss</token>
-					</id-00001>
-				</npclist>
-				<xpawarded type="number">1</xpawarded>
-			</id-00003>
 		</encounters>
 		<hiderollresults type="number">1</hiderollresults>
 		<image type="image">
@@ -4970,74 +4846,74 @@
 			<public />
 			<id-00001>
 				<public />
-				<carriedby type="string">Ra'knar Berylforge [1]</carriedby>
-				<count type="number">1</count>
+				<carriedby type="string">Ra'knar Berylforge [1], Glenys Weaton [1]</carriedby>
+				<count type="number">2</count>
 				<name type="string">Chain Shirt</name>
 			</id-00001>
 			<id-00002>
 				<public />
-				<carriedby type="string">Seraphina Vellar [1]</carriedby>
-				<count type="number">1</count>
-				<name type="string">Studded Leather</name>
+				<carriedby type="string">Ra'knar Berylforge [1], Glenys Weaton [1]</carriedby>
+				<count type="number">2</count>
+				<name type="string">Shield</name>
 			</id-00002>
 			<id-00003>
 				<public />
-				<carriedby type="string">Ra'knar Berylforge [1]</carriedby>
+				<carriedby type="string">Seraphina Vellar [1]</carriedby>
 				<count type="number">1</count>
-				<name type="string">Spike, Iron (10)</name>
+				<name type="string">Studded Leather</name>
 			</id-00003>
 			<id-00004>
 				<public />
-				<carriedby type="string">Seraphina Vellar [1], Bazin del'Armgo [1]</carriedby>
-				<count type="number">2</count>
+				<carriedby type="string">Seraphina Vellar [1], Glenys Weaton [1], Bazin del'Armgo [1]</carriedby>
+				<count type="number">3</count>
 				<name type="string">Crossbow Bolts (20)</name>
 			</id-00004>
 			<id-00005>
 				<public />
-				<carriedby type="string">Seraphina Vellar [1], Ra'knar Berylforge [1]</carriedby>
+				<carriedby type="string">Ra'knar Berylforge [1], Seraphina Vellar [1]</carriedby>
 				<count type="number">2</count>
 				<name type="string">Rope, Silk (100 Feet)</name>
 			</id-00005>
 			<id-00006>
 				<public />
-				<carriedby type="string">Thaddeus D'arth [1]</carriedby>
+				<carriedby type="string">Ra'knar Berylforge [1]</carriedby>
 				<count type="number">1</count>
-				<name type="string">1 lb of Glenys Dust</name>
+				<name type="string">Spike, Iron (10)</name>
 			</id-00006>
 			<id-00007>
 				<public />
-				<carriedby type="string">Ra'knar Berylforge [1]</carriedby>
-				<count type="number">1</count>
-				<name type="string">Shield</name>
+				<carriedby type="string">Thaddeus D'arth [1], Ra'knar Berylforge [1]</carriedby>
+				<count type="number">2</count>
+				<name type="string">Flint Shard</name>
 			</id-00007>
 			<id-00008>
 				<public />
-				<carriedby type="string">Seraphina Vellar [1]</carriedby>
-				<count type="number">1</count>
+				<carriedby type="string">Seraphina Vellar [1], Glenys Weaton [1]</carriedby>
+				<count type="number">2</count>
 				<name type="string">Caltrops (20)</name>
 			</id-00008>
 			<id-00009>
 				<public />
-				<carriedby type="string">Seraphina Vellar [1], Ra'knar Berylforge [1]</carriedby>
+				<carriedby type="string">Ra'knar Berylforge [1], Seraphina Vellar [1]</carriedby>
 				<count type="number">2</count>
 				<name type="string">Shortsword</name>
 			</id-00009>
 			<id-00010>
 				<public />
-				<carriedby type="string">Thaddeus D'arth [1], Ra'knar Berylforge [1]</carriedby>
-				<count type="number">2</count>
-				<name type="string">Flint Shard</name>
+				<carriedby type="string">Seraphina Vellar [1], Glenys Weaton [1], Bazin del'Armgo [1]</carriedby>
+				<count type="number">3</count>
+				<name type="string">Crossbow, Hand</name>
 			</id-00010>
 			<id-00011>
 				<public />
-				<carriedby type="string">Seraphina Vellar [1], Bazin del'Armgo [1]</carriedby>
-				<count type="number">2</count>
-				<name type="string">Crossbow, Hand</name>
+				<carriedby type="string">Glenys Weaton [1]</carriedby>
+				<count type="number">1</count>
+				<name type="string">5 Feet of Silk Rope</name>
 			</id-00011>
 			<id-00012>
 				<public />
-				<carriedby type="string">Seraphina Vellar [2], Bazin del'Armgo [1], Ra'knar Berylforge [2], Thaddeus D'arth [1]</carriedby>
-				<count type="number">6</count>
+				<carriedby type="string">Thaddeus D'arth [1], Glenys Weaton [1], Ra'knar Berylforge [2], Seraphina Vellar [2], Bazin del'Armgo [1]</carriedby>
+				<count type="number">7</count>
 				<name type="string">Dagger</name>
 			</id-00012>
 		</inventorylist>
@@ -5048,17 +4924,17 @@
 				<ac type="number">15</ac>
 				<chabonus type="number">3</chabonus>
 				<charisma type="number">16</charisma>
-				<classlevel type="string">Sorcerer 3</classlevel>
+				<classlevel type="string">Sorcerer 2</classlevel>
 				<conbonus type="number">2</conbonus>
 				<constitution type="number">14</constitution>
 				<dexbonus type="number">2</dexbonus>
 				<dexterity type="number">15</dexterity>
-				<exp type="number">1300</exp>
+				<exp type="number">300</exp>
 				<expneeded type="number">0</expneeded>
-				<hd type="number">3</hd>
+				<hd type="number">2</hd>
 				<hdused type="number">0</hdused>
 				<hptemp type="number">0</hptemp>
-				<hptotal type="number">23</hptotal>
+				<hptotal type="number">16</hptotal>
 				<intbonus type="number">0</intbonus>
 				<intelligence type="number">11</intelligence>
 				<link type="windowreference">
@@ -5083,17 +4959,17 @@
 				<ac type="number">15</ac>
 				<chabonus type="number">1</chabonus>
 				<charisma type="number">13</charisma>
-				<classlevel type="string">Cleric 3</classlevel>
+				<classlevel type="string">Cleric 2</classlevel>
 				<conbonus type="number">2</conbonus>
 				<constitution type="number">15</constitution>
 				<dexbonus type="number">0</dexbonus>
 				<dexterity type="number">11</dexterity>
-				<exp type="number">1300</exp>
+				<exp type="number">300</exp>
 				<expneeded type="number">0</expneeded>
-				<hd type="number">3</hd>
-				<hdused type="number">2</hdused>
+				<hd type="number">2</hd>
+				<hdused type="number">0</hdused>
 				<hptemp type="number">0</hptemp>
-				<hptotal type="number">24</hptotal>
+				<hptotal type="number">17</hptotal>
 				<intbonus type="number">-1</intbonus>
 				<intelligence type="number">8</intelligence>
 				<link type="windowreference">
@@ -5118,17 +4994,17 @@
 				<ac type="number">15</ac>
 				<chabonus type="number">2</chabonus>
 				<charisma type="number">15</charisma>
-				<classlevel type="string">Rogue 3</classlevel>
+				<classlevel type="string">Rogue 2</classlevel>
 				<conbonus type="number">2</conbonus>
 				<constitution type="number">14</constitution>
 				<dexbonus type="number">3</dexbonus>
 				<dexterity type="number">16</dexterity>
-				<exp type="number">1300</exp>
+				<exp type="number">300</exp>
 				<expneeded type="number">0</expneeded>
-				<hd type="number">3</hd>
-				<hdused type="number">1</hdused>
+				<hd type="number">2</hd>
+				<hdused type="number">0</hdused>
 				<hptemp type="number">0</hptemp>
-				<hptotal type="number">23</hptotal>
+				<hptotal type="number">16</hptotal>
 				<intbonus type="number">2</intbonus>
 				<intelligence type="number">14</intelligence>
 				<link type="windowreference">
@@ -5146,24 +5022,24 @@
 				<watchid type="number">0</watchid>
 				<wisbonus type="number">1</wisbonus>
 				<wisdom type="number">12</wisdom>
-				<wounds type="number">7</wounds>
+				<wounds type="number">0</wounds>
 			</id-00004>
 			<id-00005>
 				<public />
 				<ac type="number">12</ac>
 				<chabonus type="number">3</chabonus>
 				<charisma type="number">16</charisma>
-				<classlevel type="string">Wizard 3</classlevel>
+				<classlevel type="string">Wizard 2</classlevel>
 				<conbonus type="number">3</conbonus>
 				<constitution type="number">16</constitution>
 				<dexbonus type="number">2</dexbonus>
 				<dexterity type="number">15</dexterity>
-				<exp type="number">1300</exp>
+				<exp type="number">300</exp>
 				<expneeded type="number">0</expneeded>
-				<hd type="number">3</hd>
-				<hdused type="number">2</hdused>
+				<hd type="number">2</hd>
+				<hdused type="number">0</hdused>
 				<hptemp type="number">0</hptemp>
-				<hptotal type="number">24</hptotal>
+				<hptotal type="number">17</hptotal>
 				<intbonus type="number">4</intbonus>
 				<intelligence type="number">18</intelligence>
 				<link type="windowreference">
@@ -5186,12 +5062,6 @@
 		</partyinformation>
 		<quests>
 			<public />
-			<id-00002>
-				<public />
-				<name type="string">03.05.04 XP Awards</name>
-				<xp type="number">400</xp>
-				<xpawarded type="number">1</xpawarded>
-			</id-00002>
 			<id-00005>
 				<public />
 				<description type="formattedtext">

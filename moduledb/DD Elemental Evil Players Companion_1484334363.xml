@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<root version="3.1" release="7|CoreRPG:3" integrity="dd1e6b2b0285cce4dba946da5f90f43f69be56c8">
+	<reference>
+		<imagedata>
+			<img_goliath_jpg>
+				<image type="image">
+					<bitmap>images/Goliath.jpg</bitmap>
+				</image>
+			</img_goliath_jpg>
+		</imagedata>
+	</reference>
+</root>

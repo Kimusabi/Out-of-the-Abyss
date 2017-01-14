@@ -1,16 +1,37 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
-<root version="3.1" release="7|CoreRPG:3" integrity="287d633221fb8428aa2526883b91cf844984a897">
-	<encounter>
-		<category name="00. Out of the Abyss" mergeid="" baseicon="2" decalicon="1">
+<root version="3.2" release="7|CoreRPG:3" integrity="287d633221fb8428aa2526883b91cf844984a897">
+	<battle>
+		<category name="Out of the Abyss - Story Encounters" baseicon="2" decalicon="1">
+			<id-00076>
+				<locked type="number">0</locked>
+				<category name="D&#38;D Out of the Abyss" baseicon="0" decalicon="0">
+				</category>
+			</id-00076>
+			<id-00077>
+				<locked type="number">0</locked>
+				<category name="D&#38;D Out of the Abyss" baseicon="0" decalicon="0">
+				</category>
+			</id-00077>
+			<id-00079>
+				<locked type="number">0</locked>
+				<category name="D&#38;D Out of the Abyss" baseicon="0" decalicon="0">
+				</category>
+			</id-00079>
 		</category>
-		<category name="01. Chapter 1: Prisoners of the Drow" mergeid="" baseicon="2" decalicon="1">
+		<category name="Out of the Abyss - Table Encounters" baseicon="2" decalicon="1">
+		</category>
+	</battle>
+	<encounter>
+		<category name="00. Out of the Abyss" baseicon="2" decalicon="1">
+		</category>
+		<category name="01. Chapter 1: Prisoners of the Drow" baseicon="2" decalicon="1">
 			<id-00005>
 				<locked type="number">0</locked>
 			</id-00005>
 		</category>
-		<category name="02. Chapter 2: Into Darkness" mergeid="" baseicon="2" decalicon="1">
+		<category name="02. Chapter 2: Into Darkness" baseicon="2" decalicon="1">
 		</category>
-		<category name="03. Chapter 3: The Darklake" mergeid="" baseicon="2" decalicon="1">
+		<category name="03. Chapter 3: The Darklake" baseicon="2" decalicon="1">
 			<id-00122>
 				<locked type="number">0</locked>
 			</id-00122>
@@ -18,38 +39,41 @@
 				<locked type="number">0</locked>
 			</id-00131>
 		</category>
-		<category name="04. Chapter 4: Gracklstugh" mergeid="" baseicon="2" decalicon="1">
+		<category name="04. Chapter 4: Gracklstugh" baseicon="2" decalicon="1">
+			<id-00156>
+				<locked type="number">1</locked>
+			</id-00156>
 			<id-00186>
 				<locked type="number">1</locked>
 			</id-00186>
 		</category>
-		<category name="05. Chapter 5: Neverlight Grove" mergeid="" baseicon="2" decalicon="1">
+		<category name="05. Chapter 5: Neverlight Grove" baseicon="2" decalicon="1">
 		</category>
-		<category name="06. Chapter 6: Blingdenstone" mergeid="" baseicon="2" decalicon="1">
+		<category name="06. Chapter 6: Blingdenstone" baseicon="2" decalicon="1">
 		</category>
-		<category name="07. Chapter 7: Escape from the Underdark" mergeid="" baseicon="2" decalicon="1">
+		<category name="07. Chapter 7: Escape from the Underdark" baseicon="2" decalicon="1">
 		</category>
-		<category name="08. Chapter 8: Audience in Gauntlgrym" mergeid="" baseicon="2" decalicon="1">
+		<category name="08. Chapter 8: Audience in Gauntlgrym" baseicon="2" decalicon="1">
 		</category>
-		<category name="09. Chapter 9: Mantol-Derith" mergeid="" baseicon="2" decalicon="1">
+		<category name="09. Chapter 9: Mantol-Derith" baseicon="2" decalicon="1">
 		</category>
-		<category name="10. Chapter 10: Descent into the Depths" mergeid="" baseicon="2" decalicon="1">
+		<category name="10. Chapter 10: Descent into the Depths" baseicon="2" decalicon="1">
 		</category>
-		<category name="11. Chapter 11: Gravenhollow" mergeid="" baseicon="2" decalicon="1">
+		<category name="11. Chapter 11: Gravenhollow" baseicon="2" decalicon="1">
 		</category>
-		<category name="12. Chapter 12: The Tower of Vengeance" mergeid="" baseicon="2" decalicon="1">
+		<category name="12. Chapter 12: The Tower of Vengeance" baseicon="2" decalicon="1">
 		</category>
-		<category name="13. Chapter 13: The Wormwrithings" mergeid="" baseicon="2" decalicon="1">
+		<category name="13. Chapter 13: The Wormwrithings" baseicon="2" decalicon="1">
 		</category>
-		<category name="14. Chapter 14: The Labyrinth" mergeid="" baseicon="2" decalicon="1">
+		<category name="14. Chapter 14: The Labyrinth" baseicon="2" decalicon="1">
 		</category>
-		<category name="15. Chapter 15: The City of Spiders" mergeid="" baseicon="2" decalicon="1">
+		<category name="15. Chapter 15: The City of Spiders" baseicon="2" decalicon="1">
 		</category>
-		<category name="16. Chapter 16: The Fetid Wedding" mergeid="" baseicon="2" decalicon="1">
+		<category name="16. Chapter 16: The Fetid Wedding" baseicon="2" decalicon="1">
 		</category>
-		<category name="17. Chapter 17: Against the Demon Lords" mergeid="" baseicon="2" decalicon="1">
+		<category name="17. Chapter 17: Against the Demon Lords" baseicon="2" decalicon="1">
 		</category>
-		<category name="Appendix" mergeid="" baseicon="2" decalicon="1">
+		<category name="Appendix" baseicon="2" decalicon="1">
 			<id-00650>
 				<locked type="number">0</locked>
 				<text type="formattedtext">
@@ -119,9 +143,24 @@
 		</category>
 	</encounter>
 	<image>
-		<category name="Monster Manual - Portraits" mergeid="" baseicon="2" decalicon="1">
+		<category name="Monster Manual - Portraits" baseicon="2" decalicon="1">
+			<id-00185>
+				<image type="image">
+					<bitmap>Orog.jpg</bitmap>
+				</image>
+			</id-00185>
+			<id-00190>
+				<image type="image">
+					<bitmap>Quasit.jpg</bitmap>
+				</image>
+			</id-00190>
+			<id-00196>
+				<image type="image">
+					<bitmap>Spectator.jpg</bitmap>
+				</image>
+			</id-00196>
 		</category>
-		<category name="Out of the Abyss - DM Maps" mergeid="" baseicon="2" decalicon="1">
+		<category name="Out of the Abyss - DM Maps" baseicon="2" decalicon="1">
 			<id-00086>
 				<image type="image">
 					<bitmap>Velkynvelve.jpg</bitmap>
@@ -303,6 +342,115 @@
 					</shortcuts>
 				</image>
 			</id-00086>
+			<id-00099>
+				<image type="image">
+					<bitmap>DM - Gracklstugh Map.jpg</bitmap>
+					<shortcuts>
+						<shortcut>
+							<x>514</x>
+							<y>268</y>
+							<class>encounter</class>
+							<recordname>encounter.id-00207@D&#38;D Out of the Abyss</recordname>
+						</shortcut>
+						<shortcut>
+							<x>493</x>
+							<y>422</y>
+							<class>encounter</class>
+							<recordname>encounter.id-00198@D&#38;D Out of the Abyss</recordname>
+						</shortcut>
+						<shortcut>
+							<x>128</x>
+							<y>360</y>
+							<class>encounter</class>
+							<recordname>encounter.id-00194@D&#38;D Out of the Abyss</recordname>
+						</shortcut>
+						<shortcut>
+							<x>851</x>
+							<y>511</y>
+							<class>encounter</class>
+							<recordname>encounter.id-00194@D&#38;D Out of the Abyss</recordname>
+						</shortcut>
+						<shortcut>
+							<x>223</x>
+							<y>317</y>
+							<class>encounter</class>
+							<recordname>encounter.id-00192@D&#38;D Out of the Abyss</recordname>
+						</shortcut>
+						<shortcut>
+							<x>264</x>
+							<y>524</y>
+							<class>encounter</class>
+							<recordname>encounter.id-00191@D&#38;D Out of the Abyss</recordname>
+						</shortcut>
+						<shortcut>
+							<x>675</x>
+							<y>699</y>
+							<class>encounter</class>
+							<recordname>encounter.id-00189@D&#38;D Out of the Abyss</recordname>
+						</shortcut>
+						<shortcut>
+							<x>651</x>
+							<y>558</y>
+							<class>encounter</class>
+							<recordname>encounter.id-00156@D&#38;D Out of the Abyss</recordname>
+						</shortcut>
+						<shortcut>
+							<x>644</x>
+							<y>240</y>
+							<class>encounter</class>
+							<recordname>encounter.id-00204@D&#38;D Out of the Abyss</recordname>
+						</shortcut>
+						<shortcut>
+							<x>773</x>
+							<y>162</y>
+							<class>encounter</class>
+							<recordname>encounter.id-00203@D&#38;D Out of the Abyss</recordname>
+						</shortcut>
+						<shortcut>
+							<x>530</x>
+							<y>193</y>
+							<class>encounter</class>
+							<recordname>encounter.id-00202@D&#38;D Out of the Abyss</recordname>
+						</shortcut>
+						<shortcut>
+							<x>349</x>
+							<y>160</y>
+							<class>encounter</class>
+							<recordname>encounter.id-00200@D&#38;D Out of the Abyss</recordname>
+						</shortcut>
+						<shortcut>
+							<x>667</x>
+							<y>282</y>
+							<class>encounter</class>
+							<recordname>encounter.id-00199@D&#38;D Out of the Abyss</recordname>
+						</shortcut>
+						<shortcut>
+							<x>733</x>
+							<y>242</y>
+							<class>encounter</class>
+							<recordname>encounter.id-00201@D&#38;D Out of the Abyss</recordname>
+						</shortcut>
+						<shortcut>
+							<x>211</x>
+							<y>375</y>
+							<class>encounter</class>
+							<recordname>encounter.id-00196@D&#38;D Out of the Abyss</recordname>
+						</shortcut>
+						<shortcut>
+							<x>716</x>
+							<y>482</y>
+							<class>encounter</class>
+							<recordname>encounter.id-00196@D&#38;D Out of the Abyss</recordname>
+						</shortcut>
+						<shortcut>
+							<x>258</x>
+							<y>370</y>
+							<class>encounter</class>
+							<recordname>encounter.id-00197@D&#38;D Out of the Abyss</recordname>
+						</shortcut>
+					</shortcuts>
+				</image>
+			</id-00099>
 			<id-00101>
 				<image type="image">
 					<bitmap>DM - Hook Horror Map.jpg</bitmap>
@@ -347,7 +495,7 @@
 				</image>
 			</id-00101>
 		</category>
-		<category name="Out of the Abyss - Maps" mergeid="" baseicon="2" decalicon="1">
+		<category name="Out of the Abyss - Maps" baseicon="2" decalicon="1">
 			<id-00109>
 				<image type="image">
 					<bitmap>Hook Horror Map.jpg</bitmap>
@@ -393,7 +541,7 @@
 						</shortcut>
 					</shortcuts>
 					<tokens>
-						<idcounter>0</idcounter>
+						<idcounter>13</idcounter>
 						<scalelock>4.16667</scalelock>
 					</tokens>
 				</image>
@@ -444,8 +592,102 @@
 					</shortcuts>
 				</image>
 			</id-00254>
+			<id-00257>
+				<image type="image">
+					<bitmap>Grey Alchemist Map.jpg</bitmap>
+					<gridsize>32</gridsize>
+					<gridoffset>4,7</gridoffset>
+					<gridsnap>on</gridsnap>
+					<shortcuts>
+						<shortcut>
+							<x>797</x>
+							<y>233</y>
+							<class>encounter</class>
+							<recordname>encounter.id-00166@D&#38;D Out of the Abyss</recordname>
+						</shortcut>
+						<shortcut>
+							<x>1413</x>
+							<y>586</y>
+							<class>encounter</class>
+							<recordname>encounter.id-00167@D&#38;D Out of the Abyss</recordname>
+						</shortcut>
+					</shortcuts>
+					<tokens>
+						<idcounter>5</idcounter>
+						<scalelock>3.90625</scalelock>
+					</tokens>
+				</image>
+			</id-00257>
+			<id-00258>
+				<image type="image">
+					<bitmap>Grey Ghost Garden Map.jpg</bitmap>
+					<gridsize>32</gridsize>
+					<gridoffset>20,15</gridoffset>
+					<shortcuts>
+						<shortcut>
+							<x>1793</x>
+							<y>557</y>
+							<class>encounter</class>
+							<recordname>encounter.id-00161@D&#38;D Out of the Abyss</recordname>
+						</shortcut>
+					</shortcuts>
+					<tokens>
+						<idcounter>9</idcounter>
+						<scalelock>1.95313</scalelock>
+					</tokens>
+				</image>
+			</id-00258>
+			<id-00261>
+				<image type="image">
+					<bitmap>The Obelisk Map.jpg</bitmap>
+					<mask>maskedimages/1474119596.png</mask>
+					<gridsize>32</gridsize>
+					<gridoffset>4,25</gridoffset>
+					<gridsnap>on</gridsnap>
+					<shortcuts>
+						<shortcut>
+							<x>941</x>
+							<y>458</y>
+							<class>encounter</class>
+							<recordname>encounter.id-00159@D&#38;D Out of the Abyss</recordname>
+						</shortcut>
+					</shortcuts>
+					<tokens>
+						<idcounter>6</idcounter>
+						<scalelock>5</scalelock>
+						<token>
+							<prototype>portrait_id-00006_token</prototype>
+							<id>6</id>
+							<x>533</x>
+							<y>586</y>
+							<scale>1.28</scale>
+						</token>
+						<token>
+							<prototype>portrait_id-00002_token</prototype>
+							<id>3</id>
+							<x>565</x>
+							<y>618</y>
+							<scale>1.28</scale>
+						</token>
+						<token>
+							<prototype>portrait_id-00001_token</prototype>
+							<id>4</id>
+							<x>661</x>
+							<y>522</y>
+							<scale>1.28</scale>
+						</token>
+						<token>
+							<prototype>portrait_id-00004_token</prototype>
+							<id>5</id>
+							<x>693</x>
+							<y>554</y>
+							<scale>1.28</scale>
+						</token>
+					</tokens>
+				</image>
+			</id-00261>
 		</category>
-		<category name="Out of the Abyss - Portraits (Character)" mergeid="" baseicon="2" decalicon="1">
+		<category name="Out of the Abyss - Portraits (Character)" baseicon="2" decalicon="1">
 			<id-00003>
 				<image type="image">
 					<bitmap>Aljanor.jpg</bitmap>
@@ -457,12 +699,17 @@
 				</image>
 			</id-00012>
 		</category>
-		<category name="Out of the Abyss - Portraits (Other)" mergeid="" baseicon="2" decalicon="1">
+		<category name="Out of the Abyss - Portraits (Other)" baseicon="2" decalicon="1">
 			<id-00001>
 				<image type="image">
 					<bitmap>A Gallery Of Angels.jpg</bitmap>
 				</image>
 			</id-00001>
+			<id-00079>
+				<image type="image">
+					<bitmap>Underdark Magma.jpg</bitmap>
+				</image>
+			</id-00079>
 			<id-00085>
 				<image type="image">
 					<bitmap>Velkynvelve Portrait.jpg</bitmap>
@@ -476,7 +723,7 @@
 		</category>
 	</image>
 	<item>
-		<category name="Out of the Abyss - Magic Items" mergeid="" baseicon="2" decalicon="1">
+		<category name="Out of the Abyss - Magic Items" baseicon="2" decalicon="1">
 			<id-00005>
 				<description type="formattedtext">
 					<p><i>Weapon (longsword)</i></p>
@@ -494,28 +741,32 @@
 				<locked type="number">1</locked>
 			</id-00005>
 		</category>
-		<category name="Out of the Abyss - Mundane Items" mergeid="" baseicon="2" decalicon="1">
+		<category name="Out of the Abyss - Mundane Items" baseicon="2" decalicon="1">
 		</category>
 	</item>
 	<npc>
-		<category name="Monster Manual - Creatures" mergeid="" baseicon="2" decalicon="1">
+		<category name="Monster Manual - Creatures" baseicon="2" decalicon="1">
 		</category>
-		<category name="Out of the Abyss - Creatures" mergeid="" baseicon="2" decalicon="1">
+		<category name="Out of the Abyss - Creatures" baseicon="2" decalicon="1">
 		</category>
-		<category name="Out of the Abyss - NPCs" mergeid="" baseicon="2" decalicon="1">
+		<category name="Out of the Abyss - NPCs" baseicon="2" decalicon="1">
 			<id-00173>
 				<locked type="number">1</locked>
+				<category name="D&#38;D Out of the Abyss" baseicon="0" decalicon="0">
+				</category>
 			</id-00173>
 		</category>
-		<category name="Out of the Abyss - Traps" mergeid="" baseicon="2" decalicon="1">
+		<category name="Out of the Abyss - Traps" baseicon="2" decalicon="1">
 		</category>
 	</npc>
 	<tables>
-		<category name="Dice Rollers" mergeid="" baseicon="2" decalicon="1">
+		<category name="Dice Rollers" baseicon="2" decalicon="1">
 		</category>
-		<category name="Out of the Abyss - Tables" mergeid="" baseicon="2" decalicon="1">
+		<category name="Out of the Abyss - Tables" baseicon="2" decalicon="1">
 			<id-00003>
 				<locked type="number">1</locked>
+				<category name="D&#38;D Out of the Abyss" baseicon="0" decalicon="0">
+				</category>
 			</id-00003>
 		</category>
 	</tables>

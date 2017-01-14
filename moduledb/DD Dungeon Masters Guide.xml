@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<root version="3.2" release="7|CoreRPG:3" integrity="c10bb54d2c9942d073b0376181ca4e40dd7a6e15">
+	<reference>
+		<category name="DD Dungeon Masters Guide" baseicon="0" decalicon="0">
+			<imagedata>
+				<category name="DD Dungeon Masters Guide" baseicon="0" decalicon="0">
+					<img_cleric_death_domain_jpg>
+						<image type="image">
+							<bitmap>images/Cleric_Death_Domain.jpg</bitmap>
+						</image>
+					</img_cleric_death_domain_jpg>
+				</category>
+			</imagedata>
+		</category>
+	</reference>
+</root>

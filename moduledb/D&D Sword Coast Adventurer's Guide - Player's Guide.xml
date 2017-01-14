@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<root version="3.2" release="7|CoreRPG:3" integrity="8e9fd0075c04a0dcf8bb48af4c9946f13a76d6c5">
+	<reference>
+		<category name="D&#38;D Sword Coast Adventurer's Guide - Player's Guide" baseicon="0" decalicon="0">
+			<imagedata>
+				<category name="D&#38;D Sword Coast Adventurer's Guide - Player's Guide" baseicon="0" decalicon="0">
+					<img_tieflings>
+						<image type="image">
+							<bitmap>images/Tieflings.jpg</bitmap>
+						</image>
+					</img_tieflings>
+				</category>
+			</imagedata>
+		</category>
+	</reference>
+</root>

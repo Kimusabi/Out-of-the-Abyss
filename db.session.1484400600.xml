@@ -6731,437 +6731,6 @@
 		<public />
 		<list>
 			<public />
-			<id-00001>
-				<public />
-				<abilities>
-					<public />
-					<charisma>
-						<public />
-						<bonus type="number">1</bonus>
-						<score type="number">13</score>
-					</charisma>
-					<constitution>
-						<public />
-						<bonus type="number">1</bonus>
-						<score type="number">12</score>
-					</constitution>
-					<dexterity>
-						<public />
-						<bonus type="number">1</bonus>
-						<score type="number">12</score>
-					</dexterity>
-					<intelligence>
-						<public />
-						<bonus type="number">1</bonus>
-						<score type="number">13</score>
-					</intelligence>
-					<strength>
-						<public />
-						<bonus type="number">0</bonus>
-						<score type="number">10</score>
-					</strength>
-					<wisdom>
-						<public />
-						<bonus type="number">3</bonus>
-						<score type="number">16</score>
-					</wisdom>
-				</abilities>
-				<ac type="number">14</ac>
-				<actext type="string">(chain shirt)</actext>
-				<actions>
-					<public />
-					<id-00001>
-						<public />
-						<desc type="string">Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 3 (1d6) bludgeoning damage.</desc>
-						<name type="string">Mace</name>
-						<value type="string">Mace [M] [ATK: +2] [DMG: 1d6 bludgeoning]</value>
-					</id-00001>
-				</actions>
-				<active type="number">0</active>
-				<alignment type="string">neutral evil</alignment>
-				<cr type="string">2</cr>
-				<deathsavefail type="number">0</deathsavefail>
-				<deathsavesuccess type="number">0</deathsavesuccess>
-				<effects>
-					<public />
-				</effects>
-				<friendfoe type="string">foe</friendfoe>
-				<hd type="string">(5d8 + 5)</hd>
-				<hp type="number">27</hp>
-				<hptemp type="number">0</hptemp>
-				<hptotal type="number">45</hptotal>
-				<init type="number">1</init>
-				<initresult type="number">14</initresult>
-				<innatespells>
-					<public />
-					<id-00001>
-						<public />
-						<desc type="string">Level: 0\nCasting Time: 1 action\nComponents: V, S, M (a bit of phosphorus or wychwood, or a glowworm)\nDuration: Concentration, up to 1 minute\nYou create up to four torch-sized lights within range, making them appear as torches, lanterns, or glowing orbs that hover in the air for the duration. You can also combine the four lights into one glowing vaguely humanoid form of Medium size. Whichever form you choose, each light sheds dim light in a 10-foot radius.\nAs a bonus action on your turn, you can move the lights up to 60 feet to a new spot within range. A light must be within 20 feet of another light created by this spell, and a light winks out if it exceeds the spell's range.</desc>
-						<name type="string">Dancing Lights (At will)</name>
-						<value type="string">Dancing lights (at will)</value>
-					</id-00001>
-					<id-00002>
-						<public />
-						<desc type="string">Level: 2\nCasting Time: 1 action\nComponents: V, M (bat fur and a drop of pitch or piece of coal)\nDuration: Concentration, up to 10 minutes\nMagical darkness spreads from a point you choose within range to fill a 15-foot-radius sphere for the duration. The darkness spreads around corners.\nA creature with darkvision can't see through this darkness, and nonmagical light can't illuminate it.\nIf the point you choose is on an object you are holding or one that isn't being worn or carried, the darkness emanates from the object and moves with it. Completely covering the source of the darkness with an opaque object, such as a bowl or a helm, blocks the darkness.\nIf any of this spell's area overlaps with an area of light created by a spell of 2nd level or lower, the spell that created the light is dispelled.</desc>
-						<name type="string">Darkness (At will)</name>
-						<value type="string">Darkness (at will)</value>
-					</id-00002>
-					<id-00003>
-						<public />
-						<desc type="string">Level: 1\nCasting Time: 1 action\nComponents: V\nDuration: Concentration, up to 1 minute\nEach object in a 20-foot cube within range is outlined in blue, green, or violet light (your choice). Any creature in the area when the spell is cast is also outlined in light if it fails a DC 11 Dexterity saving throw. For the duration, objects and affected creatures shed dim light in a 10-foot radius. Any attack roll against an affected creature or object has advantage if the attacker can see it, and the affected creature or object can't benefit from being invisible.</desc>
-						<name type="string">Faerie Fire (At will)</name>
-						<value type="string">Faerie fire (at will) [SAVEVS: dexterity 11]</value>
-					</id-00003>
-				</innatespells>
-				<lairactions>
-					<public />
-				</lairactions>
-				<languages type="string">Elvish, Undercommon</languages>
-				<legendaryactions>
-					<public />
-				</legendaryactions>
-				<link type="windowreference">
-					<class>npc</class>
-					<recordname></recordname>
-				</link>
-				<locked type="number">1</locked>
-				<name type="string">Asha Vandree</name>
-				<reach type="number">5</reach>
-				<reaction type="number">0</reaction>
-				<reactions>
-					<public />
-				</reactions>
-				<senses type="string">darkvision 120 ft., passive Perception 13</senses>
-				<size type="string">Medium</size>
-				<skills type="string">Medicine +7, Persuasion +3, Religion +4</skills>
-				<space type="number">5</space>
-				<speed type="string">25 ft.</speed>
-				<spells>
-					<public />
-					<id-00001>
-						<public />
-						<desc type="string">Level: 0\nCasting Time: 1 action\nComponents: V, M (a firefly or phosphorescent moss)\nDuration: 1 hour\nYou touch one object that is no larger than 10 feet in any dimension. Until the spell ends, the object sheds bright light in a 20-foot radius and dim light for an additional 20 feet. The light can be colored as you like. Completely covering the object with something opaque blocks the light. The spell ends if you cast it again or dismiss it as an action.\nIf you target an object held or worn by a hostile creature, that creature must succeed on a DC 13 Dexterity saving throw to avoid the spell.</desc>
-						<name type="string">Light - Cantrip (At will)</name>
-						<value type="string">Light - cantrip (at will) [SAVEVS: dexterity 13]</value>
-					</id-00001>
-					<id-00002>
-						<public />
-						<desc type="string">Level: 0\nCasting Time: 1 action\nComponents: V, S\nDuration: Instantaneous\nFlame-like radiance descends on a creature that you can see within range. The target must succeed on a DC 13 Dexterity saving throw or take 1d8 radiant damage. The target gains no benefit from cover for this saving throw. The spell's damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8).</desc>
-						<name type="string">Sacred Flame - Cantrip (At will)</name>
-						<value type="string">Sacred flame - cantrip (at will) [SAVEVS: dexterity 13] [DMG: 1d8 radiant]</value>
-					</id-00002>
-					<id-00003>
-						<public />
-						<desc type="string">Level: 0\nCasting Time: 1 action\nComponents: V\nDuration: Up to 1 minute\nYou manifest a minor wonder, a sign of supernatural power, within range. You create one of the following magical effects within range:\nYour voice booms up to three times as loud as normal for 1 minute.\nYou cause flames to flicker, brighten, dim, or change color for 1 minute.\nYou cause harmless tremors in the ground for 1 minute.\nYou create an instantaneous sound that originates from a point of your choice within range, such as a rumble of thunder, the cry of a raven, or ominous whispers.\nYou instantaneously cause an unlocked door or window to fly open or slam shut.\nYou alter the appearance of your eyes for 1 minute.\n\nIf you cast this spell multiple times, you can have up to three of its 1-minute effects active at a time, and you can dismiss such an effect as an action.</desc>
-						<name type="string">Thaumaturgy - Cantrip (At will)</name>
-						<value type="string">Thaumaturgy - cantrip (at will)</value>
-					</id-00003>
-					<id-00004>
-						<public />
-						<desc type="string">Level: 1\nCasting Time: 1 action\nComponents: V, S\nDuration: Instantaneous\nA creature you touch regains a number of hit points equal to 1d8 + your spellcasting ability modifier. This spell has no effect on undead or constructs.\nAt Higher Levels. When you cast this spell using a spell slot of 2nd level or higher, the healing increases by 1d8 for each slot level above 1st.</desc>
-						<name type="string">Cure Wounds - 1st level (4 slots)</name>
-						<value type="string">Cure wounds - 1st level (4 slots) [HEAL: 1d8]</value>
-					</id-00004>
-					<id-00005>
-						<public />
-						<desc type="string">Level: 1\nCasting Time: 1 action\nComponents: V, S\nDuration: 1 round\nA flash of light streaks toward a creature of your choice within range. Make a ranged spell attack (+5 to hit) against the target. On a hit, the target takes 4d6 radiant damage, and the next attack roll made against this target before the end of your next turn has advantage, thanks to the mystical dim light glittering on the target until then.\nAt Higher Levels. When you cast this spell using a spell slot of 2nd level or higher, the damage increases by\n1d6 for each slot level above 1st.</desc>
-						<name type="string">Guiding Bolt - 1st level (4 slots)</name>
-						<value type="string">Guiding bolt - 1st level (4 slots) [R] [ATK: +5] [DMG: 4d6] [EFF: GRANTADVATK (D:1) (A:ROLL)]</value>
-					</id-00005>
-					<id-00006>
-						<public />
-						<desc type="string">Level: 1\nCasting Time: 1 bonus action\nComponents: V, S, M (a small silver mirror)\nDuration: 1 minute\nYou ward a creature within range against attack. Until the spell ends, any creature who targets the warded creature with an attack or a harmful spell must first make a DC 13 Wisdom saving throw. On a failed save, the creature must choose a new target or lose the attack or spell. This spell doesn't protect the warded creature from area effects, such as the explosion of a fireball. If the warded creature makes an attack or casts a spell that affects an enemy creature, this spell ends.</desc>
-						<name type="string">Sanctuary - 1st level (4 slots)</name>
-						<value type="string">Sanctuary - 1st level (4 slots) [EFF: NOTE: Sanctuary (D:1 MIN)]</value>
-					</id-00006>
-					<id-00007>
-						<public />
-						<desc type="string">Level: 2\nCasting Time: 1 action\nComponents: V, S\nDuration: Instantaneous\nYou touch a creature and can end either one disease or one condition afflicting it. The condition can be blinded, deafened, paralyzed, or poisoned.</desc>
-						<name type="string">Lesser Restoration - 2nd level (3 slots)</name>
-						<value type="string">Lesser restoration - 2nd level (3 slots)</value>
-					</id-00007>
-					<id-00008>
-						<public />
-						<desc type="string">Level: 2\nCasting Time: 1 bonus action\nComponents: V, S\nDuration: 1 minute\nYou create a floating, spectral weapon within range that lasts for the duration or until you cast this spell again. When you cast the spell, you can make a melee spell attack (+5 to hit) against a creature within 5 feet o f the weapon. On a hit, the target takes force damage equal to 1d8 + your spellcasting ability modifier.\nAs a bonus action on your turn, you can move the weapon up to 20 feet and repeat the attack against a creature within 5 feet o f it.\nThe weapon can take whatever form you choose. Clerics o f deities who are associated with a particular weapon (as St. Cuthbert is known for his mace and Thor for his hammer) make this spell's effect resemble that weapon.\nAt Higher Levels. When you cast this spell using a spell slot o f 3rd level or higher, the damage increases by 1d8 for every two slot levels above the 2nd.</desc>
-						<name type="string">Spiritual Weapon - 2nd level (3 slots)</name>
-						<value type="string">Spiritual weapon - 2nd level (3 slots) [M] [ATK: +5] [DMG: 1d8 force]</value>
-					</id-00008>
-					<id-00009>
-						<public />
-						<desc type="string">Level: 3\nCasting Time: 1 action\nComponents: V, S\nDuration: Instantaneous\nChoose one creature, object, or magical effect within range. Any spell of 3rd level or lower on the target ends. For each spell of 4th level or higher on the target, make an ability check using your spellcasting ability. The DC equals 10 + the spell's level. On a successful check, the spell ends.\nAt Higher Levels. When you cast this spell using a spell slot of 4th level or higher, you automatically end the effects of a spell on the target if the spell's level is equal to or less than the level of the spell slot you used.</desc>
-						<name type="string">Dispel Magic - 3rd level (2 slots)</name>
-						<value type="string">Dispel magic - 3rd level (2 slots)</value>
-					</id-00009>
-					<id-00010>
-						<public />
-						<desc type="string">Level: 3\nCasting Time: 1 action\nComponents: V, S, M (a holy symbol)\nDuration: Concentration, up to 10 minutes\nYou call forth spirits to protect you. They flit around you to a distance of 15 feet for the duration. If you are good or neutral, their spectral form appears angelic or fey (your choice). If you are evil, they appear fiendish.\nWhen you cast this spell, you can designate any number o f creatures you can see to be unaffected by it.\nAn affected creature's speed is halved in the area, and when the creature enters the area for the first time on a turn or starts its turn there, it must make a DC 13 Wisdom saving throw. On a failed save, the creature takes 3d8 radiant damage (if you are good or neutral) or 3d8 necrotic damage (if you are evil). On a successful save, the creature takes half as much damage.\nAt Higher Levels. When you cast this spell using a spell slot o f 4th level or higher, the damage increases by 1d8 for each slot level above 3rd.</desc>
-						<name type="string">Spirit Guardians - 3rd level (2 slots)</name>
-						<value type="string">Spirit guardians - 3rd level (2 slots) [SAVEVS: wisdom 13 (H)] [DMG: 3d8 radiant] [DMG: 3d8 necrotic]</value>
-					</id-00010>
-				</spells>
-				<status type="string">Healthy</status>
-				<text type="formattedtext">
-					<h>Asha Vandree</h>
-					<linklist>
-						<link class="encounter" recordname="encounter.id-00035@D&#38;D Out of the Abyss">Asha Vandree - Bio</link>
-					</linklist>
-					<h>Priest</h>
-					<p>Priests bring the teachings of theirgods to the common folk. They are the spiritual leaders of temples and shrines and often hold positions of influence in their communities. Evil priests might work openly under a tyrant, or they might be the leaders of religious sects hidden in the shadows of good society, overseeing depraved rites.A priest typically has one or more acolytes to help with religious ceremonies and other sacred duties.</p>
-					<h>Elves: Drow</h>
-					<linklist>
-						<link class="imagewindow" recordname="image.id-00135@D&#38;D Out of the Abyss">Image: Drow</link>
-					</linklist>
-					<p>Tens of thousands of years ago, the elves were divided, with those of benevolent disposition battling those that were selfish and cruel. The war among elvenkind ended when the good elves banished their malevolent kin to the subterranean depths. Here, in the lightless caverns and endless warrens of twisting passages, the dark elves-the drow-found refuge. They also found leadership in the only elven deity who had not forsaken them. At her command, the dark elves built an empire in the underworld.</p>
-					<p><b><i>Children of Lolth. </i></b>The drow worship Lolth, a deity who resides in the Abyss. Known as the Spider Queen or the Demon Queen of Spiders, she is the figure around which the dark elves have built their subterranean civilization. Whatever she demands, the drow do. The wickedest of elves, drow are seldom seen by the surface world. Though they plot to destroy the elves that banished them, they no longer see themselves as exiles. They are the destined rulers of the darkness, and when Lolth commands them to rise up and destroy their surface-dwelling kin, they will.</p>
-					<p><b><i>Creatures of Darkness. </i></b>The drow have lived underground for so long that they have evolved to their surroundings and can see in the dark. However, they can no longer stand sunlight. When slaves are in short supply in the Underdark, the drow send raiding parties to the surface to capture humanoids under cover of darkness, bringing them back to their cities to be tortured into submission. Beyond those occasional excursions, the drow are content to remain in their subterranean realm, where they feel secure and in control.</p>
-					<p><b><i>Underdark Cities. </i></b>The dark elves build fantastic cities in enormous caverns where food and water are abundant. Their ability to sculpt stone rivals that of the greatest dwarf artisans, yet their structures retain a decidedly elven aesthetic. Though appearing delicate, drow settlements are structurally sound and remarkably resilient. The drow like to hollow out enormous stalagmites and stalactites, creating populated spires that rise from the floors and ceilings.A drow city is a sprawling metropolis enclosed by high walls. Non-drow visitors must conduct their business outside the walls under watchful eyes. The drow raise and keep giant spiders to help protect their cities against intruders, even as they drape those cities in beautiful webbing, creating a gossamer snare to catch flying enemies that would otherwise soar over the walls.</p>
-					<p><b><i>Drow Magic. </i></b>Just as the drow have adapted to underground life, so too has their magic. In addition to using that magic to carve their cities from stone, they empower their weapons, create dangerous new magic items, and summon demons from the Abyss. Drow spellcasters are supremely arrogant and never hesitate to use their magic in the most abhorrent ways.</p>
-					<p><b><i>Arms and Armor. </i></b>Drow craft weapons made of adamantine, a dark and supernaturally hard metal. Drow artisans adorn their weapons and armor with web-like filigree and spider motifs, and mages sometimes imbue items with magic to enhance their effectiveness. However, such magic fades when exposed to sunlight, so that magical drow weapons and armor rarely retain their enhancement bonuses and magical properties when brought to the surface.</p>
-					<p><b><i>Cutthroat Politics. </i></b>Drow politics are cutthroat and rife with intrigue. When drow work together, it is typically to destroy a common foe and ensure their own survival, and such alliances are short lived and fraught with peril.</p>
-					<p>Drow society is divided into noble houses, each ruled by a matron who seeks to raise the prestige and power of her house above all others. Other high-ranking members of the house are blood relatives, while the middling ranks are flush with drow from weaker families that have sworn fealty to the greater house. Clinging precariously to the bottom rung of a house's social ladder are the house slaves, made up of drow of low birth and the occasional non-drow captive.</p>
-					<p><b><i>Matriarchal Rule. </i></b>Lolth, through her faithful priestesses, dictates the rules of drow society, ensuring that her orders and plots are carried out. Since Lolth is prone to manifesting on the Material Plane and directly punishing those that disobey her, the drow have learned to heed what she says and do as her priestesses command.</p>
-					<p>In drow society, males are subservient to females. A male drow might lead an Underdark patrol or a raiding party to the surface, but he reports to a female drow-either the matron of his house or one of her hand-picked female subordinates. Although male drow can fill almost any function in drow society, they can't be priests, nor can they rule a house.</p>
-					<p><b><i>Poison Predilection. </i></b>Distilled from spider venom and the flora of the Underdark, poison can be found in abundance among the drow, and it plays an important part in their culture and politics. Drow mages concoct a viscid toxin that leaves enemies unconscious. Drow warriors coat their blades and crossbow bolts with this venom, looking forward to the interrogation and torture that follows combat.</p>
-				</text>
-				<token type="token">tokens/campaign/Drow4.png@D&#38;D Out of the Abyss</token>
-				<tokenscale type="number">1</tokenscale>
-				<tokenvis type="number">0</tokenvis>
-				<traits>
-					<public />
-					<id-00001>
-						<public />
-						<desc type="string">As a bonus action, the priest can expend a spell slot to cause its melee weapon attacks to magically deal an extra 10 (3d6) radiant damage to a target on a hit. This benefit lasts until the end of the turn. If the priest expends a spell slot of 2nd level or higher, the extra damage increases by 1d6 for each level above 1st.</desc>
-						<name type="string">Divine Eminence</name>
-						<value type="string">Divine eminence [EFF: DMG: 3d6 radiant (T:SELF) (A:ROLL)]</value>
-					</id-00001>
-					<id-00002>
-						<public />
-						<desc type="string">The priest is a 5th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 13, +5 to hit with spell attacks). The priest has the following cleric spells prepared: \nCantrips (at will): light, sacred flame, thaumaturgy \n1st level (4 slots): cure wounds, guiding bolt, sanctuary \n2nd level (3 slots): lesser restoration, spiritual weapon \n3rd level (2 slots): dispel magic, spirit guardians</desc>
-						<name type="string">Spellcasting</name>
-						<value type="string">Spellcasting</value>
-					</id-00002>
-					<id-00003>
-						<public />
-						<desc type="string">The drow has advantage on saving throws against being charmed, and magic can't put the drow to sleep.</desc>
-						<name type="string">Fey Ancestry</name>
-						<value type="string">Fey ancestry</value>
-					</id-00003>
-					<id-00004>
-						<public />
-						<desc type="string">The drow's spellcasting ability is Charisma (spell save DC 11). It can innately cast the following spells, requiring no material components:\nAt will: dancing lights \n1/day each: darkness, faerie fire</desc>
-						<name type="string">Innate Spellcasting</name>
-						<value type="string">Innate spellcasting</value>
-					</id-00004>
-					<id-00005>
-						<public />
-						<desc type="string">While in sunlight, the drow has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight.</desc>
-						<name type="string">Sunlight Sensitivity</name>
-						<value type="string">Sunlight sensitivity</value>
-					</id-00005>
-				</traits>
-				<type type="string">humanoid (elf)</type>
-				<wounds type="number">0</wounds>
-				<xp type="number">450</xp>
-			</id-00001>
-			<id-00002>
-				<public />
-				<abilities>
-					<public />
-					<charisma>
-						<public />
-						<bonus type="number">1</bonus>
-						<score type="number">12</score>
-					</charisma>
-					<constitution>
-						<public />
-						<bonus type="number">2</bonus>
-						<score type="number">14</score>
-					</constitution>
-					<dexterity>
-						<public />
-						<bonus type="number">4</bonus>
-						<score type="number">18</score>
-					</dexterity>
-					<intelligence>
-						<public />
-						<bonus type="number">0</bonus>
-						<score type="number">11</score>
-					</intelligence>
-					<strength>
-						<public />
-						<bonus type="number">1</bonus>
-						<score type="number">13</score>
-					</strength>
-					<wisdom>
-						<public />
-						<bonus type="number">1</bonus>
-						<score type="number">13</score>
-					</wisdom>
-				</abilities>
-				<ac type="number">18</ac>
-				<actext type="string">(studded leather, shield)</actext>
-				<actions>
-					<public />
-					<id-00001>
-						<public />
-						<desc type="string">The drow makes two shortsword attacks.</desc>
-						<name type="string">Multiattack</name>
-						<value type="string">Multiattack</value>
-					</id-00001>
-					<id-00002>
-						<public />
-						<desc type="string">Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit: 7 (1d6 + 4) piercing damage plus 10 (3d6) poison damage.</desc>
-						<name type="string">Shortsword</name>
-						<value type="string">Shortsword [M] [RNG: 10] [ATK: +7] [DMG: 1d6+4 piercing + 3d6 poison]</value>
-					</id-00002>
-					<id-00003>
-						<public />
-						<desc type="string">Ranged Weapon Attack: +7 to hit, range 30/120 ft., one target. Hit: 7 (1d6 + 4) piercing damage, and the target must succeed on a DC 13 Constitution saving throw or be poisoned for 1 hour. If the saving throw fails by 5 or more, the target is also unconscious while poisoned in this way. The target wakes up if it takes damage or if another creature takes an action to shake it awake.</desc>
-						<name type="string">Hand Crossbow</name>
-						<value type="string">Hand crossbow [R] [ATK: +7] [DMG: 1d6+4 piercing] [SAVEVS: constitution 13] [EFF: Poisoned (D:1 HR)]</value>
-					</id-00003>
-				</actions>
-				<active type="number">0</active>
-				<alignment type="string">neutral evil</alignment>
-				<cr type="string">5</cr>
-				<deathsavefail type="number">0</deathsavefail>
-				<deathsavesuccess type="number">0</deathsavesuccess>
-				<effects>
-					<public />
-				</effects>
-				<friendfoe type="string">foe</friendfoe>
-				<hd type="string">(11d8 + 22)</hd>
-				<hp type="number">71</hp>
-				<hptemp type="number">0</hptemp>
-				<hptotal type="number">110</hptotal>
-				<init type="number">4</init>
-				<initresult type="number">5</initresult>
-				<innatespells>
-					<public />
-					<id-00001>
-						<public />
-						<desc type="string">Level: 0\nCasting Time: 1 action\nComponents: V, S, M (a bit of phosphorus or wychwood, or a glowworm)\nDuration: Concentration, up to 1 minute\nYou create up to four torch-sized lights within range, making them appear as torches, lanterns, or glowing orbs that hover in the air for the duration. You can also combine the four lights into one glowing vaguely humanoid form of Medium size. Whichever form you choose, each light sheds dim light in a 10-foot radius.\nAs a bonus action on your turn, you can move the lights up to 60 feet to a new spot within range. A light must be within 20 feet of another light created by this spell, and a light winks out if it exceeds the spell's range.</desc>
-						<name type="string">Dancing Lights (At will)</name>
-						<value type="string">Dancing lights (at will)</value>
-					</id-00001>
-					<id-00002>
-						<public />
-						<desc type="string">Level: 2\nCasting Time: 1 action\nComponents: V, M (bat fur and a drop of pitch or piece of coal)\nDuration: Concentration, up to 10 minutes\nMagical darkness spreads from a point you choose within range to fill a 15-foot-radius sphere for the duration. The darkness spreads around corners.\nA creature with darkvision can't see through this darkness, and nonmagical light can't illuminate it.\nIf the point you choose is on an object you are holding or one that isn't being worn or carried, the darkness emanates from the object and moves with it. Completely covering the source of the darkness with an opaque object, such as a bowl or a helm, blocks the darkness.\nIf any of this spell's area overlaps with an area of light created by a spell of 2nd level or lower, the spell that created the light is dispelled.</desc>
-						<name type="string">Darkness (At will)</name>
-						<value type="string">Darkness (at will)</value>
-					</id-00002>
-					<id-00003>
-						<public />
-						<desc type="string">Level: 1\nCasting Time: 1 action\nComponents: V\nDuration: Concentration, up to 1 minute\nEach object in a 20-foot cube within range is outlined in blue, green, or violet light (your choice). Any creature in the area when the spell is cast is also outlined in light if it fails a DC 12 Dexterity saving throw. For the duration, objects and affected creatures shed dim light in a 10-foot radius. Any attack roll against an affected creature or object has advantage if the attacker can see it, and the affected creature or object can't benefit from being invisible.</desc>
-						<name type="string">Faerie Fire (At will)</name>
-						<value type="string">Faerie fire (at will) [SAVEVS: dexterity 12]</value>
-					</id-00003>
-					<id-00004>
-						<public />
-						<desc type="string">Level: 2\nCasting Time: 1 action\nComponents: V, S, M (either a small leather loop or a piece of golden wire bent into a cup shape with a long shank on one end)\nDuration: Concentration, up to 10 minutes\nOne creature or object of your choice that you can see within range rises vertically, up to 20 feet, and remains suspended there for the duration. The spell can levitate a target that weighs up to 500 pounds. An unwilling creature that succeeds on a DC 12 Constitution saving throw is unaffected.\nThe target can move only by pushing or pulling against a fixed object or surface within reach (such as a wall or a ceiling), which allows it to move as if it were climbing. You can change the target's altitude by up to 20 feet in either direction on your turn. If you are the target, you can move up or down as part of your move.\nOtherwise, you can use your action to move the target, which must remain within the spell's range. When the spell ends, the target floats gently to the ground if it is still aloft.</desc>
-						<name type="string">Levitate (At will)</name>
-						<value type="string">Levitate (at will) [SAVEVS: constitution 12]</value>
-					</id-00004>
-				</innatespells>
-				<lairactions>
-					<public />
-				</lairactions>
-				<languages type="string">Elvish, Undercommon</languages>
-				<legendaryactions>
-					<public />
-				</legendaryactions>
-				<link type="windowreference">
-					<class>npc</class>
-					<recordname></recordname>
-				</link>
-				<locked type="number">1</locked>
-				<name type="string">Jorlan Duskryn</name>
-				<reach type="number">5</reach>
-				<reaction type="number">0</reaction>
-				<reactions>
-					<public />
-					<id-00001>
-						<public />
-						<desc type="string">The drow adds 3 to its AC against one melee attack that would hit it. To do so, the drow must see the attacker and be wielding a melee weapon.</desc>
-						<name type="string">Parry</name>
-						<value type="string">Parry</value>
-					</id-00001>
-				</reactions>
-				<savingthrows type="string">Dex +7, Con +5, Wis +4</savingthrows>
-				<senses type="string">darkvision 120 ft., passive Perception 14</senses>
-				<size type="string">Medium</size>
-				<skills type="string">Perception +4, Stealth +10</skills>
-				<space type="number">5</space>
-				<speed type="string">30 ft.</speed>
-				<spells>
-					<public />
-				</spells>
-				<status type="string">Healthy</status>
-				<text type="formattedtext">
-					<h>Jorlan Duskryn</h>
-					<linklist>
-						<link class="encounter" recordname="encounter.id-00033@D&#38;D Out of the Abyss">Jorlan Duskryn - Bio</link>
-					</linklist>
-					<h>Drow Elite Warrior</h>
-					<p>Drow elite warriors defend their houses and their superiors against all enemies, although they specialize in fighting dwarves, gnomes, and elves (including other drow). They frequently raid surface settlements under cover of night, returning to the Underdark with prisoners and spoils in tow before dawn.</p>
-					<p>Elite warriors can be male or female.</p>
-					<h>Elves: Drow</h>
-					<linklist>
-						<link class="imagewindow" recordname="image.id-00135@D&#38;D Out of the Abyss">Image: Drow</link>
-					</linklist>
-					<p>Tens of thousands of years ago, the elves were divided, with those of benevolent disposition battling those that were selfish and cruel. The war among elvenkind ended when the good elves banished their malevolent kin to the subterranean depths. Here, in the lightless caverns and endless warrens of twisting passages, the dark elves-the drow-found refuge. They also found leadership in the only elven deity who had not forsaken them. At her command, the dark elves built an empire in the underworld.</p>
-					<p><b><i>Children of Lolth. </i></b>The drow worship Lolth, a deity who resides in the Abyss. Known as the Spider Queen or the Demon Queen of Spiders, she is the figure around which the dark elves have built their subterranean civilization. Whatever she demands, the drow do. The wickedest of elves, drow are seldom seen by the surface world. Though they plot to destroy the elves that banished them, they no longer see themselves as exiles. They are the destined rulers of the darkness, and when Lolth commands them to rise up and destroy their surface-dwelling kin, they will.</p>
-					<p><b><i>Creatures of Darkness. </i></b>The drow have lived underground for so long that they have evolved to their surroundings and can see in the dark. However, they can no longer stand sunlight. When slaves are in short supply in the Underdark, the drow send raiding parties to the surface to capture humanoids under cover of darkness, bringing them back to their cities to be tortured into submission. Beyond those occasional excursions, the drow are content to remain in their subterranean realm, where they feel secure and in control.</p>
-					<p><b><i>Underdark Cities. </i></b>The dark elves build fantastic cities in enormous caverns where food and water are abundant. Their ability to sculpt stone rivals that of the greatest dwarf artisans, yet their structures retain a decidedly elven aesthetic. Though appearing delicate, drow settlements are structurally sound and remarkably resilient. The drow like to hollow out enormous stalagmites and stalactites, creating populated spires that rise from the floors and ceilings.A drow city is a sprawling metropolis enclosed by high walls. Non-drow visitors must conduct their business outside the walls under watchful eyes. The drow raise and keep giant spiders to help protect their cities against intruders, even as they drape those cities in beautiful webbing, creating a gossamer snare to catch flying enemies that would otherwise soar over the walls.</p>
-					<p><b><i>Drow Magic. </i></b>Just as the drow have adapted to underground life, so too has their magic. In addition to using that magic to carve their cities from stone, they empower their weapons, create dangerous new magic items, and summon demons from the Abyss. Drow spellcasters are supremely arrogant and never hesitate to use their magic in the most abhorrent ways.</p>
-					<p><b><i>Arms and Armor. </i></b>Drow craft weapons made of adamantine, a dark and supernaturally hard metal. Drow artisans adorn their weapons and armor with web-like filigree and spider motifs, and mages sometimes imbue items with magic to enhance their effectiveness. However, such magic fades when exposed to sunlight, so that magical drow weapons and armor rarely retain their enhancement bonuses and magical properties when brought to the surface.</p>
-					<p><b><i>Cutthroat Politics. </i></b>Drow politics are cutthroat and rife with intrigue. When drow work together, it is typically to destroy a common foe and ensure their own survival, and such alliances are short lived and fraught with peril.</p>
-					<p>Drow society is divided into noble houses, each ruled by a matron who seeks to raise the prestige and power of her house above all others. Other high-ranking members of the house are blood relatives, while the middling ranks are flush with drow from weaker families that have sworn fealty to the greater house. Clinging precariously to the bottom rung of a house's social ladder are the house slaves, made up of drow of low birth and the occasional non-drow captive.</p>
-					<p><b><i>Matriarchal Rule. </i></b>Lolth, through her faithful priestesses, dictates the rules of drow society, ensuring that her orders and plots are carried out. Since Lolth is prone to manifesting on the Material Plane and directly punishing those that disobey her, the drow have learned to heed what she says and do as her priestesses command.</p>
-					<p>In drow society, males are subservient to females. A male drow might lead an Underdark patrol or a raiding party to the surface, but he reports to a female drow-either the matron of his house or one of her hand-picked female subordinates. Although male drow can fill almost any function in drow society, they can't be priests, nor can they rule a house.</p>
-					<p><b><i>Poison Predilection. </i></b>Distilled from spider venom and the flora of the Underdark, poison can be found in abundance among the drow, and it plays an important part in their culture and politics. Drow mages concoct a viscid toxin that leaves enemies unconscious. Drow warriors coat their blades and crossbow bolts with this venom, looking forward to the interrogation and torture that follows combat.</p>
-					<p><b>Variant: Drow Magic Armor and Weapons</b></p>
-					<p>Drow often wear magic armor and carry magic weapons that lose their enhancement bonuses permanently if they are exposed to sunlight for 1 hour or longer.</p>
-					<list>
-						<li>A <b>drow </b>wearing a +1 chain shirt and carrying a +1 shortsword has AC 19 and a +1 bonus on attack and damage rolls with shortsword attacks.</li>
-						<li>A <b>drow elite warrior </b>wearing +2 studded leather and carrying a +2 shortsword has AC 20 and a +2 bonus on attack and damage rolls with shortsword attacks.</li>
-						<li>A <b>drow priestess of Lolth </b>wearing +3 scale mail has AC 19.</li>
-					</list>
-				</text>
-				<token type="token">tokens/campaign/Drow5.png@D&#38;D Out of the Abyss</token>
-				<tokenscale type="number">1</tokenscale>
-				<tokenvis type="number">0</tokenvis>
-				<traits>
-					<public />
-					<id-00001>
-						<public />
-						<desc type="string">The drow has advantage on saving throws against being charmed, and magic can't put the drow to sleep.</desc>
-						<name type="string">Fey Ancestry</name>
-						<value type="string">Fey ancestry</value>
-					</id-00001>
-					<id-00002>
-						<public />
-						<desc type="string">The drow's spellcasting ability is Charisma (spell save DC 12). It can innately cast the following spells, requiring no material components:\nAt will: dancing lights \n1/day each: darkness, faerie fire, levitate (self only)</desc>
-						<name type="string">Innate Spellcasting</name>
-						<value type="string">Innate spellcasting</value>
-					</id-00002>
-					<id-00003>
-						<public />
-						<desc type="string">While in sunlight, the drow has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight.</desc>
-						<name type="string">Sunlight Sensitivity</name>
-						<value type="string">Sunlight sensitivity</value>
-					</id-00003>
-					<id-00004>
-						<public />
-						<desc type="string">Jorlan has disadvantage on all attack rolls, Dexterity checks, and Dexterity saving throws.</desc>
-						<name type="string">Maimed</name>
-						<value type="string">Maimed</value>
-					</id-00004>
-				</traits>
-				<type type="string">humanoid (elf )</type>
-				<wounds type="number">0</wounds>
-				<xp type="number">1800</xp>
-			</id-00002>
 			<id-00003>
 				<public />
 				<abilities>
@@ -7209,9 +6778,6 @@
 				<innatespells>
 					<public />
 				</innatespells>
-				<lairactions>
-					<public />
-				</lairactions>
 				<legendaryactions>
 					<public />
 				</legendaryactions>
@@ -7242,491 +6808,6 @@
 				</traits>
 				<wounds type="number">0</wounds>
 			</id-00003>
-			<id-00004>
-				<public />
-				<abilities>
-					<public />
-					<charisma>
-						<public />
-						<bonus type="number">1</bonus>
-						<score type="number">12</score>
-					</charisma>
-					<constitution>
-						<public />
-						<bonus type="number">2</bonus>
-						<score type="number">14</score>
-					</constitution>
-					<dexterity>
-						<public />
-						<bonus type="number">4</bonus>
-						<score type="number">18</score>
-					</dexterity>
-					<intelligence>
-						<public />
-						<bonus type="number">0</bonus>
-						<score type="number">11</score>
-					</intelligence>
-					<strength>
-						<public />
-						<bonus type="number">1</bonus>
-						<score type="number">13</score>
-					</strength>
-					<wisdom>
-						<public />
-						<bonus type="number">1</bonus>
-						<score type="number">13</score>
-					</wisdom>
-				</abilities>
-				<ac type="number">18</ac>
-				<actext type="string">(studded leather, shield)</actext>
-				<actions>
-					<public />
-					<id-00001>
-						<public />
-						<desc type="string">The drow makes two shortsword attacks.</desc>
-						<name type="string">Multiattack</name>
-						<value type="string">Multiattack</value>
-					</id-00001>
-					<id-00002>
-						<public />
-						<desc type="string">Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit: 7 (1d6 + 4) piercing damage plus 10 (3d6) poison damage.</desc>
-						<name type="string">Shortsword</name>
-						<value type="string">Shortsword [M] [RNG: 10] [ATK: +7] [DMG: 1d6+4 piercing + 3d6 poison]</value>
-					</id-00002>
-					<id-00003>
-						<public />
-						<desc type="string">Ranged Weapon Attack: +7 to hit, range 30/120 ft., one target. Hit: 7 (1d6 + 4) piercing damage, and the target must succeed on a DC 13 Constitution saving throw or be poisoned for 1 hour. If the saving throw fails by 5 or more, the target is also unconscious while poisoned in this way. The target wakes up if it takes damage or if another creature takes an action to shake it awake.</desc>
-						<name type="string">Hand Crossbow</name>
-						<value type="string">Hand crossbow [R] [ATK: +7] [DMG: 1d6+4 piercing] [SAVEVS: constitution 13] [EFF: Poisoned (D:1 HR)]</value>
-					</id-00003>
-					<id-00004>
-						<public />
-						<desc type="string">Ranged Spell Attack: +4 to hit, range 60 ft., one target. Hit: The glob expands and dries and the target is restrained for 1 hour.</desc>
-						<name type="string">Wand of Viscid Globs (7 Charges)</name>
-						<value type="string">Wand of viscid globs (7 charges) [R] [RNG: 60] [ATK: +4] [EFF: Restrained (D:1 HR)]</value>
-					</id-00004>
-				</actions>
-				<active type="number">0</active>
-				<alignment type="string">neutral evil</alignment>
-				<cr type="string">5</cr>
-				<deathsavefail type="number">0</deathsavefail>
-				<deathsavesuccess type="number">0</deathsavesuccess>
-				<effects>
-					<public />
-				</effects>
-				<friendfoe type="string">foe</friendfoe>
-				<hd type="string">(11d8 + 22)</hd>
-				<hp type="number">71</hp>
-				<hptemp type="number">0</hptemp>
-				<hptotal type="number">110</hptotal>
-				<init type="number">4</init>
-				<initresult type="number">10</initresult>
-				<innatespells>
-					<public />
-					<id-00001>
-						<public />
-						<desc type="string">Level: 0\nCasting Time: 1 action\nComponents: V, S, M (a bit of phosphorus or wychwood, or a glowworm)\nDuration: Concentration, up to 1 minute\nYou create up to four torch-sized lights within range, making them appear as torches, lanterns, or glowing orbs that hover in the air for the duration. You can also combine the four lights into one glowing vaguely humanoid form of Medium size. Whichever form you choose, each light sheds dim light in a 10-foot radius.\nAs a bonus action on your turn, you can move the lights up to 60 feet to a new spot within range. A light must be within 20 feet of another light created by this spell, and a light winks out if it exceeds the spell's range.</desc>
-						<name type="string">Dancing Lights (At will)</name>
-						<value type="string">Dancing lights (at will)</value>
-					</id-00001>
-					<id-00002>
-						<public />
-						<desc type="string">Level: 2\nCasting Time: 1 action\nComponents: V, M (bat fur and a drop of pitch or piece of coal)\nDuration: Concentration, up to 10 minutes\nMagical darkness spreads from a point you choose within range to fill a 15-foot-radius sphere for the duration. The darkness spreads around corners.\nA creature with darkvision can't see through this darkness, and nonmagical light can't illuminate it.\nIf the point you choose is on an object you are holding or one that isn't being worn or carried, the darkness emanates from the object and moves with it. Completely covering the source of the darkness with an opaque object, such as a bowl or a helm, blocks the darkness.\nIf any of this spell's area overlaps with an area of light created by a spell of 2nd level or lower, the spell that created the light is dispelled.</desc>
-						<name type="string">Darkness (At will)</name>
-						<value type="string">Darkness (at will)</value>
-					</id-00002>
-					<id-00003>
-						<public />
-						<desc type="string">Level: 1\nCasting Time: 1 action\nComponents: V\nDuration: Concentration, up to 1 minute\nEach object in a 20-foot cube within range is outlined in blue, green, or violet light (your choice). Any creature in the area when the spell is cast is also outlined in light if it fails a DC 12 Dexterity saving throw. For the duration, objects and affected creatures shed dim light in a 10-foot radius. Any attack roll against an affected creature or object has advantage if the attacker can see it, and the affected creature or object can't benefit from being invisible.</desc>
-						<name type="string">Faerie Fire (At will)</name>
-						<value type="string">Faerie fire (at will) [SAVEVS: dexterity 12]</value>
-					</id-00003>
-					<id-00004>
-						<public />
-						<desc type="string">Level: 2\nCasting Time: 1 action\nComponents: V, S, M (either a small leather loop or a piece of golden wire bent into a cup shape with a long shank on one end)\nDuration: Concentration, up to 10 minutes\nOne creature or object of your choice that you can see within range rises vertically, up to 20 feet, and remains suspended there for the duration. The spell can levitate a target that weighs up to 500 pounds. An unwilling creature that succeeds on a DC 12 Constitution saving throw is unaffected.\nThe target can move only by pushing or pulling against a fixed object or surface within reach (such as a wall or a ceiling), which allows it to move as if it were climbing. You can change the target's altitude by up to 20 feet in either direction on your turn. If you are the target, you can move up or down as part of your move.\nOtherwise, you can use your action to move the target, which must remain within the spell's range. When the spell ends, the target floats gently to the ground if it is still aloft.</desc>
-						<name type="string">Levitate (At will)</name>
-						<value type="string">Levitate (at will) [SAVEVS: constitution 12]</value>
-					</id-00004>
-				</innatespells>
-				<lairactions>
-					<public />
-				</lairactions>
-				<languages type="string">Elvish, Undercommon</languages>
-				<legendaryactions>
-					<public />
-				</legendaryactions>
-				<link type="windowreference">
-					<class>npc</class>
-					<recordname></recordname>
-				</link>
-				<locked type="number">1</locked>
-				<name type="string">Shoor Vandree</name>
-				<reach type="number">5</reach>
-				<reaction type="number">0</reaction>
-				<reactions>
-					<public />
-					<id-00001>
-						<public />
-						<desc type="string">The drow adds 3 to its AC against one melee attack that would hit it. To do so, the drow must see the attacker and be wielding a melee weapon.</desc>
-						<name type="string">Parry</name>
-						<value type="string">Parry</value>
-					</id-00001>
-				</reactions>
-				<savingthrows type="string">Dex +7, Con +5, Wis +4</savingthrows>
-				<senses type="string">darkvision 120 ft., passive Perception 14</senses>
-				<size type="string">Medium</size>
-				<skills type="string">Perception +4, Stealth +10</skills>
-				<space type="number">5</space>
-				<speed type="string">30 ft.</speed>
-				<spells>
-					<public />
-				</spells>
-				<status type="string">Healthy</status>
-				<text type="formattedtext">
-					<h>Shoor Vandree</h>
-					<linklist>
-						<link class="encounter" recordname="encounter.id-00034@D&#38;D Out of the Abyss">Shoor Vandree - Bio</link>
-					</linklist>
-					<h>Drow Elite Warrior</h>
-					<p>Drow elite warriors defend their houses and their superiors against all enemies, although they specialize in fighting dwarves, gnomes, and elves (including other drow). They frequently raid surface settlements under cover of night, returning to the Underdark with prisoners and spoils in tow before dawn.</p>
-					<p>Elite warriors can be male or female.</p>
-					<h>Elves: Drow</h>
-					<linklist>
-						<link class="imagewindow" recordname="image.id-00135@D&#38;D Out of the Abyss">Image: Drow</link>
-					</linklist>
-					<p>Tens of thousands of years ago, the elves were divided, with those of benevolent disposition battling those that were selfish and cruel. The war among elvenkind ended when the good elves banished their malevolent kin to the subterranean depths. Here, in the lightless caverns and endless warrens of twisting passages, the dark elves-the drow-found refuge. They also found leadership in the only elven deity who had not forsaken them. At her command, the dark elves built an empire in the underworld.</p>
-					<p><b><i>Children of Lolth. </i></b>The drow worship Lolth, a deity who resides in the Abyss. Known as the Spider Queen or the Demon Queen of Spiders, she is the figure around which the dark elves have built their subterranean civilization. Whatever she demands, the drow do. The wickedest of elves, drow are seldom seen by the surface world. Though they plot to destroy the elves that banished them, they no longer see themselves as exiles. They are the destined rulers of the darkness, and when Lolth commands them to rise up and destroy their surface-dwelling kin, they will.</p>
-					<p><b><i>Creatures of Darkness. </i></b>The drow have lived underground for so long that they have evolved to their surroundings and can see in the dark. However, they can no longer stand sunlight. When slaves are in short supply in the Underdark, the drow send raiding parties to the surface to capture humanoids under cover of darkness, bringing them back to their cities to be tortured into submission. Beyond those occasional excursions, the drow are content to remain in their subterranean realm, where they feel secure and in control.</p>
-					<p><b><i>Underdark Cities. </i></b>The dark elves build fantastic cities in enormous caverns where food and water are abundant. Their ability to sculpt stone rivals that of the greatest dwarf artisans, yet their structures retain a decidedly elven aesthetic. Though appearing delicate, drow settlements are structurally sound and remarkably resilient. The drow like to hollow out enormous stalagmites and stalactites, creating populated spires that rise from the floors and ceilings.A drow city is a sprawling metropolis enclosed by high walls. Non-drow visitors must conduct their business outside the walls under watchful eyes. The drow raise and keep giant spiders to help protect their cities against intruders, even as they drape those cities in beautiful webbing, creating a gossamer snare to catch flying enemies that would otherwise soar over the walls.</p>
-					<p><b><i>Drow Magic. </i></b>Just as the drow have adapted to underground life, so too has their magic. In addition to using that magic to carve their cities from stone, they empower their weapons, create dangerous new magic items, and summon demons from the Abyss. Drow spellcasters are supremely arrogant and never hesitate to use their magic in the most abhorrent ways.</p>
-					<p><b><i>Arms and Armor. </i></b>Drow craft weapons made of adamantine, a dark and supernaturally hard metal. Drow artisans adorn their weapons and armor with web-like filigree and spider motifs, and mages sometimes imbue items with magic to enhance their effectiveness. However, such magic fades when exposed to sunlight, so that magical drow weapons and armor rarely retain their enhancement bonuses and magical properties when brought to the surface.</p>
-					<p><b><i>Cutthroat Politics. </i></b>Drow politics are cutthroat and rife with intrigue. When drow work together, it is typically to destroy a common foe and ensure their own survival, and such alliances are short lived and fraught with peril.</p>
-					<p>Drow society is divided into noble houses, each ruled by a matron who seeks to raise the prestige and power of her house above all others. Other high-ranking members of the house are blood relatives, while the middling ranks are flush with drow from weaker families that have sworn fealty to the greater house. Clinging precariously to the bottom rung of a house's social ladder are the house slaves, made up of drow of low birth and the occasional non-drow captive.</p>
-					<p><b><i>Matriarchal Rule. </i></b>Lolth, through her faithful priestesses, dictates the rules of drow society, ensuring that her orders and plots are carried out. Since Lolth is prone to manifesting on the Material Plane and directly punishing those that disobey her, the drow have learned to heed what she says and do as her priestesses command.</p>
-					<p>In drow society, males are subservient to females. A male drow might lead an Underdark patrol or a raiding party to the surface, but he reports to a female drow-either the matron of his house or one of her hand-picked female subordinates. Although male drow can fill almost any function in drow society, they can't be priests, nor can they rule a house.</p>
-					<p><b><i>Poison Predilection. </i></b>Distilled from spider venom and the flora of the Underdark, poison can be found in abundance among the drow, and it plays an important part in their culture and politics. Drow mages concoct a viscid toxin that leaves enemies unconscious. Drow warriors coat their blades and crossbow bolts with this venom, looking forward to the interrogation and torture that follows combat.</p>
-					<p><b>Variant: Drow Magic Armor and Weapons</b></p>
-					<p>Drow often wear magic armor and carry magic weapons that lose their enhancement bonuses permanently if they are exposed to sunlight for 1 hour or longer.</p>
-					<list>
-						<li>A <b>drow </b>wearing a +1 chain shirt and carrying a +1 shortsword has AC 19 and a +1 bonus on attack and damage rolls with shortsword attacks.</li>
-						<li>A <b>drow elite warrior </b>wearing +2 studded leather and carrying a +2 shortsword has AC 20 and a +2 bonus on attack and damage rolls with shortsword attacks.</li>
-						<li>A <b>drow priestess of Lolth </b>wearing +3 scale mail has AC 19.</li>
-					</list>
-				</text>
-				<token type="token">tokens/campaign/Drow3.png@D&#38;D Out of the Abyss</token>
-				<tokenscale type="number">1</tokenscale>
-				<tokenvis type="number">0</tokenvis>
-				<traits>
-					<public />
-					<id-00001>
-						<public />
-						<desc type="string">The drow has advantage on saving throws against being charmed, and magic can't put the drow to sleep.</desc>
-						<name type="string">Fey Ancestry</name>
-						<value type="string">Fey ancestry</value>
-					</id-00001>
-					<id-00002>
-						<public />
-						<desc type="string">The drow's spellcasting ability is Charisma (spell save DC 12). It can innately cast the following spells, requiring no material components:\nAt will: dancing lights \n1/day each: darkness, faerie fire, levitate (self only)</desc>
-						<name type="string">Innate Spellcasting</name>
-						<value type="string">Innate spellcasting</value>
-					</id-00002>
-					<id-00003>
-						<public />
-						<desc type="string">While in sunlight, the drow has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight.</desc>
-						<name type="string">Sunlight Sensitivity</name>
-						<value type="string">Sunlight sensitivity</value>
-					</id-00003>
-				</traits>
-				<type type="string">humanoid (elf )</type>
-				<wounds type="number">0</wounds>
-				<xp type="number">1800</xp>
-			</id-00004>
-			<id-00005>
-				<public />
-				<abilities>
-					<public />
-					<charisma>
-						<public />
-						<bonus type="number">4</bonus>
-						<score type="number">18</score>
-					</charisma>
-					<constitution>
-						<public />
-						<bonus type="number">1</bonus>
-						<score type="number">12</score>
-					</constitution>
-					<dexterity>
-						<public />
-						<bonus type="number">2</bonus>
-						<score type="number">14</score>
-					</dexterity>
-					<intelligence>
-						<public />
-						<bonus type="number">1</bonus>
-						<score type="number">13</score>
-					</intelligence>
-					<strength>
-						<public />
-						<bonus type="number">0</bonus>
-						<score type="number">10</score>
-					</strength>
-					<wisdom>
-						<public />
-						<bonus type="number">3</bonus>
-						<score type="number">17</score>
-					</wisdom>
-				</abilities>
-				<ac type="number">16</ac>
-				<actext type="string">(scale mail)</actext>
-				<actions>
-					<public />
-					<id-00001>
-						<public />
-						<desc type="string">The drow makes two scourge attacks.</desc>
-						<name type="string">Multiattack</name>
-						<value type="string">Multiattack</value>
-					</id-00001>
-					<id-00002>
-						<public />
-						<desc type="string">Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing damage plus 17 (5d6) poison damage.</desc>
-						<name type="string">Scourge</name>
-						<value type="string">Scourge [M] [ATK: +5] [DMG: 1d6+2 piercing + 5d6 poison]</value>
-					</id-00002>
-					<id-00003>
-						<public />
-						<desc type="string">The drow attempts to magically summon a yochlol with a 30 percent chance of success. If the attempt fails, the drow takes 5 (1d10) psychic damage. Other wise, the summoned demon appears in an unoccupied space within 60 feet of its summoner, acts as an ally of its summoner, and can't summon other demons. It remains for 10 minutes, until it or its summoner dies, or until its summoner dismisses it as an action.</desc>
-						<name type="string">Summon Demon (1/Day)</name>
-						<value type="string">Summon demon (1/day) [DMG: 1d10 psychic]</value>
-					</id-00003>
-					<id-00004>
-						<public />
-						<desc type="string">Ilvara makes three Tentacle Attacks. If she hits a target with all three tentacles, it must make a DC 15 Constitution saving throw. On a failure, the target's speed is halved, it has disadvantage on Dexterity saving throws, and it can't use reactions for 1 minute. Moreover, on each of its turns, it can take either an action or a bonus action, but not both. At the end of each of its turns, it can repeat the saving throw, ending the effect on itself on a success.\n</desc>
-						<name type="string">Tentacle Rod</name>
-						<value type="string">Tentacle rod [SAVEVS: constitution 15]</value>
-					</id-00004>
-					<id-00005>
-						<public />
-						<desc type="string">Melee Weapon Attack: +9 to hit, reach 15 ft., one target. Hit: 4 (1d6) bludgeoning damage.</desc>
-						<name type="string">Tentacle Attack</name>
-						<value type="string">Tentacle attack [M] [RNG: 15] [ATK: +9] [DMG: 1d6 bludgeoning]</value>
-					</id-00005>
-				</actions>
-				<active type="number">0</active>
-				<alignment type="string">neutral evil</alignment>
-				<cr type="string">8</cr>
-				<deathsavefail type="number">0</deathsavefail>
-				<deathsavesuccess type="number">0</deathsavesuccess>
-				<effects>
-					<public />
-				</effects>
-				<friendfoe type="string">foe</friendfoe>
-				<hd type="string">(13d8 + 13)</hd>
-				<hp type="number">71</hp>
-				<hptemp type="number">0</hptemp>
-				<hptotal type="number">117</hptotal>
-				<init type="number">2</init>
-				<initresult type="number">4</initresult>
-				<innatespells>
-					<public />
-					<id-00001>
-						<public />
-						<desc type="string">Level: 0\nCasting Time: 1 action\nComponents: V, S, M (a bit of phosphorus or wychwood, or a glowworm)\nDuration: Concentration, up to 1 minute\nYou create up to four torch-sized lights within range, making them appear as torches, lanterns, or glowing orbs that hover in the air for the duration. You can also combine the four lights into one glowing vaguely humanoid form of Medium size. Whichever form you choose, each light sheds dim light in a 10-foot radius.\nAs a bonus action on your turn, you can move the lights up to 60 feet to a new spot within range. A light must be within 20 feet of another light created by this spell, and a light winks out if it exceeds the spell's range.</desc>
-						<name type="string">Dancing Lights (At will)</name>
-						<value type="string">Dancing lights (at will)</value>
-					</id-00001>
-					<id-00002>
-						<public />
-						<desc type="string">Level: 2\nCasting Time: 1 action\nComponents: V, M (bat fur and a drop of pitch or piece of coal)\nDuration: Concentration, up to 10 minutes\nMagical darkness spreads from a point you choose within range to fill a 15-foot-radius sphere for the duration. The darkness spreads around corners.\nA creature with darkvision can't see through this darkness, and nonmagical light can't illuminate it.\nIf the point you choose is on an object you are holding or one that isn't being worn or carried, the darkness emanates from the object and moves with it. Completely covering the source of the darkness with an opaque object, such as a bowl or a helm, blocks the darkness.\nIf any of this spell's area overlaps with an area of light created by a spell of 2nd level or lower, the spell that created the light is dispelled.</desc>
-						<name type="string">Darkness (At will)</name>
-						<value type="string">Darkness (at will)</value>
-					</id-00002>
-					<id-00003>
-						<public />
-						<desc type="string">Level: 1\nCasting Time: 1 action\nComponents: V\nDuration: Concentration, up to 1 minute\nEach object in a 20-foot cube within range is outlined in blue, green, or violet light (your choice). Any creature in the area when the spell is cast is also outlined in light if it fails a DC 15 Dexterity saving throw. For the duration, objects and affected creatures shed dim light in a 10-foot radius. Any attack roll against an affected creature or object has advantage if the attacker can see it, and the affected creature or object can't benefit from being invisible.</desc>
-						<name type="string">Faerie Fire (At will)</name>
-						<value type="string">Faerie fire (at will) [SAVEVS: dexterity 15]</value>
-					</id-00003>
-					<id-00004>
-						<public />
-						<desc type="string">Level: 2\nCasting Time: 1 action\nComponents: V, S, M (either a small leather loop or a piece of golden wire bent into a cup shape with a long shank on one end)\nDuration: Concentration, up to 10 minutes\nOne creature or object of your choice that you can see within range rises vertically, up to 20 feet, and remains suspended there for the duration. The spell can levitate a target that weighs up to 500 pounds. An unwilling creature that succeeds on a DC 15 Constitution saving throw is unaffected.\nThe target can move only by pushing or pulling against a fixed object or surface within reach (such as a wall or a ceiling), which allows it to move as if it were climbing. You can change the target's altitude by up to 20 feet in either direction on your turn. If you are the target, you can move up or down as part of your move.\nOtherwise, you can use your action to move the target, which must remain within the spell's range. When the spell ends, the target floats gently to the ground if it is still aloft.</desc>
-						<name type="string">Levitate (At will)</name>
-						<value type="string">Levitate (at will) [SAVEVS: constitution 15]</value>
-					</id-00004>
-				</innatespells>
-				<lairactions>
-					<public />
-				</lairactions>
-				<languages type="string">Elvish, Undercommon</languages>
-				<legendaryactions>
-					<public />
-				</legendaryactions>
-				<link type="windowreference">
-					<class>npc</class>
-					<recordname></recordname>
-				</link>
-				<locked type="number">1</locked>
-				<name type="string">Ilvara Mizzrym</name>
-				<reach type="number">5</reach>
-				<reaction type="number">0</reaction>
-				<reactions>
-					<public />
-				</reactions>
-				<savingthrows type="string">Con +4, Wis +6, Cha +7</savingthrows>
-				<senses type="string">darkvision 120 ft., passive Perception 16</senses>
-				<size type="string">Medium</size>
-				<skills type="string">Insight +6, Perception +6, Religion +4, Stealth +5</skills>
-				<space type="number">5</space>
-				<speed type="string">30 ft.</speed>
-				<spells>
-					<public />
-					<id-00001>
-						<public />
-						<desc type="string">Level: 0\nCasting Time: 1 action\nComponents: V, S\nDuration: Concentration, up to 1 minute\nYou touch one willing creature. Once before the spell ends, the target can roll a d4 and add the number rolled to one ability check of its choice. It can roll the die before or after making the ability check. The spell then ends.</desc>
-						<name type="string">Guidance - Cantrip (At will)</name>
-						<value type="string">Guidance - cantrip (at will)</value>
-					</id-00001>
-					<id-00002>
-						<public />
-						<desc type="string">Level: 0\nCasting Time: 1 action\nComponents: V, S\nDuration: Instantaneous\nYou extend your hand toward a creature you can see within range and project a puff of noxious gas from your palm. The creature must succeed on a DC 14 Constitution saving throw or take 2d12 poison damage.</desc>
-						<name type="string">Poison Spray - Cantrip (At will)</name>
-						<value type="string">Poison spray - cantrip (at will) [SAVEVS: constitution 14] [DMG: 2d12 poison]</value>
-					</id-00002>
-					<id-00003>
-						<public />
-						<desc type="string">Level: 0\nCasting Time: 1 action\nComponents: V, S, M (a miniature cloak)\nDuration: Concentration, up to 1 minute\nYou touch one willing creature. Once before the spell ends, the target can roll a d4 and add the number rolled to one saving throw of its choice. It can roll the die before or after making the saving throw. The spell then ends.</desc>
-						<name type="string">Resistance - Cantrip (At will)</name>
-						<value type="string">Resistance - cantrip (at will)</value>
-					</id-00003>
-					<id-00004>
-						<public />
-						<desc type="string">Level: 0\nCasting Time: 1 action\nComponents: V, S\nDuration: Instantaneous\nYou touch a living creature that has 0 hit points. The creature becomes stable. This spell has no effect on undead or constructs.</desc>
-						<name type="string">Spare the Dying - Cantrip (At will)</name>
-						<value type="string">Spare the dying - cantrip (at will)</value>
-					</id-00004>
-					<id-00005>
-						<public />
-						<desc type="string">Level: 0\nCasting Time: 1 action\nComponents: V\nDuration: Up to 1 minute\nYou manifest a minor wonder, a sign of supernatural power, within range. You create one of the following magical effects within range:\nYour voice booms up to three times as loud as normal for 1 minute.\nYou cause flames to flicker, brighten, dim, or change color for 1 minute.\nYou cause harmless tremors in the ground for 1 minute.\nYou create an instantaneous sound that originates from a point of your choice within range, such as a rumble of thunder, the cry of a raven, or ominous whispers.\nYou instantaneously cause an unlocked door or window to fly open or slam shut.\nYou alter the appearance of your eyes for 1 minute.\n\nIf you cast this spell multiple times, you can have up to three of its 1-minute effects active at a time, and you can dismiss such an effect as an action.</desc>
-						<name type="string">Thaumaturgy - Cantrip (At will)</name>
-						<value type="string">Thaumaturgy - cantrip (at will)</value>
-					</id-00005>
-					<id-00006>
-						<public />
-						<desc type="string">Level: 1\nCasting Time: 1 action\nComponents: V, S, M (a morsel of food)\nDuration: 24 hours\nThis spell lets you convince a beast that you mean it no harm. Choose a beast that you can see within range. It must see and hear you. If the beast's Intelligence is 4 or higher, the spell fails. Otherwise, the beast must succeed on a DC 14 Wisdom saving throw or be charmed by you for the spell's duration. If you or one of your companions harms the target, the spells ends.\nAt Higher Levels. When you cast this spell using a spell slot of 2nd level or higher, you can affect one additional beast for each slot level above 1st.</desc>
-						<name type="string">Animal Friendship - 1st level (4 slots)</name>
-						<value type="string">Animal friendship - 1st level (4 slots) [SAVEVS: wisdom 14] [EFF: Charmed; (C) (D:24 HR)]</value>
-					</id-00006>
-					<id-00007>
-						<public />
-						<desc type="string">Level: 1\nCasting Time: 1 action\nComponents: V, S\nDuration: Instantaneous\nA creature you touch regains a number of hit points equal to 1d8 + 3 ability modifier. This spell has no effect on undead or constructs.\nAt Higher Levels. When you cast this spell using a spell slot of 2nd level or higher, the healing increases by 1d8 for each slot level above 1st.</desc>
-						<name type="string">Cure Wounds - 1st level (4 slots)</name>
-						<value type="string">Cure wounds - 1st level (4 slots) [HEAL: 1d8+3]</value>
-					</id-00007>
-					<id-00008>
-						<public />
-						<desc type="string">Level: 1 (Ritual)\nCasting Time: 1 action\nComponents: V, S, M (a yew leaf)\nDuration: Concentration, up to 10 minutes\nFor the duration, you can sense the presence and location of poisons, poisonous creatures, and diseases within 30 feet of you. You also identify the kind of poison, poisonous creature, or disease in each case. The spell can penetrate most barriers, but it is blocked by 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt.</desc>
-						<name type="string">Detect Poison and Disease - 1st level (4 slots)</name>
-						<value type="string">Detect poison and disease - 1st level (4 slots)</value>
-					</id-00008>
-					<id-00009>
-						<public />
-						<desc type="string">Level: 1\nCasting Time: 1 action\nComponents: V, S\nDuration: Instantaneous\nA ray of sickening greenish energy lashes out toward a creature within range. Make a ranged spell attack (+6 to hit) against the target. On a hit, the target takes 2d8 poison damage and must make a DC 14 Constitution saving throw.\nOn a failed save, it is also poisoned until the end of your next turn.\nAt Higher Levels. When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d8 for each slot level above 1st.</desc>
-						<name type="string">Ray of Sickness - 1st level (4 slots)</name>
-						<value type="string">Ray of sickness - 1st level (4 slots) [R] [ATK: +6] [DMG: 2d8 poison] [SAVEVS: constitution 14] [EFF: Poisoned]</value>
-					</id-00009>
-					<id-00010>
-						<public />
-						<desc type="string">Level: 2\nCasting Time: 1 action\nComponents: V, S\nDuration: Instantaneous\nYou touch a creature and can end either one disease or one condition afflicting it. The condition can be blinded, deafened, paralyzed, or poisoned.</desc>
-						<name type="string">Lesser Restoration - 2nd level (3 slots)</name>
-						<value type="string">Lesser restoration - 2nd level (3 slots)</value>
-					</id-00010>
-					<id-00011>
-						<public />
-						<desc type="string">Level: 2\nCasting Time: 1 action\nComponents: V, S, M (a bit of spiderweb)\nDuration: Concentration, up to 1 hour\nYou conjure a mass of thick, sticky webbing at a point of your choice within range. The webs fill a 20-foot cube from that point for the duration. The webs are difficult terrain and lightly obscure their area.\nIf the webs aren't anchored between two solid masses (such as walls or trees) or layered across a floor, wall, or ceiling, the conjured web collapses on itself, and the spell ends at the start of your next turn. webs layered over a flat surface have a depth of 5 feet.\nEach creature that starts its turn in the webs or that enters them during its turn must make a DC 14 Dexterity saving throw. On a failed save, the creature is restrained as long as it remains in the webs or until it breaks free. A creature restrained by the webs can use its action to make a Strength check against your spell save DC 14. If it succeeds, it is no longer restrained.\nThe webs are flammable. Any 5-foot cube of webs exposed to fire burns away in 1 round, dealing 2d4 fire damage to any creature that starts its turn in the fire.</desc>
-						<name type="string">Web - 2nd level (3 slots)</name>
-						<value type="string">Web - 2nd level (3 slots) [SAVEVS: dexterity 14] [EFF: Restrained; (C) (D:1 HR)] [DMG: 2d4 fire]</value>
-					</id-00011>
-					<id-00012>
-						<public />
-						<desc type="string">Level: 3\nCasting Time: 1 action\nComponents: V, S\nDuration: Concentration, up to 1 hour\nYou summon fey spirits that take the form of beasts and appear in unoccupied spaces that you can see within range. Choose one of the following options for what appears:\nOne beast of challenge rating 2 or lower\nTwo beasts of challenge rating 1 or lower\nFour beasts of challenge rating 1/2 or lower\nEight beasts of challenge rating 1/4 or lower\n\nEach beast is also considered fey, and it disappears when it drops to 0 hit points or when the spell ends.\nThe summoned creatures are friendly to you and your companions. Roll initiative for the summoned creatures as a group, which has its own turns. They obey any verbal commands that you issue to them (no action required by you). If you don't issue any commands to them, they defend themselves from hostile creatures, but otherwise take no actions.\nThe DM has the creatures' statistics.\nAt Higher Levels. When you cast this spell using certain higher-level spell slots, you choose one of the summoning options above, and more creatures appear: twice as many with a 5th-level slot, three times as many with a 7th-level slot, and four times as many with a 9th-level slot.</desc>
-						<name type="string">Conjure Animals - 3rd level (3 slots)</name>
-						<value type="string">Conjure animals - 3rd level (3 slots)</value>
-					</id-00012>
-					<id-00013>
-						<public />
-						<desc type="string">Level: 3\nCasting Time: 1 action\nComponents: V, S\nDuration: Instantaneous\nChoose one creature, object, or magical effect within range. Any spell of 3rd level or lower on the target ends. For each spell of 4th level or higher on the target, make an ability check using your spellcasting ability. The DC equals 10 + the spell's level. On a successful check, the spell ends.\nAt Higher Levels. When you cast this spell using a spell slot of 4th level or higher, you automatically end the effects of a spell on the target if the spell's level is equal to or less than the level of the spell slot you used.</desc>
-						<name type="string">Dispel Magic - 3rd level (3 slots)</name>
-						<value type="string">Dispel magic - 3rd level (3 slots)</value>
-					</id-00013>
-					<id-00014>
-						<public />
-						<desc type="string">Level: 4 (Ritual)\nCasting Time: 1 action\nComponents: V, S, M (incense and a sacrificial offering appropriate to your religion, together worth at least 25 gp, which the spell consumes)\nDuration: Instantaneous\nYour magic and an offering put you in contact with a god or a god's servants. You ask a single question concerning a specific goal, event, or activity to occur within 7 days. The DM offers a truthful reply. The reply might be a short phrase, a cryptic rhyme, or an omen. The spell doesn't take into account any possible circumstances that might change the outcome, such as the casting of additional spells or the loss or gain of a companion.\nIf you cast the spell two or more times before finishing your next long rest, there is a cumulative 25 percent chance for each casting after the first that you get a random reading. The DM makes this roll in secret.</desc>
-						<name type="string">Divination - 4th level (3 slots)</name>
-						<value type="string">Divination - 4th level (3 slots)</value>
-					</id-00014>
-					<id-00015>
-						<public />
-						<desc type="string">Level: 4\nCasting Time: 1 action\nComponents: V, S, M (a leather strap, bound around the arm or a similar appendage)\nDuration: 1 hour\nYou touch a willing creature. For the duration, the target's movement is unaffected by difficult terrain, and spells and other magical effects can neither reduce the target's speed nor cause the target to be paralyzed or restrained.\nThe target can also spend 5 feet of movement to automatically escape from nonmagical restraints, such as manacles or a creature that has it grappled. Finally, being underwater imposes no penalties on the target's movement or attacks.</desc>
-						<name type="string">Freedom of Movement - 4th level (3 slots)</name>
-						<value type="string">Freedom of movement - 4th level (3 slots)</value>
-					</id-00015>
-					<id-00016>
-						<public />
-						<desc type="string">Level: 5\nCasting Time: 1 action\nComponents: V, S, M (a few grains of sugar, some kernels of grain, and a smear of fat)\nDuration: Concentration, up to 10 minutes\nSwarming, biting locusts fill a 20-foot-radius sphere centered on a point you choose within range. The sphere spreads around corners. The sphere remains for the duration, and its area is lightly obscured. The sphere's area is difficult terrain.\nWhen the area appears, each creature in it must make a DC 14 Constitution saving throw. A creature takes 4d10 piercing damage on a failed save, or half as much damage on a successful one. A creature must also make this saving throw when it enters the spell's area for the first time on a turn or ends its turn there.\nAt Higher Levels. When you cast this spell using a spell slot of 6th level or higher, the damage increases by 1d10 for each slot level above 5th.</desc>
-						<name type="string">Insect Plague - 5th level (2 slots)</name>
-						<value type="string">Insect plague - 5th level (2 slots) [DMG: 4d10]</value>
-					</id-00016>
-					<id-00017>
-						<public />
-						<desc type="string">Level: 5\nCasting Time: 1 action\nComponents: V, S\nDuration: Instantaneous\nA wave of healing energy washes out from a point of your choice within range. Choose up to six creatures in a 30-foot-radius sphere centered on that point. Each target regains hit points equal to 3d8 + 3. This spell has no effect on undead or constructs.\nAt Higher Levels. When you cast this spell using a spell slot of 6th level or higher, the healing increases by 1d8 for each slot level above 5th.</desc>
-						<name type="string">Mass Cure Wounds - 5th level (2 slots)</name>
-						<value type="string">Mass cure wounds - 5th level (2 slots) [HEAL: 3d8+3]</value>
-					</id-00017>
-				</spells>
-				<status type="string">Healthy</status>
-				<text type="formattedtext">
-					<h>Ilvara Mizzrym</h>
-					<linklist>
-						<link class="imagewindow" recordname="image.id-00039@D&#38;D Out of the Abyss">Ilvara Mizzrym - Portrait</link>
-						<link class="encounter" recordname="encounter.id-00036@D&#38;D Out of the Abyss">Ilvara Mizzrym - Bio</link>
-					</linklist>
-					<h>Drow Priestess of Lolth</h>
-					<p>Female drow with blood ties to a noble house are molded and trained from birth to become priestesses of Lolth. The Spider Queen doesn't allow male drow to hold such positions.</p>
-					<p>Such priestesses execute the will of the Spider Queen, and as a result, they wield tremendous power and influence in drow society. The matron mothers who rule the drow houses are the most powerful of Lolth's priestesses, but they must constantly balance their devotion to the Spider Queen with their devotion to their families.</p>
-				</text>
-				<token type="token">tokens/campaign/Ilvara.png@D&#38;D Out of the Abyss</token>
-				<tokenscale type="number">1</tokenscale>
-				<tokenvis type="number">0</tokenvis>
-				<traits>
-					<public />
-					<id-00001>
-						<public />
-						<desc type="string">The drow has advantage on saving throws against being charmed, and magic can't put the drow to sleep.</desc>
-						<name type="string">Fey Ancestry</name>
-						<value type="string">Fey ancestry</value>
-					</id-00001>
-					<id-00002>
-						<public />
-						<desc type="string">The drow's innate spellcasting ability is Charisma (spell save DC 15). She can innately cast the following spells, requiring no material components:\nAt will: dancing lights \n1/day each: darkness, faerie fire, levitate (self only)</desc>
-						<name type="string">Innate Spellcasting</name>
-						<value type="string">Innate spellcasting</value>
-					</id-00002>
-					<id-00003>
-						<public />
-						<desc type="string">The drow is a 10th-level spellcaster. Her spellcasting ability is Wisdom (save DC 14, +6 to hit with spell attacks). The drow has the following cleric spells prepared:\nCantrips (at will): guidance, poison spray, resistance, spare the dying, thaumaturgy \n1st level (4 slots): animal friendship, cure wounds, detect poison and disease, ray of sickness \n2nd level (3 slots): lesser restoration, protection from poison, web \n3rd level (3 slots): conjure animals (2 giant spiders), dispel magic \n4th level (3 slots): divination, freedom of movement \n5th level (2 slots): insect plague, mass cure wounds</desc>
-						<name type="string">Spellcasting</name>
-						<value type="string">Spellcasting</value>
-					</id-00003>
-					<id-00004>
-						<public />
-						<desc type="string">While in sunlight, the drow has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight.</desc>
-						<name type="string">Sunlight Sensitivity</name>
-						<value type="string">Sunlight sensitivity</value>
-					</id-00004>
-				</traits>
-				<type type="string">humanoid (elf)</type>
-				<wounds type="number">0</wounds>
-				<xp type="number">3900</xp>
-			</id-00005>
 			<id-00006>
 				<public />
 				<abilities>
@@ -7790,7 +6871,7 @@
 						<value type="string">Poisoned bolt [R] [ATK: +4] [DMG: 1d6+2 piercing] [SAVEVS: constitution 12] [EFF: Poisoned (D:1 MIN)]</value>
 					</id-00004>
 				</actions>
-				<active type="number">0</active>
+				<active type="number">1</active>
 				<alignment type="string">any alignment</alignment>
 				<cr type="string">1</cr>
 				<deathsavefail type="number">0</deathsavefail>
@@ -7832,9 +6913,6 @@
 						<value type="string">Disguise self (at will)</value>
 					</id-00004>
 				</innatespells>
-				<lairactions>
-					<public />
-				</lairactions>
 				<languages type="string">Gnomish, Terran, Undercommon</languages>
 				<legendaryactions>
 					<public />
@@ -7967,9 +7045,6 @@
 				<innatespells>
 					<public />
 				</innatespells>
-				<lairactions>
-					<public />
-				</lairactions>
 				<legendaryactions>
 					<public />
 				</legendaryactions>
@@ -8033,7 +7108,7 @@
 				<actions>
 					<public />
 				</actions>
-				<active type="number">1</active>
+				<active type="number">0</active>
 				<deathsavefail type="number">0</deathsavefail>
 				<deathsavesuccess type="number">0</deathsavesuccess>
 				<effects>
@@ -8047,9 +7122,6 @@
 				<innatespells>
 					<public />
 				</innatespells>
-				<lairactions>
-					<public />
-				</lairactions>
 				<legendaryactions>
 					<public />
 				</legendaryactions>
@@ -8127,9 +7199,6 @@
 				<innatespells>
 					<public />
 				</innatespells>
-				<lairactions>
-					<public />
-				</lairactions>
 				<legendaryactions>
 					<public />
 				</legendaryactions>
@@ -8160,8 +7229,151 @@
 				</traits>
 				<wounds type="number">0</wounds>
 			</id-00011>
+			<id-00023>
+				<public />
+				<abilities>
+					<public />
+					<charisma>
+						<public />
+						<bonus type="number">0</bonus>
+						<score type="number">9</score>
+					</charisma>
+					<constitution>
+						<public />
+						<bonus type="number">1</bonus>
+						<score type="number">13</score>
+					</constitution>
+					<dexterity>
+						<public />
+						<bonus type="number">2</bonus>
+						<score type="number">14</score>
+					</dexterity>
+					<intelligence>
+						<public />
+						<bonus type="number">-1</bonus>
+						<score type="number">8</score>
+					</intelligence>
+					<strength>
+						<public />
+						<bonus type="number">3</bonus>
+						<score type="number">16</score>
+					</strength>
+					<wisdom>
+						<public />
+						<bonus type="number">0</bonus>
+						<score type="number">11</score>
+					</wisdom>
+				</abilities>
+				<ac type="number">15</ac>
+				<actext type="string">(chain shir t)</actext>
+				<actions>
+					<public />
+					<id-00001>
+						<public />
+						<desc type="string">The gnoll makes two attacks, either with its glaive or its longbow, and uses its Incite Rampage if it can.</desc>
+						<name type="string">Multiattack</name>
+						<value type="string">Multiattack</value>
+					</id-00001>
+					<id-00002>
+						<public />
+						<desc type="string">Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit: 5 (1d4 + 3) piercing damage.</desc>
+						<name type="string">Bite</name>
+						<value type="string">Bite [M] [ATK: +5] [DMG: 1d4+3 piercing]</value>
+					</id-00002>
+					<id-00003>
+						<public />
+						<desc type="string">Melee Weapon Attack: +5 to hit, reach 10 ft., one target. Hit: 8 (1d10 + 3) slashing damage.</desc>
+						<name type="string">Glaive</name>
+						<value type="string">Glaive [M] [RNG: 10] [ATK: +5] [DMG: 1d10+3 slashing]</value>
+					</id-00003>
+					<id-00004>
+						<public />
+						<desc type="string">Ranged Weapon Attack: +4 to hit, range 150/60 0 ft., one target. Hit: 6 (1d8 + 2) piercing damage.</desc>
+						<name type="string">Longbow</name>
+						<value type="string">Longbow [R] [ATK: +4] [DMG: 1d8+2 piercing]</value>
+					</id-00004>
+					<id-00005>
+						<public />
+						<desc type="string">One creature the gnoll can see within 30 feet of it can use its reaction to make a melee attack if it can hear the gnoll and has the Rampage trait.</desc>
+						<name type="string">Incite Rampage (Recharge 5-6)</name>
+						<value type="string">Incite rampage [R:5]</value>
+					</id-00005>
+				</actions>
+				<active type="number">0</active>
+				<alignment type="string">chaotic evil</alignment>
+				<cr type="string">2</cr>
+				<deathsavefail type="number">0</deathsavefail>
+				<deathsavesuccess type="number">0</deathsavesuccess>
+				<effects>
+					<public />
+				</effects>
+				<friendfoe type="string">friend</friendfoe>
+				<hd type="string">(9d8 + 9)</hd>
+				<hp type="number">49</hp>
+				<hptemp type="number">0</hptemp>
+				<hptotal type="number">81</hptotal>
+				<init type="number">2</init>
+				<initresult type="number">5</initresult>
+				<innatespells>
+					<public />
+				</innatespells>
+				<languages type="string">Gnoll</languages>
+				<legendaryactions>
+					<public />
+				</legendaryactions>
+				<link type="windowreference">
+					<class>npc</class>
+					<recordname></recordname>
+				</link>
+				<locked type="number">1</locked>
+				<name type="string">Gnoll Pack Lord</name>
+				<reach type="number">5</reach>
+				<reaction type="number">0</reaction>
+				<reactions>
+					<public />
+				</reactions>
+				<senses type="string">darkvision 60 ft., passive Perception 10</senses>
+				<size type="string">Medium</size>
+				<space type="number">5</space>
+				<speed type="string">30 ft.</speed>
+				<spells>
+					<public />
+				</spells>
+				<status type="string">Wounded</status>
+				<targets>
+					<public />
+				</targets>
+				<text type="formattedtext">
+					<h>Gnoll Pack Lord</h>
+					<p>The alpha of a gnoll pack is the pack lord, ruling by might and cunning. A pack lord earns the best of a gnoll pack's spoils, food, valuable trinkets, and magic items. It ornaments its body with brutal piercings and grotesque trophies, dyeing its fur with demonic sigils, hoping Yeenoghu will make it invulnerable.</p>
+					<h>Gnolls</h>
+					<linklist>
+						<link class="imagewindow" recordname="reference.imagedata.img_gnoll_jpg@*">Image: Gnoll</link>
+					</linklist>
+					<p>Gnolls are feral humanoids that attack settlements along the frontiers and borderlands of civilization without warning, slaughtering their victims and devouring their flesh.</p>
+					<p><b><i>Demonic Origin. </i></b>The origin of the gnolls traces back to a time when the demon lord Yeenoghu found his way to the Material Plane and ran amok. Packs of ordinary hyenas followed in his wake, scavenging the demon lord's kills. Those hyenas were transformed into the first gnolls, parading after Yeenoghu until he was banished back to the Abyss. The gnolls then scattered across the face of the world, a dire reminder of demonic power.</p>
+					<p><b><i>Nomadic Destroyers. </i></b>Gnolls are dangerous because they strike at random. They emerge from the wilderness, plunder and slaughter, then move elsewhere. They attack like a plague of locusts, pillaging settlements and leaving little behind but razed buildings, gnawed corpses, and befouled land. Gnolls choose easy targets for their raids. Armored warriors holed up in a fortified castle will survive a rampaging gnoll horde unscathed, even as the towns, villages, and farms that surround the castle are ablaze, their people slaughtered and devoured.</p>
+					<p>Gnolls rarely build permanent structures or craft anything of lasting value. They don't make weapons or armor, but scavenge such items from the corpses of their fallen victims, stringing ears, teeth, scalps, and other trophies from their foes onto their patchwork armor.</p>
+					<p>Thirst for Blood. No goodness or compassion resides in the heart of a gnoll. Like a demon, it lacks anything resembling a conscience, and can't be taught or coerced to put aside its destructive tendencies. The gnolls' frenzied bloodlust makes them an enemy to all, and when they lack a common foe, they fight among themselves. Even the most savage orcs avoid allying with gnolls.</p>
+				</text>
+				<token type="token">tokens/gnollpacklord.png@DD MM Monster Manual</token>
+				<tokenscale type="number">1</tokenscale>
+				<tokenvis type="number">0</tokenvis>
+				<traits>
+					<public />
+					<id-00001>
+						<public />
+						<desc type="string">When the gnoll reduces a creature to 0 hit points with a melee attack on its turn, the gnoll can take a bonus action to move up to half its speed and make a bite attack.</desc>
+						<name type="string">Rampage</name>
+						<value type="string">Rampage</value>
+					</id-00001>
+				</traits>
+				<type type="string">humanoid (gnoll)</type>
+				<wounds type="number">19</wounds>
+				<xp type="number">450</xp>
+			</id-00023>
 		</list>
-		<round type="number">0</round>
+		<round type="number">3</round>
 	</combattracker>
 	<effects>
 		<public />
@@ -8177,50 +7389,6 @@
 		</magicitem>
 	</forge>
 	<image>
-		<id-00001>
-			<image type="image">
-				<bitmap>images/Drow Encounter Map.jpg</bitmap>
-				<mask>maskedimages/1484429378.png</mask>
-				<gridsize>25</gridsize>
-				<gridoffset>0,24</gridoffset>
-				<gridsnap>on</gridsnap>
-				<tokens>
-					<idcounter>5</idcounter>
-					<scalelock>5</scalelock>
-					<token>
-						<prototype>tokens/campaign/Drow4.png@D&#38;D Out of the Abyss</prototype>
-						<id>2</id>
-						<x>488</x>
-						<y>237</y>
-						<scale>0.78125</scale>
-					</token>
-					<token>
-						<prototype>tokens/campaign/Drow5.png@D&#38;D Out of the Abyss</prototype>
-						<id>4</id>
-						<x>538</x>
-						<y>237</y>
-						<scale>0.78125</scale>
-					</token>
-					<token>
-						<prototype>tokens/campaign/Ilvara.png@D&#38;D Out of the Abyss</prototype>
-						<id>3</id>
-						<x>513</x>
-						<y>237</y>
-						<scale>0.78125</scale>
-					</token>
-					<token>
-						<prototype>tokens/campaign/Drow3.png@D&#38;D Out of the Abyss</prototype>
-						<id>5</id>
-						<x>513</x>
-						<y>212</y>
-						<scale>0.78125</scale>
-					</token>
-				</tokens>
-			</image>
-			<isidentified type="number">0</isidentified>
-			<locked type="number">0</locked>
-			<name type="string">Drow Encounter Map</name>
-		</id-00001>
 	</image>
 	<item>
 	</item>
@@ -10845,15 +10013,12 @@
 					<weight type="number">5</weight>
 				</id-00001>
 				<id-00002>
-					<ac type="number">0</ac>
-					<bonus type="number">0</bonus>
 					<cost type="string">10 gp</cost>
 					<count type="number">1</count>
 					<description type="formattedtext">
 						<p>An arcane focus is a special item- an orb, a crystal, a rod, a specially constructed staff, a wand-like length of wood, or some similar item- designed to channel the power of arcane spells. A sorcerer, warlock, or wizard can use such an item as a spellcasting focus, as described in chapter 10.</p>
 					</description>
 					<isidentified type="number">1</isidentified>
-					<istemplate type="number">0</istemplate>
 					<locked type="number">1</locked>
 					<name type="string">Crystal</name>
 					<subtype type="string">Arcane Focus</subtype>

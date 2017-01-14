@@ -3,12 +3,12 @@
 	<battle>
 		<category name="Out of the Abyss - Story Encounters" baseicon="2" decalicon="1">
 			<id-00076>
-				<locked type="number">0</locked>
+				<locked type="number">1</locked>
 				<category name="D&#38;D Out of the Abyss" baseicon="0" decalicon="0">
 				</category>
 			</id-00076>
 			<id-00077>
-				<locked type="number">0</locked>
+				<locked type="number">1</locked>
 				<category name="D&#38;D Out of the Abyss" baseicon="0" decalicon="0">
 				</category>
 			</id-00077>

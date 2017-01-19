@@ -19,6 +19,8 @@
 	<window data="battle.id-00007" class="battle" pos="575,285,925,685" />
 	<window data="battle.id-00008" class="battle" pos="336,301,686,701" />
 	<window data="battle.id-00009" class="battle" pos="1048,524,1398,924" />
+	<window data="battle.id-00010" class="battle" pos="1024,456,1374,856" />
+	<window data="battle.id-00011" class="battle" pos="1234,122,1584,522" />
 	<window data="battle.id-00019@D&#38;D Out of the Abyss" class="battle" pos="575,285,925,685" />
 	<window data="battle.id-00052@D&#38;D Out of the Abyss" class="battle" pos="575,285,925,685" />
 	<window data="battle.id-00055@D&#38;D Out of the Abyss" class="battle" pos="575,285,925,685" />
@@ -81,6 +83,7 @@
 	<window data="charsheet.id-00004" class="charsheet_combatcalc" pos="500,352,1000,617" />
 	<window data="charsheet.id-00004.featurelist.id-00002" class="ref_ability" pos="575,310,925,660" />
 	<window data="charsheet.id-00004.inventorylist.id-00001" class="item" pos="575,310,925,660" />
+	<window data="charsheet.id-00004.weaponlist.id-00005" class="char_weapon_editor" pos="1024,481,1374,831" />
 	<window data="charsheet.id-00005" class="charsheet" pos="165,3,690,603" />
 	<window data="charsheet.id-00005" class="charsheet_combatcalc" pos="500,352,1000,617" />
 	<window data="charsheet.id-00005.featurelist.id-00001" class="ref_ability" pos="575,310,925,660" />
@@ -126,6 +129,7 @@
 	<window data="encounter.id-00046@D&#38;D Out of the Abyss" class="encounter" pos="550,160,950,810" />
 	<window data="encounter.id-00048@D&#38;D Out of the Abyss" class="encounter" pos="550,160,950,810" />
 	<window data="encounter.id-00050@D&#38;D Out of the Abyss" class="encounter" pos="550,160,950,810" />
+	<window data="encounter.id-00057@D&#38;D Out of the Abyss" class="encounter" pos="999,331,1399,981" />
 	<window data="encounter.id-00058@D&#38;D Out of the Abyss" class="encounter" pos="737,281,1137,931" />
 	<window data="encounter.id-00059@D&#38;D Out of the Abyss" class="encounter" pos="737,281,1137,931" />
 	<window data="encounter.id-00060@D&#38;D Out of the Abyss" class="encounter" pos="737,281,1137,931" />
@@ -211,11 +215,12 @@
 	<window data="image.id-00185@D&#38;D Out of the Abyss" class="imagewindow" pos="538,206,962,763" />
 	<window data="image.id-00190@D&#38;D Out of the Abyss" class="imagewindow" pos="511,189,988,781" />
 	<window data="image.id-00196@D&#38;D Out of the Abyss" class="imagewindow" pos="544,243,956,727" />
-	<window data="image.id-00250@D&#38;D Out of the Abyss" class="imagewindow" pos="677,334,1668,1185" />
+	<window data="image.id-00250@D&#38;D Out of the Abyss" class="imagewindow" pos="1186,438,2177,1289" />
 	<window data="image.id-00254@D&#38;D Out of the Abyss" class="imagewindow" pos="0,0,1500,970" />
 	<window data="image.id-00257@D&#38;D Out of the Abyss" class="imagewindow" pos="0,0,1500,970" />
 	<window data="image.id-00261@D&#38;D Out of the Abyss" class="imagewindow" pos="28,-2,1412,968" />
 	<window data="item" class="itemlist" pos="575,285,925,685" />
+	<window data="item" class="masterindex" pos="974,406,1424,906" />
 	<window data="item.id-00005@D&#38;D Out of the Abyss" class="item" pos="575,310,925,660" />
 	<window data="item.id-00025@D&#38;D Out of the Abyss" class="item" pos="575,310,925,660" />
 	<window data="item.id-00041@D&#38;D Out of the Abyss" class="item" pos="575,310,925,660" />
@@ -263,6 +268,8 @@
 	<window data="partysheet" class="partysheet_host" pos="395,12,1195,866" />
 	<window data="partysheet.encounters.id-00002" class="battle" pos="575,285,925,685" />
 	<window data="partysheet.encounters.id-00011" class="battle" pos="575,285,925,685" />
+	<window data="partysheet.encounters.id-00019" class="battle" pos="1024,456,1374,856" />
+	<window data="partysheet.encounters.id-00020" class="battle" pos="1024,456,1374,856" />
 	<window data="partysheet.quests.id-00002" class="quest" pos="575,310,925,660" />
 	<window data="partysheet.quests.id-00003" class="quest" pos="575,310,925,660" />
 	<window data="partysheet.quests.id-00004" class="quest" pos="575,310,925,660" />
@@ -270,6 +277,7 @@
 	<window data="partysheet.quests.id-00006" class="quest" pos="575,310,925,660" />
 	<window data="quest" class="questlist" pos="338,284,638,684" />
 	<window data="quest.id-00001" class="quest" pos="575,310,925,660" />
+	<window data="race" class="masterindex" pos="974,406,1424,906" />
 	<window data="reference.backgrounddata.charlatan@DD PHB Deluxe" class="reference_background" pos="575,310,925,660" />
 	<window data="reference.backgrounddata.criminal@DD PHB Deluxe" class="reference_background" pos="575,310,925,660" />
 	<window data="reference.backgrounddata.folkhero@DD PHB Deluxe" class="reference_background" pos="575,310,925,660" />
@@ -323,6 +331,7 @@
 	<window data="reference.magicitemdata.quarterstaff__1@DD Dungeon Masters Guide" class="reference_magicitem" pos="785,350,1135,700" />
 	<window data="reference.magicitemdata.quarterstaff__2@DD Dungeon Masters Guide" class="reference_magicitem" pos="785,350,1135,700" />
 	<window data="reference.magicitemlists.bytype@DD Dungeon Masters Guide" class="reference_colindex" pos="604,255,1054,705" />
+	<window data="reference.npcdata.commoner@DD MM Monster Manual" class="npc" pos="969,381,1429,931" />
 	<window data="reference.npcdata.giantspider@DD MM Monster Manual" class="npc" pos="730,250,1190,800" />
 	<window data="reference.npcdata.gnoll@DD MM Monster Manual" class="npc" pos="520,210,980,760" />
 	<window data="reference.npcdata.gnollpacklord@DD MM Monster Manual" class="npc" pos="520,210,980,760" />
@@ -343,7 +352,7 @@
 	<window data="reference.racedata.elf.traits.subrace@DD PHB Deluxe" class="reference_racialtrait" pos="575,310,925,660" />
 	<window data="reference.racedata.elf@DD PHB Deluxe" class="reference_race" pos="575,310,925,660" />
 	<window data="reference.racedata.gnome.traits.darkvision@DD PHB Deluxe" class="reference_racialtrait" pos="575,310,925,660" />
-	<window data="reference.racedata.gnome@DD PHB Deluxe" class="reference_race" pos="575,310,925,660" />
+	<window data="reference.racedata.gnome@DD PHB Deluxe" class="reference_race" pos="1023,476,1373,826" />
 	<window data="reference.racedata.goliath@DD Elemental Evil Players Companion" class="reference_race" pos="575,310,925,660" />
 	<window data="reference.racedata.half_elf.traits.abilityscoreincrease@DD PHB Deluxe" class="reference_racialtrait" pos="575,310,925,660" />
 	<window data="reference.racedata.half_elf.traits.feyancestry@DD PHB Deluxe" class="reference_racialtrait" pos="575,310,925,660" />

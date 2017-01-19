@@ -427,7 +427,7 @@
 			<cr type="string">10</cr>
 			<exp type="number">5700</exp>
 			<locked type="number">1</locked>
-			<name type="string">02 Foe Drow Hunting Party</name>
+			<name type="string">02 Drow Hunting Party</name>
 			<npclist>
 				<id-00001>
 					<count type="number">1</count>
@@ -469,156 +469,6 @@
 				</id-00002>
 			</npclist>
 		</id-00009>
-		<id-00010>
-			<cr type="string">6</cr>
-			<exp type="number">2250</exp>
-			<locked type="number">1</locked>
-			<name type="string">02 Friendly Drow Hunting Party</name>
-			<npclist>
-				<id-00003>
-					<count type="number">1</count>
-					<faction type="string">friend</faction>
-					<link type="windowreference">
-						<class>npc</class>
-						<recordname>npc.id-00198@D&#38;D Out of the Abyss</recordname>
-					</link>
-					<maplink>
-						<id-00001>
-							<imageref type="windowreference">
-								<class></class>
-								<recordname></recordname>
-							</imageref>
-							<imagex type="number">0</imagex>
-							<imagey type="number">0</imagey>
-						</id-00001>
-					</maplink>
-					<name type="string">Shoor Vandree</name>
-					<token type="token">tokens/campaign/Drow3.png@D&#38;D Out of the Abyss</token>
-				</id-00003>
-				<id-00004>
-					<count type="number">1</count>
-					<faction type="string">friend</faction>
-					<link type="windowreference">
-						<class>npc</class>
-						<recordname>npc.id-00197@D&#38;D Out of the Abyss</recordname>
-					</link>
-					<maplink>
-						<id-00001>
-							<imageref type="windowreference">
-								<class></class>
-								<recordname></recordname>
-							</imageref>
-							<imagex type="number">0</imagex>
-							<imagey type="number">0</imagey>
-						</id-00001>
-					</maplink>
-					<name type="string">Asha Vandree</name>
-					<token type="token">tokens/campaign/Drow4.png@D&#38;D Out of the Abyss</token>
-				</id-00004>
-			</npclist>
-		</id-00010>
-		<id-00011>
-			<cr type="string">6</cr>
-			<exp type="number">1900</exp>
-			<locked type="number">1</locked>
-			<name type="string">The Oozing Temple</name>
-			<npclist>
-				<id-00001>
-					<count type="number">8</count>
-					<link type="windowreference">
-						<class>npc</class>
-						<recordname>reference.npcdata.grayooze@DD MM Monster Manual</recordname>
-					</link>
-					<maplink>
-						<id-00001>
-							<imageref type="windowreference">
-								<class></class>
-								<recordname></recordname>
-							</imageref>
-							<imagex type="number">0</imagex>
-							<imagey type="number">0</imagey>
-						</id-00001>
-						<id-00002>
-							<imageref type="windowreference">
-								<class></class>
-								<recordname></recordname>
-							</imageref>
-							<imagex type="number">0</imagex>
-							<imagey type="number">0</imagey>
-						</id-00002>
-						<id-00003>
-							<imageref type="windowreference">
-								<class></class>
-								<recordname></recordname>
-							</imageref>
-							<imagex type="number">0</imagex>
-							<imagey type="number">0</imagey>
-						</id-00003>
-						<id-00004>
-							<imageref type="windowreference">
-								<class></class>
-								<recordname></recordname>
-							</imageref>
-							<imagex type="number">0</imagex>
-							<imagey type="number">0</imagey>
-						</id-00004>
-						<id-00005>
-							<imageref type="windowreference">
-								<class></class>
-								<recordname></recordname>
-							</imageref>
-							<imagex type="number">0</imagex>
-							<imagey type="number">0</imagey>
-						</id-00005>
-						<id-00006>
-							<imageref type="windowreference">
-								<class></class>
-								<recordname></recordname>
-							</imageref>
-							<imagex type="number">0</imagex>
-							<imagey type="number">0</imagey>
-						</id-00006>
-						<id-00007>
-							<imageref type="windowreference">
-								<class></class>
-								<recordname></recordname>
-							</imageref>
-							<imagex type="number">0</imagex>
-							<imagey type="number">0</imagey>
-						</id-00007>
-						<id-00008>
-							<imageref type="windowreference">
-								<class></class>
-								<recordname></recordname>
-							</imageref>
-							<imagex type="number">0</imagex>
-							<imagey type="number">0</imagey>
-						</id-00008>
-					</maplink>
-					<name type="string">Gray Ooze</name>
-					<token type="token">tokens/grayooze.png@DD MM Monster Manual</token>
-				</id-00001>
-				<id-00002>
-					<count type="number">1</count>
-					<link type="windowreference">
-						<class>npc</class>
-						<recordname>reference.npcdata.blackpudding@DD MM Monster Manual</recordname>
-					</link>
-					<maplink>
-						<id-00001>
-							<imageref type="windowreference">
-								<class></class>
-								<recordname></recordname>
-							</imageref>
-							<imagex type="number">0</imagex>
-							<imagey type="number">0</imagey>
-						</id-00001>
-					</maplink>
-					<name type="string">Black Pudding</name>
-					<token type="token">tokens/blackpudding.png@DD MM Monster Manual</token>
-				</id-00002>
-			</npclist>
-		</id-00011>
 	</battle>
 	<calendar>
 		<public />
@@ -936,8 +786,8 @@
 				<load type="number">8.5</load>
 				<max type="number">90</max>
 			</encumbrance>
-			<exp type="number">9926</exp>
-			<expneeded type="number">14000</expneeded>
+			<exp type="number">8888</exp>
+			<expneeded type="number">0</expneeded>
 			<featlist>
 			</featlist>
 			<featurelist>
@@ -2086,8 +1936,8 @@
 				<load type="number">12</load>
 				<max type="number">180</max>
 			</encumbrance>
-			<exp type="number">10226</exp>
-			<expneeded type="number">14000</expneeded>
+			<exp type="number">9188</exp>
+			<expneeded type="number">0</expneeded>
 			<featlist>
 			</featlist>
 			<featurelist>
@@ -3309,7 +3159,6 @@
 				<class>reference_background</class>
 				<recordname>reference.backgrounddata.soldier@DD PHB Deluxe</recordname>
 			</backgroundlink>
-			<bonds type="string">Those who fight beside me are those worth dying for.</bonds>
 			<classes>
 				<id-00001>
 					<casterlevelinvmult type="number">0</casterlevelinvmult>
@@ -3363,11 +3212,11 @@
 				<encumbered type="number">90</encumbered>
 				<encumberedheavy type="number">180</encumberedheavy>
 				<liftpushdrag type="number">540</liftpushdrag>
-				<load type="number">95.5</load>
+				<load type="number">24</load>
 				<max type="number">270</max>
 			</encumbrance>
-			<exp type="number">9926</exp>
-			<expneeded type="number">14000</expneeded>
+			<exp type="number">8888</exp>
+			<expneeded type="number">0</expneeded>
 			<featlist>
 			</featlist>
 			<featurelist>
@@ -3555,8 +3404,6 @@
 					</text>
 				</id-00009>
 			</featurelist>
-			<flaws type="string">I made a terrible mistake in battle cost many lives - and I would do anything to keep that mistake secret.</flaws>
-			<height type="string">3' 3&#34; (99.0 cm)</height>
 			<hp>
 				<deathsavefail type="number">0</deathsavefail>
 				<deathsavesuccess type="number">0</deathsavesuccess>
@@ -3564,7 +3411,6 @@
 				<total type="number">46</total>
 				<wounds type="number">37</wounds>
 			</hp>
-			<ideals type="string">Live and Let Live. Ideals aren't worth killing over or going to war for. (Neutral)</ideals>
 			<initiative>
 				<misc type="number">0</misc>
 				<temporary type="number">0</temporary>
@@ -3618,7 +3464,7 @@
 				</id-00001>
 				<id-00002>
 					<bonus type="number">2</bonus>
-					<carried type="number">2</carried>
+					<carried type="number">1</carried>
 					<cost type="string">1,948 gp</cost>
 					<count type="number">1</count>
 					<damage type="string">1d8 bludgeoning</damage>
@@ -3655,7 +3501,7 @@
 				</id-00002>
 				<id-00003>
 					<bonus type="number">2</bonus>
-					<carried type="number">2</carried>
+					<carried type="number">1</carried>
 					<cost type="string">1,326 gp</cost>
 					<count type="number">1</count>
 					<damage type="string">1d8 piercing</damage>
@@ -3690,165 +3536,6 @@
 					<type type="string">Weapon</type>
 					<weight type="number">2</weight>
 				</id-00003>
-				<id-00004>
-					<carried type="number">2</carried>
-					<cost type="string">50 gp</cost>
-					<count type="number">1</count>
-					<damage type="string">1d8 piercing</damage>
-					<isidentified type="number">1</isidentified>
-					<locked type="number">1</locked>
-					<name type="string">Longbow</name>
-					<properties type="string">Ammunition (range 150/600), heavy, two-handed</properties>
-					<subtype type="string">Martial Ranged Weapons</subtype>
-					<type type="string">Weapon</type>
-					<weight type="number">2</weight>
-				</id-00004>
-				<id-00005>
-					<carried type="number">1</carried>
-					<cost type="string">1 gp</cost>
-					<count type="number">1</count>
-					<isidentified type="number">1</isidentified>
-					<locked type="number">1</locked>
-					<name type="string">Arrows (20)</name>
-					<subtype type="string">Ammunition</subtype>
-					<type type="string">Adventuring Gear</type>
-					<weight type="number">1</weight>
-				</id-00005>
-				<id-00006>
-					<carried type="number">2</carried>
-					<cost type="string">5 gp</cost>
-					<count type="number">2</count>
-					<damage type="string">1d6 slashing</damage>
-					<isidentified type="number">1</isidentified>
-					<locked type="number">1</locked>
-					<name type="string">Handaxe</name>
-					<properties type="string">Light, thrown (range 20/60)</properties>
-					<subtype type="string">Simple Melee Weapons</subtype>
-					<type type="string">Weapon</type>
-					<weight type="number">2</weight>
-				</id-00006>
-				<id-00007>
-					<carried type="number">1</carried>
-					<cost type="string">5 cp</cost>
-					<count type="number">10</count>
-					<isidentified type="number">1</isidentified>
-					<locked type="number">1</locked>
-					<name type="string">Piton</name>
-					<subtype type="string">Standard</subtype>
-					<type type="string">Adventuring Gear</type>
-					<weight type="number">0.25</weight>
-				</id-00007>
-				<id-00008>
-					<carried type="number">1</carried>
-					<cost type="string">5 sp</cost>
-					<count type="number">10</count>
-					<description type="formattedtext">
-						<p>Rations consist of dry foods suitable for extended travel, including jerky, dried fruit, hardtack, and nuts.</p>
-					</description>
-					<isidentified type="number">1</isidentified>
-					<locked type="number">1</locked>
-					<name type="string">Rations (1 Day)</name>
-					<subtype type="string">Standard</subtype>
-					<type type="string">Adventuring Gear</type>
-					<weight type="number">2</weight>
-				</id-00008>
-				<id-00009>
-					<carried type="number">1</carried>
-					<cost type="string">2 sp</cost>
-					<count type="number">1</count>
-					<isidentified type="number">1</isidentified>
-					<locked type="number">1</locked>
-					<name type="string">Waterskin</name>
-					<subtype type="string">Standard</subtype>
-					<type type="string">Adventuring Gear</type>
-					<weight type="number">5</weight>
-				</id-00009>
-				<id-00010>
-					<carried type="number">1</carried>
-					<cost type="string">2 gp</cost>
-					<count type="number">1</count>
-					<isidentified type="number">1</isidentified>
-					<locked type="number">1</locked>
-					<name type="string">Backpack (Empty)</name>
-					<subtype type="string">Standard</subtype>
-					<type type="string">Adventuring Gear</type>
-					<weight type="number">5</weight>
-				</id-00010>
-				<id-00011>
-					<carried type="number">1</carried>
-					<cost type="string">1 gp</cost>
-					<count type="number">1</count>
-					<isidentified type="number">1</isidentified>
-					<locked type="number">1</locked>
-					<name type="string">Hammer</name>
-					<subtype type="string">Standard</subtype>
-					<type type="string">Adventuring Gear</type>
-					<weight type="number">3</weight>
-				</id-00011>
-				<id-00012>
-					<carried type="number">1</carried>
-					<cost type="string">1 cp</cost>
-					<count type="number">10</count>
-					<description type="formattedtext">
-						<p>A torch burns for 1 hour, providing bright light in a 20-foot radius and dim light for an additional 20 feet. If you make a melee attack with a burning torch and hit, it deals 1 fire damage.</p>
-					</description>
-					<isidentified type="number">1</isidentified>
-					<locked type="number">1</locked>
-					<name type="string">Torch</name>
-					<subtype type="string">Standard</subtype>
-					<type type="string">Adventuring Gear</type>
-					<weight type="number">1</weight>
-				</id-00012>
-				<id-00013>
-					<carried type="number">1</carried>
-					<cost type="string">5 sp</cost>
-					<count type="number">1</count>
-					<description type="formattedtext">
-						<p>This small container holds flint, fire steel, and tinder (usually dry cloth soaked in light oil) used to kindle a fire. Using it to light a torch-or anything else with abundant, exposed fuel-takes an action. Lighting any other fire takes 1 minute.</p>
-					</description>
-					<isidentified type="number">1</isidentified>
-					<locked type="number">1</locked>
-					<name type="string">Tinderbox</name>
-					<subtype type="string">Standard</subtype>
-					<type type="string">Adventuring Gear</type>
-					<weight type="number">1</weight>
-				</id-00013>
-				<id-00014>
-					<carried type="number">1</carried>
-					<cost type="string">2 gp</cost>
-					<count type="number">1</count>
-					<description type="formattedtext">
-						<p>Using a crowbar grants advantage to Strength checks where the crowbar's leverage can be applied.</p>
-					</description>
-					<isidentified type="number">1</isidentified>
-					<locked type="number">1</locked>
-					<name type="string">Crowbar</name>
-					<subtype type="string">Standard</subtype>
-					<type type="string">Adventuring Gear</type>
-					<weight type="number">5</weight>
-				</id-00014>
-				<id-00015>
-					<carried type="number">1</carried>
-					<cost type="string">1 gp</cost>
-					<count type="number">1</count>
-					<isidentified type="number">1</isidentified>
-					<locked type="number">1</locked>
-					<name type="string">Rope, Hempen (50 Feet)</name>
-					<subtype type="string">Standard</subtype>
-					<type type="string">Adventuring Gear</type>
-					<weight type="number">10</weight>
-				</id-00015>
-				<id-00016>
-					<carried type="number">1</carried>
-					<cost type="string">5 sp</cost>
-					<count type="number">1</count>
-					<isidentified type="number">1</isidentified>
-					<locked type="number">1</locked>
-					<name type="string">Clothes, Common</name>
-					<subtype type="string">Standard</subtype>
-					<type type="string">Adventuring Gear</type>
-					<weight type="number">3</weight>
-				</id-00016>
 			</inventorylist>
 			<languagelist>
 				<id-00001>
@@ -3865,7 +3552,6 @@
 			<name type="string">Geordan Dragos</name>
 			<perception type="number">12</perception>
 			<perceptionmodifier type="number">0</perceptionmodifier>
-			<personalitytraits type="string">I've lost too many friends, and I'm slow to make new ones.</personalitytraits>
 			<powermeta>
 				<pactmagicslots1>
 					<max type="number">0</max>
@@ -4128,7 +3814,7 @@
 			<weaponlist>
 				<id-00001>
 					<attackbonus type="number">2</attackbonus>
-					<carried type="number">2</carried>
+					<carried type="number">1</carried>
 					<damagelist>
 						<id-00001>
 							<bonus type="number">2</bonus>
@@ -4149,7 +3835,7 @@
 				</id-00001>
 				<id-00002>
 					<attackbonus type="number">2</attackbonus>
-					<carried type="number">2</carried>
+					<carried type="number">1</carried>
 					<damagelist>
 						<id-00001>
 							<bonus type="number">2</bonus>
@@ -4168,72 +3854,7 @@
 					</shortcut>
 					<type type="number">0</type>
 				</id-00002>
-				<id-00003>
-					<attackbonus type="number">0</attackbonus>
-					<carried type="number">2</carried>
-					<damagelist>
-						<id-00001>
-							<bonus type="number">0</bonus>
-							<dice type="dice">d8</dice>
-							<stat type="string">base</stat>
-							<type type="string">piercing</type>
-						</id-00001>
-					</damagelist>
-					<isidentified type="number">1</isidentified>
-					<maxammo type="number">20</maxammo>
-					<name type="string">Longbow</name>
-					<prof type="number">1</prof>
-					<shortcut type="windowreference">
-						<class>item</class>
-						<recordname>....inventorylist.id-00004</recordname>
-					</shortcut>
-					<type type="number">1</type>
-				</id-00003>
-				<id-00004>
-					<attackbonus type="number">0</attackbonus>
-					<carried type="number">2</carried>
-					<damagelist>
-						<id-00001>
-							<bonus type="number">0</bonus>
-							<dice type="dice">d6</dice>
-							<stat type="string">base</stat>
-							<type type="string">slashing</type>
-						</id-00001>
-					</damagelist>
-					<isidentified type="number">1</isidentified>
-					<maxammo type="number">0</maxammo>
-					<name type="string">Handaxe</name>
-					<prof type="number">1</prof>
-					<shortcut type="windowreference">
-						<class>item</class>
-						<recordname>....inventorylist.id-00006</recordname>
-					</shortcut>
-					<type type="number">0</type>
-				</id-00004>
-				<id-00005>
-					<attackbonus type="number">0</attackbonus>
-					<attackstat type="string">dexterity</attackstat>
-					<carried type="number">2</carried>
-					<damagelist>
-						<id-00001>
-							<bonus type="number">0</bonus>
-							<dice type="dice">d6</dice>
-							<stat type="string">base</stat>
-							<type type="string">slashing</type>
-						</id-00001>
-					</damagelist>
-					<isidentified type="number">1</isidentified>
-					<maxammo type="number">2</maxammo>
-					<name type="string">Handaxe</name>
-					<prof type="number">1</prof>
-					<shortcut type="windowreference">
-						<class>item</class>
-						<recordname>....inventorylist.id-00006</recordname>
-					</shortcut>
-					<type type="number">2</type>
-				</id-00005>
 			</weaponlist>
-			<weight type="string">130.5 lbs.</weight>
 		</id-00004>
 		<id-00005>
 			<abilities>
@@ -4995,8 +4616,8 @@
 				<load type="number">95</load>
 				<max type="number">255</max>
 			</encumbrance>
-			<exp type="number">10226</exp>
-			<expneeded type="number">14000</expneeded>
+			<exp type="number">9188</exp>
+			<expneeded type="number">0</expneeded>
 			<featlist>
 			</featlist>
 			<featurelist>
@@ -7286,7 +6907,7 @@
 					</id-00001>
 					<id-00002>
 						<public />
-						<desc type="string">Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 5 (1d8 + 1) piercing damage.</desc>
+						<desc type="string">Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 5 (1d8 + 1) piercing damage. </desc>
 						<name type="string">War Pick</name>
 						<value type="string">War pick [M] [ATK: +4] [DMG: 1d8+2 piercing]</value>
 					</id-00002>
@@ -9041,7 +8662,7 @@
 				<cr type="string">10</cr>
 				<exp type="number">5700</exp>
 				<locked type="number">1</locked>
-				<name type="string">02 Foe Drow Hunting Party</name>
+				<name type="string">02 Drow Hunting Party</name>
 				<npclist>
 					<public />
 					<id-00001>
@@ -9091,181 +8712,6 @@
 				</npclist>
 				<xpawarded type="number">1</xpawarded>
 			</id-00019>
-			<id-00020>
-				<public />
-				<cr type="string">6</cr>
-				<exp type="number">2250</exp>
-				<locked type="number">1</locked>
-				<name type="string">02 Friendly Drow Hunting Party</name>
-				<npclist>
-					<public />
-					<id-00003>
-						<public />
-						<count type="number">1</count>
-						<faction type="string">friend</faction>
-						<link type="windowreference">
-							<class>npc</class>
-							<recordname>npc.id-00198@D&#38;D Out of the Abyss</recordname>
-						</link>
-						<maplink>
-							<public />
-							<id-00001>
-								<public />
-								<imageref type="windowreference">
-									<class></class>
-									<recordname></recordname>
-								</imageref>
-								<imagex type="number">0</imagex>
-								<imagey type="number">0</imagey>
-							</id-00001>
-						</maplink>
-						<name type="string">Shoor Vandree</name>
-						<token type="token">tokens/campaign/Drow3.png@D&#38;D Out of the Abyss</token>
-					</id-00003>
-					<id-00004>
-						<public />
-						<count type="number">1</count>
-						<faction type="string">friend</faction>
-						<link type="windowreference">
-							<class>npc</class>
-							<recordname>npc.id-00197@D&#38;D Out of the Abyss</recordname>
-						</link>
-						<maplink>
-							<public />
-							<id-00001>
-								<public />
-								<imageref type="windowreference">
-									<class></class>
-									<recordname></recordname>
-								</imageref>
-								<imagex type="number">0</imagex>
-								<imagey type="number">0</imagey>
-							</id-00001>
-						</maplink>
-						<name type="string">Asha Vandree</name>
-						<token type="token">tokens/campaign/Drow4.png@D&#38;D Out of the Abyss</token>
-					</id-00004>
-				</npclist>
-				<xpawarded type="number">1</xpawarded>
-			</id-00020>
-			<id-00021>
-				<public />
-				<cr type="string">6</cr>
-				<exp type="number">1900</exp>
-				<locked type="number">1</locked>
-				<name type="string">The Oozing Temple</name>
-				<npclist>
-					<public />
-					<id-00001>
-						<public />
-						<count type="number">8</count>
-						<link type="windowreference">
-							<class>npc</class>
-							<recordname>reference.npcdata.grayooze@DD MM Monster Manual</recordname>
-						</link>
-						<maplink>
-							<public />
-							<id-00001>
-								<public />
-								<imageref type="windowreference">
-									<class></class>
-									<recordname></recordname>
-								</imageref>
-								<imagex type="number">0</imagex>
-								<imagey type="number">0</imagey>
-							</id-00001>
-							<id-00002>
-								<public />
-								<imageref type="windowreference">
-									<class></class>
-									<recordname></recordname>
-								</imageref>
-								<imagex type="number">0</imagex>
-								<imagey type="number">0</imagey>
-							</id-00002>
-							<id-00003>
-								<public />
-								<imageref type="windowreference">
-									<class></class>
-									<recordname></recordname>
-								</imageref>
-								<imagex type="number">0</imagex>
-								<imagey type="number">0</imagey>
-							</id-00003>
-							<id-00004>
-								<public />
-								<imageref type="windowreference">
-									<class></class>
-									<recordname></recordname>
-								</imageref>
-								<imagex type="number">0</imagex>
-								<imagey type="number">0</imagey>
-							</id-00004>
-							<id-00005>
-								<public />
-								<imageref type="windowreference">
-									<class></class>
-									<recordname></recordname>
-								</imageref>
-								<imagex type="number">0</imagex>
-								<imagey type="number">0</imagey>
-							</id-00005>
-							<id-00006>
-								<public />
-								<imageref type="windowreference">
-									<class></class>
-									<recordname></recordname>
-								</imageref>
-								<imagex type="number">0</imagex>
-								<imagey type="number">0</imagey>
-							</id-00006>
-							<id-00007>
-								<public />
-								<imageref type="windowreference">
-									<class></class>
-									<recordname></recordname>
-								</imageref>
-								<imagex type="number">0</imagex>
-								<imagey type="number">0</imagey>
-							</id-00007>
-							<id-00008>
-								<public />
-								<imageref type="windowreference">
-									<class></class>
-									<recordname></recordname>
-								</imageref>
-								<imagex type="number">0</imagex>
-								<imagey type="number">0</imagey>
-							</id-00008>
-						</maplink>
-						<name type="string">Gray Ooze</name>
-						<token type="token">tokens/grayooze.png@DD MM Monster Manual</token>
-					</id-00001>
-					<id-00002>
-						<public />
-						<count type="number">1</count>
-						<link type="windowreference">
-							<class>npc</class>
-							<recordname>reference.npcdata.blackpudding@DD MM Monster Manual</recordname>
-						</link>
-						<maplink>
-							<public />
-							<id-00001>
-								<public />
-								<imageref type="windowreference">
-									<class></class>
-									<recordname></recordname>
-								</imageref>
-								<imagex type="number">0</imagex>
-								<imagey type="number">0</imagey>
-							</id-00001>
-						</maplink>
-						<name type="string">Black Pudding</name>
-						<token type="token">tokens/blackpudding.png@DD MM Monster Manual</token>
-					</id-00002>
-				</npclist>
-				<xpawarded type="number">1</xpawarded>
-			</id-00021>
 		</encounters>
 		<hiderollresults type="number">1</hiderollresults>
 		<image type="image">
@@ -9427,8 +8873,8 @@
 				<constitution type="number">16</constitution>
 				<dexbonus type="number">2</dexbonus>
 				<dexterity type="number">15</dexterity>
-				<exp type="number">10226</exp>
-				<expneeded type="number">14000</expneeded>
+				<exp type="number">9188</exp>
+				<expneeded type="number">0</expneeded>
 				<hd type="number">5</hd>
 				<hdused type="number">0</hdused>
 				<hptemp type="number">0</hptemp>
@@ -9464,8 +8910,8 @@
 				<constitution type="number">16</constitution>
 				<dexbonus type="number">0</dexbonus>
 				<dexterity type="number">11</dexterity>
-				<exp type="number">10226</exp>
-				<expneeded type="number">14000</expneeded>
+				<exp type="number">9188</exp>
+				<expneeded type="number">0</expneeded>
 				<hd type="number">5</hd>
 				<hdused type="number">0</hdused>
 				<hptemp type="number">0</hptemp>
@@ -9501,8 +8947,8 @@
 				<constitution type="number">14</constitution>
 				<dexbonus type="number">2</dexbonus>
 				<dexterity type="number">15</dexterity>
-				<exp type="number">9926</exp>
-				<expneeded type="number">14000</expneeded>
+				<exp type="number">8888</exp>
+				<expneeded type="number">0</expneeded>
 				<hd type="number">5</hd>
 				<hdused type="number">0</hdused>
 				<hptemp type="number">0</hptemp>
@@ -9538,8 +8984,8 @@
 				<constitution type="number">16</constitution>
 				<dexbonus type="number">2</dexbonus>
 				<dexterity type="number">15</dexterity>
-				<exp type="number">9926</exp>
-				<expneeded type="number">14000</expneeded>
+				<exp type="number">8888</exp>
+				<expneeded type="number">0</expneeded>
 				<hd type="number">5</hd>
 				<hdused type="number">0</hdused>
 				<hptemp type="number">0</hptemp>
@@ -9678,8 +9124,6 @@
 			<xp type="number">150</xp>
 		</id-00001>
 	</quest>
-	<race>
-	</race>
 	<tables>
 	</tables>
 	<temp>

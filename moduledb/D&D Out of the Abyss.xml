@@ -17,6 +17,19 @@
 				<category name="D&#38;D Out of the Abyss" baseicon="0" decalicon="0">
 				</category>
 			</id-00079>
+			<id-00400>
+				<category name="D&#38;D Out of the Abyss" baseicon="0" decalicon="0">
+					<npclist>
+						<category name="D&#38;D Out of the Abyss" baseicon="0" decalicon="0">
+							<id-00001>
+								<faction type="string">friend</faction>
+								<category name="D&#38;D Out of the Abyss" baseicon="0" decalicon="0">
+								</category>
+							</id-00001>
+						</category>
+					</npclist>
+				</category>
+			</id-00400>
 		</category>
 		<category name="Out of the Abyss - Table Encounters" baseicon="2" decalicon="1">
 		</category>
@@ -546,6 +559,109 @@
 					</tokens>
 				</image>
 			</id-00109>
+			<id-00250>
+				<image type="image">
+					<bitmap>Oozing Temple Map.jpg</bitmap>
+					<gridsize>30</gridsize>
+					<gridoffset>6,12</gridoffset>
+					<gridsnap>on</gridsnap>
+					<shortcuts>
+						<shortcut>
+							<x>379</x>
+							<y>698</y>
+							<class>encounter</class>
+							<recordname>encounter.id-00062@D&#38;D Out of the Abyss</recordname>
+						</shortcut>
+						<shortcut>
+							<x>500</x>
+							<y>346</y>
+							<class>encounter</class>
+							<recordname>encounter.id-00061@D&#38;D Out of the Abyss</recordname>
+						</shortcut>
+						<shortcut>
+							<x>172</x>
+							<y>526</y>
+							<class>encounter</class>
+							<recordname>encounter.id-00061@D&#38;D Out of the Abyss</recordname>
+						</shortcut>
+						<shortcut>
+							<x>111</x>
+							<y>73</y>
+							<class>encounter</class>
+							<recordname>encounter.id-00061@D&#38;D Out of the Abyss</recordname>
+						</shortcut>
+						<shortcut>
+							<x>169</x>
+							<y>451</y>
+							<class>encounter</class>
+							<recordname>encounter.id-00060@D&#38;D Out of the Abyss</recordname>
+						</shortcut>
+						<shortcut>
+							<x>467</x>
+							<y>161</y>
+							<class>encounter</class>
+							<recordname>encounter.id-00059@D&#38;D Out of the Abyss</recordname>
+						</shortcut>
+						<shortcut>
+							<x>304</x>
+							<y>344</y>
+							<class>encounter</class>
+							<recordname>encounter.id-00058@D&#38;D Out of the Abyss</recordname>
+						</shortcut>
+						<shortcut>
+							<x>633</x>
+							<y>291</y>
+							<class>encounter</class>
+							<recordname>encounter.id-00057@D&#38;D Out of the Abyss</recordname>
+						</shortcut>
+					</shortcuts>
+					<tokens>
+						<idcounter>18</idcounter>
+						<scalelock>4.16667</scalelock>
+						<token>
+							<prototype>portrait_id-00004_token</prototype>
+							<id>6</id>
+							<x>412</x>
+							<y>208</y>
+							<name>Geordan Dragos</name>
+							<visibilitylocked>on</visibilitylocked>
+						</token>
+						<token>
+							<prototype>portrait_id-00006_token</prototype>
+							<id>4</id>
+							<x>472</x>
+							<y>208</y>
+							<name>Ra'knar Berylforge</name>
+							<visibilitylocked>on</visibilitylocked>
+						</token>
+						<token>
+							<prototype>portrait_id-00001_token</prototype>
+							<id>5</id>
+							<x>442</x>
+							<y>208</y>
+							<name>Bazin del'Armgo</name>
+							<visibilitylocked>on</visibilitylocked>
+						</token>
+						<token>
+							<prototype>tokens/campaign/Jimjar.png@D&#38;D Out of the Abyss</prototype>
+							<id>8</id>
+							<x>502</x>
+							<y>208</y>
+							<scale>0.781251</scale>
+							<name>Jimjar</name>
+							<visibilitylocked>on</visibilitylocked>
+						</token>
+						<token>
+							<prototype>portrait_id-00002_token</prototype>
+							<id>7</id>
+							<x>472</x>
+							<y>178</y>
+							<name>Thaddeus D'arth</name>
+							<visibilitylocked>on</visibilitylocked>
+						</token>
+					</tokens>
+				</image>
+			</id-00250>
 			<id-00254>
 				<image type="image">
 					<bitmap>Sloobludop Map.jpg</bitmap>

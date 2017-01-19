@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
-<root version="3.2" release="7|CoreRPG:3" integrity="a25cad76a617bf8094b161b70b8827139ba1ec9d">
+<root version="3.2" release="7|CoreRPG:3" integrity="deb7ccd738697dc2c5a253d0b8f2db0e079cec68">
 	<reference>
 		<category name="DD Elemental Evil Players Companion" baseicon="0" decalicon="0">
 			<imagedata>
-				<category name="DD Elemental Evil Players Companion" baseicon="2" decalicon="1">
+				<category name="DD Elemental Evil Players Companion" baseicon="0" decalicon="0">
 					<img_goliath_jpg>
 						<image type="image">
 							<bitmap>images/Goliath.jpg</bitmap>

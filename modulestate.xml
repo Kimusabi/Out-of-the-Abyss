@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
-<modulestate version="3.2">
+<modulestate version="3.3">
 	<module name="Calendars">
 		<loaded />
 	</module>
@@ -8,10 +8,6 @@
 	</module>
 	<module name="D&#38;D Sword Coast Adventurer's Guide - Campaign Guide">
 		<loaded />
-	</module>
-	<module name="D&#38;D Sword Coast Adventurer's Guide - Player's Guide">
-		<loaded />
-		<allow />
 	</module>
 	<module name="DD Dungeon Masters Guide">
 		<loaded />

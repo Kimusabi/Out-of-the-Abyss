@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
-<root version="3.2" release="7|CoreRPG:3" integrity="320d8a0e2f9746909127bf2730df6ee0ba9406a4">
+<root version="3.3" release="7|CoreRPG:3" integrity="a5fbba929706fdd44bcf81f78b598af483076cdf">
 	<reference>
 		<category name="DD MM Monster Manual" baseicon="0" decalicon="0">
-			<imagedata>
-				<category name="DD MM Monster Manual" baseicon="0" decalicon="0">
-					<img_hookhorror_jpg>
-						<image type="image">
-							<bitmap>images/Hook Horror.jpg</bitmap>
-						</image>
-					</img_hookhorror_jpg>
-				</category>
-				<category name="Monsters - DD MM Monster Manual" baseicon="2" decalicon="1">
-				</category>
-			</imagedata>
 		</category>
 	</reference>
 </root>

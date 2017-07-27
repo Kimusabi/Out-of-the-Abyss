@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
-<root version="3.3" release="7|CoreRPG:3" integrity="40a7b08f93096ad14ef0b9f9e71038bbe7b09337">
+<root version="3.2" release="7|CoreRPG:3" integrity="287d633221fb8428aa2526883b91cf844984a897">
 	<battle>
 		<category name="Out of the Abyss - Story Encounters" baseicon="2" decalicon="1">
 			<id-00076>
@@ -17,16 +17,6 @@
 				<category name="D&#38;D Out of the Abyss" baseicon="0" decalicon="0">
 				</category>
 			</id-00079>
-			<id-00135>
-				<locked type="number">0</locked>
-				<category name="D&#38;D Out of the Abyss" baseicon="0" decalicon="0">
-				</category>
-			</id-00135>
-			<id-00287>
-				<locked type="number">1</locked>
-				<category name="D&#38;D Out of the Abyss" baseicon="0" decalicon="0">
-				</category>
-			</id-00287>
 			<id-00400>
 				<category name="D&#38;D Out of the Abyss" baseicon="0" decalicon="0">
 					<npclist>
@@ -166,8 +156,6 @@
 		</category>
 	</encounter>
 	<image>
-		<category name="D&#38;D Out of the Abyss" baseicon="0" decalicon="0">
-		</category>
 		<category name="Monster Manual - Portraits" baseicon="2" decalicon="1">
 			<id-00185>
 				<image type="image">
@@ -874,45 +862,15 @@
 	</item>
 	<npc>
 		<category name="Monster Manual - Creatures" baseicon="2" decalicon="1">
-			<id-00145>
-				<locked type="number">1</locked>
-				<category name="D&#38;D Out of the Abyss" baseicon="0" decalicon="0">
-				</category>
-			</id-00145>
 		</category>
 		<category name="Out of the Abyss - Creatures" baseicon="2" decalicon="1">
-			<id-00012>
-				<locked type="number">1</locked>
-				<category name="D&#38;D Out of the Abyss" baseicon="0" decalicon="0">
-				</category>
-			</id-00012>
-			<id-00031>
-				<locked type="number">1</locked>
-				<category name="D&#38;D Out of the Abyss" baseicon="0" decalicon="0">
-				</category>
-			</id-00031>
-			<id-00211>
-				<locked type="number">1</locked>
-				<category name="D&#38;D Out of the Abyss" baseicon="0" decalicon="0">
-				</category>
-			</id-00211>
 		</category>
 		<category name="Out of the Abyss - NPCs" baseicon="2" decalicon="1">
-			<id-00002>
-				<locked type="number">1</locked>
-				<category name="D&#38;D Out of the Abyss" baseicon="0" decalicon="0">
-				</category>
-			</id-00002>
 			<id-00173>
 				<locked type="number">1</locked>
 				<category name="D&#38;D Out of the Abyss" baseicon="0" decalicon="0">
 				</category>
 			</id-00173>
-			<id-00212>
-				<locked type="number">0</locked>
-				<category name="D&#38;D Out of the Abyss" baseicon="0" decalicon="0">
-				</category>
-			</id-00212>
 		</category>
 		<category name="Out of the Abyss - Traps" baseicon="2" decalicon="1">
 		</category>

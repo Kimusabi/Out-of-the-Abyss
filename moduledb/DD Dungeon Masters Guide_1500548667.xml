@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<root version="3.2" release="7|CoreRPG:3" integrity="dd60338574017445da1999dc957043a0ea148c45">
+	<reference>
+		<category name="DD Dungeon Masters Guide" baseicon="0" decalicon="0">
+			<imagedata>
+				<category name="Artwork - DD Dungeon Masters Guide" baseicon="2" decalicon="1">
+				</category>
+				<category name="DD Dungeon Masters Guide" baseicon="0" decalicon="0">
+					<img_cleric_death_domain_jpg>
+						<image type="image">
+							<bitmap>images/Cleric_Death_Domain.jpg</bitmap>
+						</image>
+					</img_cleric_death_domain_jpg>
+				</category>
+				<category name="Magic Items - DD Dungeon Masters Guide" baseicon="2" decalicon="1">
+				</category>
+				<category name="Maps - DD Dungeon Masters Guide" baseicon="2" decalicon="1">
+				</category>
+				<category name="NPCs - DD Dungeon Masters Guide" baseicon="2" decalicon="1">
+				</category>
+				<category name="Races - DD Dungeon Masters Guide" baseicon="2" decalicon="1">
+				</category>
+			</imagedata>
+		</category>
+	</reference>
+</root>

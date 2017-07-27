@@ -1,10 +1,10 @@
 {
 	["OptDDCL"] = "desktopdecal_ROD1",
-	["OptTFAC"] = "on",
 	["OptTPCH"] = "dot",
-	["sidebar"] = "charsheet,note,image,table,story,quest,npc,battle,item,treasureparcel,background,class,feat,race,skill,spell",
-	["OptSHPW"] = "on",
-	["OptTBOX"] = "off",
+	["OptTFAC"] = "on",
 	["OptHRNH"] = "max",
+	["OptSHPW"] = "on",
+	["sidebar"] = "charsheet,note,image,table,story,quest,npc,battle,item,treasureparcel,background,class,feat,race,skill,spell",
+	["OptTBOX"] = "off",
 	["OptHRST"] = "off",
 }

@@ -7419,6 +7419,248 @@
 		<public />
 		<list>
 			<public />
+			<id-00001>
+				<public />
+				<abilities>
+					<public />
+					<charisma>
+						<public />
+						<bonus type="number">-5</bonus>
+						<score type="number">1</score>
+					</charisma>
+					<constitution>
+						<public />
+						<bonus type="number">2</bonus>
+						<score type="number">15</score>
+					</constitution>
+					<dexterity>
+						<public />
+						<bonus type="number">0</bonus>
+						<score type="number">10</score>
+					</dexterity>
+					<intelligence>
+						<public />
+						<bonus type="number">-4</bonus>
+						<score type="number">2</score>
+					</intelligence>
+					<strength>
+						<public />
+						<bonus type="number">4</bonus>
+						<score type="number">18</score>
+					</strength>
+					<wisdom>
+						<public />
+						<bonus type="number">-2</bonus>
+						<score type="number">6</score>
+					</wisdom>
+				</abilities>
+				<ac type="number">15</ac>
+				<actext type="string">(natural armor)</actext>
+				<actions>
+					<public />
+					<id-00001>
+						<public />
+						<desc type="string">The spore servant makes two hook attacks.</desc>
+						<name type="string">Multiattack</name>
+						<value type="string">Multiattack</value>
+					</id-00001>
+					<id-00002>
+						<public />
+						<desc type="string">Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit: 11 (2d6 + 4) piercing damage.</desc>
+						<name type="string">Hook</name>
+						<value type="string">Hook [M] [RNG: 10] [ATK: +6] [DMG: 2d6+4 piercing]</value>
+					</id-00002>
+				</actions>
+				<active type="number">0</active>
+				<alignment type="string">unaligned</alignment>
+				<conditionimmunities type="string">blinded, charmed, frightened, paralyzed</conditionimmunities>
+				<cr type="string">3</cr>
+				<deathsavefail type="number">0</deathsavefail>
+				<deathsavesuccess type="number">0</deathsavesuccess>
+				<effects>
+					<public />
+					<id-00001>
+						<public />
+						<duration type="number">0</duration>
+						<init type="number">0</init>
+						<isactive type="number">1</isactive>
+						<isgmonly type="number">1</isgmonly>
+						<label type="string">IMMUNE: blinded, charmed, frightened, paralyzed</label>
+					</id-00001>
+				</effects>
+				<friendfoe type="string">foe</friendfoe>
+				<hd type="string">(10d10 + 10)</hd>
+				<hp type="number">75</hp>
+				<hptemp type="number">0</hptemp>
+				<hptotal type="number">110</hptotal>
+				<init type="number">0</init>
+				<initresult type="number">7</initresult>
+				<innatespells>
+					<public />
+				</innatespells>
+				<lairactions>
+					<public />
+				</lairactions>
+				<languages type="string">-</languages>
+				<legendaryactions>
+					<public />
+				</legendaryactions>
+				<link type="windowreference">
+					<class>npc</class>
+					<recordname></recordname>
+				</link>
+				<locked type="number">1</locked>
+				<name type="string">Hook Horror Spore Servant 1</name>
+				<reach type="number">5</reach>
+				<reaction type="number">0</reaction>
+				<reactions>
+					<public />
+				</reactions>
+				<senses type="string">blindsight 30 ft. (blind beyond this radius), passive Perception 8</senses>
+				<size type="string">Medium</size>
+				<space type="number">5</space>
+				<speed type="string">20 ft., climb 20 ft.</speed>
+				<spells>
+					<public />
+				</spells>
+				<status type="string">Healthy</status>
+				<targets>
+					<public />
+				</targets>
+				<text type="formattedtext">
+					<p></p>
+				</text>
+				<token type="token">tokens/campaign/quaggothsporeservant.png@D&#38;D Out of the Abyss</token>
+				<tokenscale type="number">1</tokenscale>
+				<tokenvis type="number">0</tokenvis>
+				<traits>
+					<public />
+				</traits>
+				<type type="string">plant</type>
+				<wounds type="number">0</wounds>
+				<xp type="number">700</xp>
+			</id-00001>
+			<id-00002>
+				<public />
+				<abilities>
+					<public />
+					<charisma>
+						<public />
+						<bonus type="number">-5</bonus>
+						<score type="number">1</score>
+					</charisma>
+					<constitution>
+						<public />
+						<bonus type="number">2</bonus>
+						<score type="number">15</score>
+					</constitution>
+					<dexterity>
+						<public />
+						<bonus type="number">0</bonus>
+						<score type="number">10</score>
+					</dexterity>
+					<intelligence>
+						<public />
+						<bonus type="number">-4</bonus>
+						<score type="number">2</score>
+					</intelligence>
+					<strength>
+						<public />
+						<bonus type="number">4</bonus>
+						<score type="number">18</score>
+					</strength>
+					<wisdom>
+						<public />
+						<bonus type="number">-2</bonus>
+						<score type="number">6</score>
+					</wisdom>
+				</abilities>
+				<ac type="number">15</ac>
+				<actext type="string">(natural armor)</actext>
+				<actions>
+					<public />
+					<id-00001>
+						<public />
+						<desc type="string">The spore servant makes two hook attacks.</desc>
+						<name type="string">Multiattack</name>
+						<value type="string">Multiattack</value>
+					</id-00001>
+					<id-00002>
+						<public />
+						<desc type="string">Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit: 11 (2d6 + 4) piercing damage.</desc>
+						<name type="string">Hook</name>
+						<value type="string">Hook [M] [RNG: 10] [ATK: +6] [DMG: 2d6+4 piercing]</value>
+					</id-00002>
+				</actions>
+				<active type="number">0</active>
+				<alignment type="string">unaligned</alignment>
+				<conditionimmunities type="string">blinded, charmed, frightened, paralyzed</conditionimmunities>
+				<cr type="string">3</cr>
+				<deathsavefail type="number">0</deathsavefail>
+				<deathsavesuccess type="number">0</deathsavesuccess>
+				<effects>
+					<public />
+					<id-00001>
+						<public />
+						<duration type="number">0</duration>
+						<init type="number">0</init>
+						<isactive type="number">1</isactive>
+						<isgmonly type="number">1</isgmonly>
+						<label type="string">IMMUNE: blinded, charmed, frightened, paralyzed</label>
+					</id-00001>
+				</effects>
+				<friendfoe type="string">foe</friendfoe>
+				<hd type="string">(10d10 + 10)</hd>
+				<hp type="number">75</hp>
+				<hptemp type="number">0</hptemp>
+				<hptotal type="number">110</hptotal>
+				<init type="number">0</init>
+				<initresult type="number">7</initresult>
+				<innatespells>
+					<public />
+				</innatespells>
+				<lairactions>
+					<public />
+				</lairactions>
+				<languages type="string">-</languages>
+				<legendaryactions>
+					<public />
+				</legendaryactions>
+				<link type="windowreference">
+					<class>npc</class>
+					<recordname></recordname>
+				</link>
+				<locked type="number">1</locked>
+				<name type="string">Hook Horror Spore Servant 2</name>
+				<reach type="number">5</reach>
+				<reaction type="number">0</reaction>
+				<reactions>
+					<public />
+				</reactions>
+				<senses type="string">blindsight 30 ft. (blind beyond this radius), passive Perception 8</senses>
+				<size type="string">Medium</size>
+				<space type="number">5</space>
+				<speed type="string">20 ft., climb 20 ft.</speed>
+				<spells>
+					<public />
+				</spells>
+				<status type="string">Healthy</status>
+				<targets>
+					<public />
+				</targets>
+				<text type="formattedtext">
+					<p></p>
+				</text>
+				<token type="token">tokens/campaign/quaggothsporeservant.png@D&#38;D Out of the Abyss</token>
+				<tokenscale type="number">1</tokenscale>
+				<tokenvis type="number">0</tokenvis>
+				<traits>
+					<public />
+				</traits>
+				<type type="string">plant</type>
+				<wounds type="number">0</wounds>
+				<xp type="number">700</xp>
+			</id-00002>
 			<id-00003>
 				<public />
 				<abilities>
@@ -7501,6 +7743,359 @@
 				</traits>
 				<wounds type="number">0</wounds>
 			</id-00003>
+			<id-00004>
+				<public />
+				<abilities>
+					<public />
+					<charisma>
+						<public />
+						<bonus type="number">-2</bonus>
+						<score type="number">7</score>
+					</charisma>
+					<constitution>
+						<public />
+						<bonus type="number">1</bonus>
+						<score type="number">12</score>
+					</constitution>
+					<dexterity>
+						<public />
+						<bonus type="number">0</bonus>
+						<score type="number">10</score>
+					</dexterity>
+					<intelligence>
+						<public />
+						<bonus type="number">0</bonus>
+						<score type="number">10</score>
+					</intelligence>
+					<strength>
+						<public />
+						<bonus type="number">0</bonus>
+						<score type="number">10</score>
+					</strength>
+					<wisdom>
+						<public />
+						<bonus type="number">1</bonus>
+						<score type="number">13</score>
+					</wisdom>
+				</abilities>
+				<ac type="number">12</ac>
+				<actext type="string">(natural armor)</actext>
+				<actions>
+					<public />
+					<id-00001>
+						<public />
+						<desc type="string">Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 5 (2d4) bludgeoning damage plus 5 (2d4) poison damage.</desc>
+						<name type="string">Fist</name>
+						<value type="string">Fist [M] [ATK: +2] [DMG: 2d4 bludgeoning + 2d4 poison]</value>
+					</id-00001>
+					<id-00002>
+						<public />
+						<desc type="string">The myconid ejects spores at one creature it can see within 5 feet of it. The target must succeed on a DC 11 Constitution saving throw or be stunned for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</desc>
+						<name type="string">Pacifying Spores</name>
+						<value type="string">Pacifying spores [SAVEVS: constitution 11] [EFF: Stunned (D:1 MIN)]</value>
+					</id-00002>
+					<id-00003>
+						<public />
+						<desc type="string">A 20-foot radius of spores extends from the myconid. These spores can go around corners and affect only creatures with an Intelligence of 2 or higher that aren't undead, constructs, or elementals. Affected creatures can communicate telepathically with one another while they are within 30 feet of each other. The effect lasts for 1 hour.</desc>
+						<name type="string">Rapport Spores</name>
+						<value type="string">Rapport spores</value>
+					</id-00003>
+					<id-00004>
+						<public />
+						<desc type="string">The myconid releases spores in a 30-foot cone. Each creature inside the cone must succeed on a DC 11 Dexterity saving throw or take 1d6 acid damage at the start of each of the myconid's turns. A creature can repeat the saving throw at the end of its turn, ending the effect on itself on a success.</desc>
+						<name type="string">Caustic Spores (1/Day)</name>
+						<value type="string">Caustic spores (1/day) [SAVEVS: dexterity 11] [EFF: DMGO: 1d6 acid]</value>
+					</id-00004>
+					<id-00005>
+						<public />
+						<desc type="string">The myconid releases spores that burst out in a cloud that fills a 10-foot-radius sphere centered on it, and the cloud lingers for 1 minute. Any flesh-and-blood creature in the cloud when it appears, or that enters it later, must make a DC 11 Constitution saving throw. On a successful save, the creature can't be infected by these spores for 24 hours. On a failed save, the creature is infected with a disease called the spores of Zuggtmoy and also gains a random form of indefinite madness (determined by rolling on the Madness of Zuggtmoy table) that lasts until the creature is cured of the disease or dies. While infected in this way, the creature can't be reinfected, and it must repeat the saving throw at the end of every 24 hours, ending the infection on a success. On a failure, the infected creature's body is slowly taken over by fungal growth, and after three such failed saves, the creature dies and is reanimated as a spore servant if it's a type of creature that can be (see the &#34;Myconids&#34; entry in the Monster Manual).</desc>
+						<name type="string">Infestation Spores (1/Day)</name>
+						<value type="string">Infestation spores (1/day) [SAVEVS: constitution 11]</value>
+					</id-00005>
+					<id-00006>
+						<public />
+						<desc type="string">The myconid releases a cloud of spores in a 20-foot-radius sphere centered on itself. Other creatures in that area must each succeed on a DC 11 Constitution saving throw or become poisoned for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect early on itself on a success. When the effect ends on it, the creature gains one level of exhaustion.</desc>
+						<name type="string">Euphoria Spores (1/Day)</name>
+						<value type="string">Euphoria spores (1/day) [SAVEVS: constitution 11] [EFF: Poisoned (D:1 MIN)]</value>
+					</id-00006>
+				</actions>
+				<active type="number">0</active>
+				<alignment type="string">lawful neutral</alignment>
+				<cr type="string">1/2</cr>
+				<deathsavefail type="number">0</deathsavefail>
+				<deathsavesuccess type="number">0</deathsavesuccess>
+				<effects>
+					<public />
+				</effects>
+				<friendfoe type="string">foe</friendfoe>
+				<hd type="string">(4d8 + 4)</hd>
+				<hp type="number">22</hp>
+				<hptemp type="number">0</hptemp>
+				<hptotal type="number">36</hptotal>
+				<init type="number">0</init>
+				<initresult type="number">4</initresult>
+				<innatespells>
+					<public />
+				</innatespells>
+				<lairactions>
+					<public />
+				</lairactions>
+				<languages type="string">-</languages>
+				<legendaryactions>
+					<public />
+				</legendaryactions>
+				<link type="windowreference">
+					<class>npc</class>
+					<recordname></recordname>
+				</link>
+				<locked type="number">1</locked>
+				<name type="string">Myconid Adult of Zuggtmoy 1</name>
+				<reach type="number">5</reach>
+				<reaction type="number">0</reaction>
+				<reactions>
+					<public />
+				</reactions>
+				<senses type="string">darkvision 120 ft., passive Perception 11</senses>
+				<size type="string">Medium</size>
+				<space type="number">5</space>
+				<speed type="string">20 ft.</speed>
+				<spells>
+					<public />
+				</spells>
+				<status type="string">Healthy</status>
+				<targets>
+					<public />
+				</targets>
+				<text type="formattedtext">
+					<h>Myconids</h>
+					<linklist>
+						<link class="imagewindow" recordname="image.id-00179@D&#38;D Out of the Abyss">Image: Myconids</link>
+					</linklist>
+					<p>Myconids are intelligent, ambulatory fungi that live in the Underdark, seek enlightenment, and deplore violence. If approached peacefully, myconids gladly provide shelter or allow safe passage through their colonies.</p>
+					<p><b><i>Circles and Melds. </i></b>The largest myconid in a colony is its sovereign, which presides over one or more social groups called circles. A circle consists of twenty or more myconids that work, live, and meld together.A meld is a form of communal meditation that allows myconids to transcend their dull subterranean existence. The myconids' rapport spores bind the participants into a group consciousness. Hallucination spores then induce a shared dream that provides entertainment and social interaction. Myconids consider melding to be the purpose of their existence. They use it in the pursuit of higher consciousness, collective union, and spiritual apotheosis. Myconids also use their rapport spores to communicate telepathically with other sentient creatures.</p>
+					<p><b><i>Myconid Reproduction. </i></b>Like other fungi, myconids reproduce by mundane sporing. They carefully control their spores' release to avoid overpopulation.</p>
+					<p><b>Spore Servant Template</b></p>
+					<p>A spore servant is any Large or smaller creature brought back to life by the animating spores of a myconid sovereign. A creature that was never flesh and blood to begin with (such as a construct, elemental, ooze, plant, or undead) can't be turned into a spore servant.</p>
+					<p>The following characteristics change or are added to acreature that becomes a spore servant.</p>
+					<p><b><i>Retained Characteristics. </i></b>The servant retains its Armor Class, hit points, Hit Dice, Strength, Dexterity, Constitution, vulnerabilities, resistances, and immunities.</p>
+					<p><b><i>Lost Characteristics. </i></b>The servant loses its original saving throw and skill bonuses, special senses, and special traits. It loses any action that isn't Multiattack or a melee weapon attack that deals bludgeoning, piercing, or slashing damage. If it has an action or a melee weaponattack that deals some other type of damage, it loses theability to deal damage of that type, unless the damagecomes from a piece of equipment, such as a magic item.</p>
+					<p><b><i>Type. </i></b>The servant's type is plant, and it loses any tags.</p>
+					<p><b><i>Alignment. </i></b>The servant is unaligned.</p>
+					<p><b><i>Speed. </i></b>Reduce all the servant's speeds by 10 feet, to a minimum of 5 feet.</p>
+					<p><b><i>Ability Scores. </i></b>The servant's ability scores change as follows: Int 2 (-4), Wis 6 (-2), Cha 1 (-5).</p>
+					<p><b><i>Senses. </i></b>The servant has blindsight with a radius of 30 feet, and it is blind beyond this radius.</p>
+					<p><b><i>Condition Immunities. </i></b>The servant can't be blinded, charmed, frightened, or paralyzed.</p>
+					<p><b><i>Languages. </i></b>The servant loses all known languages, but it responds to orders given to it by myconids using rapport spores. The servant gives highest priority to orders received from the most powerful myconid.</p>
+					<p><b><i>Attacks. </i></b>If the servant has no other means of dealing damage, it can use its fists or limbs to make unarmed strikes. On a hit, an unarmed strike deals bludgeoning damage equal to 1d4 + the servant's Strength modifier, or, if the servant is Large, 2d4 + its Strength modifier.</p>
+					<h>Myconids of Zuggtmoy</h>
+					<p>Myconids that embrace Zuggtmoy can develop new, more destructive kinds of spores. Myconid adults can have two of the following spore effects. Myconid sovereigns have all these spore effects.</p>
+					<p><b><i>Caustic Spores (1/Day). </i></b>The myconid releases spores in a 30-foot cone. Each creature inside the cone must succeed on a Dexterity saving throw or take 1d6 acid damage at the start of each of the myconid's turns. A creature can repeat the saving throw at the end of its turn, ending the effect on itself on a success. The save DC is 8 + the myconid's Constitution modifier + the myconid's proficiency bonus.</p>
+					<p><b><i>Infestation Spores (1/Day). </i></b>The myconid releases spores that burst out in a cloud that fills a 10-foot-radius sphere centered on it, and the cloud lingers for 1 minute. Any flesh-and-blood creature in the cloud when it appears, or that enters it later, must make a Constitution saving throw. The save DC is 8 + the myconid's Constitution modifier + the myconid's proficiency bonus. On a successful save, the creature can't be infected by these spores for 24 hours. On a failed save, the creature is infected with a disease called the spores of Zuggtmoy and also gains a random form of indefinite madness (determined by rolling on the Madness of Zuggtmoy table in appendix D) that lasts until the creature is cured of the disease or dies. While infected in this way, the creature can't be reinfected, and it must repeat the saving throw at the end of every 24 hours, ending the infection on a success. On a failure, the infected creature's body is slowly taken over by fungal growth, and after three such failed saves, the creature dies and is reanimated as a spore servant if it's a type of creature that can be (see the &#34;Myconids&#34; entry in the Monster Manual).</p>
+					<p><b><i>Euphoria Spores (1/Day). </i></b>The myconid releases a cloud of spores in a 20-foot-radius sphere centered on itself. Other creatures in that area must each succeed on a Constitution saving throw or become poisoned for 1 minute. The save DC is 8 + the myconid's Constitution modifier + the myconid's proficiency bonus. A creature can repeat the saving throw at the end of each of its turns, ending the effect early on itself on a success. When the effect ends on it, the creature gains one level of exhaustion.</p>
+				</text>
+				<token type="token">tokens/campaign/myconidadult.png@D&#38;D Out of the Abyss</token>
+				<tokenscale type="number">1</tokenscale>
+				<tokenvis type="number">0</tokenvis>
+				<traits>
+					<public />
+					<id-00001>
+						<public />
+						<desc type="string">When the myconid takes damage, all other myconids within 240 feet of it can sense its pain.</desc>
+						<name type="string">Distress Spores</name>
+						<value type="string">Distress spores</value>
+					</id-00001>
+					<id-00002>
+						<public />
+						<desc type="string">While in sunlight, the myconid has disadvantage on ability checks, attack rolls, and saving throws. The myconid dies if it spends more than 1 hour in direct sunlight.</desc>
+						<name type="string">Sun Sickness</name>
+						<value type="string">Sun sickness</value>
+					</id-00002>
+					<id-00003>
+						<public />
+						<desc type="string">The Myconid Adult can have two of the following spore effects: Caustic Spores(1/Day), Infestation Spores (1/Day), Euphoria Spores(1/Day).</desc>
+						<name type="string">Embrace of Zuggtmoy</name>
+						<value type="string">Embrace of zuggtmoy</value>
+					</id-00003>
+				</traits>
+				<type type="string">plant</type>
+				<wounds type="number">0</wounds>
+				<xp type="number">100</xp>
+			</id-00004>
+			<id-00005>
+				<public />
+				<abilities>
+					<public />
+					<charisma>
+						<public />
+						<bonus type="number">-2</bonus>
+						<score type="number">7</score>
+					</charisma>
+					<constitution>
+						<public />
+						<bonus type="number">1</bonus>
+						<score type="number">12</score>
+					</constitution>
+					<dexterity>
+						<public />
+						<bonus type="number">0</bonus>
+						<score type="number">10</score>
+					</dexterity>
+					<intelligence>
+						<public />
+						<bonus type="number">0</bonus>
+						<score type="number">10</score>
+					</intelligence>
+					<strength>
+						<public />
+						<bonus type="number">0</bonus>
+						<score type="number">10</score>
+					</strength>
+					<wisdom>
+						<public />
+						<bonus type="number">1</bonus>
+						<score type="number">13</score>
+					</wisdom>
+				</abilities>
+				<ac type="number">12</ac>
+				<actext type="string">(natural armor)</actext>
+				<actions>
+					<public />
+					<id-00001>
+						<public />
+						<desc type="string">Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 5 (2d4) bludgeoning damage plus 5 (2d4) poison damage.</desc>
+						<name type="string">Fist</name>
+						<value type="string">Fist [M] [ATK: +2] [DMG: 2d4 bludgeoning + 2d4 poison]</value>
+					</id-00001>
+					<id-00002>
+						<public />
+						<desc type="string">The myconid ejects spores at one creature it can see within 5 feet of it. The target must succeed on a DC 11 Constitution saving throw or be stunned for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</desc>
+						<name type="string">Pacifying Spores</name>
+						<value type="string">Pacifying spores [SAVEVS: constitution 11] [EFF: Stunned (D:1 MIN)]</value>
+					</id-00002>
+					<id-00003>
+						<public />
+						<desc type="string">A 20-foot radius of spores extends from the myconid. These spores can go around corners and affect only creatures with an Intelligence of 2 or higher that aren't undead, constructs, or elementals. Affected creatures can communicate telepathically with one another while they are within 30 feet of each other. The effect lasts for 1 hour.</desc>
+						<name type="string">Rapport Spores</name>
+						<value type="string">Rapport spores</value>
+					</id-00003>
+					<id-00004>
+						<public />
+						<desc type="string">The myconid releases spores in a 30-foot cone. Each creature inside the cone must succeed on a DC 11 Dexterity saving throw or take 1d6 acid damage at the start of each of the myconid's turns. A creature can repeat the saving throw at the end of its turn, ending the effect on itself on a success.</desc>
+						<name type="string">Caustic Spores (1/Day)</name>
+						<value type="string">Caustic spores (1/day) [SAVEVS: dexterity 11] [EFF: DMGO: 1d6 acid]</value>
+					</id-00004>
+					<id-00005>
+						<public />
+						<desc type="string">The myconid releases spores that burst out in a cloud that fills a 10-foot-radius sphere centered on it, and the cloud lingers for 1 minute. Any flesh-and-blood creature in the cloud when it appears, or that enters it later, must make a DC 11 Constitution saving throw. On a successful save, the creature can't be infected by these spores for 24 hours. On a failed save, the creature is infected with a disease called the spores of Zuggtmoy and also gains a random form of indefinite madness (determined by rolling on the Madness of Zuggtmoy table) that lasts until the creature is cured of the disease or dies. While infected in this way, the creature can't be reinfected, and it must repeat the saving throw at the end of every 24 hours, ending the infection on a success. On a failure, the infected creature's body is slowly taken over by fungal growth, and after three such failed saves, the creature dies and is reanimated as a spore servant if it's a type of creature that can be (see the &#34;Myconids&#34; entry in the Monster Manual).</desc>
+						<name type="string">Infestation Spores (1/Day)</name>
+						<value type="string">Infestation spores (1/day) [SAVEVS: constitution 11]</value>
+					</id-00005>
+					<id-00006>
+						<public />
+						<desc type="string">The myconid releases a cloud of spores in a 20-foot-radius sphere centered on itself. Other creatures in that area must each succeed on a DC 11 Constitution saving throw or become poisoned for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect early on itself on a success. When the effect ends on it, the creature gains one level of exhaustion.</desc>
+						<name type="string">Euphoria Spores (1/Day)</name>
+						<value type="string">Euphoria spores (1/day) [SAVEVS: constitution 11] [EFF: Poisoned (D:1 MIN)]</value>
+					</id-00006>
+				</actions>
+				<active type="number">0</active>
+				<alignment type="string">lawful neutral</alignment>
+				<cr type="string">1/2</cr>
+				<deathsavefail type="number">0</deathsavefail>
+				<deathsavesuccess type="number">0</deathsavesuccess>
+				<effects>
+					<public />
+				</effects>
+				<friendfoe type="string">foe</friendfoe>
+				<hd type="string">(4d8 + 4)</hd>
+				<hp type="number">22</hp>
+				<hptemp type="number">0</hptemp>
+				<hptotal type="number">36</hptotal>
+				<init type="number">0</init>
+				<initresult type="number">4</initresult>
+				<innatespells>
+					<public />
+				</innatespells>
+				<lairactions>
+					<public />
+				</lairactions>
+				<languages type="string">-</languages>
+				<legendaryactions>
+					<public />
+				</legendaryactions>
+				<link type="windowreference">
+					<class>npc</class>
+					<recordname></recordname>
+				</link>
+				<locked type="number">1</locked>
+				<name type="string">Myconid Adult of Zuggtmoy 2</name>
+				<reach type="number">5</reach>
+				<reaction type="number">0</reaction>
+				<reactions>
+					<public />
+				</reactions>
+				<senses type="string">darkvision 120 ft., passive Perception 11</senses>
+				<size type="string">Medium</size>
+				<space type="number">5</space>
+				<speed type="string">20 ft.</speed>
+				<spells>
+					<public />
+				</spells>
+				<status type="string">Healthy</status>
+				<text type="formattedtext">
+					<h>Myconids</h>
+					<linklist>
+						<link class="imagewindow" recordname="image.id-00179@D&#38;D Out of the Abyss">Image: Myconids</link>
+					</linklist>
+					<p>Myconids are intelligent, ambulatory fungi that live in the Underdark, seek enlightenment, and deplore violence. If approached peacefully, myconids gladly provide shelter or allow safe passage through their colonies.</p>
+					<p><b><i>Circles and Melds. </i></b>The largest myconid in a colony is its sovereign, which presides over one or more social groups called circles. A circle consists of twenty or more myconids that work, live, and meld together.A meld is a form of communal meditation that allows myconids to transcend their dull subterranean existence. The myconids' rapport spores bind the participants into a group consciousness. Hallucination spores then induce a shared dream that provides entertainment and social interaction. Myconids consider melding to be the purpose of their existence. They use it in the pursuit of higher consciousness, collective union, and spiritual apotheosis. Myconids also use their rapport spores to communicate telepathically with other sentient creatures.</p>
+					<p><b><i>Myconid Reproduction. </i></b>Like other fungi, myconids reproduce by mundane sporing. They carefully control their spores' release to avoid overpopulation.</p>
+					<p><b>Spore Servant Template</b></p>
+					<p>A spore servant is any Large or smaller creature brought back to life by the animating spores of a myconid sovereign. A creature that was never flesh and blood to begin with (such as a construct, elemental, ooze, plant, or undead) can't be turned into a spore servant.</p>
+					<p>The following characteristics change or are added to acreature that becomes a spore servant.</p>
+					<p><b><i>Retained Characteristics. </i></b>The servant retains its Armor Class, hit points, Hit Dice, Strength, Dexterity, Constitution, vulnerabilities, resistances, and immunities.</p>
+					<p><b><i>Lost Characteristics. </i></b>The servant loses its original saving throw and skill bonuses, special senses, and special traits. It loses any action that isn't Multiattack or a melee weapon attack that deals bludgeoning, piercing, or slashing damage. If it has an action or a melee weaponattack that deals some other type of damage, it loses theability to deal damage of that type, unless the damagecomes from a piece of equipment, such as a magic item.</p>
+					<p><b><i>Type. </i></b>The servant's type is plant, and it loses any tags.</p>
+					<p><b><i>Alignment. </i></b>The servant is unaligned.</p>
+					<p><b><i>Speed. </i></b>Reduce all the servant's speeds by 10 feet, to a minimum of 5 feet.</p>
+					<p><b><i>Ability Scores. </i></b>The servant's ability scores change as follows: Int 2 (-4), Wis 6 (-2), Cha 1 (-5).</p>
+					<p><b><i>Senses. </i></b>The servant has blindsight with a radius of 30 feet, and it is blind beyond this radius.</p>
+					<p><b><i>Condition Immunities. </i></b>The servant can't be blinded, charmed, frightened, or paralyzed.</p>
+					<p><b><i>Languages. </i></b>The servant loses all known languages, but it responds to orders given to it by myconids using rapport spores. The servant gives highest priority to orders received from the most powerful myconid.</p>
+					<p><b><i>Attacks. </i></b>If the servant has no other means of dealing damage, it can use its fists or limbs to make unarmed strikes. On a hit, an unarmed strike deals bludgeoning damage equal to 1d4 + the servant's Strength modifier, or, if the servant is Large, 2d4 + its Strength modifier.</p>
+					<h>Myconids of Zuggtmoy</h>
+					<p>Myconids that embrace Zuggtmoy can develop new, more destructive kinds of spores. Myconid adults can have two of the following spore effects. Myconid sovereigns have all these spore effects.</p>
+					<p><b><i>Caustic Spores (1/Day). </i></b>The myconid releases spores in a 30-foot cone. Each creature inside the cone must succeed on a Dexterity saving throw or take 1d6 acid damage at the start of each of the myconid's turns. A creature can repeat the saving throw at the end of its turn, ending the effect on itself on a success. The save DC is 8 + the myconid's Constitution modifier + the myconid's proficiency bonus.</p>
+					<p><b><i>Infestation Spores (1/Day). </i></b>The myconid releases spores that burst out in a cloud that fills a 10-foot-radius sphere centered on it, and the cloud lingers for 1 minute. Any flesh-and-blood creature in the cloud when it appears, or that enters it later, must make a Constitution saving throw. The save DC is 8 + the myconid's Constitution modifier + the myconid's proficiency bonus. On a successful save, the creature can't be infected by these spores for 24 hours. On a failed save, the creature is infected with a disease called the spores of Zuggtmoy and also gains a random form of indefinite madness (determined by rolling on the Madness of Zuggtmoy table in appendix D) that lasts until the creature is cured of the disease or dies. While infected in this way, the creature can't be reinfected, and it must repeat the saving throw at the end of every 24 hours, ending the infection on a success. On a failure, the infected creature's body is slowly taken over by fungal growth, and after three such failed saves, the creature dies and is reanimated as a spore servant if it's a type of creature that can be (see the &#34;Myconids&#34; entry in the Monster Manual).</p>
+					<p><b><i>Euphoria Spores (1/Day). </i></b>The myconid releases a cloud of spores in a 20-foot-radius sphere centered on itself. Other creatures in that area must each succeed on a Constitution saving throw or become poisoned for 1 minute. The save DC is 8 + the myconid's Constitution modifier + the myconid's proficiency bonus. A creature can repeat the saving throw at the end of each of its turns, ending the effect early on itself on a success. When the effect ends on it, the creature gains one level of exhaustion.</p>
+				</text>
+				<token type="token">tokens/campaign/myconidadult.png@D&#38;D Out of the Abyss</token>
+				<tokenscale type="number">1</tokenscale>
+				<tokenvis type="number">0</tokenvis>
+				<traits>
+					<public />
+					<id-00001>
+						<public />
+						<desc type="string">When the myconid takes damage, all other myconids within 240 feet of it can sense its pain.</desc>
+						<name type="string">Distress Spores</name>
+						<value type="string">Distress spores</value>
+					</id-00001>
+					<id-00002>
+						<public />
+						<desc type="string">While in sunlight, the myconid has disadvantage on ability checks, attack rolls, and saving throws. The myconid dies if it spends more than 1 hour in direct sunlight.</desc>
+						<name type="string">Sun Sickness</name>
+						<value type="string">Sun sickness</value>
+					</id-00002>
+					<id-00003>
+						<public />
+						<desc type="string">The Myconid Adult can have two of the following spore effects: Caustic Spores(1/Day), Infestation Spores (1/Day), Euphoria Spores(1/Day).</desc>
+						<name type="string">Embrace of Zuggtmoy</name>
+						<value type="string">Embrace of zuggtmoy</value>
+					</id-00003>
+				</traits>
+				<type type="string">plant</type>
+				<wounds type="number">0</wounds>
+				<xp type="number">100</xp>
+			</id-00005>
 			<id-00006>
 				<public />
 				<abilities>
@@ -7696,6 +8291,236 @@
 				<wounds type="number">0</wounds>
 				<xp type="number">200</xp>
 			</id-00006>
+			<id-00007>
+				<public />
+				<abilities>
+					<public />
+					<charisma>
+						<public />
+						<bonus type="number">-5</bonus>
+						<score type="number">1</score>
+					</charisma>
+					<constitution>
+						<public />
+						<bonus type="number">0</bonus>
+						<score type="number">10</score>
+					</constitution>
+					<dexterity>
+						<public />
+						<bonus type="number">2</bonus>
+						<score type="number">14</score>
+					</dexterity>
+					<intelligence>
+						<public />
+						<bonus type="number">-4</bonus>
+						<score type="number">2</score>
+					</intelligence>
+					<strength>
+						<public />
+						<bonus type="number">0</bonus>
+						<score type="number">10</score>
+					</strength>
+					<wisdom>
+						<public />
+						<bonus type="number">-2</bonus>
+						<score type="number">6</score>
+					</wisdom>
+				</abilities>
+				<ac type="number">15</ac>
+				<actext type="string">(chain shirt)</actext>
+				<actions>
+					<public />
+					<id-00001>
+						<public />
+						<desc type="string">Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing damage.</desc>
+						<name type="string">Shortsword</name>
+						<value type="string">Shortsword [M] [ATK: +4] [DMG: 1d6+2 piercing]</value>
+					</id-00001>
+				</actions>
+				<active type="number">0</active>
+				<alignment type="string">unaligned</alignment>
+				<conditionimmunities type="string">blinded, charmed, frightened, paralyzed</conditionimmunities>
+				<cr type="string">1/8</cr>
+				<deathsavefail type="number">0</deathsavefail>
+				<deathsavesuccess type="number">0</deathsavesuccess>
+				<effects>
+					<public />
+					<id-00001>
+						<public />
+						<duration type="number">0</duration>
+						<init type="number">0</init>
+						<isactive type="number">1</isactive>
+						<isgmonly type="number">1</isgmonly>
+						<label type="string">IMMUNE: blinded, charmed, frightened, paralyzed</label>
+					</id-00001>
+				</effects>
+				<friendfoe type="string">foe</friendfoe>
+				<hd type="string">(3d8)</hd>
+				<hp type="number">13</hp>
+				<hptemp type="number">0</hptemp>
+				<hptotal type="number">24</hptotal>
+				<init type="number">2</init>
+				<initresult type="number">19</initresult>
+				<innatespells>
+					<public />
+				</innatespells>
+				<lairactions>
+					<public />
+				</lairactions>
+				<languages type="string">-</languages>
+				<legendaryactions>
+					<public />
+				</legendaryactions>
+				<link type="windowreference">
+					<class>npc</class>
+					<recordname></recordname>
+				</link>
+				<locked type="number">1</locked>
+				<name type="string">Drow Spore Servant 1</name>
+				<reach type="number">5</reach>
+				<reaction type="number">0</reaction>
+				<reactions>
+					<public />
+				</reactions>
+				<senses type="string">blindsight 30 ft. (blind beyond this radius), passive Perception 8</senses>
+				<size type="string">Medium</size>
+				<space type="number">5</space>
+				<speed type="string">20 ft.</speed>
+				<spells>
+					<public />
+				</spells>
+				<status type="string">Healthy</status>
+				<targets>
+					<public />
+				</targets>
+				<text type="formattedtext">
+					<p></p>
+				</text>
+				<token type="token">tokens/campaign/quaggothsporeservant.png@D&#38;D Out of the Abyss</token>
+				<tokenscale type="number">1</tokenscale>
+				<tokenvis type="number">0</tokenvis>
+				<traits>
+					<public />
+				</traits>
+				<type type="string">plant</type>
+				<wounds type="number">0</wounds>
+				<xp type="number">25</xp>
+			</id-00007>
+			<id-00008>
+				<public />
+				<abilities>
+					<public />
+					<charisma>
+						<public />
+						<bonus type="number">-5</bonus>
+						<score type="number">1</score>
+					</charisma>
+					<constitution>
+						<public />
+						<bonus type="number">0</bonus>
+						<score type="number">10</score>
+					</constitution>
+					<dexterity>
+						<public />
+						<bonus type="number">2</bonus>
+						<score type="number">14</score>
+					</dexterity>
+					<intelligence>
+						<public />
+						<bonus type="number">-4</bonus>
+						<score type="number">2</score>
+					</intelligence>
+					<strength>
+						<public />
+						<bonus type="number">0</bonus>
+						<score type="number">10</score>
+					</strength>
+					<wisdom>
+						<public />
+						<bonus type="number">-2</bonus>
+						<score type="number">6</score>
+					</wisdom>
+				</abilities>
+				<ac type="number">15</ac>
+				<actext type="string">(chain shirt)</actext>
+				<actions>
+					<public />
+					<id-00001>
+						<public />
+						<desc type="string">Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing damage.</desc>
+						<name type="string">Shortsword</name>
+						<value type="string">Shortsword [M] [ATK: +4] [DMG: 1d6+2 piercing]</value>
+					</id-00001>
+				</actions>
+				<active type="number">0</active>
+				<alignment type="string">unaligned</alignment>
+				<conditionimmunities type="string">blinded, charmed, frightened, paralyzed</conditionimmunities>
+				<cr type="string">1/8</cr>
+				<deathsavefail type="number">0</deathsavefail>
+				<deathsavesuccess type="number">0</deathsavesuccess>
+				<effects>
+					<public />
+					<id-00001>
+						<public />
+						<duration type="number">0</duration>
+						<init type="number">0</init>
+						<isactive type="number">1</isactive>
+						<isgmonly type="number">1</isgmonly>
+						<label type="string">IMMUNE: blinded, charmed, frightened, paralyzed</label>
+					</id-00001>
+				</effects>
+				<friendfoe type="string">foe</friendfoe>
+				<hd type="string">(3d8)</hd>
+				<hp type="number">13</hp>
+				<hptemp type="number">0</hptemp>
+				<hptotal type="number">24</hptotal>
+				<init type="number">2</init>
+				<initresult type="number">19</initresult>
+				<innatespells>
+					<public />
+				</innatespells>
+				<lairactions>
+					<public />
+				</lairactions>
+				<languages type="string">-</languages>
+				<legendaryactions>
+					<public />
+				</legendaryactions>
+				<link type="windowreference">
+					<class>npc</class>
+					<recordname></recordname>
+				</link>
+				<locked type="number">1</locked>
+				<name type="string">Drow Spore Servant 2</name>
+				<reach type="number">5</reach>
+				<reaction type="number">0</reaction>
+				<reactions>
+					<public />
+				</reactions>
+				<senses type="string">blindsight 30 ft. (blind beyond this radius), passive Perception 8</senses>
+				<size type="string">Medium</size>
+				<space type="number">5</space>
+				<speed type="string">20 ft.</speed>
+				<spells>
+					<public />
+				</spells>
+				<status type="string">Healthy</status>
+				<targets>
+					<public />
+				</targets>
+				<text type="formattedtext">
+					<p></p>
+				</text>
+				<token type="token">tokens/campaign/quaggothsporeservant.png@D&#38;D Out of the Abyss</token>
+				<tokenscale type="number">1</tokenscale>
+				<tokenvis type="number">0</tokenvis>
+				<traits>
+					<public />
+				</traits>
+				<type type="string">plant</type>
+				<wounds type="number">0</wounds>
+				<xp type="number">25</xp>
+			</id-00008>
 			<id-00009>
 				<public />
 				<abilities>
@@ -7764,7 +8589,7 @@
 				<spells>
 					<public />
 				</spells>
-				<status type="string">Wounded</status>
+				<status type="string">Healthy</status>
 				<targets>
 					<public />
 				</targets>
@@ -7776,7 +8601,7 @@
 				<traits>
 					<public />
 				</traits>
-				<wounds type="number">11</wounds>
+				<wounds type="number">0</wounds>
 			</id-00009>
 			<id-00010>
 				<public />
@@ -7846,7 +8671,7 @@
 				<spells>
 					<public />
 				</spells>
-				<status type="string">Heavy</status>
+				<status type="string">Healthy</status>
 				<targets>
 					<public />
 				</targets>
@@ -7858,7 +8683,7 @@
 				<traits>
 					<public />
 				</traits>
-				<wounds type="number">37</wounds>
+				<wounds type="number">0</wounds>
 			</id-00010>
 			<id-00011>
 				<public />
@@ -7942,8 +8767,162 @@
 				</traits>
 				<wounds type="number">0</wounds>
 			</id-00011>
+			<id-00012>
+				<public />
+				<abilities>
+					<public />
+					<charisma>
+						<public />
+						<bonus type="number">0</bonus>
+						<score type="number">10</score>
+					</charisma>
+					<constitution>
+						<public />
+						<bonus type="number">2</bonus>
+						<score type="number">14</score>
+					</constitution>
+					<dexterity>
+						<public />
+						<bonus type="number">0</bonus>
+						<score type="number">10</score>
+					</dexterity>
+					<intelligence>
+						<public />
+						<bonus type="number">1</bonus>
+						<score type="number">13</score>
+					</intelligence>
+					<strength>
+						<public />
+						<bonus type="number">1</bonus>
+						<score type="number">12</score>
+					</strength>
+					<wisdom>
+						<public />
+						<bonus type="number">2</bonus>
+						<score type="number">15</score>
+					</wisdom>
+				</abilities>
+				<ac type="number">15</ac>
+				<actext type="string">(natural armor)</actext>
+				<actions>
+					<public />
+					<id-00001>
+						<public />
+						<desc type="string">Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 8 (3d4 + 1) bludgeoning damage plus 7 (3d4) poison damage.</desc>
+						<name type="string">Slam</name>
+						<value type="string">Slam [M] [ATK: +3] [DMG: 3d4+1 bludgeoning + 3d4 poison]</value>
+					</id-00001>
+					<id-00002>
+						<public />
+						<desc type="string">Yestabrod releases spores in a 30-foot cone. Each creature in that area must succeed on a DC 12 Dexterity saving throw or take 1d6 acid damage at the start of each of Yestabrod's turns. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</desc>
+						<name type="string">Caustic Spores (1/Day)</name>
+						<value type="string">Caustic spores (1/day) [SAVEVS: dexterity 12] [EFF: DMGO: 1d6 acid]</value>
+					</id-00002>
+					<id-00003>
+						<public />
+						<desc type="string">Yestabrod releases spores that burst out in a cloud that fills a 10-foot-radius sphere centered on it, and the cloud lingers for 1 minute. Any flesh-and-blood creature in the cloud when it appears, or that enters it later, must make a DC 12 Constitution saving throw. On a successful save, the creature can't be infected by these spores for 24 hours. On a failed save, the creature is infected with a disease called the spores of Zuggtmoy and also gains a random form of indefinite madness (determined by rolling on the Madness of Zuggtmoy table in appendix D) that lasts until the creature is cured of the disease or dies. While infected in this way, the creature can't be reinfected, and it must repeat the saving throw at the end of every 24 hours, ending the infection on a success. On a failure, the infected creature's body is slowly taken over by fungal growth, and after three such failed saves, the creature dies and is reanimated as a spore servant if it's a type of creature that can be (see the &#34;Myconids&#34; entry in the Monster Manual).</desc>
+						<name type="string">Infestation Spores (1/Day)</name>
+						<value type="string">Infestation spores (1/day) [SAVEVS: constitution 12]</value>
+					</id-00003>
+				</actions>
+				<active type="number">0</active>
+				<alignment type="string">chaotic evil</alignment>
+				<conditionimmunities type="string">poisoned</conditionimmunities>
+				<cr type="string">4</cr>
+				<damageimmunities type="string">poison</damageimmunities>
+				<deathsavefail type="number">0</deathsavefail>
+				<deathsavesuccess type="number">0</deathsavesuccess>
+				<effects>
+					<public />
+					<id-00001>
+						<public />
+						<duration type="number">0</duration>
+						<init type="number">0</init>
+						<isactive type="number">1</isactive>
+						<isgmonly type="number">1</isgmonly>
+						<label type="string">IMMUNE: poison; IMMUNE: poisoned</label>
+					</id-00001>
+				</effects>
+				<friendfoe type="string">foe</friendfoe>
+				<hd type="string">(10d10 + 20)</hd>
+				<hp type="number">75</hp>
+				<hptemp type="number">0</hptemp>
+				<hptotal type="number">120</hptotal>
+				<init type="number">0</init>
+				<initresult type="number">15</initresult>
+				<innatespells>
+					<public />
+				</innatespells>
+				<lairactions>
+					<public />
+				</lairactions>
+				<languages type="string">Abyssal, telepathy 60 ft.</languages>
+				<legendaryactions>
+					<public />
+					<id-00001>
+						<public />
+						<desc type="string">Yestabrod can take 2 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. Yestabrod regains spent legendary actions at the start of its turn.</desc>
+						<name type="string">Options</name>
+						<value type="string">Options</value>
+					</id-00001>
+					<id-00002>
+						<public />
+						<desc type="string">Gore, offal, and acid erupt from a corpse within 20 feet of Yestabrod. Creatures within 10 feet of the corpse must succeed on a DC 12 Dexterity saving throw or take 7 (2d6) acid damage.</desc>
+						<name type="string">Corpse Burst</name>
+						<value type="string">Corpse burst [SAVEVS: dexterity 12] [DMG: 2d6 acid]</value>
+					</id-00002>
+					<id-00003>
+						<public />
+						<desc type="string">Yestabrod absorbs putrescence from a corpse within 5 feet of it, regaining 1d8 + 2 hit points.</desc>
+						<name type="string">Foul Absorption</name>
+						<value type="string">Foul absorption</value>
+					</id-00003>
+				</legendaryactions>
+				<link type="windowreference">
+					<class>npc</class>
+					<recordname></recordname>
+				</link>
+				<locked type="number">1</locked>
+				<name type="string">Yestabrod</name>
+				<reach type="number">5</reach>
+				<reaction type="number">0</reaction>
+				<reactions>
+					<public />
+				</reactions>
+				<senses type="string">darkvision 120 ft., passive Perception 12</senses>
+				<size type="string">Large</size>
+				<space type="number">10</space>
+				<speed type="string">30 ft.</speed>
+				<spells>
+					<public />
+				</spells>
+				<status type="string">Healthy</status>
+				<targets>
+					<public />
+				</targets>
+				<text type="formattedtext">
+					<linklist>
+						<link class="encounter" recordname="encounter.id-00231@D&#38;D Out of the Abyss">Garden of Welcome - Background</link>
+					</linklist>
+				</text>
+				<token type="token">tokens/campaign/Y.png@D&#38;D Out of the Abyss</token>
+				<tokenscale type="number">1</tokenscale>
+				<tokenvis type="number">0</tokenvis>
+				<traits>
+					<public />
+					<id-00001>
+						<public />
+						<desc type="string">If Yestabrod fails a saving throw, it can choose to succeed instead.</desc>
+						<name type="string">Legendary Resistance (1/Day)</name>
+						<value type="string">Legendary resistance (1/day)</value>
+					</id-00001>
+				</traits>
+				<type type="string">monstrosity</type>
+				<wounds type="number">0</wounds>
+				<xp type="number">1100</xp>
+			</id-00012>
 		</list>
-		<round type="number">2</round>
+		<round type="number">1</round>
 	</combattracker>
 	<effects>
 		<public />

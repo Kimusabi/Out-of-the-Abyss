@@ -120,7 +120,7 @@
 	<window data="charsheet.id-00008.traitlist.id-00001" class="ref_ability" pos="575,310,925,660" />
 	<window data="charsheet.id-00008.traitlist.id-00002" class="ref_ability" pos="575,310,925,660" />
 	<window data="class" class="masterindex" pos="974,406,1424,906" />
-	<window data="combattracker" class="combattracker_host" pos="379,18,1029,881" />
+	<window data="combattracker" class="combattracker_host" pos="379,18,1220,929" />
 	<window data="combattracker.list.id-00006" class="npc" pos="707,331,1167,881" />
 	<window data="combattracker.list.id-00006.actions.id-00002" class="ct_power_detail" pos="787,456,1087,756" />
 	<window data="combattracker.list.id-00014" class="npc" pos="707,331,1167,881" />
@@ -198,8 +198,14 @@
 	<window data="encounter.id-00222@D&#38;D Out of the Abyss" class="encounter" pos="550,160,950,810" />
 	<window data="encounter.id-00223@D&#38;D Out of the Abyss" class="encounter" pos="550,160,950,810" />
 	<window data="encounter.id-00225@D&#38;D Out of the Abyss" class="encounter" pos="550,160,950,810" />
+	<window data="encounter.id-00230@D&#38;D Out of the Abyss" class="encounter" pos="1000,350,1400,1000" />
+	<window data="encounter.id-00231@D&#38;D Out of the Abyss" class="encounter" pos="1000,350,1400,1000" />
+	<window data="encounter.id-00236@D&#38;D Out of the Abyss" class="encounter" pos="1000,350,1400,1000" />
+	<window data="encounter.id-00237@D&#38;D Out of the Abyss" class="encounter" pos="1000,350,1400,1000" />
+	<window data="encounter.id-00240@D&#38;D Out of the Abyss" class="encounter" pos="1000,350,1400,1000" />
 	<window data="encounter.id-00244@D&#38;D Out of the Abyss" class="encounter" pos="1000,350,1400,1000" />
 	<window data="encounter.id-00245@D&#38;D Out of the Abyss" class="encounter" pos="1000,350,1400,1000" />
+	<window data="encounter.id-00373@D&#38;D Out of the Abyss" class="encounter" pos="1000,350,1400,1000" />
 	<window data="encounter.id-00650@D&#38;D Out of the Abyss" class="encounter" pos="964,39,1364,689" />
 	<window data="encounter.id-00651@D&#38;D Out of the Abyss" class="encounter" pos="550,160,950,810" />
 	<window data="encounter.id-00654@D&#38;D Out of the Abyss" class="encounter" pos="550,160,950,810" />

@@ -71,6 +71,44 @@
 			</id-00186>
 		</category>
 		<category name="05. Chapter 5: Neverlight Grove" baseicon="2" decalicon="1">
+			<id-00231>
+				<locked type="number">1</locked>
+				<text type="formattedtext">
+					<h>5. Garden of Welcome</h>
+					<p>Phylo has converted this unused terrace for the exciting new ideas that Zuggtmoy has inspired in it-ideas that are &#34;too incredible&#34; for the rest of the colony to absorb at once. This so-called garden is just a sample of the horrors that Zuggtmoy, the Demon Queen of Fungi, intends to bring to the Underdark.</p>
+					<frame>This plateau rises higher than the other terraces, screened by a natural fence of soaring zurkhwood stalks. Muffled murmuring can be heard from atop the plateau.</frame>
+					<h>Circle of Masters</h>
+					<p>The newest circle in the colony, the Circle of Masters is formed exclusively by myconids touched by Zuggtmoy. These myconids share Phylo's vision of happiness spread through Zuggtmoy's spores, experimenting on the carcasses brought to them by the hunters-or on live prisoners they hunt in their own expeditions outside the grove. Their mound lies at the center of an obscene garden.</p>
+					<p><b>Yestabrod. </b>Mutated by Zuggtmoy's spores, the circle leader has become an abomination. No longer recognizable as a myconid, it looks like a fungal larva slithering along the ground. Mold and lichen grow in hypnotic patterns along its ringed stalk, and it puffs clouds of spores from a slit resembling a mouth. It can use this orifice to actually speak, rather than depending on rapport spores. It no longer attends melds with the other leaders, instead sending its representative.</p>
+					<linklist>
+						<link class="npc" recordname="npc.id-00002@D&#38;D Out of the Abyss">Yestabrod - NPC</link>
+					</linklist>
+					<h>Garden of Horror</h>
+					<p>As the characters enter the garden, they make a frightening discovery.</p>
+					<frame>The low muttering grows louder as you reach the top, turning into a symphony of moans, cries, and hisses. The only light comes from a few glowing mushrooms along the edge, but even in the gloom, you can't miss the source of the sounds. The heads of creatures of a dozen humanoid Underdark races peek from the ground, mold and fungi growing around them.&#13;&#13;One voice calls out loudly in Undercommon-a female drow fighting to speak. &#34;Please... for your gods of light... kill me!&#34; She manages to stir within her living grave, raising a spider medallion half-embedded in the bloated growth that was once her hand. Half her face is rotten and pustulate, a bed for the sprouting of scores of tiny mushrooms. &#34;The Great Seeder... trap... she's here... the Lady of Decay ... Zuggtmoy ...&#34;</frame>
+					<p>The drow is Xinaya, a young acolyte of Lolth. She was leading a routine scouting patrol out of Velkynvelve before Ilvara contacted her with a sending spell. The patrol was ordered to search near the grove for the characters, anticipating that the escapees might seek shelter among the peaceful mushroom folk.</p>
+					<p>Upon her arrival, Xinaya made the mistake of accepting Phylo's invitation to visit the Garden of Welcome, where she and her patrol quickly became victims of the myconids' madness. She begs the adventurers to end her suffering and warn her people about the presence of the Demon Queen of Fungi in the Underdark, unaware of the madness that has already erupted in Menzoberranzan and throughout the Underdark (see chapter 15). Xinaya is too far gone to be saved, and any amount of damage kills her.</p>
+					<p>After the characters speak with Xinaya, <b>Yestabrod </b>appears. The master of the foul garden takes delight in toying with trespassers.</p>
+					<frame>The moans of the garden's victims suddenly take on a new tone of fear as something moves across the foul ground. A disgusting larval creature rises up before you, showing only vestigial fungal growths that hint that it might once have been a myconid.&#13;&#13;&#34;Welcome, travelers.&#34; The aberrant myconid's voice gurgles and spits as it speaks both aloud and in your minds at once. &#34;Are you here for the wedding rehearsal? Friends of the bride or her intended? No matter! Let the love of the Great Seeder embrace you as you become one with her chosen, the Great Body!&#34;</frame>
+					<p>As the garden comes alive with screams from its buried victims, Yestabrod raises two <b>drow spore servants </b>. At the same time, two myconid adults from the Circle of Masters emerge from the surrounding growth, all of the creatures following the circle leader as he attacks.</p>
+					<linklist>
+						<link class="battle" recordname="battle.id-00287@D&#38;D Out of the Abyss">Yestabrod - Encounter</link>
+					</linklist>
+					<p>If Sarith Kzekarit (see chapter 1) is still with the party, he screams in agony as Yestabrod attacks. The characters can only watch as the drow's head splits open, releasing a cloud of infecting spores and turning him into another drow spore servant that joins the fight.</p>
+					<linklist>
+						<link class="imagewindow" recordname="image.id-00061@D&#38;D Out of the Abyss">Sarith Kzekarit Spore Servant - Portrait</link>
+						<link class="battle" recordname="battle.id-00288@D&#38;D Out of the Abyss">Sarith Kzekarit - Encounter</link>
+					</linklist>
+					<p>If Yestabrod is slain and there are still drow spore servants active, they go limp and stop attacking, at which point the myconids from the Circle of Masters attempt to flee.</p>
+					<h>Treasure</h>
+					<p>Xinaya's equipment is piled in a heap not far from where she was buried. Characters searching the pile find a suit of +2 studded leather armor, a +2 shortsword, and a bag of holding containing two spell scrolls (remove curse and spider climb), 40 days of rations, and 320 sp. The drow spore servants wear chain shirts and carry shortswords. All of the armor and weapons found here are of drow construction.</p>
+					<linklist>
+						<link class="treasureparcel" recordname="treasureparcels.id-00080@D&#38;D Out of the Abyss">Xinaya's Equipment - Treasure</link>
+					</linklist>
+					<h>XP Awards</h>
+					<p>In addition to the normal creature XP for this encounter, the characters earn a special award of 1,000 XP (divided equally among all party members) for defeating Yestabrod and its minions.</p>
+				</text>
+			</id-00231>
 		</category>
 		<category name="06. Chapter 6: Blingdenstone" baseicon="2" decalicon="1">
 		</category>

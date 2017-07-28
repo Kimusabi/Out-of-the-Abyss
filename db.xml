@@ -867,6 +867,180 @@
 				</id-00004>
 			</npclist>
 		</id-00013>
+		<id-00014>
+			<cr type="string">8</cr>
+			<exp type="number">12000</exp>
+			<locked type="number">1</locked>
+			<name type="string">05.10 Wedding Rehearsal Party - Modified</name>
+			<npclist>
+				<id-00001>
+					<count type="number">12</count>
+					<link type="windowreference">
+						<class>npc</class>
+						<recordname>combattracker.list.id-00020</recordname>
+					</link>
+					<maplink>
+						<id-00001>
+							<imageref type="windowreference">
+								<class></class>
+								<recordname></recordname>
+							</imageref>
+							<imagex type="number">0</imagex>
+							<imagey type="number">0</imagey>
+						</id-00001>
+						<id-00002>
+							<imageref type="windowreference">
+								<class></class>
+								<recordname></recordname>
+							</imageref>
+							<imagex type="number">0</imagex>
+							<imagey type="number">0</imagey>
+						</id-00002>
+						<id-00003>
+							<imageref type="windowreference">
+								<class></class>
+								<recordname></recordname>
+							</imageref>
+							<imagex type="number">0</imagex>
+							<imagey type="number">0</imagey>
+						</id-00003>
+						<id-00004>
+							<imageref type="windowreference">
+								<class></class>
+								<recordname></recordname>
+							</imageref>
+							<imagex type="number">0</imagex>
+							<imagey type="number">0</imagey>
+						</id-00004>
+						<id-00005>
+							<imageref type="windowreference">
+								<class></class>
+								<recordname></recordname>
+							</imageref>
+							<imagex type="number">0</imagex>
+							<imagey type="number">0</imagey>
+						</id-00005>
+						<id-00006>
+							<imageref type="windowreference">
+								<class></class>
+								<recordname></recordname>
+							</imageref>
+							<imagex type="number">0</imagex>
+							<imagey type="number">0</imagey>
+						</id-00006>
+						<id-00007>
+							<imageref type="windowreference">
+								<class></class>
+								<recordname></recordname>
+							</imageref>
+							<imagex type="number">0</imagex>
+							<imagey type="number">0</imagey>
+						</id-00007>
+						<id-00008>
+							<imageref type="windowreference">
+								<class></class>
+								<recordname></recordname>
+							</imageref>
+							<imagex type="number">0</imagex>
+							<imagey type="number">0</imagey>
+						</id-00008>
+						<id-00009>
+							<imageref type="windowreference">
+								<class></class>
+								<recordname></recordname>
+							</imageref>
+							<imagex type="number">0</imagex>
+							<imagey type="number">0</imagey>
+						</id-00009>
+						<id-00010>
+							<imageref type="windowreference">
+								<class></class>
+								<recordname></recordname>
+							</imageref>
+							<imagex type="number">0</imagex>
+							<imagey type="number">0</imagey>
+						</id-00010>
+						<id-00011>
+							<imageref type="windowreference">
+								<class></class>
+								<recordname></recordname>
+							</imageref>
+							<imagex type="number">0</imagex>
+							<imagey type="number">0</imagey>
+						</id-00011>
+						<id-00012>
+							<imageref type="windowreference">
+								<class></class>
+								<recordname></recordname>
+							</imageref>
+							<imagex type="number">0</imagex>
+							<imagey type="number">0</imagey>
+						</id-00012>
+					</maplink>
+					<name type="string">Bridesmaid of Zuggtmoy</name>
+					<token type="token">tokens/campaign/B.png@D&#38;D Out of the Abyss</token>
+				</id-00001>
+				<id-00002>
+					<count type="number">6</count>
+					<link type="windowreference">
+						<class>npc</class>
+						<recordname>combattracker.list.id-00002</recordname>
+					</link>
+					<maplink>
+						<id-00001>
+							<imageref type="windowreference">
+								<class></class>
+								<recordname></recordname>
+							</imageref>
+							<imagex type="number">0</imagex>
+							<imagey type="number">0</imagey>
+						</id-00001>
+						<id-00002>
+							<imageref type="windowreference">
+								<class></class>
+								<recordname></recordname>
+							</imageref>
+							<imagex type="number">0</imagex>
+							<imagey type="number">0</imagey>
+						</id-00002>
+						<id-00003>
+							<imageref type="windowreference">
+								<class></class>
+								<recordname></recordname>
+							</imageref>
+							<imagex type="number">0</imagex>
+							<imagey type="number">0</imagey>
+						</id-00003>
+						<id-00004>
+							<imageref type="windowreference">
+								<class></class>
+								<recordname></recordname>
+							</imageref>
+							<imagex type="number">0</imagex>
+							<imagey type="number">0</imagey>
+						</id-00004>
+						<id-00005>
+							<imageref type="windowreference">
+								<class></class>
+								<recordname></recordname>
+							</imageref>
+							<imagex type="number">0</imagex>
+							<imagey type="number">0</imagey>
+						</id-00005>
+						<id-00006>
+							<imageref type="windowreference">
+								<class></class>
+								<recordname></recordname>
+							</imageref>
+							<imagex type="number">0</imagex>
+							<imagey type="number">0</imagey>
+						</id-00006>
+					</maplink>
+					<name type="string">Chamberlain of Zuggtmoy</name>
+					<token type="token">tokens/campaign/C.png@D&#38;D Out of the Abyss</token>
+				</id-00002>
+			</npclist>
+		</id-00014>
 	</battle>
 	<calendar>
 		<public />
@@ -1134,7 +1308,7 @@
 					<casterpactmagic type="number">0</casterpactmagic>
 					<hddie type="dice">d6</hddie>
 					<hdused type="number">0</hdused>
-					<level type="number">5</level>
+					<level type="number">6</level>
 					<name type="string">Sorcerer</name>
 					<shortcut type="windowreference">
 						<class>reference_class</class>
@@ -1184,7 +1358,7 @@
 				<load type="number">8.5</load>
 				<max type="number">90</max>
 			</encumbrance>
-			<exp type="number">10376</exp>
+			<exp type="number">16270</exp>
 			<expneeded type="number">14000</expneeded>
 			<featlist>
 			</featlist>
@@ -1398,6 +1572,16 @@
 						<p>When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</p>
 					</text>
 				</id-00009>
+				<id-00010>
+					<level type="number">6</level>
+					<locked type="number">1</locked>
+					<name type="string">Elemental Affinity</name>
+					<source type="string">Sorcerer</source>
+					<specialization type="string">Draconic Bloodline</specialization>
+					<text type="formattedtext">
+						<p>Starting at 6th level, when you cast a spell that deals damage of the type associated with your draconic ancestry, add your Charisma modifier to that damage. At the same time, you can spend 1 sorcery point to gain resistance to that damage type for 1 hour. The damage bonus applies to one damage roll of a spell, not multiple rolls.</p>
+					</text>
+				</id-00010>
 			</featurelist>
 			<gender type="string">Male</gender>
 			<height type="string">5' 4&#34;</height>
@@ -1405,7 +1589,7 @@
 				<deathsavefail type="number">0</deathsavefail>
 				<deathsavesuccess type="number">0</deathsavesuccess>
 				<temporary type="number">0</temporary>
-				<total type="number">37</total>
+				<total type="number">44</total>
 				<wounds type="number">0</wounds>
 			</hp>
 			<initiative>
@@ -1552,7 +1736,7 @@
 					<name type="string">Elvish</name>
 				</id-00002>
 			</languagelist>
-			<level type="number">5</level>
+			<level type="number">6</level>
 			<name type="string">Bazin del'Armgo</name>
 			<perception type="number">14</perception>
 			<perceptionmodifier type="number">0</perceptionmodifier>
@@ -1612,7 +1796,7 @@
 					<used type="number">0</used>
 				</spellslots2>
 				<spellslots3>
-					<max type="number">2</max>
+					<max type="number">3</max>
 					<used type="number">0</used>
 				</spellslots3>
 				<spellslots4>
@@ -2283,7 +2467,7 @@
 					<casterpactmagic type="number">0</casterpactmagic>
 					<hddie type="dice">d6</hddie>
 					<hdused type="number">0</hdused>
-					<level type="number">5</level>
+					<level type="number">6</level>
 					<name type="string">Wizard</name>
 					<shortcut type="windowreference">
 						<class>reference_class</class>
@@ -2334,7 +2518,7 @@
 				<load type="number">12</load>
 				<max type="number">180</max>
 			</encumbrance>
-			<exp type="number">10676</exp>
+			<exp type="number">16570</exp>
 			<expneeded type="number">14000</expneeded>
 			<featlist>
 			</featlist>
@@ -2445,6 +2629,16 @@
 						<p>When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</p>
 					</text>
 				</id-00007>
+				<id-00008>
+					<level type="number">6</level>
+					<locked type="number">1</locked>
+					<name type="string">Potent Cantrip</name>
+					<source type="string">Wizard</source>
+					<specialization type="string">School of Evocation</specialization>
+					<text type="formattedtext">
+						<p>Starting at 6th level, your damaging cantrips affect even creatures that avoid the brunt of the effect. When a creature succeeds on a saving throw against your cantrip, the creature takes half the cantrip's damage (if any) but suffers no additional effect from the cantrip.</p>
+					</text>
+				</id-00008>
 			</featurelist>
 			<gender type="string">Male</gender>
 			<height type="string">6' 0&#34;</height>
@@ -2453,7 +2647,7 @@
 				<deathsavesuccess type="number">0</deathsavesuccess>
 				<hdmod type="number">0</hdmod>
 				<temporary type="number">0</temporary>
-				<total type="number">38</total>
+				<total type="number">45</total>
 				<wounds type="number">0</wounds>
 			</hp>
 			<initiative>
@@ -2629,7 +2823,7 @@
 					<name type="string">Elvish (Drow)</name>
 				</id-00005>
 			</languagelist>
-			<level type="number">5</level>
+			<level type="number">6</level>
 			<name type="string">Thaddeus D'arth</name>
 			<perception type="number">16</perception>
 			<perceptionmodifier type="number">0</perceptionmodifier>
@@ -2686,7 +2880,7 @@
 					<used type="number">0</used>
 				</spellslots2>
 				<spellslots3>
-					<max type="number">2</max>
+					<max type="number">3</max>
 					<used type="number">0</used>
 				</spellslots3>
 				<spellslots4>
@@ -3542,11 +3736,11 @@
 					<score type="number">16</score>
 				</intelligence>
 				<strength>
-					<bonus type="number">4</bonus>
-					<save type="number">7</save>
+					<bonus type="number">5</bonus>
+					<save type="number">8</save>
 					<savemodifier type="number">0</savemodifier>
 					<saveprof type="number">1</saveprof>
-					<score type="number">18</score>
+					<score type="number">20</score>
 				</strength>
 				<wisdom>
 					<bonus type="number">2</bonus>
@@ -3570,7 +3764,7 @@
 					<casterpactmagic type="number">0</casterpactmagic>
 					<hddie type="dice">d10</hddie>
 					<hdused type="number">0</hdused>
-					<level type="number">5</level>
+					<level type="number">6</level>
 					<name type="string">Fighter</name>
 					<shortcut type="windowreference">
 						<class>reference_class</class>
@@ -3614,13 +3808,13 @@
 				</ac>
 			</defenses>
 			<encumbrance>
-				<encumbered type="number">90</encumbered>
-				<encumberedheavy type="number">180</encumberedheavy>
-				<liftpushdrag type="number">540</liftpushdrag>
+				<encumbered type="number">100</encumbered>
+				<encumberedheavy type="number">200</encumberedheavy>
+				<liftpushdrag type="number">600</liftpushdrag>
 				<load type="number">95.5</load>
-				<max type="number">270</max>
+				<max type="number">300</max>
 			</encumbrance>
-			<exp type="number">10376</exp>
+			<exp type="number">16270</exp>
 			<expneeded type="number">14000</expneeded>
 			<featlist>
 			</featlist>
@@ -3815,8 +4009,8 @@
 				<deathsavefail type="number">0</deathsavefail>
 				<deathsavesuccess type="number">0</deathsavesuccess>
 				<temporary type="number">0</temporary>
-				<total type="number">46</total>
-				<wounds type="number">0</wounds>
+				<total type="number">60</total>
+				<wounds type="number">13</wounds>
 			</hp>
 			<ideals type="string">Live and Let Live. Ideals aren't worth killing over or going to war for. (Neutral)</ideals>
 			<initiative>
@@ -3969,11 +4163,17 @@
 					<weight type="number">1</weight>
 				</id-00005>
 				<id-00006>
+					<ac type="number">0</ac>
+					<bonus type="number">0</bonus>
 					<carried type="number">2</carried>
 					<cost type="string">5 gp</cost>
 					<count type="number">2</count>
 					<damage type="string">1d6 slashing</damage>
+					<description type="formattedtext">
+						<p></p>
+					</description>
 					<isidentified type="number">1</isidentified>
+					<istemplate type="number">0</istemplate>
 					<locked type="number">1</locked>
 					<name type="string">Handaxe</name>
 					<properties type="string">Light, thrown (range 20/60)</properties>
@@ -4115,7 +4315,7 @@
 					<name type="string">Undercommon</name>
 				</id-00003>
 			</languagelist>
-			<level type="number">5</level>
+			<level type="number">6</level>
 			<name type="string">Geordan Dragos</name>
 			<perception type="number">12</perception>
 			<perceptionmodifier type="number">0</perceptionmodifier>
@@ -5198,7 +5398,7 @@
 					<casterpactmagic type="number">0</casterpactmagic>
 					<hddie type="dice">d8</hddie>
 					<hdused type="number">0</hdused>
-					<level type="number">5</level>
+					<level type="number">6</level>
 					<name type="string">Cleric</name>
 					<shortcut type="windowreference">
 						<class>reference_class</class>
@@ -5249,7 +5449,7 @@
 				<load type="number">95</load>
 				<max type="number">255</max>
 			</encumbrance>
-			<exp type="number">10676</exp>
+			<exp type="number">16570</exp>
 			<expneeded type="number">14000</expneeded>
 			<featlist>
 			</featlist>
@@ -5460,6 +5660,16 @@
 						<p>When the cleric hits a creature with a melee attack, the cleric can use Channel Divinity to deal extra necrotic damage to the target. The damage equals 5 + twice his or her cleric level.</p>
 					</text>
 				</id-00011>
+				<id-00012>
+					<level type="number">6</level>
+					<locked type="number">1</locked>
+					<name type="string">Channel Divinity: War God's Blessing</name>
+					<source type="string">Cleric</source>
+					<specialization type="string">War Domain</specialization>
+					<text type="formattedtext">
+						<p>At 6th level, when a creature within 30 feet of you makes an attack roll, you can use your reaction to grant that creature a +10 bonus to the roll, using your Channel Divinity. You make this choice after you see the roll, but before the DM says whether the attack hits or misses.</p>
+					</text>
+				</id-00012>
 			</featurelist>
 			<flaws type="string">My hatred of my enemies is blind and unreasoning.</flaws>
 			<gender type="string">Male</gender>
@@ -5468,8 +5678,8 @@
 				<deathsavefail type="number">0</deathsavefail>
 				<deathsavesuccess type="number">0</deathsavesuccess>
 				<temporary type="number">0</temporary>
-				<total type="number">39</total>
-				<wounds type="number">0</wounds>
+				<total type="number">43</total>
+				<wounds type="number">18</wounds>
 			</hp>
 			<ideals type="string">Responsibility. I do what I must and obey just authority. (Lawful)</ideals>
 			<initiative>
@@ -5674,7 +5884,7 @@
 					<name type="string">Dwarvish</name>
 				</id-00002>
 			</languagelist>
-			<level type="number">5</level>
+			<level type="number">6</level>
 			<name type="string">Ra'knar Berylforge</name>
 			<perception type="number">13</perception>
 			<perceptionmodifier type="number">0</perceptionmodifier>
@@ -5737,7 +5947,7 @@
 					<used type="number">0</used>
 				</spellslots2>
 				<spellslots3>
-					<max type="number">2</max>
+					<max type="number">3</max>
 					<used type="number">0</used>
 				</spellslots3>
 				<spellslots4>
@@ -7419,248 +7629,6 @@
 		<public />
 		<list>
 			<public />
-			<id-00001>
-				<public />
-				<abilities>
-					<public />
-					<charisma>
-						<public />
-						<bonus type="number">-5</bonus>
-						<score type="number">1</score>
-					</charisma>
-					<constitution>
-						<public />
-						<bonus type="number">2</bonus>
-						<score type="number">15</score>
-					</constitution>
-					<dexterity>
-						<public />
-						<bonus type="number">0</bonus>
-						<score type="number">10</score>
-					</dexterity>
-					<intelligence>
-						<public />
-						<bonus type="number">-4</bonus>
-						<score type="number">2</score>
-					</intelligence>
-					<strength>
-						<public />
-						<bonus type="number">4</bonus>
-						<score type="number">18</score>
-					</strength>
-					<wisdom>
-						<public />
-						<bonus type="number">-2</bonus>
-						<score type="number">6</score>
-					</wisdom>
-				</abilities>
-				<ac type="number">15</ac>
-				<actext type="string">(natural armor)</actext>
-				<actions>
-					<public />
-					<id-00001>
-						<public />
-						<desc type="string">The spore servant makes two hook attacks.</desc>
-						<name type="string">Multiattack</name>
-						<value type="string">Multiattack</value>
-					</id-00001>
-					<id-00002>
-						<public />
-						<desc type="string">Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit: 11 (2d6 + 4) piercing damage.</desc>
-						<name type="string">Hook</name>
-						<value type="string">Hook [M] [RNG: 10] [ATK: +6] [DMG: 2d6+4 piercing]</value>
-					</id-00002>
-				</actions>
-				<active type="number">0</active>
-				<alignment type="string">unaligned</alignment>
-				<conditionimmunities type="string">blinded, charmed, frightened, paralyzed</conditionimmunities>
-				<cr type="string">3</cr>
-				<deathsavefail type="number">0</deathsavefail>
-				<deathsavesuccess type="number">0</deathsavesuccess>
-				<effects>
-					<public />
-					<id-00001>
-						<public />
-						<duration type="number">0</duration>
-						<init type="number">0</init>
-						<isactive type="number">1</isactive>
-						<isgmonly type="number">1</isgmonly>
-						<label type="string">IMMUNE: blinded, charmed, frightened, paralyzed</label>
-					</id-00001>
-				</effects>
-				<friendfoe type="string">foe</friendfoe>
-				<hd type="string">(10d10 + 10)</hd>
-				<hp type="number">75</hp>
-				<hptemp type="number">0</hptemp>
-				<hptotal type="number">110</hptotal>
-				<init type="number">0</init>
-				<initresult type="number">7</initresult>
-				<innatespells>
-					<public />
-				</innatespells>
-				<lairactions>
-					<public />
-				</lairactions>
-				<languages type="string">-</languages>
-				<legendaryactions>
-					<public />
-				</legendaryactions>
-				<link type="windowreference">
-					<class>npc</class>
-					<recordname></recordname>
-				</link>
-				<locked type="number">1</locked>
-				<name type="string">Hook Horror Spore Servant 1</name>
-				<reach type="number">5</reach>
-				<reaction type="number">0</reaction>
-				<reactions>
-					<public />
-				</reactions>
-				<senses type="string">blindsight 30 ft. (blind beyond this radius), passive Perception 8</senses>
-				<size type="string">Medium</size>
-				<space type="number">5</space>
-				<speed type="string">20 ft., climb 20 ft.</speed>
-				<spells>
-					<public />
-				</spells>
-				<status type="string">Healthy</status>
-				<targets>
-					<public />
-				</targets>
-				<text type="formattedtext">
-					<p></p>
-				</text>
-				<token type="token">tokens/campaign/quaggothsporeservant.png@D&#38;D Out of the Abyss</token>
-				<tokenscale type="number">1</tokenscale>
-				<tokenvis type="number">0</tokenvis>
-				<traits>
-					<public />
-				</traits>
-				<type type="string">plant</type>
-				<wounds type="number">0</wounds>
-				<xp type="number">700</xp>
-			</id-00001>
-			<id-00002>
-				<public />
-				<abilities>
-					<public />
-					<charisma>
-						<public />
-						<bonus type="number">-5</bonus>
-						<score type="number">1</score>
-					</charisma>
-					<constitution>
-						<public />
-						<bonus type="number">2</bonus>
-						<score type="number">15</score>
-					</constitution>
-					<dexterity>
-						<public />
-						<bonus type="number">0</bonus>
-						<score type="number">10</score>
-					</dexterity>
-					<intelligence>
-						<public />
-						<bonus type="number">-4</bonus>
-						<score type="number">2</score>
-					</intelligence>
-					<strength>
-						<public />
-						<bonus type="number">4</bonus>
-						<score type="number">18</score>
-					</strength>
-					<wisdom>
-						<public />
-						<bonus type="number">-2</bonus>
-						<score type="number">6</score>
-					</wisdom>
-				</abilities>
-				<ac type="number">15</ac>
-				<actext type="string">(natural armor)</actext>
-				<actions>
-					<public />
-					<id-00001>
-						<public />
-						<desc type="string">The spore servant makes two hook attacks.</desc>
-						<name type="string">Multiattack</name>
-						<value type="string">Multiattack</value>
-					</id-00001>
-					<id-00002>
-						<public />
-						<desc type="string">Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit: 11 (2d6 + 4) piercing damage.</desc>
-						<name type="string">Hook</name>
-						<value type="string">Hook [M] [RNG: 10] [ATK: +6] [DMG: 2d6+4 piercing]</value>
-					</id-00002>
-				</actions>
-				<active type="number">0</active>
-				<alignment type="string">unaligned</alignment>
-				<conditionimmunities type="string">blinded, charmed, frightened, paralyzed</conditionimmunities>
-				<cr type="string">3</cr>
-				<deathsavefail type="number">0</deathsavefail>
-				<deathsavesuccess type="number">0</deathsavesuccess>
-				<effects>
-					<public />
-					<id-00001>
-						<public />
-						<duration type="number">0</duration>
-						<init type="number">0</init>
-						<isactive type="number">1</isactive>
-						<isgmonly type="number">1</isgmonly>
-						<label type="string">IMMUNE: blinded, charmed, frightened, paralyzed</label>
-					</id-00001>
-				</effects>
-				<friendfoe type="string">foe</friendfoe>
-				<hd type="string">(10d10 + 10)</hd>
-				<hp type="number">75</hp>
-				<hptemp type="number">0</hptemp>
-				<hptotal type="number">110</hptotal>
-				<init type="number">0</init>
-				<initresult type="number">7</initresult>
-				<innatespells>
-					<public />
-				</innatespells>
-				<lairactions>
-					<public />
-				</lairactions>
-				<languages type="string">-</languages>
-				<legendaryactions>
-					<public />
-				</legendaryactions>
-				<link type="windowreference">
-					<class>npc</class>
-					<recordname></recordname>
-				</link>
-				<locked type="number">1</locked>
-				<name type="string">Hook Horror Spore Servant 2</name>
-				<reach type="number">5</reach>
-				<reaction type="number">0</reaction>
-				<reactions>
-					<public />
-				</reactions>
-				<senses type="string">blindsight 30 ft. (blind beyond this radius), passive Perception 8</senses>
-				<size type="string">Medium</size>
-				<space type="number">5</space>
-				<speed type="string">20 ft., climb 20 ft.</speed>
-				<spells>
-					<public />
-				</spells>
-				<status type="string">Healthy</status>
-				<targets>
-					<public />
-				</targets>
-				<text type="formattedtext">
-					<p></p>
-				</text>
-				<token type="token">tokens/campaign/quaggothsporeservant.png@D&#38;D Out of the Abyss</token>
-				<tokenscale type="number">1</tokenscale>
-				<tokenvis type="number">0</tokenvis>
-				<traits>
-					<public />
-				</traits>
-				<type type="string">plant</type>
-				<wounds type="number">0</wounds>
-				<xp type="number">700</xp>
-			</id-00002>
 			<id-00003>
 				<public />
 				<abilities>
@@ -7702,9 +7670,9 @@
 				</effects>
 				<friendfoe type="string">friend</friendfoe>
 				<hptemp type="number">0</hptemp>
-				<hptotal type="number">39</hptotal>
+				<hptotal type="number">43</hptotal>
 				<init type="number">0</init>
-				<initresult type="number">20</initresult>
+				<initresult type="number">1</initresult>
 				<innatespells>
 					<public />
 				</innatespells>
@@ -7729,373 +7697,18 @@
 				<spells>
 					<public />
 				</spells>
-				<status type="string">Healthy</status>
+				<status type="string">Wounded</status>
 				<targets>
 					<public />
 				</targets>
 				<token type="token">portrait_id-00006_token</token>
-				<tokenrefid type="string">4</tokenrefid>
-				<tokenrefnode type="string">image.id-00250.image@D&#38;D Out of the Abyss</tokenrefnode>
 				<tokenscale type="number">1</tokenscale>
 				<tokenvis type="number">1</tokenvis>
 				<traits>
 					<public />
 				</traits>
-				<wounds type="number">0</wounds>
+				<wounds type="number">18</wounds>
 			</id-00003>
-			<id-00004>
-				<public />
-				<abilities>
-					<public />
-					<charisma>
-						<public />
-						<bonus type="number">-2</bonus>
-						<score type="number">7</score>
-					</charisma>
-					<constitution>
-						<public />
-						<bonus type="number">1</bonus>
-						<score type="number">12</score>
-					</constitution>
-					<dexterity>
-						<public />
-						<bonus type="number">0</bonus>
-						<score type="number">10</score>
-					</dexterity>
-					<intelligence>
-						<public />
-						<bonus type="number">0</bonus>
-						<score type="number">10</score>
-					</intelligence>
-					<strength>
-						<public />
-						<bonus type="number">0</bonus>
-						<score type="number">10</score>
-					</strength>
-					<wisdom>
-						<public />
-						<bonus type="number">1</bonus>
-						<score type="number">13</score>
-					</wisdom>
-				</abilities>
-				<ac type="number">12</ac>
-				<actext type="string">(natural armor)</actext>
-				<actions>
-					<public />
-					<id-00001>
-						<public />
-						<desc type="string">Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 5 (2d4) bludgeoning damage plus 5 (2d4) poison damage.</desc>
-						<name type="string">Fist</name>
-						<value type="string">Fist [M] [ATK: +2] [DMG: 2d4 bludgeoning + 2d4 poison]</value>
-					</id-00001>
-					<id-00002>
-						<public />
-						<desc type="string">The myconid ejects spores at one creature it can see within 5 feet of it. The target must succeed on a DC 11 Constitution saving throw or be stunned for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</desc>
-						<name type="string">Pacifying Spores</name>
-						<value type="string">Pacifying spores [SAVEVS: constitution 11] [EFF: Stunned (D:1 MIN)]</value>
-					</id-00002>
-					<id-00003>
-						<public />
-						<desc type="string">A 20-foot radius of spores extends from the myconid. These spores can go around corners and affect only creatures with an Intelligence of 2 or higher that aren't undead, constructs, or elementals. Affected creatures can communicate telepathically with one another while they are within 30 feet of each other. The effect lasts for 1 hour.</desc>
-						<name type="string">Rapport Spores</name>
-						<value type="string">Rapport spores</value>
-					</id-00003>
-					<id-00004>
-						<public />
-						<desc type="string">The myconid releases spores in a 30-foot cone. Each creature inside the cone must succeed on a DC 11 Dexterity saving throw or take 1d6 acid damage at the start of each of the myconid's turns. A creature can repeat the saving throw at the end of its turn, ending the effect on itself on a success.</desc>
-						<name type="string">Caustic Spores (1/Day)</name>
-						<value type="string">Caustic spores (1/day) [SAVEVS: dexterity 11] [EFF: DMGO: 1d6 acid]</value>
-					</id-00004>
-					<id-00005>
-						<public />
-						<desc type="string">The myconid releases spores that burst out in a cloud that fills a 10-foot-radius sphere centered on it, and the cloud lingers for 1 minute. Any flesh-and-blood creature in the cloud when it appears, or that enters it later, must make a DC 11 Constitution saving throw. On a successful save, the creature can't be infected by these spores for 24 hours. On a failed save, the creature is infected with a disease called the spores of Zuggtmoy and also gains a random form of indefinite madness (determined by rolling on the Madness of Zuggtmoy table) that lasts until the creature is cured of the disease or dies. While infected in this way, the creature can't be reinfected, and it must repeat the saving throw at the end of every 24 hours, ending the infection on a success. On a failure, the infected creature's body is slowly taken over by fungal growth, and after three such failed saves, the creature dies and is reanimated as a spore servant if it's a type of creature that can be (see the &#34;Myconids&#34; entry in the Monster Manual).</desc>
-						<name type="string">Infestation Spores (1/Day)</name>
-						<value type="string">Infestation spores (1/day) [SAVEVS: constitution 11]</value>
-					</id-00005>
-					<id-00006>
-						<public />
-						<desc type="string">The myconid releases a cloud of spores in a 20-foot-radius sphere centered on itself. Other creatures in that area must each succeed on a DC 11 Constitution saving throw or become poisoned for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect early on itself on a success. When the effect ends on it, the creature gains one level of exhaustion.</desc>
-						<name type="string">Euphoria Spores (1/Day)</name>
-						<value type="string">Euphoria spores (1/day) [SAVEVS: constitution 11] [EFF: Poisoned (D:1 MIN)]</value>
-					</id-00006>
-				</actions>
-				<active type="number">0</active>
-				<alignment type="string">lawful neutral</alignment>
-				<cr type="string">1/2</cr>
-				<deathsavefail type="number">0</deathsavefail>
-				<deathsavesuccess type="number">0</deathsavesuccess>
-				<effects>
-					<public />
-				</effects>
-				<friendfoe type="string">foe</friendfoe>
-				<hd type="string">(4d8 + 4)</hd>
-				<hp type="number">22</hp>
-				<hptemp type="number">0</hptemp>
-				<hptotal type="number">36</hptotal>
-				<init type="number">0</init>
-				<initresult type="number">4</initresult>
-				<innatespells>
-					<public />
-				</innatespells>
-				<lairactions>
-					<public />
-				</lairactions>
-				<languages type="string">-</languages>
-				<legendaryactions>
-					<public />
-				</legendaryactions>
-				<link type="windowreference">
-					<class>npc</class>
-					<recordname></recordname>
-				</link>
-				<locked type="number">1</locked>
-				<name type="string">Myconid Adult of Zuggtmoy 1</name>
-				<reach type="number">5</reach>
-				<reaction type="number">0</reaction>
-				<reactions>
-					<public />
-				</reactions>
-				<senses type="string">darkvision 120 ft., passive Perception 11</senses>
-				<size type="string">Medium</size>
-				<space type="number">5</space>
-				<speed type="string">20 ft.</speed>
-				<spells>
-					<public />
-				</spells>
-				<status type="string">Healthy</status>
-				<targets>
-					<public />
-				</targets>
-				<text type="formattedtext">
-					<h>Myconids</h>
-					<linklist>
-						<link class="imagewindow" recordname="image.id-00179@D&#38;D Out of the Abyss">Image: Myconids</link>
-					</linklist>
-					<p>Myconids are intelligent, ambulatory fungi that live in the Underdark, seek enlightenment, and deplore violence. If approached peacefully, myconids gladly provide shelter or allow safe passage through their colonies.</p>
-					<p><b><i>Circles and Melds. </i></b>The largest myconid in a colony is its sovereign, which presides over one or more social groups called circles. A circle consists of twenty or more myconids that work, live, and meld together.A meld is a form of communal meditation that allows myconids to transcend their dull subterranean existence. The myconids' rapport spores bind the participants into a group consciousness. Hallucination spores then induce a shared dream that provides entertainment and social interaction. Myconids consider melding to be the purpose of their existence. They use it in the pursuit of higher consciousness, collective union, and spiritual apotheosis. Myconids also use their rapport spores to communicate telepathically with other sentient creatures.</p>
-					<p><b><i>Myconid Reproduction. </i></b>Like other fungi, myconids reproduce by mundane sporing. They carefully control their spores' release to avoid overpopulation.</p>
-					<p><b>Spore Servant Template</b></p>
-					<p>A spore servant is any Large or smaller creature brought back to life by the animating spores of a myconid sovereign. A creature that was never flesh and blood to begin with (such as a construct, elemental, ooze, plant, or undead) can't be turned into a spore servant.</p>
-					<p>The following characteristics change or are added to acreature that becomes a spore servant.</p>
-					<p><b><i>Retained Characteristics. </i></b>The servant retains its Armor Class, hit points, Hit Dice, Strength, Dexterity, Constitution, vulnerabilities, resistances, and immunities.</p>
-					<p><b><i>Lost Characteristics. </i></b>The servant loses its original saving throw and skill bonuses, special senses, and special traits. It loses any action that isn't Multiattack or a melee weapon attack that deals bludgeoning, piercing, or slashing damage. If it has an action or a melee weaponattack that deals some other type of damage, it loses theability to deal damage of that type, unless the damagecomes from a piece of equipment, such as a magic item.</p>
-					<p><b><i>Type. </i></b>The servant's type is plant, and it loses any tags.</p>
-					<p><b><i>Alignment. </i></b>The servant is unaligned.</p>
-					<p><b><i>Speed. </i></b>Reduce all the servant's speeds by 10 feet, to a minimum of 5 feet.</p>
-					<p><b><i>Ability Scores. </i></b>The servant's ability scores change as follows: Int 2 (-4), Wis 6 (-2), Cha 1 (-5).</p>
-					<p><b><i>Senses. </i></b>The servant has blindsight with a radius of 30 feet, and it is blind beyond this radius.</p>
-					<p><b><i>Condition Immunities. </i></b>The servant can't be blinded, charmed, frightened, or paralyzed.</p>
-					<p><b><i>Languages. </i></b>The servant loses all known languages, but it responds to orders given to it by myconids using rapport spores. The servant gives highest priority to orders received from the most powerful myconid.</p>
-					<p><b><i>Attacks. </i></b>If the servant has no other means of dealing damage, it can use its fists or limbs to make unarmed strikes. On a hit, an unarmed strike deals bludgeoning damage equal to 1d4 + the servant's Strength modifier, or, if the servant is Large, 2d4 + its Strength modifier.</p>
-					<h>Myconids of Zuggtmoy</h>
-					<p>Myconids that embrace Zuggtmoy can develop new, more destructive kinds of spores. Myconid adults can have two of the following spore effects. Myconid sovereigns have all these spore effects.</p>
-					<p><b><i>Caustic Spores (1/Day). </i></b>The myconid releases spores in a 30-foot cone. Each creature inside the cone must succeed on a Dexterity saving throw or take 1d6 acid damage at the start of each of the myconid's turns. A creature can repeat the saving throw at the end of its turn, ending the effect on itself on a success. The save DC is 8 + the myconid's Constitution modifier + the myconid's proficiency bonus.</p>
-					<p><b><i>Infestation Spores (1/Day). </i></b>The myconid releases spores that burst out in a cloud that fills a 10-foot-radius sphere centered on it, and the cloud lingers for 1 minute. Any flesh-and-blood creature in the cloud when it appears, or that enters it later, must make a Constitution saving throw. The save DC is 8 + the myconid's Constitution modifier + the myconid's proficiency bonus. On a successful save, the creature can't be infected by these spores for 24 hours. On a failed save, the creature is infected with a disease called the spores of Zuggtmoy and also gains a random form of indefinite madness (determined by rolling on the Madness of Zuggtmoy table in appendix D) that lasts until the creature is cured of the disease or dies. While infected in this way, the creature can't be reinfected, and it must repeat the saving throw at the end of every 24 hours, ending the infection on a success. On a failure, the infected creature's body is slowly taken over by fungal growth, and after three such failed saves, the creature dies and is reanimated as a spore servant if it's a type of creature that can be (see the &#34;Myconids&#34; entry in the Monster Manual).</p>
-					<p><b><i>Euphoria Spores (1/Day). </i></b>The myconid releases a cloud of spores in a 20-foot-radius sphere centered on itself. Other creatures in that area must each succeed on a Constitution saving throw or become poisoned for 1 minute. The save DC is 8 + the myconid's Constitution modifier + the myconid's proficiency bonus. A creature can repeat the saving throw at the end of each of its turns, ending the effect early on itself on a success. When the effect ends on it, the creature gains one level of exhaustion.</p>
-				</text>
-				<token type="token">tokens/campaign/myconidadult.png@D&#38;D Out of the Abyss</token>
-				<tokenscale type="number">1</tokenscale>
-				<tokenvis type="number">0</tokenvis>
-				<traits>
-					<public />
-					<id-00001>
-						<public />
-						<desc type="string">When the myconid takes damage, all other myconids within 240 feet of it can sense its pain.</desc>
-						<name type="string">Distress Spores</name>
-						<value type="string">Distress spores</value>
-					</id-00001>
-					<id-00002>
-						<public />
-						<desc type="string">While in sunlight, the myconid has disadvantage on ability checks, attack rolls, and saving throws. The myconid dies if it spends more than 1 hour in direct sunlight.</desc>
-						<name type="string">Sun Sickness</name>
-						<value type="string">Sun sickness</value>
-					</id-00002>
-					<id-00003>
-						<public />
-						<desc type="string">The Myconid Adult can have two of the following spore effects: Caustic Spores(1/Day), Infestation Spores (1/Day), Euphoria Spores(1/Day).</desc>
-						<name type="string">Embrace of Zuggtmoy</name>
-						<value type="string">Embrace of zuggtmoy</value>
-					</id-00003>
-				</traits>
-				<type type="string">plant</type>
-				<wounds type="number">0</wounds>
-				<xp type="number">100</xp>
-			</id-00004>
-			<id-00005>
-				<public />
-				<abilities>
-					<public />
-					<charisma>
-						<public />
-						<bonus type="number">-2</bonus>
-						<score type="number">7</score>
-					</charisma>
-					<constitution>
-						<public />
-						<bonus type="number">1</bonus>
-						<score type="number">12</score>
-					</constitution>
-					<dexterity>
-						<public />
-						<bonus type="number">0</bonus>
-						<score type="number">10</score>
-					</dexterity>
-					<intelligence>
-						<public />
-						<bonus type="number">0</bonus>
-						<score type="number">10</score>
-					</intelligence>
-					<strength>
-						<public />
-						<bonus type="number">0</bonus>
-						<score type="number">10</score>
-					</strength>
-					<wisdom>
-						<public />
-						<bonus type="number">1</bonus>
-						<score type="number">13</score>
-					</wisdom>
-				</abilities>
-				<ac type="number">12</ac>
-				<actext type="string">(natural armor)</actext>
-				<actions>
-					<public />
-					<id-00001>
-						<public />
-						<desc type="string">Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 5 (2d4) bludgeoning damage plus 5 (2d4) poison damage.</desc>
-						<name type="string">Fist</name>
-						<value type="string">Fist [M] [ATK: +2] [DMG: 2d4 bludgeoning + 2d4 poison]</value>
-					</id-00001>
-					<id-00002>
-						<public />
-						<desc type="string">The myconid ejects spores at one creature it can see within 5 feet of it. The target must succeed on a DC 11 Constitution saving throw or be stunned for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</desc>
-						<name type="string">Pacifying Spores</name>
-						<value type="string">Pacifying spores [SAVEVS: constitution 11] [EFF: Stunned (D:1 MIN)]</value>
-					</id-00002>
-					<id-00003>
-						<public />
-						<desc type="string">A 20-foot radius of spores extends from the myconid. These spores can go around corners and affect only creatures with an Intelligence of 2 or higher that aren't undead, constructs, or elementals. Affected creatures can communicate telepathically with one another while they are within 30 feet of each other. The effect lasts for 1 hour.</desc>
-						<name type="string">Rapport Spores</name>
-						<value type="string">Rapport spores</value>
-					</id-00003>
-					<id-00004>
-						<public />
-						<desc type="string">The myconid releases spores in a 30-foot cone. Each creature inside the cone must succeed on a DC 11 Dexterity saving throw or take 1d6 acid damage at the start of each of the myconid's turns. A creature can repeat the saving throw at the end of its turn, ending the effect on itself on a success.</desc>
-						<name type="string">Caustic Spores (1/Day)</name>
-						<value type="string">Caustic spores (1/day) [SAVEVS: dexterity 11] [EFF: DMGO: 1d6 acid]</value>
-					</id-00004>
-					<id-00005>
-						<public />
-						<desc type="string">The myconid releases spores that burst out in a cloud that fills a 10-foot-radius sphere centered on it, and the cloud lingers for 1 minute. Any flesh-and-blood creature in the cloud when it appears, or that enters it later, must make a DC 11 Constitution saving throw. On a successful save, the creature can't be infected by these spores for 24 hours. On a failed save, the creature is infected with a disease called the spores of Zuggtmoy and also gains a random form of indefinite madness (determined by rolling on the Madness of Zuggtmoy table) that lasts until the creature is cured of the disease or dies. While infected in this way, the creature can't be reinfected, and it must repeat the saving throw at the end of every 24 hours, ending the infection on a success. On a failure, the infected creature's body is slowly taken over by fungal growth, and after three such failed saves, the creature dies and is reanimated as a spore servant if it's a type of creature that can be (see the &#34;Myconids&#34; entry in the Monster Manual).</desc>
-						<name type="string">Infestation Spores (1/Day)</name>
-						<value type="string">Infestation spores (1/day) [SAVEVS: constitution 11]</value>
-					</id-00005>
-					<id-00006>
-						<public />
-						<desc type="string">The myconid releases a cloud of spores in a 20-foot-radius sphere centered on itself. Other creatures in that area must each succeed on a DC 11 Constitution saving throw or become poisoned for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect early on itself on a success. When the effect ends on it, the creature gains one level of exhaustion.</desc>
-						<name type="string">Euphoria Spores (1/Day)</name>
-						<value type="string">Euphoria spores (1/day) [SAVEVS: constitution 11] [EFF: Poisoned (D:1 MIN)]</value>
-					</id-00006>
-				</actions>
-				<active type="number">0</active>
-				<alignment type="string">lawful neutral</alignment>
-				<cr type="string">1/2</cr>
-				<deathsavefail type="number">0</deathsavefail>
-				<deathsavesuccess type="number">0</deathsavesuccess>
-				<effects>
-					<public />
-				</effects>
-				<friendfoe type="string">foe</friendfoe>
-				<hd type="string">(4d8 + 4)</hd>
-				<hp type="number">22</hp>
-				<hptemp type="number">0</hptemp>
-				<hptotal type="number">36</hptotal>
-				<init type="number">0</init>
-				<initresult type="number">4</initresult>
-				<innatespells>
-					<public />
-				</innatespells>
-				<lairactions>
-					<public />
-				</lairactions>
-				<languages type="string">-</languages>
-				<legendaryactions>
-					<public />
-				</legendaryactions>
-				<link type="windowreference">
-					<class>npc</class>
-					<recordname></recordname>
-				</link>
-				<locked type="number">1</locked>
-				<name type="string">Myconid Adult of Zuggtmoy 2</name>
-				<reach type="number">5</reach>
-				<reaction type="number">0</reaction>
-				<reactions>
-					<public />
-				</reactions>
-				<senses type="string">darkvision 120 ft., passive Perception 11</senses>
-				<size type="string">Medium</size>
-				<space type="number">5</space>
-				<speed type="string">20 ft.</speed>
-				<spells>
-					<public />
-				</spells>
-				<status type="string">Healthy</status>
-				<text type="formattedtext">
-					<h>Myconids</h>
-					<linklist>
-						<link class="imagewindow" recordname="image.id-00179@D&#38;D Out of the Abyss">Image: Myconids</link>
-					</linklist>
-					<p>Myconids are intelligent, ambulatory fungi that live in the Underdark, seek enlightenment, and deplore violence. If approached peacefully, myconids gladly provide shelter or allow safe passage through their colonies.</p>
-					<p><b><i>Circles and Melds. </i></b>The largest myconid in a colony is its sovereign, which presides over one or more social groups called circles. A circle consists of twenty or more myconids that work, live, and meld together.A meld is a form of communal meditation that allows myconids to transcend their dull subterranean existence. The myconids' rapport spores bind the participants into a group consciousness. Hallucination spores then induce a shared dream that provides entertainment and social interaction. Myconids consider melding to be the purpose of their existence. They use it in the pursuit of higher consciousness, collective union, and spiritual apotheosis. Myconids also use their rapport spores to communicate telepathically with other sentient creatures.</p>
-					<p><b><i>Myconid Reproduction. </i></b>Like other fungi, myconids reproduce by mundane sporing. They carefully control their spores' release to avoid overpopulation.</p>
-					<p><b>Spore Servant Template</b></p>
-					<p>A spore servant is any Large or smaller creature brought back to life by the animating spores of a myconid sovereign. A creature that was never flesh and blood to begin with (such as a construct, elemental, ooze, plant, or undead) can't be turned into a spore servant.</p>
-					<p>The following characteristics change or are added to acreature that becomes a spore servant.</p>
-					<p><b><i>Retained Characteristics. </i></b>The servant retains its Armor Class, hit points, Hit Dice, Strength, Dexterity, Constitution, vulnerabilities, resistances, and immunities.</p>
-					<p><b><i>Lost Characteristics. </i></b>The servant loses its original saving throw and skill bonuses, special senses, and special traits. It loses any action that isn't Multiattack or a melee weapon attack that deals bludgeoning, piercing, or slashing damage. If it has an action or a melee weaponattack that deals some other type of damage, it loses theability to deal damage of that type, unless the damagecomes from a piece of equipment, such as a magic item.</p>
-					<p><b><i>Type. </i></b>The servant's type is plant, and it loses any tags.</p>
-					<p><b><i>Alignment. </i></b>The servant is unaligned.</p>
-					<p><b><i>Speed. </i></b>Reduce all the servant's speeds by 10 feet, to a minimum of 5 feet.</p>
-					<p><b><i>Ability Scores. </i></b>The servant's ability scores change as follows: Int 2 (-4), Wis 6 (-2), Cha 1 (-5).</p>
-					<p><b><i>Senses. </i></b>The servant has blindsight with a radius of 30 feet, and it is blind beyond this radius.</p>
-					<p><b><i>Condition Immunities. </i></b>The servant can't be blinded, charmed, frightened, or paralyzed.</p>
-					<p><b><i>Languages. </i></b>The servant loses all known languages, but it responds to orders given to it by myconids using rapport spores. The servant gives highest priority to orders received from the most powerful myconid.</p>
-					<p><b><i>Attacks. </i></b>If the servant has no other means of dealing damage, it can use its fists or limbs to make unarmed strikes. On a hit, an unarmed strike deals bludgeoning damage equal to 1d4 + the servant's Strength modifier, or, if the servant is Large, 2d4 + its Strength modifier.</p>
-					<h>Myconids of Zuggtmoy</h>
-					<p>Myconids that embrace Zuggtmoy can develop new, more destructive kinds of spores. Myconid adults can have two of the following spore effects. Myconid sovereigns have all these spore effects.</p>
-					<p><b><i>Caustic Spores (1/Day). </i></b>The myconid releases spores in a 30-foot cone. Each creature inside the cone must succeed on a Dexterity saving throw or take 1d6 acid damage at the start of each of the myconid's turns. A creature can repeat the saving throw at the end of its turn, ending the effect on itself on a success. The save DC is 8 + the myconid's Constitution modifier + the myconid's proficiency bonus.</p>
-					<p><b><i>Infestation Spores (1/Day). </i></b>The myconid releases spores that burst out in a cloud that fills a 10-foot-radius sphere centered on it, and the cloud lingers for 1 minute. Any flesh-and-blood creature in the cloud when it appears, or that enters it later, must make a Constitution saving throw. The save DC is 8 + the myconid's Constitution modifier + the myconid's proficiency bonus. On a successful save, the creature can't be infected by these spores for 24 hours. On a failed save, the creature is infected with a disease called the spores of Zuggtmoy and also gains a random form of indefinite madness (determined by rolling on the Madness of Zuggtmoy table in appendix D) that lasts until the creature is cured of the disease or dies. While infected in this way, the creature can't be reinfected, and it must repeat the saving throw at the end of every 24 hours, ending the infection on a success. On a failure, the infected creature's body is slowly taken over by fungal growth, and after three such failed saves, the creature dies and is reanimated as a spore servant if it's a type of creature that can be (see the &#34;Myconids&#34; entry in the Monster Manual).</p>
-					<p><b><i>Euphoria Spores (1/Day). </i></b>The myconid releases a cloud of spores in a 20-foot-radius sphere centered on itself. Other creatures in that area must each succeed on a Constitution saving throw or become poisoned for 1 minute. The save DC is 8 + the myconid's Constitution modifier + the myconid's proficiency bonus. A creature can repeat the saving throw at the end of each of its turns, ending the effect early on itself on a success. When the effect ends on it, the creature gains one level of exhaustion.</p>
-				</text>
-				<token type="token">tokens/campaign/myconidadult.png@D&#38;D Out of the Abyss</token>
-				<tokenscale type="number">1</tokenscale>
-				<tokenvis type="number">0</tokenvis>
-				<traits>
-					<public />
-					<id-00001>
-						<public />
-						<desc type="string">When the myconid takes damage, all other myconids within 240 feet of it can sense its pain.</desc>
-						<name type="string">Distress Spores</name>
-						<value type="string">Distress spores</value>
-					</id-00001>
-					<id-00002>
-						<public />
-						<desc type="string">While in sunlight, the myconid has disadvantage on ability checks, attack rolls, and saving throws. The myconid dies if it spends more than 1 hour in direct sunlight.</desc>
-						<name type="string">Sun Sickness</name>
-						<value type="string">Sun sickness</value>
-					</id-00002>
-					<id-00003>
-						<public />
-						<desc type="string">The Myconid Adult can have two of the following spore effects: Caustic Spores(1/Day), Infestation Spores (1/Day), Euphoria Spores(1/Day).</desc>
-						<name type="string">Embrace of Zuggtmoy</name>
-						<value type="string">Embrace of zuggtmoy</value>
-					</id-00003>
-				</traits>
-				<type type="string">plant</type>
-				<wounds type="number">0</wounds>
-				<xp type="number">100</xp>
-			</id-00005>
 			<id-00006>
 				<public />
 				<abilities>
@@ -8166,6 +7779,15 @@
 				<deathsavesuccess type="number">0</deathsavesuccess>
 				<effects>
 					<public />
+					<id-00005>
+						<public />
+						<apply type="string">roll</apply>
+						<duration type="number">0</duration>
+						<init type="number">3</init>
+						<isactive type="number">1</isactive>
+						<isgmonly type="number">0</isgmonly>
+						<label type="string">DMG: 2d6</label>
+					</id-00005>
 				</effects>
 				<friendfoe type="string">friend</friendfoe>
 				<hd type="string">(6d8)</hd>
@@ -8173,7 +7795,7 @@
 				<hptemp type="number">0</hptemp>
 				<hptotal type="number">48</hptotal>
 				<init type="number">2</init>
-				<initresult type="number">12</initresult>
+				<initresult type="number">3</initresult>
 				<innatespells>
 					<public />
 					<id-00001>
@@ -8250,9 +7872,7 @@
 					<p><b><i>Earth Friends. </i></b>Deep gnomes are often encountered in the company of creatures from the Elemental Plane of Earth. Some svirfneblin can summon such creatures. Earth creatures guard svirfneblin settlements, especially xorn enticed to service with the promise of gems to feed on.</p>
 				</text>
 				<token type="token">tokens/campaign/Jimjar.png@D&#38;D Out of the Abyss</token>
-				<tokenrefid type="string">8</tokenrefid>
-				<tokenrefnode type="string">image.id-00250.image@D&#38;D Out of the Abyss</tokenrefnode>
-				<tokenscale type="number">0.781251</tokenscale>
+				<tokenscale type="number">1</tokenscale>
 				<tokenvis type="number">1</tokenvis>
 				<traits>
 					<public />
@@ -8291,236 +7911,6 @@
 				<wounds type="number">0</wounds>
 				<xp type="number">200</xp>
 			</id-00006>
-			<id-00007>
-				<public />
-				<abilities>
-					<public />
-					<charisma>
-						<public />
-						<bonus type="number">-5</bonus>
-						<score type="number">1</score>
-					</charisma>
-					<constitution>
-						<public />
-						<bonus type="number">0</bonus>
-						<score type="number">10</score>
-					</constitution>
-					<dexterity>
-						<public />
-						<bonus type="number">2</bonus>
-						<score type="number">14</score>
-					</dexterity>
-					<intelligence>
-						<public />
-						<bonus type="number">-4</bonus>
-						<score type="number">2</score>
-					</intelligence>
-					<strength>
-						<public />
-						<bonus type="number">0</bonus>
-						<score type="number">10</score>
-					</strength>
-					<wisdom>
-						<public />
-						<bonus type="number">-2</bonus>
-						<score type="number">6</score>
-					</wisdom>
-				</abilities>
-				<ac type="number">15</ac>
-				<actext type="string">(chain shirt)</actext>
-				<actions>
-					<public />
-					<id-00001>
-						<public />
-						<desc type="string">Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing damage.</desc>
-						<name type="string">Shortsword</name>
-						<value type="string">Shortsword [M] [ATK: +4] [DMG: 1d6+2 piercing]</value>
-					</id-00001>
-				</actions>
-				<active type="number">0</active>
-				<alignment type="string">unaligned</alignment>
-				<conditionimmunities type="string">blinded, charmed, frightened, paralyzed</conditionimmunities>
-				<cr type="string">1/8</cr>
-				<deathsavefail type="number">0</deathsavefail>
-				<deathsavesuccess type="number">0</deathsavesuccess>
-				<effects>
-					<public />
-					<id-00001>
-						<public />
-						<duration type="number">0</duration>
-						<init type="number">0</init>
-						<isactive type="number">1</isactive>
-						<isgmonly type="number">1</isgmonly>
-						<label type="string">IMMUNE: blinded, charmed, frightened, paralyzed</label>
-					</id-00001>
-				</effects>
-				<friendfoe type="string">foe</friendfoe>
-				<hd type="string">(3d8)</hd>
-				<hp type="number">13</hp>
-				<hptemp type="number">0</hptemp>
-				<hptotal type="number">24</hptotal>
-				<init type="number">2</init>
-				<initresult type="number">19</initresult>
-				<innatespells>
-					<public />
-				</innatespells>
-				<lairactions>
-					<public />
-				</lairactions>
-				<languages type="string">-</languages>
-				<legendaryactions>
-					<public />
-				</legendaryactions>
-				<link type="windowreference">
-					<class>npc</class>
-					<recordname></recordname>
-				</link>
-				<locked type="number">1</locked>
-				<name type="string">Drow Spore Servant 1</name>
-				<reach type="number">5</reach>
-				<reaction type="number">0</reaction>
-				<reactions>
-					<public />
-				</reactions>
-				<senses type="string">blindsight 30 ft. (blind beyond this radius), passive Perception 8</senses>
-				<size type="string">Medium</size>
-				<space type="number">5</space>
-				<speed type="string">20 ft.</speed>
-				<spells>
-					<public />
-				</spells>
-				<status type="string">Healthy</status>
-				<targets>
-					<public />
-				</targets>
-				<text type="formattedtext">
-					<p></p>
-				</text>
-				<token type="token">tokens/campaign/quaggothsporeservant.png@D&#38;D Out of the Abyss</token>
-				<tokenscale type="number">1</tokenscale>
-				<tokenvis type="number">0</tokenvis>
-				<traits>
-					<public />
-				</traits>
-				<type type="string">plant</type>
-				<wounds type="number">0</wounds>
-				<xp type="number">25</xp>
-			</id-00007>
-			<id-00008>
-				<public />
-				<abilities>
-					<public />
-					<charisma>
-						<public />
-						<bonus type="number">-5</bonus>
-						<score type="number">1</score>
-					</charisma>
-					<constitution>
-						<public />
-						<bonus type="number">0</bonus>
-						<score type="number">10</score>
-					</constitution>
-					<dexterity>
-						<public />
-						<bonus type="number">2</bonus>
-						<score type="number">14</score>
-					</dexterity>
-					<intelligence>
-						<public />
-						<bonus type="number">-4</bonus>
-						<score type="number">2</score>
-					</intelligence>
-					<strength>
-						<public />
-						<bonus type="number">0</bonus>
-						<score type="number">10</score>
-					</strength>
-					<wisdom>
-						<public />
-						<bonus type="number">-2</bonus>
-						<score type="number">6</score>
-					</wisdom>
-				</abilities>
-				<ac type="number">15</ac>
-				<actext type="string">(chain shirt)</actext>
-				<actions>
-					<public />
-					<id-00001>
-						<public />
-						<desc type="string">Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing damage.</desc>
-						<name type="string">Shortsword</name>
-						<value type="string">Shortsword [M] [ATK: +4] [DMG: 1d6+2 piercing]</value>
-					</id-00001>
-				</actions>
-				<active type="number">0</active>
-				<alignment type="string">unaligned</alignment>
-				<conditionimmunities type="string">blinded, charmed, frightened, paralyzed</conditionimmunities>
-				<cr type="string">1/8</cr>
-				<deathsavefail type="number">0</deathsavefail>
-				<deathsavesuccess type="number">0</deathsavesuccess>
-				<effects>
-					<public />
-					<id-00001>
-						<public />
-						<duration type="number">0</duration>
-						<init type="number">0</init>
-						<isactive type="number">1</isactive>
-						<isgmonly type="number">1</isgmonly>
-						<label type="string">IMMUNE: blinded, charmed, frightened, paralyzed</label>
-					</id-00001>
-				</effects>
-				<friendfoe type="string">foe</friendfoe>
-				<hd type="string">(3d8)</hd>
-				<hp type="number">13</hp>
-				<hptemp type="number">0</hptemp>
-				<hptotal type="number">24</hptotal>
-				<init type="number">2</init>
-				<initresult type="number">19</initresult>
-				<innatespells>
-					<public />
-				</innatespells>
-				<lairactions>
-					<public />
-				</lairactions>
-				<languages type="string">-</languages>
-				<legendaryactions>
-					<public />
-				</legendaryactions>
-				<link type="windowreference">
-					<class>npc</class>
-					<recordname></recordname>
-				</link>
-				<locked type="number">1</locked>
-				<name type="string">Drow Spore Servant 2</name>
-				<reach type="number">5</reach>
-				<reaction type="number">0</reaction>
-				<reactions>
-					<public />
-				</reactions>
-				<senses type="string">blindsight 30 ft. (blind beyond this radius), passive Perception 8</senses>
-				<size type="string">Medium</size>
-				<space type="number">5</space>
-				<speed type="string">20 ft.</speed>
-				<spells>
-					<public />
-				</spells>
-				<status type="string">Healthy</status>
-				<targets>
-					<public />
-				</targets>
-				<text type="formattedtext">
-					<p></p>
-				</text>
-				<token type="token">tokens/campaign/quaggothsporeservant.png@D&#38;D Out of the Abyss</token>
-				<tokenscale type="number">1</tokenscale>
-				<tokenvis type="number">0</tokenvis>
-				<traits>
-					<public />
-				</traits>
-				<type type="string">plant</type>
-				<wounds type="number">0</wounds>
-				<xp type="number">25</xp>
-			</id-00008>
 			<id-00009>
 				<public />
 				<abilities>
@@ -8562,9 +7952,9 @@
 				</effects>
 				<friendfoe type="string">friend</friendfoe>
 				<hptemp type="number">0</hptemp>
-				<hptotal type="number">38</hptotal>
+				<hptotal type="number">45</hptotal>
 				<init type="number">2</init>
-				<initresult type="number">16</initresult>
+				<initresult type="number">4</initresult>
 				<innatespells>
 					<public />
 				</innatespells>
@@ -8594,8 +7984,6 @@
 					<public />
 				</targets>
 				<token type="token">portrait_id-00002_token</token>
-				<tokenrefid type="string">7</tokenrefid>
-				<tokenrefnode type="string">image.id-00250.image@D&#38;D Out of the Abyss</tokenrefnode>
 				<tokenscale type="number">1</tokenscale>
 				<tokenvis type="number">1</tokenvis>
 				<traits>
@@ -8625,7 +8013,7 @@
 					</intelligence>
 					<strength>
 						<public />
-						<score type="number">18</score>
+						<score type="number">20</score>
 					</strength>
 					<wisdom>
 						<public />
@@ -8636,7 +8024,7 @@
 				<actions>
 					<public />
 				</actions>
-				<active type="number">1</active>
+				<active type="number">0</active>
 				<deathsavefail type="number">0</deathsavefail>
 				<deathsavesuccess type="number">0</deathsavesuccess>
 				<effects>
@@ -8644,9 +8032,9 @@
 				</effects>
 				<friendfoe type="string">friend</friendfoe>
 				<hptemp type="number">0</hptemp>
-				<hptotal type="number">46</hptotal>
+				<hptotal type="number">60</hptotal>
 				<init type="number">2</init>
-				<initresult type="number">6</initresult>
+				<initresult type="number">19</initresult>
 				<innatespells>
 					<public />
 				</innatespells>
@@ -8671,19 +8059,17 @@
 				<spells>
 					<public />
 				</spells>
-				<status type="string">Healthy</status>
+				<status type="string">Wounded</status>
 				<targets>
 					<public />
 				</targets>
 				<token type="token">portrait_id-00004_token</token>
-				<tokenrefid type="string">6</tokenrefid>
-				<tokenrefnode type="string">image.id-00250.image@D&#38;D Out of the Abyss</tokenrefnode>
 				<tokenscale type="number">1</tokenscale>
 				<tokenvis type="number">1</tokenvis>
 				<traits>
 					<public />
 				</traits>
-				<wounds type="number">0</wounds>
+				<wounds type="number">13</wounds>
 			</id-00010>
 			<id-00011>
 				<public />
@@ -8718,7 +8104,7 @@
 				<actions>
 					<public />
 				</actions>
-				<active type="number">0</active>
+				<active type="number">1</active>
 				<deathsavefail type="number">0</deathsavefail>
 				<deathsavesuccess type="number">0</deathsavesuccess>
 				<effects>
@@ -8726,9 +8112,9 @@
 				</effects>
 				<friendfoe type="string">friend</friendfoe>
 				<hptemp type="number">0</hptemp>
-				<hptotal type="number">37</hptotal>
+				<hptotal type="number">44</hptotal>
 				<init type="number">2</init>
-				<initresult type="number">11</initresult>
+				<initresult type="number">21</initresult>
 				<innatespells>
 					<public />
 				</innatespells>
@@ -8758,8 +8144,6 @@
 					<public />
 				</targets>
 				<token type="token">portrait_id-00001_token</token>
-				<tokenrefid type="string">5</tokenrefid>
-				<tokenrefnode type="string">image.id-00250.image@D&#38;D Out of the Abyss</tokenrefnode>
 				<tokenscale type="number">1</tokenscale>
 				<tokenvis type="number">1</tokenvis>
 				<traits>
@@ -8767,162 +8151,8 @@
 				</traits>
 				<wounds type="number">0</wounds>
 			</id-00011>
-			<id-00012>
-				<public />
-				<abilities>
-					<public />
-					<charisma>
-						<public />
-						<bonus type="number">0</bonus>
-						<score type="number">10</score>
-					</charisma>
-					<constitution>
-						<public />
-						<bonus type="number">2</bonus>
-						<score type="number">14</score>
-					</constitution>
-					<dexterity>
-						<public />
-						<bonus type="number">0</bonus>
-						<score type="number">10</score>
-					</dexterity>
-					<intelligence>
-						<public />
-						<bonus type="number">1</bonus>
-						<score type="number">13</score>
-					</intelligence>
-					<strength>
-						<public />
-						<bonus type="number">1</bonus>
-						<score type="number">12</score>
-					</strength>
-					<wisdom>
-						<public />
-						<bonus type="number">2</bonus>
-						<score type="number">15</score>
-					</wisdom>
-				</abilities>
-				<ac type="number">15</ac>
-				<actext type="string">(natural armor)</actext>
-				<actions>
-					<public />
-					<id-00001>
-						<public />
-						<desc type="string">Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 8 (3d4 + 1) bludgeoning damage plus 7 (3d4) poison damage.</desc>
-						<name type="string">Slam</name>
-						<value type="string">Slam [M] [ATK: +3] [DMG: 3d4+1 bludgeoning + 3d4 poison]</value>
-					</id-00001>
-					<id-00002>
-						<public />
-						<desc type="string">Yestabrod releases spores in a 30-foot cone. Each creature in that area must succeed on a DC 12 Dexterity saving throw or take 1d6 acid damage at the start of each of Yestabrod's turns. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</desc>
-						<name type="string">Caustic Spores (1/Day)</name>
-						<value type="string">Caustic spores (1/day) [SAVEVS: dexterity 12] [EFF: DMGO: 1d6 acid]</value>
-					</id-00002>
-					<id-00003>
-						<public />
-						<desc type="string">Yestabrod releases spores that burst out in a cloud that fills a 10-foot-radius sphere centered on it, and the cloud lingers for 1 minute. Any flesh-and-blood creature in the cloud when it appears, or that enters it later, must make a DC 12 Constitution saving throw. On a successful save, the creature can't be infected by these spores for 24 hours. On a failed save, the creature is infected with a disease called the spores of Zuggtmoy and also gains a random form of indefinite madness (determined by rolling on the Madness of Zuggtmoy table in appendix D) that lasts until the creature is cured of the disease or dies. While infected in this way, the creature can't be reinfected, and it must repeat the saving throw at the end of every 24 hours, ending the infection on a success. On a failure, the infected creature's body is slowly taken over by fungal growth, and after three such failed saves, the creature dies and is reanimated as a spore servant if it's a type of creature that can be (see the &#34;Myconids&#34; entry in the Monster Manual).</desc>
-						<name type="string">Infestation Spores (1/Day)</name>
-						<value type="string">Infestation spores (1/day) [SAVEVS: constitution 12]</value>
-					</id-00003>
-				</actions>
-				<active type="number">0</active>
-				<alignment type="string">chaotic evil</alignment>
-				<conditionimmunities type="string">poisoned</conditionimmunities>
-				<cr type="string">4</cr>
-				<damageimmunities type="string">poison</damageimmunities>
-				<deathsavefail type="number">0</deathsavefail>
-				<deathsavesuccess type="number">0</deathsavesuccess>
-				<effects>
-					<public />
-					<id-00001>
-						<public />
-						<duration type="number">0</duration>
-						<init type="number">0</init>
-						<isactive type="number">1</isactive>
-						<isgmonly type="number">1</isgmonly>
-						<label type="string">IMMUNE: poison; IMMUNE: poisoned</label>
-					</id-00001>
-				</effects>
-				<friendfoe type="string">foe</friendfoe>
-				<hd type="string">(10d10 + 20)</hd>
-				<hp type="number">75</hp>
-				<hptemp type="number">0</hptemp>
-				<hptotal type="number">120</hptotal>
-				<init type="number">0</init>
-				<initresult type="number">15</initresult>
-				<innatespells>
-					<public />
-				</innatespells>
-				<lairactions>
-					<public />
-				</lairactions>
-				<languages type="string">Abyssal, telepathy 60 ft.</languages>
-				<legendaryactions>
-					<public />
-					<id-00001>
-						<public />
-						<desc type="string">Yestabrod can take 2 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. Yestabrod regains spent legendary actions at the start of its turn.</desc>
-						<name type="string">Options</name>
-						<value type="string">Options</value>
-					</id-00001>
-					<id-00002>
-						<public />
-						<desc type="string">Gore, offal, and acid erupt from a corpse within 20 feet of Yestabrod. Creatures within 10 feet of the corpse must succeed on a DC 12 Dexterity saving throw or take 7 (2d6) acid damage.</desc>
-						<name type="string">Corpse Burst</name>
-						<value type="string">Corpse burst [SAVEVS: dexterity 12] [DMG: 2d6 acid]</value>
-					</id-00002>
-					<id-00003>
-						<public />
-						<desc type="string">Yestabrod absorbs putrescence from a corpse within 5 feet of it, regaining 1d8 + 2 hit points.</desc>
-						<name type="string">Foul Absorption</name>
-						<value type="string">Foul absorption</value>
-					</id-00003>
-				</legendaryactions>
-				<link type="windowreference">
-					<class>npc</class>
-					<recordname></recordname>
-				</link>
-				<locked type="number">1</locked>
-				<name type="string">Yestabrod</name>
-				<reach type="number">5</reach>
-				<reaction type="number">0</reaction>
-				<reactions>
-					<public />
-				</reactions>
-				<senses type="string">darkvision 120 ft., passive Perception 12</senses>
-				<size type="string">Large</size>
-				<space type="number">10</space>
-				<speed type="string">30 ft.</speed>
-				<spells>
-					<public />
-				</spells>
-				<status type="string">Healthy</status>
-				<targets>
-					<public />
-				</targets>
-				<text type="formattedtext">
-					<linklist>
-						<link class="encounter" recordname="encounter.id-00231@D&#38;D Out of the Abyss">Garden of Welcome - Background</link>
-					</linklist>
-				</text>
-				<token type="token">tokens/campaign/Y.png@D&#38;D Out of the Abyss</token>
-				<tokenscale type="number">1</tokenscale>
-				<tokenvis type="number">0</tokenvis>
-				<traits>
-					<public />
-					<id-00001>
-						<public />
-						<desc type="string">If Yestabrod fails a saving throw, it can choose to succeed instead.</desc>
-						<name type="string">Legendary Resistance (1/Day)</name>
-						<value type="string">Legendary resistance (1/day)</value>
-					</id-00001>
-				</traits>
-				<type type="string">monstrosity</type>
-				<wounds type="number">0</wounds>
-				<xp type="number">1100</xp>
-			</id-00012>
 		</list>
-		<round type="number">1</round>
+		<round type="number">2</round>
 	</combattracker>
 	<effects>
 		<public />
@@ -10668,6 +9898,397 @@
 				</npclist>
 				<xpawarded type="number">1</xpawarded>
 			</id-00022>
+			<id-00023>
+				<public />
+				<cr type="string">7</cr>
+				<exp type="number">6875</exp>
+				<locked type="number">1</locked>
+				<name type="string">05.09.05 Yestabrod - Modified</name>
+				<npclist>
+					<public />
+					<id-00001>
+						<public />
+						<count type="number">1</count>
+						<link type="windowreference">
+							<class>npc</class>
+							<recordname>npc.id-00002@D&#38;D Out of the Abyss</recordname>
+						</link>
+						<maplink>
+							<public />
+							<id-00001>
+								<public />
+								<imageref type="windowreference">
+									<class></class>
+									<recordname></recordname>
+								</imageref>
+								<imagex type="number">0</imagex>
+								<imagey type="number">0</imagey>
+							</id-00001>
+						</maplink>
+						<name type="string">Yestabrod</name>
+						<token type="token">tokens/campaign/Y.png@D&#38;D Out of the Abyss</token>
+					</id-00001>
+					<id-00002>
+						<public />
+						<count type="number">2</count>
+						<link type="windowreference">
+							<class>npc</class>
+							<recordname>npc.id-00012@D&#38;D Out of the Abyss</recordname>
+						</link>
+						<maplink>
+							<public />
+							<id-00001>
+								<public />
+								<imageref type="windowreference">
+									<class></class>
+									<recordname></recordname>
+								</imageref>
+								<imagex type="number">0</imagex>
+								<imagey type="number">0</imagey>
+							</id-00001>
+							<id-00002>
+								<public />
+								<imageref type="windowreference">
+									<class></class>
+									<recordname></recordname>
+								</imageref>
+								<imagex type="number">0</imagex>
+								<imagey type="number">0</imagey>
+							</id-00002>
+						</maplink>
+						<name type="string">Myconid Adult of Zuggtmoy</name>
+						<token type="token">tokens/campaign/myconidadult.png@D&#38;D Out of the Abyss</token>
+					</id-00002>
+					<id-00003>
+						<public />
+						<count type="number">2</count>
+						<link type="windowreference">
+							<class>npc</class>
+							<recordname>npc.id-00031@D&#38;D Out of the Abyss</recordname>
+						</link>
+						<maplink>
+							<public />
+							<id-00001>
+								<public />
+								<imageref type="windowreference">
+									<class></class>
+									<recordname></recordname>
+								</imageref>
+								<imagex type="number">0</imagex>
+								<imagey type="number">0</imagey>
+							</id-00001>
+							<id-00002>
+								<public />
+								<imageref type="windowreference">
+									<class></class>
+									<recordname></recordname>
+								</imageref>
+								<imagex type="number">0</imagex>
+								<imagey type="number">0</imagey>
+							</id-00002>
+						</maplink>
+						<name type="string">Drow Spore Servant</name>
+						<token type="token">tokens/campaign/quaggothsporeservant.png@D&#38;D Out of the Abyss</token>
+					</id-00003>
+					<id-00004>
+						<public />
+						<count type="number">2</count>
+						<link type="windowreference">
+							<class>npc</class>
+							<recordname>npc.id-00018@D&#38;D Out of the Abyss</recordname>
+						</link>
+						<maplink>
+							<public />
+							<id-00001>
+								<public />
+								<imageref type="windowreference">
+									<class></class>
+									<recordname></recordname>
+								</imageref>
+								<imagex type="number">0</imagex>
+								<imagey type="number">0</imagey>
+							</id-00001>
+							<id-00002>
+								<public />
+								<imageref type="windowreference">
+									<class></class>
+									<recordname></recordname>
+								</imageref>
+								<imagex type="number">0</imagex>
+								<imagey type="number">0</imagey>
+							</id-00002>
+						</maplink>
+						<name type="string">Hook Horror Spore Servant</name>
+						<token type="token">tokens/campaign/quaggothsporeservant.png@D&#38;D Out of the Abyss</token>
+					</id-00004>
+				</npclist>
+				<xpawarded type="number">1</xpawarded>
+			</id-00023>
+			<id-00024>
+				<public />
+				<cr type="string">8</cr>
+				<exp type="number">12000</exp>
+				<locked type="number">1</locked>
+				<name type="string">05.10 Wedding Rehearsal Party - Modified</name>
+				<npclist>
+					<public />
+					<id-00001>
+						<public />
+						<count type="number">12</count>
+						<link type="windowreference">
+							<class>npc</class>
+							<recordname>combattracker.list.id-00020</recordname>
+						</link>
+						<maplink>
+							<public />
+							<id-00001>
+								<public />
+								<imageref type="windowreference">
+									<class></class>
+									<recordname></recordname>
+								</imageref>
+								<imagex type="number">0</imagex>
+								<imagey type="number">0</imagey>
+							</id-00001>
+							<id-00002>
+								<public />
+								<imageref type="windowreference">
+									<class></class>
+									<recordname></recordname>
+								</imageref>
+								<imagex type="number">0</imagex>
+								<imagey type="number">0</imagey>
+							</id-00002>
+							<id-00003>
+								<public />
+								<imageref type="windowreference">
+									<class></class>
+									<recordname></recordname>
+								</imageref>
+								<imagex type="number">0</imagex>
+								<imagey type="number">0</imagey>
+							</id-00003>
+							<id-00004>
+								<public />
+								<imageref type="windowreference">
+									<class></class>
+									<recordname></recordname>
+								</imageref>
+								<imagex type="number">0</imagex>
+								<imagey type="number">0</imagey>
+							</id-00004>
+							<id-00005>
+								<public />
+								<imageref type="windowreference">
+									<class></class>
+									<recordname></recordname>
+								</imageref>
+								<imagex type="number">0</imagex>
+								<imagey type="number">0</imagey>
+							</id-00005>
+							<id-00006>
+								<public />
+								<imageref type="windowreference">
+									<class></class>
+									<recordname></recordname>
+								</imageref>
+								<imagex type="number">0</imagex>
+								<imagey type="number">0</imagey>
+							</id-00006>
+							<id-00007>
+								<public />
+								<imageref type="windowreference">
+									<class></class>
+									<recordname></recordname>
+								</imageref>
+								<imagex type="number">0</imagex>
+								<imagey type="number">0</imagey>
+							</id-00007>
+							<id-00008>
+								<public />
+								<imageref type="windowreference">
+									<class></class>
+									<recordname></recordname>
+								</imageref>
+								<imagex type="number">0</imagex>
+								<imagey type="number">0</imagey>
+							</id-00008>
+							<id-00009>
+								<public />
+								<imageref type="windowreference">
+									<class></class>
+									<recordname></recordname>
+								</imageref>
+								<imagex type="number">0</imagex>
+								<imagey type="number">0</imagey>
+							</id-00009>
+							<id-00010>
+								<public />
+								<imageref type="windowreference">
+									<class></class>
+									<recordname></recordname>
+								</imageref>
+								<imagex type="number">0</imagex>
+								<imagey type="number">0</imagey>
+							</id-00010>
+							<id-00011>
+								<public />
+								<imageref type="windowreference">
+									<class></class>
+									<recordname></recordname>
+								</imageref>
+								<imagex type="number">0</imagex>
+								<imagey type="number">0</imagey>
+							</id-00011>
+							<id-00012>
+								<public />
+								<imageref type="windowreference">
+									<class></class>
+									<recordname></recordname>
+								</imageref>
+								<imagex type="number">0</imagex>
+								<imagey type="number">0</imagey>
+							</id-00012>
+						</maplink>
+						<name type="string">Bridesmaid of Zuggtmoy</name>
+						<token type="token">tokens/campaign/B.png@D&#38;D Out of the Abyss</token>
+					</id-00001>
+					<id-00002>
+						<public />
+						<count type="number">6</count>
+						<link type="windowreference">
+							<class>npc</class>
+							<recordname>combattracker.list.id-00002</recordname>
+						</link>
+						<maplink>
+							<public />
+							<id-00001>
+								<public />
+								<imageref type="windowreference">
+									<class></class>
+									<recordname></recordname>
+								</imageref>
+								<imagex type="number">0</imagex>
+								<imagey type="number">0</imagey>
+							</id-00001>
+							<id-00002>
+								<public />
+								<imageref type="windowreference">
+									<class></class>
+									<recordname></recordname>
+								</imageref>
+								<imagex type="number">0</imagex>
+								<imagey type="number">0</imagey>
+							</id-00002>
+							<id-00003>
+								<public />
+								<imageref type="windowreference">
+									<class></class>
+									<recordname></recordname>
+								</imageref>
+								<imagex type="number">0</imagex>
+								<imagey type="number">0</imagey>
+							</id-00003>
+							<id-00004>
+								<public />
+								<imageref type="windowreference">
+									<class></class>
+									<recordname></recordname>
+								</imageref>
+								<imagex type="number">0</imagex>
+								<imagey type="number">0</imagey>
+							</id-00004>
+							<id-00005>
+								<public />
+								<imageref type="windowreference">
+									<class></class>
+									<recordname></recordname>
+								</imageref>
+								<imagex type="number">0</imagex>
+								<imagey type="number">0</imagey>
+							</id-00005>
+							<id-00006>
+								<public />
+								<imageref type="windowreference">
+									<class></class>
+									<recordname></recordname>
+								</imageref>
+								<imagex type="number">0</imagex>
+								<imagey type="number">0</imagey>
+							</id-00006>
+						</maplink>
+						<name type="string">Chamberlain of Zuggtmoy</name>
+						<token type="token">tokens/campaign/C.png@D&#38;D Out of the Abyss</token>
+					</id-00002>
+				</npclist>
+				<xpawarded type="number">1</xpawarded>
+			</id-00024>
+			<id-00025>
+				<public />
+				<cr type="string">5</cr>
+				<exp type="number">1800</exp>
+				<locked type="number">1</locked>
+				<name type="string">1 Shambling Mound</name>
+				<npclist>
+					<public />
+					<id-00001>
+						<public />
+						<count type="number">1</count>
+						<link type="windowreference">
+							<class>npc</class>
+							<recordname>npc.id-00080@D&#38;D Out of the Abyss</recordname>
+						</link>
+						<maplink>
+							<public />
+							<id-00001>
+								<public />
+								<imageref type="windowreference">
+									<class></class>
+									<recordname></recordname>
+								</imageref>
+								<imagex type="number">0</imagex>
+								<imagey type="number">0</imagey>
+							</id-00001>
+						</maplink>
+						<name type="string">Shambling Mound</name>
+						<token type="token">tokens/campaign/shamblingmound.png@D&#38;D Out of the Abyss</token>
+					</id-00001>
+				</npclist>
+				<xpawarded type="number">1</xpawarded>
+			</id-00025>
+			<id-00026>
+				<public />
+				<cr type="string">7</cr>
+				<exp type="number">2900</exp>
+				<locked type="number">1</locked>
+				<name type="string">1 Grick Alpha</name>
+				<npclist>
+					<public />
+					<id-00001>
+						<public />
+						<count type="number">1</count>
+						<link type="windowreference">
+							<class>npc</class>
+							<recordname>npc.id-00079@D&#38;D Out of the Abyss</recordname>
+						</link>
+						<maplink>
+							<public />
+							<id-00001>
+								<public />
+								<imageref type="windowreference">
+									<class></class>
+									<recordname></recordname>
+								</imageref>
+								<imagex type="number">0</imagex>
+								<imagey type="number">0</imagey>
+							</id-00001>
+						</maplink>
+						<name type="string">Grick Alpha</name>
+						<token type="token">tokens/campaign/grick.png@D&#38;D Out of the Abyss</token>
+					</id-00001>
+				</npclist>
+				<xpawarded type="number">1</xpawarded>
+			</id-00026>
 		</encounters>
 		<hiderollresults type="number">1</hiderollresults>
 		<image type="image">
@@ -10824,17 +10445,17 @@
 				<ac type="number">12</ac>
 				<chabonus type="number">3</chabonus>
 				<charisma type="number">16</charisma>
-				<classlevel type="string">Wizard 5</classlevel>
+				<classlevel type="string">Wizard 6</classlevel>
 				<conbonus type="number">3</conbonus>
 				<constitution type="number">16</constitution>
 				<dexbonus type="number">2</dexbonus>
 				<dexterity type="number">15</dexterity>
-				<exp type="number">10676</exp>
+				<exp type="number">16570</exp>
 				<expneeded type="number">14000</expneeded>
-				<hd type="number">5</hd>
+				<hd type="number">6</hd>
 				<hdused type="number">0</hdused>
 				<hptemp type="number">0</hptemp>
-				<hptotal type="number">38</hptotal>
+				<hptotal type="number">45</hptotal>
 				<intbonus type="number">4</intbonus>
 				<intelligence type="number">18</intelligence>
 				<link type="windowreference">
@@ -10861,17 +10482,17 @@
 				<ac type="number">22</ac>
 				<chabonus type="number">1</chabonus>
 				<charisma type="number">13</charisma>
-				<classlevel type="string">Cleric 5</classlevel>
+				<classlevel type="string">Cleric 6</classlevel>
 				<conbonus type="number">3</conbonus>
 				<constitution type="number">16</constitution>
 				<dexbonus type="number">0</dexbonus>
 				<dexterity type="number">11</dexterity>
-				<exp type="number">10676</exp>
+				<exp type="number">16570</exp>
 				<expneeded type="number">14000</expneeded>
-				<hd type="number">5</hd>
+				<hd type="number">6</hd>
 				<hdused type="number">0</hdused>
 				<hptemp type="number">0</hptemp>
-				<hptotal type="number">39</hptotal>
+				<hptotal type="number">43</hptotal>
 				<intbonus type="number">-1</intbonus>
 				<intelligence type="number">8</intelligence>
 				<link type="windowreference">
@@ -10891,24 +10512,24 @@
 				<watchid type="number">0</watchid>
 				<wisbonus type="number">3</wisbonus>
 				<wisdom type="number">16</wisdom>
-				<wounds type="number">0</wounds>
+				<wounds type="number">18</wounds>
 			</id-00004>
 			<id-00005>
 				<public />
 				<ac type="number">15</ac>
 				<chabonus type="number">4</chabonus>
 				<charisma type="number">18</charisma>
-				<classlevel type="string">Sorcerer 5</classlevel>
+				<classlevel type="string">Sorcerer 6</classlevel>
 				<conbonus type="number">2</conbonus>
 				<constitution type="number">14</constitution>
 				<dexbonus type="number">2</dexbonus>
 				<dexterity type="number">15</dexterity>
-				<exp type="number">10376</exp>
+				<exp type="number">16270</exp>
 				<expneeded type="number">14000</expneeded>
-				<hd type="number">5</hd>
+				<hd type="number">6</hd>
 				<hdused type="number">0</hdused>
 				<hptemp type="number">0</hptemp>
-				<hptotal type="number">37</hptotal>
+				<hptotal type="number">44</hptotal>
 				<intbonus type="number">0</intbonus>
 				<intelligence type="number">11</intelligence>
 				<link type="windowreference">
@@ -10935,17 +10556,17 @@
 				<ac type="number">18</ac>
 				<chabonus type="number">0</chabonus>
 				<charisma type="number">10</charisma>
-				<classlevel type="string">Fighter 5</classlevel>
+				<classlevel type="string">Fighter 6</classlevel>
 				<conbonus type="number">3</conbonus>
 				<constitution type="number">16</constitution>
 				<dexbonus type="number">2</dexbonus>
 				<dexterity type="number">15</dexterity>
-				<exp type="number">10376</exp>
+				<exp type="number">16270</exp>
 				<expneeded type="number">14000</expneeded>
-				<hd type="number">5</hd>
+				<hd type="number">6</hd>
 				<hdused type="number">0</hdused>
 				<hptemp type="number">0</hptemp>
-				<hptotal type="number">46</hptotal>
+				<hptotal type="number">60</hptotal>
 				<intbonus type="number">3</intbonus>
 				<intelligence type="number">16</intelligence>
 				<link type="windowreference">
@@ -10956,8 +10577,8 @@
 				<perception type="number">12</perception>
 				<race type="string">Deep Gnome (Svirfneblin)</race>
 				<senses type="string">Darkvision 120</senses>
-				<strbonus type="number">4</strbonus>
-				<strength type="number">18</strength>
+				<strbonus type="number">5</strbonus>
+				<strength type="number">20</strength>
 				<token type="token">portrait_id-00004_token</token>
 				<tokenrefid type="string">12</tokenrefid>
 				<tokenrefnode type="string">partysheet.image</tokenrefnode>
@@ -10965,7 +10586,7 @@
 				<watchid type="number">0</watchid>
 				<wisbonus type="number">2</wisbonus>
 				<wisdom type="number">15</wisdom>
-				<wounds type="number">0</wounds>
+				<wounds type="number">13</wounds>
 			</id-00006>
 		</partyinformation>
 		<quests>

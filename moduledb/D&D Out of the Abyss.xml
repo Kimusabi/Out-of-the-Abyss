@@ -27,6 +27,11 @@
 				<category name="D&#38;D Out of the Abyss" baseicon="0" decalicon="0">
 				</category>
 			</id-00287>
+			<id-00289>
+				<locked type="number">0</locked>
+				<category name="D&#38;D Out of the Abyss" baseicon="0" decalicon="0">
+				</category>
+			</id-00289>
 			<id-00400>
 				<category name="D&#38;D Out of the Abyss" baseicon="0" decalicon="0">
 					<npclist>
@@ -609,6 +614,55 @@
 					</tokens>
 				</image>
 			</id-00109>
+			<id-00110>
+				<image type="image">
+					<bitmap>Neverlight Grove Map.jpg</bitmap>
+					<gridsize>30</gridsize>
+					<gridoffset>28,28</gridoffset>
+					<shortcuts>
+						<shortcut>
+							<x>866</x>
+							<y>1271</y>
+							<class>encounter</class>
+							<recordname>encounter.id-00235@D&#38;D Out of the Abyss</recordname>
+						</shortcut>
+						<shortcut>
+							<x>712</x>
+							<y>568</y>
+							<class>encounter</class>
+							<recordname>encounter.id-00234@D&#38;D Out of the Abyss</recordname>
+						</shortcut>
+						<shortcut>
+							<x>1069</x>
+							<y>1440</y>
+							<class>encounter</class>
+							<recordname>encounter.id-00232@D&#38;D Out of the Abyss</recordname>
+						</shortcut>
+						<shortcut>
+							<x>1342</x>
+							<y>918</y>
+							<class>encounter</class>
+							<recordname>encounter.id-00231@D&#38;D Out of the Abyss</recordname>
+						</shortcut>
+						<shortcut>
+							<x>966</x>
+							<y>970</y>
+							<class>encounter</class>
+							<recordname>encounter.id-00233@D&#38;D Out of the Abyss</recordname>
+						</shortcut>
+						<shortcut>
+							<x>1752</x>
+							<y>481</y>
+							<class>encounter</class>
+							<recordname>encounter.id-00229@D&#38;D Out of the Abyss</recordname>
+						</shortcut>
+					</shortcuts>
+					<tokens>
+						<idcounter>18</idcounter>
+						<scalelock>2.08333</scalelock>
+					</tokens>
+				</image>
+			</id-00110>
 			<id-00250>
 				<image type="image">
 					<bitmap>Oozing Temple Map.jpg</bitmap>
@@ -668,47 +722,6 @@
 					<tokens>
 						<idcounter>18</idcounter>
 						<scalelock>4.16667</scalelock>
-						<token>
-							<prototype>portrait_id-00004_token</prototype>
-							<id>6</id>
-							<x>412</x>
-							<y>208</y>
-							<name>Geordan Dragos</name>
-							<visibilitylocked>on</visibilitylocked>
-						</token>
-						<token>
-							<prototype>portrait_id-00006_token</prototype>
-							<id>4</id>
-							<x>472</x>
-							<y>208</y>
-							<name>Ra'knar Berylforge</name>
-							<visibilitylocked>on</visibilitylocked>
-						</token>
-						<token>
-							<prototype>portrait_id-00001_token</prototype>
-							<id>5</id>
-							<x>442</x>
-							<y>208</y>
-							<name>Bazin del'Armgo</name>
-							<visibilitylocked>on</visibilitylocked>
-						</token>
-						<token>
-							<prototype>tokens/campaign/Jimjar.png@D&#38;D Out of the Abyss</prototype>
-							<id>8</id>
-							<x>502</x>
-							<y>208</y>
-							<scale>0.781251</scale>
-							<name>Jimjar</name>
-							<visibilitylocked>on</visibilitylocked>
-						</token>
-						<token>
-							<prototype>portrait_id-00002_token</prototype>
-							<id>7</id>
-							<x>472</x>
-							<y>178</y>
-							<name>Thaddeus D'arth</name>
-							<visibilitylocked>on</visibilitylocked>
-						</token>
 					</tokens>
 				</image>
 			</id-00250>
@@ -964,6 +977,47 @@
 				<category name="D&#38;D Out of the Abyss" baseicon="0" decalicon="0">
 				</category>
 			</id-00003>
+			<id-00096>
+				<locked type="number">1</locked>
+				<category name="D&#38;D Out of the Abyss" baseicon="0" decalicon="0">
+				</category>
+			</id-00096>
 		</category>
 	</tables>
+	<treasureparcels>
+		<category name="Out of the Abyss - Parcels" baseicon="2" decalicon="1">
+			<id-00080>
+				<category name="D&#38;D Out of the Abyss" baseicon="0" decalicon="0">
+					<itemlist>
+						<category name="D&#38;D Out of the Abyss" baseicon="0" decalicon="0">
+							<id-00001>
+								<locked type="number">1</locked>
+							</id-00001>
+							<id-00002>
+								<locked type="number">1</locked>
+							</id-00002>
+							<id-00003>
+								<locked type="number">1</locked>
+							</id-00003>
+							<id-00004>
+								<locked type="number">1</locked>
+							</id-00004>
+							<id-00005>
+								<locked type="number">1</locked>
+							</id-00005>
+							<id-00006>
+								<locked type="number">1</locked>
+							</id-00006>
+							<id-00007>
+								<locked type="number">1</locked>
+							</id-00007>
+							<id-00008>
+								<locked type="number">1</locked>
+							</id-00008>
+						</category>
+					</itemlist>
+				</category>
+			</id-00080>
+		</category>
+	</treasureparcels>
 </root>
